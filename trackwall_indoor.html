@@ -71,6 +71,7 @@
             text-align: left;
             border: 1px solid #ddd;
             word-wrap: break-word;
+			overflow-wrap: break-word;
         }
         .record-table tbody tr {
             font-weight: bold;
@@ -79,6 +80,12 @@
         .record-table tbody tr:hover {
              background-color: #ccffcc !important; /* Light green */
         }
+		
+		.table-container {
+			overflow-x: auto;
+			display: block;
+			width: 100%;
+		}
 
 	.record-table.references tr:nth-child(odd),
 	.record-table.references tr:nth-child(even) {
@@ -121,6 +128,13 @@
                 padding: 8px;
                 font-size: 0.8rem;
             }
+			
+			.table-container {
+			overflow-x: auto;
+			display: block;
+			width: 100%;
+			}
+			
         }
     </style>
 </head>
@@ -133,6 +147,8 @@
             <p>Celebrating our top performances in school history!</p>
         </div>
 	<h3 class="section-title">Track Events Girls</h3>
+	
+	<div class="table-container">
         <table class="record-table girls">
             <thead>
                 <tr>
@@ -202,9 +218,11 @@
         </tr>
     </tbody>
         </table>
+		</div>
 
 	<h3 class="section-title">Track Events Boys</h3>
-
+		
+		<div class="table-container">
         <table class="record-table boys">
                <thead>
         <tr>
@@ -274,7 +292,11 @@
         </tr>
     </tbody>
 </table>
+</div>
+
         <h3 class="section-title">Field Events Girls</h3>
+		
+		<div class="table-container">
         <table class="record-table girls">
                         <thead>
                 <tr>
@@ -318,6 +340,8 @@
         </table>
 
         <h3 class="section-title">Field Events Boys</h3>
+		
+		<div class="table-container">
         <table class="record-table boys">
             <thead>
         <tr>
@@ -359,10 +383,12 @@
         </tr>
     </tbody>
 </table>
+</div>
 
 <h3 class="section-title">Sources with Links</h3>
 <p>If you find links to missing meets, have results on paper, or notice any errors or omissions, please email <a href="mailto:dario.caldara@gmail.com">dario.caldara@gmail.com</a>.</p>
 
+<div class="table-container">
 <table class="record-table references">
     <thead>
         <tr>
@@ -483,6 +509,7 @@
         </tr>
     </tbody>
 </table>
+</div>
 
         <div class="footer">
             <p>&copy; <b>2025</b> Hardy Middle School. All rights reserved.</p>

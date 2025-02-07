@@ -45,7 +45,7 @@
         }
 
 		.note-text {
-		font-size: 1rem;  /* Standard font size */
+		font-size: 0.8rem;  /* Standard font size */
 		font-weight: normal;
 		color: #333;  /* Ensures it's readable */
 		}
@@ -96,12 +96,7 @@
         .footer p {
             margin: 5px 0;
         }
-		@media screen and (max-width: 600px) {
-		.note-text {
-        font-size: 0.9rem;  /* Smaller font for smaller screens */
-		}
-		}
-
+		
         @media screen and (max-width: 768px) {
             .header img {
                 width: 50px;
@@ -125,7 +120,10 @@
 			display: block;
 			width: 100%;
 			}
-
+			.note-text {
+			font-size: 0.9rem;  /* Smaller font for smaller screens */
+			}
+}
 
     </style>
 </head>
