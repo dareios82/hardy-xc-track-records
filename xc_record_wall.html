@@ -44,6 +44,11 @@
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
         }
 
+		.note-text {
+		font-size: 1rem;  /* Standard font size */
+		font-weight: normal;
+		color: #333;  /* Ensures it's readable */
+		}
 	.header p {
             font-size: 1.3rem;
             font-weight: bold;
@@ -88,6 +93,11 @@
         .footer p {
             margin: 5px 0;
         }
+		@media screen and (max-width: 600px) {
+		.note-text {
+        font-size: 0.9rem;  /* Smaller font for smaller screens */
+		}
+		}
 
         @media screen and (max-width: 768px) {
             .header img {
@@ -122,7 +132,7 @@
 	
   
         <h3>Individual Girls Records </h3>
-	<p>Note: All athletes with sub-21 min performances in Hardy history. Courses measure about 4.1 km (2.55 miles). (*) indicates winners of a DCIAA or DCSAA individual titles</a></p>
+	<p class="note-text">Note: All athletes with sub-21 min performances in Hardy history. Courses measure about 4.1 km (2.55 miles). (*) indicates winners of a DCIAA or DCSAA individual titles</a></p>
         <table class="record-table girls-table">
             <thead>
                 <tr>
@@ -155,7 +165,7 @@
 </table>
         
         <h3>Individual Boys Records</h3>
-<p>Note: All athletes with sub-19 min performances in Hardy history. Courses measure about 4.1 km (2.55 miles). (*) indicates winners of a DCIAA or DCSAA individual titles</a></p>
+<p class="note-text">Note: All athletes with sub-19 min performances in Hardy history. Courses measure about 4.1 km (2.55 miles). (*) indicates winners of a DCIAA or DCSAA individual titles</a></p>
 
         <table class="record-table boys-table">
             <thead>
