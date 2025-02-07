@@ -56,6 +56,8 @@
         }
         .record-table {
             width: 100%;
+			min-width: 600px; /* Adjust as needed */
+			
             border-collapse: collapse;
             margin-bottom: 20px;
             font-size: 1rem;
@@ -66,7 +68,8 @@
             text-align: left;
             border: 1px solid #ddd;
             font-weight: bold;
-
+			word-wrap: break-word;
+			overflow-wrap: break-word;
         }
         .record-table thead {
             background-color: navy;
@@ -116,7 +119,12 @@
                 padding: 8px;
                 font-size: 0.8rem;
             }
-        }
+			
+			.table-container {
+			overflow-x: auto;
+			display: block;
+			width: 100%;
+			}
 
 
     </style>
@@ -133,7 +141,8 @@
   
         <h3>Individual Girls Records </h3>
 	<p class="note-text">Note: All athletes with sub-21 min performances in Hardy history. Courses measure about 4.1 km (2.55 miles). (*) indicates winners of a DCIAA or DCSAA individual titles</a></p>
-        <table class="record-table girls-table">
+        <div class="table-container">
+		<table class="record-table girls-table">
             <thead>
                 <tr>
                     <th>Rank</th>
@@ -163,10 +172,11 @@
     <tr><td>16</td><td>00:20:58.98</td><td>Norah Caplan</td><td>2019-10-22</td><td>DCIAA XC Championship</td><td>Colmar Manor, MD</td></tr>
     </tbody>
 </table>
+</div>
         
         <h3>Individual Boys Records</h3>
 <p class="note-text">Note: All athletes with sub-19 min performances in Hardy history. Courses measure about 4.1 km (2.55 miles). (*) indicates winners of a DCIAA or DCSAA individual titles</a></p>
-
+	<div class="table-container">
         <table class="record-table boys-table">
             <thead>
                 <tr>
@@ -202,9 +212,11 @@
         <tr><td>21</td><td>00:18:56.46</td><td>Felipe Mesa</td><td>2024-11-02</td><td>DCSAA Cross Country Championship</td><td>Kenilworth Park, DC</td></tr>
     </tbody>
 </table>
-        
+    </div>  
 
 <h3>Girls Cross Country Girls Team Championship Results</h3>
+
+<div class="table-container">
 <table class="record-table girls-table">
     <thead>
         <tr>
@@ -232,8 +244,11 @@
         <tr><td>DCIAA XC Championship</td><td>11/2/2013</td><td>Colmar Manor, MD</td><td>5</td><td>117</td><td>A. Alexander, I. Denton, G. Murlos, D. Newwll<br>K. Smith</td></tr>
     </tbody>
 </table>
+</div>
 
 <h3>Cross Country Boys Team Championship Results</h3>
+
+<div class="table-container">
 <table class="record-table boys-table">
     <thead>
         <tr>
@@ -260,7 +275,7 @@
 
     </tbody>
 </table>
-
+</div>
         <div class="footer">
             <p>&copy; <b>2025</b> Hardy Middle School. All rights reserved.</p>
             <p>Last Updated: February 7, <b>2025</b></p>
