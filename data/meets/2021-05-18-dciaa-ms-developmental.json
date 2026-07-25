@@ -1,0 +1,45 @@
+{
+  "meet": "DCIAA MS Developmental",
+  "date": "2021-05-18",
+  "season": "outdoor",
+  "location": "Spingarn, DC",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://results.mdtimingllc.com/meets/9872",
+    "team_view": "https://results.mdtimingllc.com/meets/9872/teams",
+    "captured": "2026-07-25",
+    "method": "manual copy from the Hardy team view",
+    "note": "This meet is an Angular app backed by Firebase (trackmeet-io.firebaseio.com). The Wayback Machine captures only an empty page shell, and the Firebase REST API refuses unauthenticated reads, so the results cannot be archived from the link alone. This file is the archive. 'Sayum Iddamlagoda' corrected to Iddamalagoda, the spelling confirmed at the 2023-01-11 developmental meet."
+  },
+  "individual": [
+    { "place": 8,    "athlete": "Abenezer Anania",      "gender": "boys",  "event": "200m", "mark": "35.77",   "points": null, "flight": "H4", "grade": 8 },
+    { "place": 11,   "athlete": "Edomias Anania",       "gender": "boys",  "event": "200m", "mark": "37.49",   "points": null, "flight": "H3", "grade": 6 },
+    { "place": null, "athlete": "Kennedy Corley",       "gender": "girls", "event": "100m", "mark": "DNS",     "points": null, "flight": "H6", "grade": 6 },
+    { "place": 2,    "athlete": "Kennedy Corley",       "gender": "girls", "event": "200m", "mark": "32.04",   "points": null, "flight": "H5", "grade": 6 },
+    { "place": 13,   "athlete": "Talia Green",          "gender": "girls", "event": "400m", "mark": "1:35.15", "points": null, "flight": "H3", "grade": 6 },
+    { "place": 4,    "athlete": "Sayum Iddamalagoda",   "gender": "boys",  "event": "100m", "mark": "13.66",   "points": null, "flight": "H1", "grade": 6 },
+    { "place": 10,   "athlete": "Catitlin Jones",       "gender": "girls", "event": "200m", "mark": "36.27",   "points": null, "flight": "H2", "grade": 6 },
+    { "place": null, "athlete": "Issac Lei",            "gender": "boys",  "event": "200m", "mark": "DNS",     "points": null, "flight": "H2", "grade": 6 },
+    { "place": null, "athlete": "Sara Mihalke",         "gender": "girls", "event": "100m", "mark": "DNS",     "points": null, "flight": "H5", "grade": 6 },
+    { "place": null, "athlete": "Sara Mihalke",         "gender": "girls", "event": "200m", "mark": "DNS",     "points": null, "flight": "H4", "grade": 6 },
+    { "place": null, "athlete": "Sara Mihalke",         "gender": "girls", "event": "400m", "mark": "DNS",     "points": null, "flight": "H1", "grade": 6 },
+    { "place": null, "athlete": "Neve O'Connell",       "gender": "girls", "event": "100m", "mark": "DNS",     "points": null, "flight": "H5", "grade": 7 },
+    { "place": null, "athlete": "Marie-Celeste Pessey", "gender": "girls", "event": "400m", "mark": "DNS",     "points": null, "flight": "H5", "grade": 7 },
+    { "place": null, "athlete": "Lucas Pilz",           "gender": "boys",  "event": "100m", "mark": "DNS",     "points": null, "flight": "H4", "grade": 6 },
+    { "place": 12,   "athlete": "Audrey Schwendinger",  "gender": "girls", "event": "400m", "mark": "1:29.08", "points": null, "flight": "H3", "grade": 6 },
+    { "place": 13,   "athlete": "Lucille Seagroves",    "gender": "girls", "event": "200m", "mark": "38.40",   "points": null, "flight": "H1", "grade": 6 },
+    { "place": 10,   "athlete": "Nina Taylor-Sparks",   "gender": "girls", "event": "100m", "mark": "16.56",   "points": null, "flight": "H3", "grade": 6 },
+    { "place": null, "athlete": "Josefine Watts",       "gender": "girls", "event": "100m", "mark": "DNS",     "points": null, "flight": "H6", "grade": 6 },
+    { "place": 6,    "athlete": "Josefine Watts",       "gender": "girls", "event": "200m", "mark": "35.36",   "points": null, "flight": "H2", "grade": 6 },
+    { "place": null, "athlete": "Robert Welles",        "gender": "boys",  "event": "100m", "mark": "DNS",     "points": null, "flight": "H1", "grade": 8 },
+    { "place": null, "athlete": "Matthew Whitley",      "gender": "boys",  "event": "100m", "mark": "DNS",     "points": null, "flight": "H3", "grade": 7 }
+  ],
+  "relays": [
+    { "place": 1, "gender": "girls", "event": "4x100m", "mark": "1:00.86", "squad": "A", "points": null, "flight": "H1", "athletes": ["Josefine Watts", "Laura McEwen", "Nina Taylor-Sparks", "Kennedy Corley"] },
+    { "place": 2, "gender": "boys",  "event": "4x100m", "mark": "1:01.77", "squad": "A", "points": null, "flight": "H1", "athletes": ["Lucas Pilz", "J. Gagosian", "Matthew Whitley", "Sayum Iddamalagoda"] },
+    { "place": 1, "gender": "girls", "event": "4x200m", "mark": "2:08.91", "squad": "A", "points": null, "flight": "H1", "athletes": ["Josefine Watts", "Neve O'Connell", "Nina Taylor-Sparks", "Kennedy Corley"] },
+    { "place": 2, "gender": "boys",  "event": "4x200m", "mark": "2:11.99", "squad": "A", "points": null, "flight": "H1", "athletes": ["Lucas Pilz", "J. Gagosian", "Matthew Whitley", "Sayum Iddamalagoda"] },
+    { "place": 1, "gender": "boys",  "event": "4x400m", "mark": "4:34.50", "squad": "A", "points": null, "flight": "H1", "athletes": ["J. Gagosian", "Abenezer Anania", "Edomias Anania", "Issac Lei"] },
+    { "place": 3, "gender": "girls", "event": "4x400m", "mark": "6:15.15", "squad": "A", "points": null, "flight": "H1", "athletes": ["Audrey Schwendinger", "Marie-Celeste Pessey", "Talia Green", "Catitlin Jones"] }
+  ]
+}

@@ -16,7 +16,7 @@ Verified 2026-07-25 across all 39 source links: 12 are genuinely archived, 19
 are empty shells, 7 were never archived. The only durable copy is the one we
 hold ourselves, in `data/meets/`.
 
-## Needs manual capture (13 remaining)
+## Needs manual capture (7 remaining)
 
 Open the link, click **Hardy**, copy the whole team result, paste it into a
 Claude Code session. The `/teams` suffix goes straight to the team picker.
@@ -24,12 +24,6 @@ Claude Code session. The `/teams` suffix goes straight to the team picker.
 | ✓ | Season | Date | Meet | Link |
 |---|--------|------|------|------|
 | ☐ | Indoor | 2025-01-15 | DCIAA MS/HS Developmental | https://www.athletic.net/TrackAndField/meet/575023/results |
-| ☐ | Indoor | 2025-02-25 | DCIAA MS Championship | https://results.mdtimingllc.com/meets/42558/teams/1081719 |
-| ☐ | Outdoor | 2018-04-12 | DCIAA MS Developmental | https://results.mdtimingllc.com/meets/974/teams |
-| ☐ | Outdoor | 2018-04-19 | DCIAA ES/MS Dual – Eastern | https://results.mdtimingllc.com/meets/989/teams/28959 |
-| ☐ | Outdoor | 2018-05-22 | DCIAA MS Championship | https://results.mdtimingllc.com/meets/1219/teams |
-| ☐ | Outdoor | 2019-04-03 | DCIAA MS Developmental | https://results.mdtimingllc.com/meets/2798/teams |
-| ☐ | Outdoor | 2021-05-18 | DCIAA MS Developmental | https://results.mdtimingllc.com/meets/9872/teams |
 | ☐ | Outdoor | 2023-05-02 | DCIAA MS Developmental | https://results.mdtimingllc.com/meets/24466/teams |
 | ☐ | Outdoor | 2024-05-20 | DCIAA MS Developmental | https://results.mdtimingllc.com/meets/38240/teams |
 | ☐ | Outdoor | 2024-05-30 | DCIAA MS Championship | https://results.mdtimingllc.com/meets/38470/teams |
@@ -48,6 +42,12 @@ Done manually:
 | ☑ | Indoor | 2018-01-03 | DCIAA Developmental Meet 4 | `data/meets/2018-01-03-dciaa-developmental.json` |
 | ☑ | Indoor | 2018-01-24 | DCIAA MS/HS Championship | `data/meets/2018-01-24-dciaa-ms-hs-championship.json` |
 | ☑ | Indoor | 2024-01-18 | DCIAA MS Developmental Meet 1 | `data/meets/2024-01-18-dciaa-ms-developmental.json` |
+| ☑ | Indoor | 2025-02-25 | DCIAA MS Championship | `data/meets/2025-02-25-dciaa-es-ms-championship.json` |
+| ☑ | Outdoor | 2018-04-12 | DCIAA MS Developmental | `data/meets/2018-04-12-dciaa-ms-developmental.json` |
+| ☑ | Outdoor | 2018-04-19 | DCIAA ES/MS Dual – Eastern | `data/meets/2018-04-19-dciaa-es-ms-dual-eastern.json` |
+| ☑ | Outdoor | 2018-05-22 | DCIAA MS Championship | `data/meets/2018-05-22-dciaa-ms-championship.json` |
+| ☑ | Outdoor | 2019-04-03 | DCIAA MS Developmental | `data/meets/2019-04-03-dciaa-ms-developmental.json` |
+| ☑ | Outdoor | 2021-05-18 | DCIAA MS Developmental | `data/meets/2021-05-18-dciaa-ms-developmental.json` |
 
 ## Automated — done (18 meets, 802 marks)
 
@@ -92,6 +92,26 @@ would need its own parser. Worth doing later; two meets, not urgent.
 - Sayum Iddamalagoda's indoor 55m record reads 7.6 on the site; the harvested
   2023-01-11 results say 7.69. Still unresolved — a decision, not a silent
   overwrite.
+- **The site's boys 4x400m indoor record may be wrong.** `trackwall_indoor.html`
+  credits Leen/Munzer/Consentino/Stewart Torres with 4:28.2 at the 2025-02-25
+  DCIAA MS Championship, but the team view for that exact meet, with the same
+  four legs in the same order, gives 4:30.30. Everything else pulled from this
+  meet matches the site exactly (McMahan's 7.59, Consentino's 5:21.62, both
+  girls relays), so this isn't a transcription slip on our end - it's a real
+  conflict between the site and the meet's own results. Unresolved; see
+  `data/meets/2025-02-25-dciaa-es-ms-championship.json`.
+- ~~Two misspellings propagated from the automated harvest~~ — **fixed.**
+  "Sayum Iddamlagoda" (missing the second a) in the 2022-04-28, 2022-05-10 and
+  2022-05-24 meets, and "Zo Antczak-Chung" (missing the e) in 2019-04-11 -
+  both are simply how those specific meets' raw results printed the names.
+  Corrected to match the spelling used consistently everywhere else in the
+  archive (Iddamalagoda, Zoe Antczak-Chung).
+- Two more athlete names in the 2019-04-03 meet arrived from the team view
+  garbled - surname printed twice, given name dropped ("Andersson-Potterv
+  Andersson-Potterv", "Taliaferro Brunn Taliaferro Brunn"). Resolved to Mats
+  Andersson-Potterveld and Amirah Taliaferro Brunn, matching their spelling in
+  meets already in the archive. A third, "L Rosales Rivera", couldn't be
+  resolved against anything on file and is kept as shown.
 
 ## Open issues
 

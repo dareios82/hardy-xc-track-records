@@ -1,0 +1,42 @@
+{
+  "meet": "DCIAA MS Championship",
+  "date": "2018-05-22",
+  "season": "outdoor",
+  "location": "Spingarn, DC",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://results.mdtimingllc.com/meets/1219",
+    "team_view": "https://results.mdtimingllc.com/meets/1219/teams",
+    "captured": "2026-07-25",
+    "method": "manual copy from the Hardy team view",
+    "note": "This meet is an Angular app backed by Firebase (trackmeet-io.firebaseio.com). The Wayback Machine captures only an empty page shell, and the Firebase REST API refuses unauthenticated reads, so the results cannot be archived from the link alone. This file is the archive."
+  },
+  "individual": [
+    { "place": 10, "athlete": "Zoe Antczak-Chung",  "gender": "girls", "event": "Triple Jump",       "mark": "20-11.00", "points": null, "flight": null, "grade": null },
+    { "place": 1,  "athlete": "Pierre Attiogbe",     "gender": "boys",  "event": "800m",              "mark": "2:33.18",  "points": 10, "flight": "H2", "grade": null },
+    { "place": 1,  "athlete": "Pierre Attiogbe",     "gender": "boys",  "event": "1600m",             "mark": "5:51.07",  "points": 10, "flight": null, "grade": null },
+    { "place": 4,  "athlete": "Pierre Attiogbe",     "gender": "boys",  "event": "Triple Jump",       "mark": "29-11.00", "points": 5,  "flight": null, "grade": null },
+    { "place": 5,  "athlete": "Jannat Dbilij",       "gender": "girls", "event": "Long Jump",         "mark": "11-03.75", "points": 4,  "flight": null, "grade": null },
+    { "place": 4,  "athlete": "Jannat Dbilij",       "gender": "girls", "event": "Triple Jump",       "mark": "23-11.75", "points": 5,  "flight": null, "grade": null },
+    { "place": 12, "athlete": "Sacha Gregoire",      "gender": "boys",  "event": "Shot Put",          "mark": "21-04.00", "points": null, "flight": null, "grade": null },
+    { "place": 4,  "athlete": "Annabell Harbold",    "gender": "girls", "event": "800m",              "mark": "2:52.97",  "points": 5,  "flight": "H1", "grade": null },
+    { "place": 3,  "athlete": "Annabell Harbold",    "gender": "girls", "event": "1600m",             "mark": "6:40.21",  "points": 6,  "flight": null, "grade": null },
+    { "place": 8,  "athlete": "Edward McKenna",      "gender": "boys",  "event": "Shot Put",          "mark": "26-07.00", "points": 1,  "flight": null, "grade": null },
+    { "place": 16, "athlete": "Jalen Pope",          "gender": "boys",  "event": "100m Hurdles",      "mark": "26.86",    "points": null, "flight": "H2", "grade": null },
+    { "place": 7,  "athlete": "Wil Schwendinger",    "gender": "boys",  "event": "800m",              "mark": "2:46.85",  "points": 2,  "flight": "H2", "grade": null },
+    { "place": 4,  "athlete": "Wil Schwendinger",    "gender": "boys",  "event": "1600m",             "mark": "6:39.38",  "points": 5,  "flight": null, "grade": null },
+    { "place": 4,  "athlete": "Ayana Shaw",          "gender": "girls", "event": "100m (Prelims)",    "mark": "14.76",    "points": null, "flight": "H2", "grade": null },
+    { "place": 4,  "athlete": "Ayana Shaw",          "gender": "girls", "event": "100m",              "mark": "14.76",    "points": 5,  "flight": "H2", "grade": null },
+    { "place": 1,  "athlete": "Kylie Smith",         "gender": "girls", "event": "Long Jump",         "mark": "12-06.00", "points": 10, "flight": null, "grade": null },
+    { "place": 7,  "athlete": "Laura Welles",        "gender": "girls", "event": "800m",              "mark": "3:02.10",  "points": 2,  "flight": "H1", "grade": null },
+    { "place": 6,  "athlete": "Laura Welles",        "gender": "girls", "event": "1600m",             "mark": "7:14.37",  "points": 3,  "flight": null, "grade": null },
+    { "place": 8,  "athlete": "Martin Welles",       "gender": "boys",  "event": "800m",              "mark": "2:47.18",  "points": 1,  "flight": "H1", "grade": null },
+    { "place": 3,  "athlete": "Martin Welles",       "gender": "boys",  "event": "1600m",             "mark": "6:36.35",  "points": 6,  "flight": null, "grade": null }
+  ],
+  "relays": [
+    { "place": 7, "gender": "boys",  "event": "4x100m", "mark": "1:02.41", "squad": "A", "points": 2, "flight": "H1", "athletes": ["Andre Carter", "Bruce Fuhriman", "Jalen Pope", "Juan Johnson"] },
+    { "place": 3, "gender": "girls", "event": "4x100m", "mark": "1:02.41", "squad": "A", "points": 6, "flight": "H1", "athletes": ["Belinda Alcoser", "Zoe Antczak-Chung", "Bronwen Holmes", "Ayana Shaw"] },
+    { "place": 6, "gender": "boys",  "event": "4x200m", "mark": "2:09.72", "squad": "A", "points": 3, "flight": "H2", "athletes": ["Sacha Gregoire", "Bruce Fuhriman", "Jalen Pope", "Juan Johnson"] },
+    { "place": 4, "gender": "girls", "event": "4x200m", "mark": "2:08.83", "squad": "A", "points": 5, "flight": "H2", "athletes": ["Anna Khoury", "Bronwen Holmes", "Kylie Smith", "Ayana Shaw"] }
+  ]
+}
