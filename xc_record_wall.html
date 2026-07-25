@@ -29,10 +29,36 @@
     </header>
 
     <div class="container">
-        <div class="page-head">
+        <div class="page-head" id="top">
             <h1>Cross Country Records</h1>
             <p>Celebrating our top performances in school history.</p>
         </div>
+
+        <div class="records-spotlight" data-hide-on-search>
+            <a class="spotlight girls" href="#girls-individual">
+                <span class="spot-label">Girls School Record</span>
+                <span class="spot-time">16:45.81</span>
+                <span class="spot-name">Teresa Ljung</span>
+                <span class="spot-meta">November 2, 2024</span>
+                <span class="spot-meta">DCSAA Cross Country Championship · Kenilworth Park, DC</span>
+                <span class="spot-jump">See all girls records &rarr;</span>
+            </a>
+            <a class="spotlight boys" href="#boys-individual">
+                <span class="spot-label">Boys School Record</span>
+                <span class="spot-time">15:26.48</span>
+                <span class="spot-name">Holden Consentino<span class="title-star" title="DCIAA or DCSAA individual champion">(*)</span></span>
+                <span class="spot-meta">November 2, 2024</span>
+                <span class="spot-meta">DCSAA Cross Country Championship · Kenilworth Park, DC</span>
+                <span class="spot-jump">See all boys records &rarr;</span>
+            </a>
+        </div>
+
+        <nav class="jump" data-hide-on-search aria-label="Jump to a section">
+            <a href="#girls-individual">Girls Individual</a>
+            <a href="#boys-individual">Boys Individual</a>
+            <a href="#girls-teams">Girls Teams</a>
+            <a href="#boys-teams">Boys Teams</a>
+        </nav>
 
         <div class="search">
             <label class="is-hidden" for="q">Search by athlete name</label>
@@ -44,7 +70,7 @@
             No performances match your search. Try a last name, a meet, or a year.
         </div>
 
-        <section class="section girls">
+        <section class="section girls" id="girls-individual">
             <h2>Individual Girls Records</h2>
             <p class="note">All athletes with sub-21 min performances in Hardy history. Courses measure about 4.1 km (2.55 miles). (*) indicates winners of a DCIAA or DCSAA individual title.</p>
             <div class="table-wrap">
@@ -79,9 +105,10 @@
                     </tbody>
                 </table>
             </div>
+            <p class="to-top"><a href="#top">&uarr; Back to top</a></p>
         </section>
 
-        <section class="section boys">
+        <section class="section boys" id="boys-individual">
             <h2>Individual Boys Records</h2>
             <p class="note">All athletes with sub-19 min performances in Hardy history. Courses measure about 4.1 km (2.55 miles). (*) indicates winners of a DCIAA or DCSAA individual title.</p>
             <div class="table-wrap">
@@ -121,9 +148,10 @@
                     </tbody>
                 </table>
             </div>
+            <p class="to-top"><a href="#top">&uarr; Back to top</a></p>
         </section>
 
-        <section class="section girls">
+        <section class="section girls" id="girls-teams">
             <h2>Girls Team Championship Results</h2>
             <div class="table-wrap">
                 <table class="record-table">
@@ -154,9 +182,10 @@
                     </tbody>
                 </table>
             </div>
+            <p class="to-top"><a href="#top">&uarr; Back to top</a></p>
         </section>
 
-        <section class="section boys">
+        <section class="section boys" id="boys-teams">
             <h2>Boys Team Championship Results</h2>
             <div class="table-wrap">
                 <table class="record-table">
@@ -185,6 +214,7 @@
                     </tbody>
                 </table>
             </div>
+            <p class="to-top"><a href="#top">&uarr; Back to top</a></p>
         </section>
 
         <div class="footer">

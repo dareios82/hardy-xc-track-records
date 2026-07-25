@@ -239,6 +239,112 @@ a { color: var(--blue); }
   text-transform: uppercase;
 }
 
+/* ---------- Record spotlight + jump links ---------- */
+
+.records-spotlight {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 16px;
+  margin: 0 0 18px;
+}
+
+.spotlight {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 5px solid var(--blue);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  box-shadow: var(--shadow);
+  transition: transform .15s ease, border-color .15s ease;
+}
+
+.spotlight.boys { border-left-color: var(--navy); }
+
+@media (prefers-color-scheme: dark) {
+  .spotlight.boys { border-left-color: #1F6E9C; }
+}
+
+.spotlight:hover { transform: translateY(-2px); border-color: var(--blue); }
+
+.spot-label {
+  display: block;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.spot-time {
+  display: block;
+  font-size: clamp(2rem, 6vw, 2.6rem);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -1px;
+  color: var(--blue);
+  font-variant-numeric: tabular-nums;
+  margin: 6px 0 3px;
+}
+
+.spot-name {
+  display: block;
+  font-size: 1.12rem;
+  font-weight: 650;
+  margin-bottom: 4px;
+}
+
+.spot-meta {
+  display: block;
+  font-size: .86rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.spot-jump {
+  display: block;
+  margin-top: 11px;
+  font-size: .84rem;
+  font-weight: 650;
+  color: var(--blue);
+}
+
+.jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 22px;
+}
+
+.jump a {
+  text-decoration: none;
+  font-size: .85rem;
+  font-weight: 650;
+  padding: 7px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+
+.jump a:hover { border-color: var(--blue); color: var(--blue); }
+
+.to-top {
+  margin: 10px 2px 0;
+  text-align: right;
+  font-size: .84rem;
+}
+
+.to-top a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.to-top a:hover { color: var(--blue); }
+
 /* ---------- Search ---------- */
 
 .search {
