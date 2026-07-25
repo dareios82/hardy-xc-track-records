@@ -16,19 +16,11 @@ Verified 2026-07-25 across all 39 source links: 12 are genuinely archived, 19
 are empty shells, 7 were never archived. The only durable copy is the one we
 hold ourselves, in `data/meets/`.
 
-## Needs manual capture (3 remaining)
+## Needs manual capture (none remaining)
 
-Open the link, click **Hardy**, copy the whole team result, paste it into a
-Claude Code session. The `/teams` suffix goes straight to the team picker.
-
-| ✓ | Season | Date | Meet | Link |
-|---|--------|------|------|------|
-| ☐ | Indoor | 2025-01-15 | DCIAA MS/HS Developmental | https://www.athletic.net/TrackAndField/meet/575023/results |
-| ☐ | Outdoor | 2025-05-09 | DCIAA MS Developmental | https://www.athletic.net/TrackAndField/meet/607132/results |
-| ☐ | Outdoor | 2025-05-15 | St Albans / National Cathedral | https://www.athletic.net/TrackAndField/meet/610090/results |
-
-This is the complete remaining list — every other outdoor/indoor T&F source
-link on the site is now either automated (below) or was manually captured.
+Every outdoor/indoor T&F source link on the site has now either been
+automated (below) or manually captured. The list below is kept for the
+record of how each meet was sourced.
 
 Done manually:
 
@@ -48,6 +40,9 @@ Done manually:
 | ☑ | Outdoor | 2024-05-20 | DCIAA MS Developmental Meet 3 | `data/meets/2024-05-20-dciaa-ms-developmental.json` |
 | ☑ | Outdoor | 2024-05-30 | DCIAA MS Championship | `data/meets/2024-05-30-dciaa-ms-championship.json` |
 | ☑ | Outdoor | 2025-05-19 | DCIAA MS Championship | `data/meets/2025-05-19-dciaa-ms-championship.json` |
+| ☑ | Indoor | 2025-01-15 | DCIAA MS/HS Developmental #2 | `data/meets/2025-01-15-dciaa-ms-hs-developmental.json` |
+| ☑ | Outdoor | 2025-05-09 | DCIAA MS Challenge | `data/meets/2025-05-09-dciaa-ms-developmental.json` |
+| ☑ | Outdoor | 2025-05-15 | St Albans / National Cathedral | `data/meets/2025-05-15-st-albans-national-cathedral.json` |
 
 ## Automated — done (18 meets, 802 marks)
 
@@ -92,14 +87,16 @@ would need its own parser. Worth doing later; two meets, not urgent.
 - Sayum Iddamalagoda's indoor 55m record reads 7.6 on the site; the harvested
   2023-01-11 results say 7.69. Still unresolved — a decision, not a silent
   overwrite.
-- **The site's boys 4x400m indoor record may be wrong.** `trackwall_indoor.html`
-  credits Leen/Munzer/Consentino/Stewart Torres with 4:28.2 at the 2025-02-25
-  DCIAA MS Championship, but the team view for that exact meet, with the same
-  four legs in the same order, gives 4:30.30. Everything else pulled from this
-  meet matches the site exactly (McMahan's 7.59, Consentino's 5:21.62, both
-  girls relays), so this isn't a transcription slip on our end - it's a real
-  conflict between the site and the meet's own results. Unresolved; see
-  `data/meets/2025-02-25-dciaa-es-ms-championship.json`.
+- ~~The site's boys 4x400m indoor record may be wrong~~ — **not a conflict,
+  confirmed correct.** `trackwall_indoor.html` credits Leen/Munzer/Consentino/
+  Stewart Torres with 4:28.2 at the 2025-01-15 DCIAA MS/HS Developmental #2 -
+  that's a different meet from the 2025-02-25 championship (where the same
+  four legs ran 4:30.30, a separate real result, not a duplicate of the
+  record). The team view for the January meet, now captured in
+  `data/meets/2025-01-15-dciaa-ms-hs-developmental.json`, gives 4:28.20 for
+  that exact squad, matching the site to the hundredth. The earlier note in
+  this file mis-attributed the record to the wrong meet before that source
+  was in hand; the site itself was right all along.
 - ~~Two misspellings propagated from the automated harvest~~ — **fixed.**
   "Sayum Iddamlagoda" (missing the second a) in the 2022-04-28, 2022-05-10 and
   2022-05-24 meets, and "Zo Antczak-Chung" (missing the e) in 2019-04-11 -
@@ -112,12 +109,15 @@ would need its own parser. Worth doing later; two meets, not urgent.
   Andersson-Potterveld and Amirah Taliaferro Brunn, matching their spelling in
   meets already in the archive. A third, "L Rosales Rivera", couldn't be
   resolved against anything on file and is kept as shown.
-- The 2025-05-19 championship (athletic.net) truncates long names with "...".
-  Three were resolved against spellings already confirmed elsewhere in the
-  archive (Ulyses Stewart-Torres, Felipe Sebastian Mesa McGovern, Vanina
-  Mazzei-Paterni). A fourth, "Samantha Kirschenba...", has no prior match
-  anywhere in the archive - expanded to "Samantha Kirschenbaum" as the most
-  likely completion, but this is a guess, not a verified spelling.
+- All four 2025 athletic.net meets truncate long names with "...". Most were
+  resolved against spellings already confirmed elsewhere in the archive
+  (Ulyses Stewart-Torres, Felipe Sebastian Mesa McGovern, Vanina
+  Mazzei-Paterni). "Samantha Kirschenba..." has no prior match anywhere in
+  the archive - expanded to "Samantha Kirschenbaum" as the most likely
+  completion. It now recurs identically across three of these meets
+  (2025-05-09, 2025-05-15, 2025-05-19), which at least confirms the
+  truncation is consistent, but the full spelling is still an educated guess,
+  not a verified one.
 
 ## Open issues
 
