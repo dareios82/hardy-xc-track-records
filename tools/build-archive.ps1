@@ -29,6 +29,15 @@ function PlaceClass([object]$p) {
   switch ("$p") { "1" { "pl gold" } "2" { "pl silver" } "3" { "pl bronze" } default { "pl" } }
 }
 
+# A DNS, a foul or a no-height is the absence of a result, not a result. The
+# meet files keep them (they are what the results say), but showing them would
+# pad an athlete's card with events they have no mark for.
+function IsResult([object]$mark) {
+  $m = "$mark".Trim()
+  if (-not $m) { return $false }
+  return $m -notmatch '^(DNS|DNF|DQ|DNC|NH|NM|ND|FOUL|SCR|SCRATCH|X+|-+)$'
+}
+
 # "G. Sipher" in a relay squad refers to "George Sipher" in the same meet.
 function MatchesAthlete([string]$leg, [string]$full) {
   $leg = ($leg -replace '[.]', '').Trim()
@@ -55,6 +64,9 @@ foreach ($m in $meets) {
         marks = New-Object System.Collections.ArrayList
       }
     }
+    # Register the athlete either way so a relay leg can still be matched to
+    # someone whose only individual entry was a DNS; drop the mark itself.
+    if (-not (IsResult $r.mark)) { continue }
     [void]$byAthlete[$r.athlete].marks.Add([pscustomobject]@{
       event = $r.event
       mark  = if ($r.metric) { "$($r.mark) ($($r.metric))" } else { "$($r.mark)" }
@@ -67,6 +79,7 @@ foreach ($m in $meets) {
   # Fold each relay into the cards of the legs we can identify, so a runner's
   # card shows their whole day. Unmatched relays become their own card.
   foreach ($rel in $m.relays) {
+    if (-not (IsResult $rel.mark)) { continue }
     $matched = $false
     foreach ($leg in $rel.athletes) {
       foreach ($key in @($byAthlete.Keys)) {
@@ -93,6 +106,8 @@ foreach ($m in $meets) {
   }
 
   foreach ($a in $byAthlete.Values) {
+    # An athlete whose whole day was scratches gets no card at all.
+    if ($a.marks.Count -eq 0) { continue }
     [void]$cards.Add([pscustomobject]@{
       sortDate = $when; athlete = $a.name; gender = $a.gender; grade = $a.grade
       meet = $m.meet; date = $when.ToString("MMMM d, yyyy"); location = $m.location
