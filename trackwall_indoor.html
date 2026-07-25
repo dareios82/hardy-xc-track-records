@@ -4,530 +4,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hardy Middle School Indoor Track and Field Records</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
-            color: #333;
-            line-height: 1.6;
-        }
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-            position: relative;
-        }
-        .header img {
-            width: 90px;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-        .header .left-logo {
-            left: 10px;
-        }
-        .header .right-logo {
-            right: 10px;
-        }
-        .header h1 {
-            font-size: 2rem;
-            color: navy;
-            margin: 0;
-            line-height: 1.2;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-        }
-        .header p {
-            font-size: 1.3rem;
-            font-weight: bold;
-            color: #4169E1;
-        }
-        .section-title {
-            font-size: 1.5rem;
-            color: navy;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            text-align: center;
-        }
-        .record-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-            font-size: 1rem;
-        }
-        .record-table thead tr {
-            background-color: #fff !important;
-            color: navy;
-            font-weight: bold;
-        }
-        .record-table th, .record-table td {
-            padding: 10px;
-            text-align: left;
-            border: 1px solid #ddd;
-            word-wrap: break-word;
-			overflow-wrap: break-word;
-        }
-        .record-table tbody tr {
-            font-weight: bold;
-            color: #333;
-        }
-        .record-table tbody tr:hover {
-             background-color: #ccffcc !important; /* Light green */
-        }
-		
-		.table-container {
-			overflow-x: auto;
-			display: block;
-			width: 100%;
-		}
-
-	.record-table.references tr:nth-child(odd),
-	.record-table.references tr:nth-child(even) {
-    	background-color: #fff; /* Ensure all rows have a white background */
-	font-size: 0.75rem;
-	}
-        .record-table tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-        .record-table tr:nth-child(odd) {
-            background-color: #ffccdd
-        }
-        .record-table.boys tr:nth-child(odd) {
-            background-color: #cce5ff; 
-        }
-        .footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 0.8rem;
-            color: #666;
-        }
-        .footer p {
-            margin: 5px 0;
-        }
-
-        @media screen and (max-width: 600px) {
-            .header img {
-                width: 50px;
-            }
-            .header h1 {
-                font-size: 1.5rem;
-            }
-            .header p {
-                font-size: 1rem;
-            }
-            .section-title {
-                font-size: 1.2rem;
-            }
-            .record-table th, .record-table td {
-                padding: 8px;
-                font-size: 0.8rem;
-            }
-			
-			.table-container {
-			overflow-x: auto;
-			display: block;
-			width: 100%;
-			}
-			
-			.container {
-			width: 95%;
-			margin: 20px auto;
-			padding: 15px;
-			}
-			
-        }
-    </style>
+    <meta name="description" content="Indoor track and field school records for Hardy Middle School, Washington DC, with links to the original meet results.">
+    <meta property="og:title" content="Hardy Middle School Indoor Track and Field Records">
+    <meta property="og:description" content="Indoor track and field school records for Hardy Middle School, Washington DC, with links to the original meet results.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="hardylogo.png">
+    <link rel="icon" href="hardylogo.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-           <!-- <img src="hardylogo.png" alt="School Logo" class="left-logo"> -->
-            <h1>Hardy Middle School <br> Indoor Track and Field Records</h1>
-            <!-- <img src="hardylogo.png" alt="School Logo" class="right-logo"> -->
-            <p>Celebrating our top performances in school history!</p>
-	<p style="text-align: center; margin-top: 10px;"><a href="https://dareios82.github.io/hardy-xc-track-records/index.html" style="color: navy; font-size: 1rem; font-weight: bold; text-decoration: none;">Back to Hardy Records Home Page</a></p>
+    <header class="site-header">
+        <div class="bar">
+            <a class="brand" href="index.html">
+                <img src="hardylogo.png" alt="">
+                <span>Hardy Records</span>
+            </a>
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="xc_record_wall.html">Cross Country</a>
+                <a href="trackwall_indoor.html" aria-current="page">Indoor</a>
+                <a href="trackwall_outdoor.html">Outdoor</a>
+            </nav>
         </div>
-	<h3 class="section-title">Track Events Girls</h3>
-	
-	<div class="table-container">
-        <table class="record-table girls">
-            <thead>
-                <tr>
-             <th>Event</th>
-            <th>Performance</th>
-            <th>Athlete</th>
-            <th>Date</th>
-            <th>Meeting</th>
-                </tr>
-            </thead>
-               <tbody>
-        <tr>
-            <td>55m Hurdles</td>
-            <td>10.72</td>
-            <td>Laura McEwen</td>
-            <td>January 24, 2019</td>
-            <td>DCIAA MS/HS Championship</td>
-        </tr>
-		<tr>
-			<td>55m Dash</td>
-			<td>7.59</td>
-			<td>Taylor McMahan</td>
-			<td>February 25, 2025</td>
-			<td>DCIAA MS Championship</td>
-		</tr>
-		<tr>
-			<td>300m</td>
-			<td>46.02</td>
-			<td>Sage Hudson</td>
-			<td>January 9, 2019</td>
-			<td>DCIAA MS/HS Developmental</td>
-		</tr>
-		<tr>
-			<td>500m</td>
-			<td>01:27.4</td>
-			<td>Vanina Mazzei-Paterni</td>
-			<td>February 25, 2025</td>
-			<td>DCIAA MS Championship</td>
-		</tr>
-		<tr>
-			<td>800m</td>
-			<td>02:47.1</td>
-			<td>Julia Migliaccio</td>
-			<td>February 25, 2025</td>
-			<td>DCIAA MS Championship</td>
-		</tr>
-        <tr>
-            <td>1600m</td>
-            <td>05:51.6</td>
-            <td>Maja Caldara</td>
-            <td>January 15, 2025</td>
-            <td>DCIAA MS/HS Developmental</td>
-        </tr>
-        <tr>
-			<td>4x200m</td>
-			<td>02:00.9</td>
-			<td>Zoe Hanson, Cecelia Luna, Vanina Mazzei-Paterni, Taylor McMahan</td>
-			<td>February 25, 2025</td>
-			<td>DCIAA MS Championship</td>
-		</tr>
-		<tr>
-			<td>4x400m</td>
-			<td>04:48.9</td>
-			<td>Julia Migliaccio, Xiomi Sullivan, Teresa Ljung, Vanina Mazzei-Paterni</td>
-			<td>February 25, 2025</td>
-			<td>DCIAA MS Championship</td>
-		</tr>
-    </tbody>
-        </table>
-		</div>
+    </header>
 
-	<h3 class="section-title">Track Events Boys</h3>
-		
-		<div class="table-container">
-        <table class="record-table boys">
-               <thead>
-        <tr>
-            <th>Event</th>
-            <th>Performance</th>
-            <th>Athlete</th>
-            <th>Date</th>
-            <th>Meeting</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-			<td>55m Hurdles</td>
-			<td>10.12</td>
-			<td>Matthew Hempill</td>
-			<td>February 25, 2025</td>
-			<td>DCIAA MS Championship</td>
-		</tr>
-		<tr>
-			<td>55m Dash</td>
-			<td>7.6</td>
-			<td>Sayum Iddamalgoda</td>
-			<td>January 11, 2023</td>
-			<td>DCIAA MS/HS Developmental</td>
-		</tr>
-		<tr>
-			<td>300m</td>
-			<td>46.25</td>
-			<td>Sayum Iddamalgoda</td>
-			<td>January 11, 2023</td>
-			<td>DCIAA MS/HS Developmental</td>
-		</tr>
-		<tr>
-			<td>500m</td>
-			<td>01:22.3</td>
-			<td>Ulyses Stewart-Torres</td>
-			<td>February 25, 2025</td>
-			<td>DCIAA MS Championship</td>
-		</tr>
-		<tr>
-			<td>800m</td>
-			<td>02:30.1</td>
-			<td>Pierce Leen</td>
-			<td>February 25, 2025</td>
-			<td>DCIAA MS Championship</td>
-		</tr>
-		<tr>
-			<td>1600m</td>
-			<td>05:21.6</td>
-			<td>Holden Consentino</td>
-			<td>February 25, 2025</td>
-			<td>DCIAA MS Championship</td>
-		</tr>
-        <tr>
-            <td>4x200m</td>
-            <td>01:50.8</td>
-            <td>Nathan McAlpine, Marquis Roberts, Giulio Iacoviello, Stephen Jefferson</td>
-            <td>2017</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>4x400m</td>
-            <td>04:28.2</td>
-            <td>Pierce Leen, Max Munzer, Holden Consentino, Ulyses Stewart Torres</td>
-            <td>January 15, 2025</td>
-            <td>DCIAA MS/HS Developmental</td>
-        </tr>
-    </tbody>
-</table>
-</div>
+    <div class="container">
+        <div class="page-head">
+            <h1>Indoor Track &amp; Field Records</h1>
+            <p>Celebrating our top performances in school history.</p>
+        </div>
 
-        <h3 class="section-title">Field Events Girls</h3>
-		
-		<div class="table-container">
-        <table class="record-table girls">
-                        <thead>
-                <tr>
-                    <th>Event</th>
-                    <th>Performance</th>
-                    <th>Athlete</th>
-                    <th>Date</th>
-                    <th>Meeting</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Shot Put</td>
-                    <td>22' 5" (6.83m)</td>
-                    <td>Laura McEwen</td>
-                    <td>December 12, 2019</td>
-                    <td>DCIAA MS/HS Developmental</td>
-                </tr>
-                <tr>
-                    <td>Long Jump</td>
-                    <td>17'</td>
-                    <td>Nyla Ward</td>
-                    <td>January 28, 2015</td>
-                    <td>DCIAA MS Championship</td>
-                </tr>
-                <tr>
-                    <td>Triple Jump</td>
-                    <td>31' 4" (9.56m)</td>
-                    <td>Taylor McMahan</td>
-                    <td>February 25, 2025</td>
-                    <td>DCIAA MS Championship</td>
-                </tr>
-                <tr>
-                    <td>High Jump</td>
-                    <td>4' 10" (1.47m)</td>
-                    <td>Laura McEwen</td>
-                    <td>December 12, 2019</td>
-                    <td>DCIAA MS/HS Developmental</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="search">
+            <label class="is-hidden" for="q">Search by athlete name</label>
+            <input id="q" type="search" data-search placeholder="Search for an athlete, event or year…" autocomplete="off">
+        </div>
+        <p class="search-status" data-search-status role="status"></p>
 
-        <h3 class="section-title">Field Events Boys</h3>
-		
-		<div class="table-container">
-        <table class="record-table boys">
-            <thead>
-        <tr>
-            <th>Event</th>
-            <th>Performance</th>
-            <th>Athlete</th>
-            <th>Date</th>
-            <th>Meeting</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Shot Put</td>
-            <td>31' 4" (9.55m)</td>
-            <td>Edward McKenna</td>
-            <td>January 29, 2020</td>
-            <td>DCIAA MS/HS Championship</td>
-        </tr>
-        <tr>
-            <td>Long Jump</td>
-            <td>14' 01" (4.29m)</td>
-            <td>Cole Mandaza</td>
-            <td>December 12, 2019</td>
-            <td>DCIAA MS/HS Developmental</td>
-        </tr>
-        <tr>
-            <td>Triple Jump</td>
-            <td>33' 03" (10.13m)</td>
-            <td>Elijah Wynn</td>
-            <td>December 12, 2019</td>
-            <td>DCIAA MS/HS Developmental</td>
-        </tr>
-        <tr>
-            <td>High Jump</td>
-            <td>4' 8" (1.42m)</td>
-            <td>Matthew Hemphill</td>
-            <td>January 15, 2025</td>
-            <td>DCIAA MS/HS Developmental</td>
-        </tr>
-    </tbody>
-</table>
-</div>
+        <div class="no-results is-hidden" data-search-empty>
+            No performances match your search. Try a last name, an event, or a year.
+        </div>
 
-<h3 class="section-title">Sources with Links</h3>
-<p>If you find links to missing meets, have results on paper, or notice any errors or omissions, please email <a href="mailto:dario.caldara@gmail.com">dario.caldara@gmail.com</a>.</p>
+        <section class="section girls">
+            <h2>Track Events — Girls</h2>
+            <div class="table-wrap">
+                <table class="record-table">
+                    <thead>
+                        <tr><th>Event</th><th>Performance</th><th>Athlete</th><th>Date</th><th>Meeting</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td data-label="Event" class="cell-event">55m Hurdles</td><td data-label="Performance" class="cell-perf"><span class="perf">10.72</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Laura McEwen</span></td><td data-label="Date" class="date">January 24, 2019</td><td data-label="Meeting" class="meet">DCIAA MS/HS Championship</td></tr>
+                        <tr><td data-label="Event" class="cell-event">55m Dash</td><td data-label="Performance" class="cell-perf"><span class="perf">7.59</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Taylor McMahan</span></td><td data-label="Date" class="date">February 25, 2025</td><td data-label="Meeting" class="meet">DCIAA MS Championship</td></tr>
+                        <tr><td data-label="Event" class="cell-event">300m</td><td data-label="Performance" class="cell-perf"><span class="perf">46.02</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Sage Hudson</span></td><td data-label="Date" class="date">January 9, 2019</td><td data-label="Meeting" class="meet">DCIAA MS/HS Developmental</td></tr>
+                        <tr><td data-label="Event" class="cell-event">500m</td><td data-label="Performance" class="cell-perf"><span class="perf">01:27.4</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Vanina Mazzei-Paterni</span></td><td data-label="Date" class="date">February 25, 2025</td><td data-label="Meeting" class="meet">DCIAA MS Championship</td></tr>
+                        <tr><td data-label="Event" class="cell-event">800m</td><td data-label="Performance" class="cell-perf"><span class="perf">02:47.1</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Julia Migliaccio</span></td><td data-label="Date" class="date">February 25, 2025</td><td data-label="Meeting" class="meet">DCIAA MS Championship</td></tr>
+                        <tr><td data-label="Event" class="cell-event">1600m</td><td data-label="Performance" class="cell-perf"><span class="perf">05:51.6</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Maja Caldara</span></td><td data-label="Date" class="date">January 15, 2025</td><td data-label="Meeting" class="meet">DCIAA MS/HS Developmental</td></tr>
+                        <tr><td data-label="Event" class="cell-event">4x200m</td><td data-label="Performance" class="cell-perf"><span class="perf">02:00.9</span></td><td data-label="Athlete" class="cell-athlete"><span class="squad">Zoe Hanson, Cecelia Luna, Vanina Mazzei-Paterni, Taylor McMahan</span></td><td data-label="Date" class="date">February 25, 2025</td><td data-label="Meeting" class="meet">DCIAA MS Championship</td></tr>
+                        <tr><td data-label="Event" class="cell-event">4x400m</td><td data-label="Performance" class="cell-perf"><span class="perf">04:48.9</span></td><td data-label="Athlete" class="cell-athlete"><span class="squad">Julia Migliaccio, Xiomi Sullivan, Teresa Ljung, Vanina Mazzei-Paterni</span></td><td data-label="Date" class="date">February 25, 2025</td><td data-label="Meeting" class="meet">DCIAA MS Championship</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
 
-<div class="table-container">
-<table class="record-table references">
-    <thead>
-        <tr>
-            <th>School Year</th>
-            <th>Date</th>
-            <th>Meeting</th>
-            <th>Note</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>2014/2015</td>
-            <td>January 28, 2015</td>
-            <td><a href="https://www.tfrrs.org/results/37365/DCIAA_Indoor_Track_and_Field_Championship_Middle_School">DCIAA MS Championship</a></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>2015/2016</td>
-            <td>January 27, 2016</td>
-            <td><a href="https://www.tfrrs.org/results/42316/2016_DCIAA_Middle_School_Indoor_Track_and_Field_Championship">DCIAA MS Championship</a></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>2016/2017</td>
-            <td>December 7, 2016</td>
-            <td><a href="https://results2.mdtimingllc.com/indoor_2017/dciaa1/">DCIAA ES/MS Developmental</a></td>
-            <td>DCIAA but no Deal and Hardy</td>
-        </tr>
-        <tr>
-            <td>2016/2017</td>
-            <td>January 25, 2017</td>
-            <td><a href="https://results2.mdtimingllc.com/indoor_2017/dciaahs/">DCIAA MS/HS Championship</a></td>
-            <td>DCIAA but no Deal and Hardy</td>
-        </tr>
-        <tr>
-            <td>2017/2018</td>
-            <td>December 6, 2017</td>
-            <td><a href="https://results2.mdtimingllc.com/indoor_2018/dciaa_esms/">DCIAA ES/MS Developmental</a></td>
-            <td>Broken</td>
-        </tr>
-        <tr>
-            <td>2017/2018</td>
-            <td>January 3, 2018</td>
-            <td><a href="https://results.mdtimingllc.com/meets/642">DCIAA Developmental</a></td>
-            <td>Multiple results seem missing</td>
-        </tr>
-        <tr>
-            <td>2017/2018</td>
-            <td>January 24, 2018</td>
-            <td><a href="https://results.mdtimingllc.com/meets/699">DCIAA MS/HS Championship</a></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>2018/2019</td>
-            <td>December 5, 2018</td>
-            <td><a href="https://results2.mdtimingllc.com/indoor_2019/dciaaesms/">DCIAA ES/MS Developmental</a></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>2018/2019</td>
-            <td>January 9, 2019</td>
-            <td><a href="https://results2.mdtimingllc.com/indoor_2019/dciaamshs/">DCIAA MS/HS Developmental</a></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>2018/2019</td>
-            <td>January 24, 2019</td>
-            <td><a href="https://results2.mdtimingllc.com/indoor_2019/dciaamshschamps/">DCIAA MS/HS Championship</a></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>2019/2020</td>
-            <td>December 4, 2019</td>
-            <td><a href="https://results2.mdtimingllc.com/indoor_2020/esms/">DCIAA ES/MS Developmental</a></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>2019/2020</td>
-            <td>December 12, 2019</td>
-            <td><a href="https://results2.mdtimingllc.com/indoor_2020/dciaamshs/">DCIAA MS/HS Developmental</a></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>2019/2020</td>
-            <td>January 29, 2020</td>
-            <td><a href="https://results2.mdtimingllc.com/indoor_2020/dcchamps/">DCIAA MS/HS Championship</a></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>2020/2021</td>
-            <td>COVID</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>2021/2022</td>
-            <td>COVID</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>2022/2023</td>
-            <td>January 11, 2023</td>
-            <td><a href="https://results2.mdtimingllc.com/itf_23/dciaa1/">DCIAA MS/HS Developmental</a></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>2023/2024</td>
-            <td>January 18, 2024</td>
-            <td><a href="https://results.mdtimingllc.com/meets/29702">DCIAA MS Developmental</a></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>2024/2025</td>
-            <td>January 15, 2025</td>
-            <td><a href="https://www.athletic.net/TrackAndField/meet/575023/results">DCIAA MS/HS Developmental</a></td>
-            <td></td>
-        </tr>
-		<tr>
-			<td>2024/2025</td>
-			<td>February 25, 2025</td>
-			<td><a href="https://results.mdtimingllc.com/meets/42558/teams/1081719">DCIAA MS Championship</a></td>
-			<td></td>
-        </tr>
-    </tbody>
-</table>
-</div>
+        <section class="section boys">
+            <h2>Track Events — Boys</h2>
+            <div class="table-wrap">
+                <table class="record-table">
+                    <thead>
+                        <tr><th>Event</th><th>Performance</th><th>Athlete</th><th>Date</th><th>Meeting</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td data-label="Event" class="cell-event">55m Hurdles</td><td data-label="Performance" class="cell-perf"><span class="perf">10.12</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Matthew Hempill</span></td><td data-label="Date" class="date">February 25, 2025</td><td data-label="Meeting" class="meet">DCIAA MS Championship</td></tr>
+                        <tr><td data-label="Event" class="cell-event">55m Dash</td><td data-label="Performance" class="cell-perf"><span class="perf">7.6</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Sayum Iddamalgoda</span></td><td data-label="Date" class="date">January 11, 2023</td><td data-label="Meeting" class="meet">DCIAA MS/HS Developmental</td></tr>
+                        <tr><td data-label="Event" class="cell-event">300m</td><td data-label="Performance" class="cell-perf"><span class="perf">46.25</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Sayum Iddamalgoda</span></td><td data-label="Date" class="date">January 11, 2023</td><td data-label="Meeting" class="meet">DCIAA MS/HS Developmental</td></tr>
+                        <tr><td data-label="Event" class="cell-event">500m</td><td data-label="Performance" class="cell-perf"><span class="perf">01:22.3</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Ulyses Stewart-Torres</span></td><td data-label="Date" class="date">February 25, 2025</td><td data-label="Meeting" class="meet">DCIAA MS Championship</td></tr>
+                        <tr><td data-label="Event" class="cell-event">800m</td><td data-label="Performance" class="cell-perf"><span class="perf">02:30.1</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Pierce Leen</span></td><td data-label="Date" class="date">February 25, 2025</td><td data-label="Meeting" class="meet">DCIAA MS Championship</td></tr>
+                        <tr><td data-label="Event" class="cell-event">1600m</td><td data-label="Performance" class="cell-perf"><span class="perf">05:21.6</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Holden Consentino</span></td><td data-label="Date" class="date">February 25, 2025</td><td data-label="Meeting" class="meet">DCIAA MS Championship</td></tr>
+                        <tr><td data-label="Event" class="cell-event">4x200m</td><td data-label="Performance" class="cell-perf"><span class="perf">01:50.8</span></td><td data-label="Athlete" class="cell-athlete"><span class="squad">Nathan McAlpine, Marquis Roberts, Giulio Iacoviello, Stephen Jefferson</span></td><td data-label="Date" class="date">2017</td><td data-label="Meeting" class="meet"></td></tr>
+                        <tr><td data-label="Event" class="cell-event">4x400m</td><td data-label="Performance" class="cell-perf"><span class="perf">04:28.2</span></td><td data-label="Athlete" class="cell-athlete"><span class="squad">Pierce Leen, Max Munzer, Holden Consentino, Ulyses Stewart Torres</span></td><td data-label="Date" class="date">January 15, 2025</td><td data-label="Meeting" class="meet">DCIAA MS/HS Developmental</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section girls">
+            <h2>Field Events — Girls</h2>
+            <div class="table-wrap">
+                <table class="record-table">
+                    <thead>
+                        <tr><th>Event</th><th>Performance</th><th>Athlete</th><th>Date</th><th>Meeting</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td data-label="Event" class="cell-event">Shot Put</td><td data-label="Performance" class="cell-perf"><span class="perf">22' 5" (6.83m)</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Laura McEwen</span></td><td data-label="Date" class="date">December 12, 2019</td><td data-label="Meeting" class="meet">DCIAA MS/HS Developmental</td></tr>
+                        <tr><td data-label="Event" class="cell-event">Long Jump</td><td data-label="Performance" class="cell-perf"><span class="perf">17'</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Nyla Ward</span></td><td data-label="Date" class="date">January 28, 2015</td><td data-label="Meeting" class="meet">DCIAA MS Championship</td></tr>
+                        <tr><td data-label="Event" class="cell-event">Triple Jump</td><td data-label="Performance" class="cell-perf"><span class="perf">31' 4" (9.56m)</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Taylor McMahan</span></td><td data-label="Date" class="date">February 25, 2025</td><td data-label="Meeting" class="meet">DCIAA MS Championship</td></tr>
+                        <tr><td data-label="Event" class="cell-event">High Jump</td><td data-label="Performance" class="cell-perf"><span class="perf">4' 10" (1.47m)</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Laura McEwen</span></td><td data-label="Date" class="date">December 12, 2019</td><td data-label="Meeting" class="meet">DCIAA MS/HS Developmental</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section boys">
+            <h2>Field Events — Boys</h2>
+            <div class="table-wrap">
+                <table class="record-table">
+                    <thead>
+                        <tr><th>Event</th><th>Performance</th><th>Athlete</th><th>Date</th><th>Meeting</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td data-label="Event" class="cell-event">Shot Put</td><td data-label="Performance" class="cell-perf"><span class="perf">31' 4" (9.55m)</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Edward McKenna</span></td><td data-label="Date" class="date">January 29, 2020</td><td data-label="Meeting" class="meet">DCIAA MS/HS Championship</td></tr>
+                        <tr><td data-label="Event" class="cell-event">Long Jump</td><td data-label="Performance" class="cell-perf"><span class="perf">14' 01" (4.29m)</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Cole Mandaza</span></td><td data-label="Date" class="date">December 12, 2019</td><td data-label="Meeting" class="meet">DCIAA MS/HS Developmental</td></tr>
+                        <tr><td data-label="Event" class="cell-event">Triple Jump</td><td data-label="Performance" class="cell-perf"><span class="perf">33' 03" (10.13m)</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Elijah Wynn</span></td><td data-label="Date" class="date">December 12, 2019</td><td data-label="Meeting" class="meet">DCIAA MS/HS Developmental</td></tr>
+                        <tr><td data-label="Event" class="cell-event">High Jump</td><td data-label="Performance" class="cell-perf"><span class="perf">4' 8" (1.42m)</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Matthew Hemphill</span></td><td data-label="Date" class="date">January 15, 2025</td><td data-label="Meeting" class="meet">DCIAA MS/HS Developmental</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section" data-hide-on-search>
+            <h2>Sources &amp; Meet Results</h2>
+            <p class="note">Looking for your own times? Every meet we've drawn from is linked below. If you find links to missing meets, have results on paper, or notice any errors or omissions, please email <a href="mailto:dario.caldara@gmail.com">dario.caldara@gmail.com</a>.</p>
+            <div class="table-wrap">
+                <table class="record-table sources">
+                    <thead>
+                        <tr><th>School Year</th><th>Date</th><th>Meeting</th><th>Note</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td data-label="School Year">2014/2015</td><td data-label="Date" class="date">January 28, 2015</td><td data-label="Meeting"><a href="https://www.tfrrs.org/results/37365/DCIAA_Indoor_Track_and_Field_Championship_Middle_School">DCIAA MS Championship</a></td><td data-label="Note" class="flag"></td></tr>
+                        <tr><td data-label="School Year">2015/2016</td><td data-label="Date" class="date">January 27, 2016</td><td data-label="Meeting"><a href="https://www.tfrrs.org/results/42316/2016_DCIAA_Middle_School_Indoor_Track_and_Field_Championship">DCIAA MS Championship</a></td><td data-label="Note" class="flag"></td></tr>
+                        <tr><td data-label="School Year">2016/2017</td><td data-label="Date" class="date">December 7, 2016</td><td data-label="Meeting"><a href="https://results2.mdtimingllc.com/indoor_2017/dciaa1/">DCIAA ES/MS Developmental</a></td><td data-label="Note" class="flag">DCIAA but no Deal and Hardy</td></tr>
+                        <tr><td data-label="School Year">2016/2017</td><td data-label="Date" class="date">January 25, 2017</td><td data-label="Meeting"><a href="https://results2.mdtimingllc.com/indoor_2017/dciaahs/">DCIAA MS/HS Championship</a></td><td data-label="Note" class="flag">DCIAA but no Deal and Hardy</td></tr>
+                        <tr><td data-label="School Year">2017/2018</td><td data-label="Date" class="date">December 6, 2017</td><td data-label="Meeting"><a href="https://results2.mdtimingllc.com/indoor_2018/dciaa_esms/">DCIAA ES/MS Developmental</a></td><td data-label="Note" class="flag">Broken</td></tr>
+                        <tr><td data-label="School Year">2017/2018</td><td data-label="Date" class="date">January 3, 2018</td><td data-label="Meeting"><a href="https://results.mdtimingllc.com/meets/642">DCIAA Developmental</a></td><td data-label="Note" class="flag">Multiple results seem missing</td></tr>
+                        <tr><td data-label="School Year">2017/2018</td><td data-label="Date" class="date">January 24, 2018</td><td data-label="Meeting"><a href="https://results.mdtimingllc.com/meets/699">DCIAA MS/HS Championship</a></td><td data-label="Note" class="flag"></td></tr>
+                        <tr><td data-label="School Year">2018/2019</td><td data-label="Date" class="date">December 5, 2018</td><td data-label="Meeting"><a href="https://results2.mdtimingllc.com/indoor_2019/dciaaesms/">DCIAA ES/MS Developmental</a></td><td data-label="Note" class="flag"></td></tr>
+                        <tr><td data-label="School Year">2018/2019</td><td data-label="Date" class="date">January 9, 2019</td><td data-label="Meeting"><a href="https://results2.mdtimingllc.com/indoor_2019/dciaamshs/">DCIAA MS/HS Developmental</a></td><td data-label="Note" class="flag"></td></tr>
+                        <tr><td data-label="School Year">2018/2019</td><td data-label="Date" class="date">January 24, 2019</td><td data-label="Meeting"><a href="https://results2.mdtimingllc.com/indoor_2019/dciaamshschamps/">DCIAA MS/HS Championship</a></td><td data-label="Note" class="flag"></td></tr>
+                        <tr><td data-label="School Year">2019/2020</td><td data-label="Date" class="date">December 4, 2019</td><td data-label="Meeting"><a href="https://results2.mdtimingllc.com/indoor_2020/esms/">DCIAA ES/MS Developmental</a></td><td data-label="Note" class="flag"></td></tr>
+                        <tr><td data-label="School Year">2019/2020</td><td data-label="Date" class="date">December 12, 2019</td><td data-label="Meeting"><a href="https://results2.mdtimingllc.com/indoor_2020/dciaamshs/">DCIAA MS/HS Developmental</a></td><td data-label="Note" class="flag"></td></tr>
+                        <tr><td data-label="School Year">2019/2020</td><td data-label="Date" class="date">January 29, 2020</td><td data-label="Meeting"><a href="https://results2.mdtimingllc.com/indoor_2020/dcchamps/">DCIAA MS/HS Championship</a></td><td data-label="Note" class="flag"></td></tr>
+                        <tr><td data-label="School Year">2020/2021</td><td data-label="Date" class="date">COVID</td><td data-label="Meeting"></td><td data-label="Note" class="flag"></td></tr>
+                        <tr><td data-label="School Year">2021/2022</td><td data-label="Date" class="date">COVID</td><td data-label="Meeting"></td><td data-label="Note" class="flag"></td></tr>
+                        <tr><td data-label="School Year">2022/2023</td><td data-label="Date" class="date">January 11, 2023</td><td data-label="Meeting"><a href="https://results2.mdtimingllc.com/itf_23/dciaa1/">DCIAA MS/HS Developmental</a></td><td data-label="Note" class="flag"></td></tr>
+                        <tr><td data-label="School Year">2023/2024</td><td data-label="Date" class="date">January 18, 2024</td><td data-label="Meeting"><a href="https://results.mdtimingllc.com/meets/29702">DCIAA MS Developmental</a></td><td data-label="Note" class="flag"></td></tr>
+                        <tr><td data-label="School Year">2024/2025</td><td data-label="Date" class="date">January 15, 2025</td><td data-label="Meeting"><a href="https://www.athletic.net/TrackAndField/meet/575023/results">DCIAA MS/HS Developmental</a></td><td data-label="Note" class="flag"></td></tr>
+                        <tr><td data-label="School Year">2024/2025</td><td data-label="Date" class="date">February 25, 2025</td><td data-label="Meeting"><a href="https://results.mdtimingllc.com/meets/42558/teams/1081719">DCIAA MS Championship</a></td><td data-label="Note" class="flag"></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
 
         <div class="footer">
-            <p>&copy; <b>2025</b> Hardy Middle School. All rights reserved.</p>
-            <p>Last Updated: February 26, <b>2025</b></p>
+            <p>&copy; 2025 Hardy Middle School. All rights reserved.</p>
+            <p>Last Updated: February 26, 2025</p>
         </div>
     </div>
+
+    <script src="site.js"></script>
 </body>
 </html>
