@@ -219,6 +219,26 @@ a { color: var(--blue); }
   font-variant-numeric: tabular-nums;
 }
 
+/* Per-squad breakdown inside a card: fixed-width label so the Girls and
+   Boys figures line up in a column. */
+.sport-card .split {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  margin: 0 0 5px;
+}
+
+.sport-card .split:last-child { margin-bottom: 0; }
+
+.sport-card .who {
+  flex: 0 0 3.1em;
+  color: var(--text);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+
 /* ---------- Search ---------- */
 
 .search {
