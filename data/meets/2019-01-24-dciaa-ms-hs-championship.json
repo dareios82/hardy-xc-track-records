@@ -1,0 +1,495 @@
+﻿{
+    "meet":  "DCIAA MS/HS Championship",
+    "date":  "2019-01-24",
+    "season":  "indoor",
+    "school":  "Hardy Middle School",
+    "location":  "",
+    "source":  {
+                   "meet_url":  "https://results2.mdtimingllc.com/indoor_2019/dciaamshschamps/",
+                   "captured":  "2026-07-25",
+                   "method":  "parsed from static Hy-Tek results"
+               },
+    "individual":  [
+                       {
+                           "place":  1,
+                           "athlete":  "Sage Hudson",
+                           "gender":  "girls",
+                           "event":  "55 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "7.83",
+                           "points":  "10"
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Laura McEwen",
+                           "gender":  "girls",
+                           "event":  "55 Meter Dash",
+                           "grade":  "6",
+                           "mark":  "8.18",
+                           "points":  "6"
+                       },
+                       {
+                           "place":  16,
+                           "athlete":  "Kylie Smith",
+                           "gender":  "girls",
+                           "event":  "55 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "8.93",
+                           "points":  ""
+                       },
+                       {
+                           "place":  20,
+                           "athlete":  "Michelle Dunkley",
+                           "gender":  "girls",
+                           "event":  "300 Meter Dash",
+                           "grade":  "6",
+                           "mark":  "1:01.70",
+                           "points":  ""
+                       },
+                       {
+                           "place":  13,
+                           "athlete":  "Michelle Dunkley",
+                           "gender":  "girls",
+                           "event":  "500 Meter Dash",
+                           "grade":  "6",
+                           "mark":  "2:00.46",
+                           "points":  ""
+                       },
+                       {
+                           "place":  1,
+                           "athlete":  "Rebecca Khoury",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "8",
+                           "mark":  "2:54.99",
+                           "points":  "10"
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Laura Welles",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "7",
+                           "mark":  "3:00.51",
+                           "points":  "3"
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "Avajane Lei",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "7",
+                           "mark":  "3:18.80",
+                           "points":  ""
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Rebecca Khoury",
+                           "gender":  "girls",
+                           "event":  "1600 Meter Run",
+                           "grade":  "8",
+                           "mark":  "6:28.57",
+                           "points":  "8"
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Laura Welles",
+                           "gender":  "girls",
+                           "event":  "1600 Meter Run",
+                           "grade":  "7",
+                           "mark":  "6:53.06",
+                           "points":  "4"
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "Avajane Lei",
+                           "gender":  "girls",
+                           "event":  "1600 Meter Run",
+                           "grade":  "7",
+                           "mark":  "7:11.90",
+                           "points":  ""
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Laura McEwen",
+                           "gender":  "girls",
+                           "event":  "55 Meter Hurdles",
+                           "grade":  "6",
+                           "mark":  "10.72",
+                           "points":  "8"
+                       },
+                       {
+                           "place":  1,
+                           "athlete":  "Laura McEwen",
+                           "gender":  "girls",
+                           "event":  "High Jump",
+                           "grade":  "6",
+                           "mark":  "4-06.00",
+                           "points":  "10"
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Eleanora Metelski",
+                           "gender":  "girls",
+                           "event":  "High Jump",
+                           "grade":  "6",
+                           "mark":  "4-00.00",
+                           "points":  "6"
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Rebecca Khoury",
+                           "gender":  "girls",
+                           "event":  "High Jump",
+                           "grade":  "8",
+                           "mark":  "3-08.00",
+                           "points":  "1"
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Kylie Smith",
+                           "gender":  "girls",
+                           "event":  "Long Jump",
+                           "grade":  "8",
+                           "mark":  "11-04.00",
+                           "points":  "8"
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Zoe Antczak-Chung",
+                           "gender":  "girls",
+                           "event":  "Long Jump",
+                           "grade":  "7",
+                           "mark":  "J11-04.00",
+                           "points":  "6"
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Jannat Dbilij",
+                           "gender":  "girls",
+                           "event":  "Long Jump",
+                           "grade":  "7",
+                           "mark":  "10-06.50",
+                           "points":  "2"
+                       },
+                       {
+                           "place":  4,
+                           "athlete":  "Zoe Antczak-Chung",
+                           "gender":  "girls",
+                           "event":  "Triple Jump",
+                           "grade":  "7",
+                           "mark":  "25-11.50",
+                           "points":  "5"
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Kylie Smith",
+                           "gender":  "girls",
+                           "event":  "Triple Jump",
+                           "grade":  "8",
+                           "mark":  "25-05.00",
+                           "points":  "4"
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "Jannat Dbilij",
+                           "gender":  "girls",
+                           "event":  "Triple Jump",
+                           "grade":  "7",
+                           "mark":  "23-00.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "Eleanora Metelski",
+                           "gender":  "girls",
+                           "event":  "Shot Put",
+                           "grade":  "6",
+                           "mark":  "17-09.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  23,
+                           "athlete":  "Jalen Pope",
+                           "gender":  "boys",
+                           "event":  "55 Meter Dash",
+                           "grade":  "7",
+                           "mark":  "9.11",
+                           "points":  ""
+                       },
+                       {
+                           "place":  21,
+                           "athlete":  "Jalen Pope",
+                           "gender":  "boys",
+                           "event":  "300 Meter Dash",
+                           "grade":  "7",
+                           "mark":  "57.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "Martin Welles",
+                           "gender":  "boys",
+                           "event":  "500 Meter Dash",
+                           "grade":  "7",
+                           "mark":  "1:34.23",
+                           "points":  ""
+                       },
+                       {
+                           "place":  10,
+                           "athlete":  "Tyler Kenney",
+                           "gender":  "boys",
+                           "event":  "500 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "1:36.43",
+                           "points":  ""
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "Ma Andersson-Potterveld",
+                           "gender":  "boys",
+                           "event":  "500 Meter Dash",
+                           "grade":  "6",
+                           "mark":  "1:38.36",
+                           "points":  ""
+                       },
+                       {
+                           "place":  10,
+                           "athlete":  "Ben Kaiser-Bulmash",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "8",
+                           "mark":  "2:48.63",
+                           "points":  ""
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "Martin Welles",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "7",
+                           "mark":  "2:50.09",
+                           "points":  ""
+                       },
+                       {
+                           "place":  12,
+                           "athlete":  "Tyler Kenney",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "8",
+                           "mark":  "2:52.54",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Ben Kaiser-Bulmash",
+                           "gender":  "boys",
+                           "event":  "1600 Meter Run",
+                           "grade":  "8",
+                           "mark":  "6:05.04",
+                           "points":  "2"
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "Martin Welles",
+                           "gender":  "boys",
+                           "event":  "1600 Meter Run",
+                           "grade":  "7",
+                           "mark":  "6:09.58",
+                           "points":  ""
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "William Schwendinger",
+                           "gender":  "boys",
+                           "event":  "1600 Meter Run",
+                           "grade":  "7",
+                           "mark":  "6:34.01",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Mason Eva-Buckner",
+                           "gender":  "boys",
+                           "event":  "55 Meter Hurdles",
+                           "grade":  "8",
+                           "mark":  "11.01",
+                           "points":  "3"
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Jalen Pope",
+                           "gender":  "boys",
+                           "event":  "55 Meter Hurdles",
+                           "grade":  "7",
+                           "mark":  "11.29",
+                           "points":  "1"
+                       },
+                       {
+                           "place":  12,
+                           "athlete":  "Max Eller",
+                           "gender":  "boys",
+                           "event":  "55 Meter Hurdles",
+                           "grade":  "7",
+                           "mark":  "11.73",
+                           "points":  ""
+                       },
+                       {
+                           "place":  16,
+                           "athlete":  "Mason Eva-Buckner",
+                           "gender":  "boys",
+                           "event":  "High Jump",
+                           "grade":  "8",
+                           "mark":  "J4-02.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  20,
+                           "athlete":  "Philip Sipher",
+                           "gender":  "boys",
+                           "event":  "High Jump",
+                           "grade":  "8",
+                           "mark":  "J3-10.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Philip Sipher",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "8",
+                           "mark":  "11-06.00",
+                           "points":  "2"
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "Max Eller",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "7",
+                           "mark":  "11-03.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  15,
+                           "athlete":  "Robert Welles",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "6",
+                           "mark":  "9-08.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Ricardo Hardy",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "7",
+                           "mark":  "26-09.75",
+                           "points":  "2"
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "Ma Andersson-Potterveld",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "6",
+                           "mark":  "25-03.75",
+                           "points":  ""
+                       },
+                       {
+                           "place":  15,
+                           "athlete":  "Max Eller",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "7",
+                           "mark":  "24-04.25",
+                           "points":  ""
+                       },
+                       {
+                           "place":  18,
+                           "athlete":  "Robert Welles",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "6",
+                           "mark":  "22-04.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Edward McKenna",
+                           "gender":  "boys",
+                           "event":  "Shot Put",
+                           "grade":  "7",
+                           "mark":  "27-05.00",
+                           "points":  "4"
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "Ricardo Hardy",
+                           "gender":  "boys",
+                           "event":  "Shot Put",
+                           "grade":  "7",
+                           "mark":  "20-03.00",
+                           "points":  ""
+                       }
+                   ],
+    "relays":  [
+                   {
+                       "place":  1,
+                       "gender":  "girls",
+                       "event":  "4x200 Meter Relay",
+                       "mark":  "2:01.60",
+                       "squad":  "A",
+                       "points":  "10",
+                       "athletes":  [
+                                        "Laura McEwen",
+                                        "Kylie Smith",
+                                        "Anna Khoury",
+                                        "Sage Hudson"
+                                    ]
+                   },
+                   {
+                       "place":  4,
+                       "gender":  "girls",
+                       "event":  "4x400 Meter Relay",
+                       "mark":  "5:43.18",
+                       "squad":  "A",
+                       "points":  "5",
+                       "athletes":  [
+                                        "Michelle Dunkley",
+                                        "Anna Khoury",
+                                        "Laura Welles",
+                                        "Rebecca Khoury"
+                                    ]
+                   },
+                   {
+                       "place":  8,
+                       "gender":  "boys",
+                       "event":  "4x200 Meter Relay",
+                       "mark":  "2:12.18",
+                       "squad":  "A",
+                       "points":  "1",
+                       "athletes":  [
+                                        "Jalen Pope",
+                                        "Mats Andersson-Potterveld",
+                                        "Max Eller",
+                                        "Mason Eva-Buckner"
+                                    ]
+                   },
+                   {
+                       "place":  4,
+                       "gender":  "boys",
+                       "event":  "4x400 Meter Relay",
+                       "mark":  "4:53.37",
+                       "squad":  "A",
+                       "points":  "5",
+                       "athletes":  [
+                                        "Tyler Kenney",
+                                        "William Schwendinger",
+                                        "Ben Kaiser-Bulmash",
+                                        "Martin Welles"
+                                    ]
+                   }
+               ]
+}

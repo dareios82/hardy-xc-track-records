@@ -1,0 +1,236 @@
+﻿{
+    "meet":  "DCIAA MS Developmental",
+    "date":  "2023-04-12",
+    "season":  "outdoor",
+    "school":  "Hardy Middle School",
+    "location":  "Spingarn, DC",
+    "source":  {
+                   "meet_url":  "https://www.milesplit.com/meets/535807-dciaa-middle-school-developmental-meet-2023/results/922993?type=raw",
+                   "captured":  "2026-07-25",
+                   "method":  "parsed from static Hy-Tek results"
+               },
+    "individual":  [
+                       {
+                           "place":  13,
+                           "athlete":  "Taylor McMahan",
+                           "gender":  "girls",
+                           "event":  "100 Meter Dash",
+                           "grade":  "",
+                           "mark":  "14.47",
+                           "points":  ""
+                       },
+                       {
+                           "place":  10,
+                           "athlete":  "Taylor McMahan",
+                           "gender":  "girls",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "31.92",
+                           "points":  ""
+                       },
+                       {
+                           "place":  13,
+                           "athlete":  "Tinsley Barmeyer",
+                           "gender":  "girls",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "32.65",
+                           "points":  ""
+                       },
+                       {
+                           "place":  4,
+                           "athlete":  "Aven Joseph",
+                           "gender":  "girls",
+                           "event":  "400 Meter Dash",
+                           "grade":  "",
+                           "mark":  "1:12.02",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Tinsley Barmeyer",
+                           "gender":  "girls",
+                           "event":  "400 Meter Dash",
+                           "grade":  "",
+                           "mark":  "1:14.01",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Isabelle Pessey",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "2:54.34",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Hannah Malm",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "2:58.68",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Isabelle Pessey",
+                           "gender":  "girls",
+                           "event":  "1600 Meter Run",
+                           "grade":  "",
+                           "mark":  "6:51.37",
+                           "points":  ""
+                       },
+                       {
+                           "place":  12,
+                           "athlete":  "Hannah Malm",
+                           "gender":  "girls",
+                           "event":  "1600 Meter Run",
+                           "grade":  "",
+                           "mark":  "7:40.79",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Taylor McMahan",
+                           "gender":  "girls",
+                           "event":  "Long Jump",
+                           "grade":  "",
+                           "mark":  "14-04.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Aven Joseph",
+                           "gender":  "girls",
+                           "event":  "Triple Jump",
+                           "grade":  "",
+                           "mark":  "24-05.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  13,
+                           "athlete":  "Kai Newman",
+                           "gender":  "boys",
+                           "event":  "400 Meter Dash",
+                           "grade":  "",
+                           "mark":  "1:06.75",
+                           "points":  ""
+                       },
+                       {
+                           "place":  22,
+                           "athlete":  "Elias Aritman",
+                           "gender":  "boys",
+                           "event":  "400 Meter Dash",
+                           "grade":  "",
+                           "mark":  "1:09.29",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Dennis Beath",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "2:39.86",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Lars Kearney",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "2:42.19",
+                           "points":  ""
+                       },
+                       {
+                           "place":  16,
+                           "athlete":  "Cameron Howes",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "2:54.26",
+                           "points":  ""
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Lars Kearney",
+                           "gender":  "boys",
+                           "event":  "1600 Meter Run",
+                           "grade":  "",
+                           "mark":  "5:55.57",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Dennis Beath",
+                           "gender":  "boys",
+                           "event":  "1600 Meter Run",
+                           "grade":  "",
+                           "mark":  "6:27.30",
+                           "points":  ""
+                       },
+                       {
+                           "place":  15,
+                           "athlete":  "Cameron Howes",
+                           "gender":  "boys",
+                           "event":  "1600 Meter Run",
+                           "grade":  "",
+                           "mark":  "7:18.57",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Kai Newman",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "",
+                           "mark":  "J11-08.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Kai Newman",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "",
+                           "mark":  "27-02.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "Elias Aritman",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "",
+                           "mark":  "25-01.00",
+                           "points":  ""
+                       }
+                   ],
+    "relays":  [
+                   {
+                       "place":  10,
+                       "gender":  "girls",
+                       "event":  "4x100 Meter Relay",
+                       "mark":  "1:01.78",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  5,
+                       "gender":  "girls",
+                       "event":  "4x400 Meter Relay",
+                       "mark":  "5:28.76",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   }
+               ]
+}

@@ -1,0 +1,284 @@
+﻿{
+    "meet":  "DCIAA MS Relays \u0026 Field",
+    "date":  "2019-04-11",
+    "season":  "outdoor",
+    "school":  "Hardy Middle School",
+    "location":  "Spingarn, DC",
+    "source":  {
+                   "meet_url":  "https://dc.milesplit.com/meets/351456-dciaa-elementary-and-middle-school-relay-meet-2019/results",
+                   "captured":  "2026-07-25",
+                   "method":  "parsed from static Hy-Tek results"
+               },
+    "individual":  [
+                       {
+                           "place":  1,
+                           "athlete":  "Laura McEwen",
+                           "gender":  "girls",
+                           "event":  "High Jump Middle",
+                           "grade":  "",
+                           "mark":  "4-04.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Laura McEwen",
+                           "gender":  "girls",
+                           "event":  "Long Jump Middle",
+                           "grade":  "",
+                           "mark":  "12-11.25",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Zo Antczak-Chung",
+                           "gender":  "girls",
+                           "event":  "Long Jump Middle",
+                           "grade":  "",
+                           "mark":  "11-00.25",
+                           "points":  ""
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Zo Antczak-Chung",
+                           "gender":  "girls",
+                           "event":  "Triple Jump Middle",
+                           "grade":  "",
+                           "mark":  "24-04.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Taliaferro Brunn,",
+                           "gender":  "girls",
+                           "event":  "Shot Put Middle",
+                           "grade":  "",
+                           "mark":  "23-04.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Eleanor Metelski",
+                           "gender":  "girls",
+                           "event":  "Shot Put Middle",
+                           "grade":  "",
+                           "mark":  "19-03.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Taliaferro Brunn,",
+                           "gender":  "girls",
+                           "event":  "Discus Throw Middle",
+                           "grade":  "",
+                           "mark":  "33-02",
+                           "points":  ""
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Eleanor Metelski",
+                           "gender":  "girls",
+                           "event":  "Discus Throw Middle",
+                           "grade":  "",
+                           "mark":  "26-11",
+                           "points":  ""
+                       },
+                       {
+                           "place":  10,
+                           "athlete":  "Maso Eva-Buckner",
+                           "gender":  "boys",
+                           "event":  "High Jump Middle",
+                           "grade":  "",
+                           "mark":  "3-06.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  10,
+                           "athlete":  "Elijah Wynn",
+                           "gender":  "boys",
+                           "event":  "High Jump Middle",
+                           "grade":  "",
+                           "mark":  "3-06.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Amare Carter",
+                           "gender":  "boys",
+                           "event":  "High Jump Middle",
+                           "grade":  "",
+                           "mark":  "NH",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Andersson-Potterv",
+                           "gender":  "boys",
+                           "event":  "Long Jump Middle",
+                           "grade":  "",
+                           "mark":  "12-03.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "Tyler Wilborn",
+                           "gender":  "boys",
+                           "event":  "Long Jump Middle",
+                           "grade":  "",
+                           "mark":  "11-08.25",
+                           "points":  ""
+                       },
+                       {
+                           "place":  13,
+                           "athlete":  "Max Eller",
+                           "gender":  "boys",
+                           "event":  "Long Jump Middle",
+                           "grade":  "",
+                           "mark":  "11-03.25",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Martin Welles",
+                           "gender":  "boys",
+                           "event":  "Triple Jump Middle",
+                           "grade":  "",
+                           "mark":  "25-07.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  4,
+                           "athlete":  "Max Eller",
+                           "gender":  "boys",
+                           "event":  "Triple Jump Middle",
+                           "grade":  "",
+                           "mark":  "25-06.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Andersson-Potterv",
+                           "gender":  "boys",
+                           "event":  "Triple Jump Middle",
+                           "grade":  "",
+                           "mark":  "25-01.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Andre Carter",
+                           "gender":  "boys",
+                           "event":  "Discus Throw Middle",
+                           "grade":  "",
+                           "mark":  "61-11",
+                           "points":  ""
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "Edward McKenna",
+                           "gender":  "boys",
+                           "event":  "Discus Throw Middle",
+                           "grade":  "",
+                           "mark":  "52-11",
+                           "points":  ""
+                       },
+                       {
+                           "place":  16,
+                           "athlete":  "John Grimm",
+                           "gender":  "boys",
+                           "event":  "Discus Throw Middle",
+                           "grade":  "",
+                           "mark":  "37-05",
+                           "points":  ""
+                       }
+                   ],
+    "relays":  [
+                   {
+                       "place":  1,
+                       "gender":  "girls",
+                       "event":  "4x100 Meter Relay Middle",
+                       "mark":  "57.69",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  24,
+                       "gender":  "girls",
+                       "event":  "4x100 Meter Relay Middle",
+                       "mark":  "x1:10.64",
+                       "squad":  "B",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  3,
+                       "gender":  "girls",
+                       "event":  "4x800 Meter Relay Middle",
+                       "mark":  "13:34.12",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  16,
+                       "gender":  "girls",
+                       "event":  "1600 Sprint Medley Middle",
+                       "mark":  "x2:43.44",
+                       "squad":  "B",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  12,
+                       "gender":  "boys",
+                       "event":  "4x100 Meter Relay Middle",
+                       "mark":  "59.07",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  20,
+                       "gender":  "boys",
+                       "event":  "4x100 Meter Relay Middle",
+                       "mark":  "x1:07.20",
+                       "squad":  "B",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  5,
+                       "gender":  "boys",
+                       "event":  "4x800 Meter Relay Middle",
+                       "mark":  "11:56.29",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  12,
+                       "gender":  "boys",
+                       "event":  "1600 Sprint Medley Middle",
+                       "mark":  "2:50.64",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   }
+               ]
+}

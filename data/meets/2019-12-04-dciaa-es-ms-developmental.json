@@ -1,0 +1,541 @@
+﻿{
+    "meet":  "DCIAA ES/MS Developmental",
+    "date":  "2019-12-04",
+    "season":  "indoor",
+    "school":  "Hardy Middle School",
+    "location":  "",
+    "source":  {
+                   "meet_url":  "https://results2.mdtimingllc.com/indoor_2020/esms/",
+                   "captured":  "2026-07-25",
+                   "method":  "parsed from static Hy-Tek results"
+               },
+    "individual":  [
+                       {
+                           "place":  2,
+                           "athlete":  "Laura McEwen",
+                           "gender":  "girls",
+                           "event":  "55 Meter Dash",
+                           "grade":  "7",
+                           "mark":  "7.95",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Indie Wallace",
+                           "gender":  "girls",
+                           "event":  "55 Meter Dash",
+                           "grade":  "7",
+                           "mark":  "8.12",
+                           "points":  ""
+                       },
+                       {
+                           "place":  4,
+                           "athlete":  "Laura McEwen",
+                           "gender":  "girls",
+                           "event":  "300 Meter Dash",
+                           "grade":  "7",
+                           "mark":  "48.60",
+                           "points":  ""
+                       },
+                       {
+                           "place":  26,
+                           "athlete":  "Marie-Celeste Pessey",
+                           "gender":  "girls",
+                           "event":  "300 Meter Dash",
+                           "grade":  "6",
+                           "mark":  "1:01.48",
+                           "points":  ""
+                       },
+                       {
+                           "place":  30,
+                           "athlete":  "Jada McQueen",
+                           "gender":  "girls",
+                           "event":  "300 Meter Dash",
+                           "grade":  "7",
+                           "mark":  "1:07.11",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Avajane Lei",
+                           "gender":  "girls",
+                           "event":  "500 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "1:45.72",
+                           "points":  ""
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "Lucia Mikaelian",
+                           "gender":  "girls",
+                           "event":  "500 Meter Dash",
+                           "grade":  "7",
+                           "mark":  "1:50.12",
+                           "points":  ""
+                       },
+                       {
+                           "place":  15,
+                           "athlete":  "Riley MacClellan",
+                           "gender":  "girls",
+                           "event":  "500 Meter Dash",
+                           "grade":  "6",
+                           "mark":  "1:52.47",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Neve O\u0027Connell",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "6",
+                           "mark":  "3:10.02",
+                           "points":  ""
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Annika Russell",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "6",
+                           "mark":  "3:13.47",
+                           "points":  ""
+                       },
+                       {
+                           "place":  10,
+                           "athlete":  "Lucia Mikaelian",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "7",
+                           "mark":  "3:15.28",
+                           "points":  ""
+                       },
+                       {
+                           "place":  15,
+                           "athlete":  "Riley MacClellan",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "6",
+                           "mark":  "3:28.53",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Annika Russell",
+                           "gender":  "girls",
+                           "event":  "1600 Meter Run",
+                           "grade":  "6",
+                           "mark":  "6:39.26",
+                           "points":  ""
+                       },
+                       {
+                           "place":  4,
+                           "athlete":  "Rohini Kieffer",
+                           "gender":  "girls",
+                           "event":  "1600 Meter Run",
+                           "grade":  "7",
+                           "mark":  "6:48.11",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Josephine Caplan",
+                           "gender":  "girls",
+                           "event":  "1600 Meter Run",
+                           "grade":  "7",
+                           "mark":  "6:52.79",
+                           "points":  ""
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Norah Caplan",
+                           "gender":  "girls",
+                           "event":  "1600 Meter Run",
+                           "grade":  "7",
+                           "mark":  "6:53.40",
+                           "points":  ""
+                       },
+                       {
+                           "place":  1,
+                           "athlete":  "Laura McEwen",
+                           "gender":  "girls",
+                           "event":  "High Jump",
+                           "grade":  "7",
+                           "mark":  "4-06.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Indie Wallace",
+                           "gender":  "girls",
+                           "event":  "High Jump",
+                           "grade":  "7",
+                           "mark":  "J4-00.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  1,
+                           "athlete":  "Laura McEwen",
+                           "gender":  "girls",
+                           "event":  "Long Jump",
+                           "grade":  "7",
+                           "mark":  "14-10.25",
+                           "points":  ""
+                       },
+                       {
+                           "place":  13,
+                           "athlete":  "Marie-Celeste Pessey",
+                           "gender":  "girls",
+                           "event":  "Long Jump",
+                           "grade":  "6",
+                           "mark":  "8-10.25",
+                           "points":  ""
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Norah Caplan",
+                           "gender":  "girls",
+                           "event":  "Triple Jump",
+                           "grade":  "7",
+                           "mark":  "20-07.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  10,
+                           "athlete":  "Neve O\u0027Connell",
+                           "gender":  "girls",
+                           "event":  "Triple Jump",
+                           "grade":  "6",
+                           "mark":  "19-02.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  12,
+                           "athlete":  "Josephine Caplan",
+                           "gender":  "girls",
+                           "event":  "Triple Jump",
+                           "grade":  "7",
+                           "mark":  "16-11.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  12,
+                           "athlete":  "Eden Elias",
+                           "gender":  "girls",
+                           "event":  "Shot Put",
+                           "grade":  "7",
+                           "mark":  "16-02.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "Isaiah Wynn",
+                           "gender":  "boys",
+                           "event":  "55 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "8.05",
+                           "points":  ""
+                       },
+                       {
+                           "place":  12,
+                           "athlete":  "Elijah Wynn",
+                           "gender":  "boys",
+                           "event":  "55 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "8.23",
+                           "points":  ""
+                       },
+                       {
+                           "place":  28,
+                           "athlete":  "Lucas Dimou",
+                           "gender":  "boys",
+                           "event":  "55 Meter Dash",
+                           "grade":  "7",
+                           "mark":  "12.02",
+                           "points":  ""
+                       },
+                       {
+                           "place":  4,
+                           "athlete":  "Isaiah Wynn",
+                           "gender":  "boys",
+                           "event":  "300 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "47.51",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Elijah Wynn",
+                           "gender":  "boys",
+                           "event":  "300 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "47.93",
+                           "points":  ""
+                       },
+                       {
+                           "place":  13,
+                           "athlete":  "Lucas Dimou",
+                           "gender":  "boys",
+                           "event":  "300 Meter Dash",
+                           "grade":  "7",
+                           "mark":  "56.92",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Cole Mandaza",
+                           "gender":  "boys",
+                           "event":  "500 Meter Dash",
+                           "grade":  "7",
+                           "mark":  "1:33.34",
+                           "points":  ""
+                       },
+                       {
+                           "place":  17,
+                           "athlete":  "Alejandro Gomez",
+                           "gender":  "boys",
+                           "event":  "500 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "1:49.79",
+                           "points":  ""
+                       },
+                       {
+                           "place":  25,
+                           "athlete":  "Rasheed Hardy",
+                           "gender":  "boys",
+                           "event":  "500 Meter Dash",
+                           "grade":  "3",
+                           "mark":  "2:31.70",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Ricardo Hardy",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "8",
+                           "mark":  "2:37.53",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Leonardo Almagro",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "7",
+                           "mark":  "2:44.39",
+                           "points":  ""
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "Ma Andersson-Potterveld",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "7",
+                           "mark":  "2:50.30",
+                           "points":  ""
+                       },
+                       {
+                           "place":  18,
+                           "athlete":  "Jacob Gagosian",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "8",
+                           "mark":  "3:20.31",
+                           "points":  ""
+                       },
+                       {
+                           "place":  24,
+                           "athlete":  "Robert Welles",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "7",
+                           "mark":  "3:40.76",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Leonardo Almagro",
+                           "gender":  "boys",
+                           "event":  "1600 Meter Run",
+                           "grade":  "7",
+                           "mark":  "5:51.79",
+                           "points":  ""
+                       },
+                       {
+                           "place":  14,
+                           "athlete":  "Jacob Gagosian",
+                           "gender":  "boys",
+                           "event":  "1600 Meter Run",
+                           "grade":  "8",
+                           "mark":  "7:04.03",
+                           "points":  ""
+                       },
+                       {
+                           "place":  16,
+                           "athlete":  "William Floman",
+                           "gender":  "boys",
+                           "event":  "1600 Meter Run",
+                           "grade":  "8",
+                           "mark":  "7:09.84",
+                           "points":  ""
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Elijah Wynn",
+                           "gender":  "boys",
+                           "event":  "High Jump",
+                           "grade":  "8",
+                           "mark":  "J4-06.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  4,
+                           "athlete":  "Tyler Wilborn",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "7",
+                           "mark":  "12-04.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Isaiah Wynn",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "8",
+                           "mark":  "11-03.75",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Alejandro Gomez",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "8",
+                           "mark":  "10-10.75",
+                           "points":  ""
+                       },
+                       {
+                           "place":  1,
+                           "athlete":  "Robert Welles",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "7",
+                           "mark":  "32-06.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Ricardo Hardy",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "8",
+                           "mark":  "29-11.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Ma Andersson-Potterveld",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "7",
+                           "mark":  "25-05.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Edward McKenna",
+                           "gender":  "boys",
+                           "event":  "Shot Put",
+                           "grade":  "8",
+                           "mark":  "31-00.00",
+                           "points":  ""
+                       }
+                   ],
+    "relays":  [
+                   {
+                       "place":  8,
+                       "gender":  "girls",
+                       "event":  "4x200 Meter Relay",
+                       "mark":  "2:24.69",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+                                        "Neve O\u0027Connell",
+                                        "Marie-Celeste Pessey",
+                                        "Jada McQueen",
+                                        "Indie Wallace"
+                                    ]
+                   },
+                   {
+                       "place":  5,
+                       "gender":  "girls",
+                       "event":  "4x400 Meter Relay",
+                       "mark":  "5:43.75",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+                                        "Norah Caplan",
+                                        "Josephine Caplan",
+                                        "Lucia Mikaelian",
+                                        "Rohini Kieffer"
+                                    ]
+                   },
+                   {
+                       "place":  7,
+                       "gender":  "girls",
+                       "event":  "4x400 Meter Relay",
+                       "mark":  "5:56.41",
+                       "squad":  "B",
+                       "points":  "",
+                       "athletes":  [
+                                        "Neve O\u0027Connell",
+                                        "Marie-Celeste Pessey",
+                                        "Riley MacClellan",
+                                        "Avajane Lei"
+                                    ]
+                   },
+                   {
+                       "place":  4,
+                       "gender":  "boys",
+                       "event":  "4x200 Meter Relay",
+                       "mark":  "2:01.50",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+                                        "Cole Mandaza",
+                                        "Elijah Wynn",
+                                        "Isaiah Wynn",
+                                        "Lucas Dimou"
+                                    ]
+                   },
+                   {
+                       "place":  4,
+                       "gender":  "boys",
+                       "event":  "4x400 Meter Relay",
+                       "mark":  "4:56.02",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+                                        "Mats Andersson-Potterveld",
+                                        "Tyler Wilborn",
+                                        "Alejandro Gomez",
+                                        "Leonardo Almagro"
+                                    ]
+                   },
+                   {
+                       "place":  9,
+                       "gender":  "boys",
+                       "event":  "4x400 Meter Relay",
+                       "mark":  "5:41.47",
+                       "squad":  "B",
+                       "points":  "",
+                       "athletes":  [
+                                        "Cole Mandaza",
+                                        "William Floman",
+                                        "Robert Welles",
+                                        "Jacob Gagosian"
+                                    ]
+                   }
+               ]
+}

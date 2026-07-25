@@ -1,0 +1,483 @@
+﻿{
+    "meet":  "DCIAA MS Championship",
+    "date":  "2017-05-12",
+    "season":  "outdoor",
+    "school":  "Hardy Middle School",
+    "location":  "Spingarn, DC",
+    "source":  {
+                   "meet_url":  "https://results2.mdtimingllc.com/outdoor_2017/mschamps/",
+                   "captured":  "2026-07-25",
+                   "method":  "parsed from static Hy-Tek results"
+               },
+    "individual":  [
+                       {
+                           "place":  6,
+                           "athlete":  "Alaila Jenkins",
+                           "gender":  "girls",
+                           "event":  "100 Meter Hurdles",
+                           "grade":  "",
+                           "mark":  "22.41",
+                           "points":  "3"
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Annabelle Harbold",
+                           "gender":  "girls",
+                           "event":  "100 Meter Hurdles",
+                           "grade":  "",
+                           "mark":  "23.03",
+                           "points":  "2"
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Erin O\u0027Neill",
+                           "gender":  "girls",
+                           "event":  "100 Meter Hurdles",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  1,
+                           "athlete":  "Aaron Jones",
+                           "gender":  "boys",
+                           "event":  "110 Meter Hurdles",
+                           "grade":  "",
+                           "mark":  "20.42",
+                           "points":  "10"
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Emily Almagro",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "2:48.31",
+                           "points":  "8"
+                       },
+                       {
+                           "place":  4,
+                           "athlete":  "Annabelle Harbold",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "2:55.64",
+                           "points":  "5"
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Be Kaiser-Bulmash",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Sacha Gregoire",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  17,
+                           "athlete":  "Kylie Smith",
+                           "gender":  "girls",
+                           "event":  "100 Meter Dash",
+                           "grade":  "",
+                           "mark":  "",
+                           "points":  ""
+                       },
+                       {
+                           "place":  28,
+                           "athlete":  "Jordan Goings",
+                           "gender":  "girls",
+                           "event":  "100 Meter Dash",
+                           "grade":  "",
+                           "mark":  "",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Charity Jones",
+                           "gender":  "girls",
+                           "event":  "100 Meter Dash",
+                           "grade":  "",
+                           "mark":  "",
+                           "points":  ""
+                       },
+                       {
+                           "place":  1,
+                           "athlete":  "Aaron Jones",
+                           "gender":  "boys",
+                           "event":  "100 Meter Dash",
+                           "grade":  "",
+                           "mark":  "11.85",
+                           "points":  "10"
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Stephen Jefferson",
+                           "gender":  "boys",
+                           "event":  "100 Meter Dash",
+                           "grade":  "",
+                           "mark":  "12.77",
+                           "points":  "6"
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Ethan Andrade",
+                           "gender":  "boys",
+                           "event":  "100 Meter Dash",
+                           "grade":  "",
+                           "mark":  "",
+                           "points":  ""
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Emily Almagro",
+                           "gender":  "girls",
+                           "event":  "1600 Meter Run",
+                           "grade":  "",
+                           "mark":  "6:11.33",
+                           "points":  "8"
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Raven Jackson",
+                           "gender":  "girls",
+                           "event":  "400 Meter Dash",
+                           "grade":  "",
+                           "mark":  "1:15.06",
+                           "points":  "1"
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Erin O\u0027Neill",
+                           "gender":  "girls",
+                           "event":  "400 Meter Dash",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Marquis Roberts",
+                           "gender":  "boys",
+                           "event":  "400 Meter Dash",
+                           "grade":  "",
+                           "mark":  "1:01.85",
+                           "points":  "6"
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Sacha Gregoire",
+                           "gender":  "boys",
+                           "event":  "400 Meter Dash",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  13,
+                           "athlete":  "Jade Gregoire",
+                           "gender":  "girls",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "32.34",
+                           "points":  ""
+                       },
+                       {
+                           "place":  22,
+                           "athlete":  "Jordan Goings",
+                           "gender":  "girls",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "37.68",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Erin O\u0027Neill",
+                           "gender":  "girls",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Raven Jackson",
+                           "gender":  "girls",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  1,
+                           "athlete":  "Aaron Jones",
+                           "gender":  "boys",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "25.22",
+                           "points":  "10"
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Stephen Jefferson",
+                           "gender":  "boys",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "26.75",
+                           "points":  "6"
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Guilio Iacoviello",
+                           "gender":  "boys",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Ethan Andrade",
+                           "gender":  "boys",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Ayva Tillmon",
+                           "gender":  "girls",
+                           "event":  "Long Jump",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Nathan Mcalpine",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "",
+                           "mark":  "16-04.50",
+                           "points":  "8"
+                       },
+                       {
+                           "place":  20,
+                           "athlete":  "Guilio Iacoviello",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "",
+                           "mark":  "10-01.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Jordan Goings",
+                           "gender":  "girls",
+                           "event":  "Triple Jump",
+                           "grade":  "",
+                           "mark":  "FOUL",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Ayva Tillmon",
+                           "gender":  "girls",
+                           "event":  "Triple Jump",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Guilio Iacoviello",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "",
+                           "mark":  "FOUL",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Marquis Roberts",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  18,
+                           "athlete":  "Ayva Tillmon",
+                           "gender":  "girls",
+                           "event":  "Shot Put",
+                           "grade":  "",
+                           "mark":  "12-11.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Charity Jones",
+                           "gender":  "girls",
+                           "event":  "Shot Put",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  12,
+                           "athlete":  "Jabbar Eatmon",
+                           "gender":  "boys",
+                           "event":  "Shot Put",
+                           "grade":  "",
+                           "mark":  "20-03.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Ayva Tillmon",
+                           "gender":  "girls",
+                           "event":  "Discus Throw",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Charity Jones",
+                           "gender":  "girls",
+                           "event":  "Discus Throw",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  13,
+                           "athlete":  "Jabbar Eatmon",
+                           "gender":  "boys",
+                           "event":  "Discus Throw",
+                           "grade":  "",
+                           "mark":  "34-00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Nathan Mcalpine",
+                           "gender":  "boys",
+                           "event":  "High Jump",
+                           "grade":  "",
+                           "mark":  "4-04.00",
+                           "points":  "3.50"
+                       }
+                   ],
+    "relays":  [
+                   {
+                       "place":  6,
+                       "gender":  "girls",
+                       "event":  "4x200 Meter Relay",
+                       "mark":  "2:11.57",
+                       "squad":  "A",
+                       "points":  "3",
+                       "athletes":  [
+                                        "Kylie Smith",
+                                        "Raven Jackson",
+                                        "Alaila Jenkins",
+                                        "Jade Gregoire"
+                                    ]
+                   },
+                   {
+                       "place":  3,
+                       "gender":  "boys",
+                       "event":  "4x200 Meter Relay",
+                       "mark":  "1:50.79",
+                       "squad":  "A",
+                       "points":  "6",
+                       "athletes":  [
+                                        "Nathan Mcalpine",
+                                        "Marquis Roberts",
+                                        "Guilio Iacoviello",
+                                        "Stephen Jefferson"
+                                    ]
+                   },
+                   {
+                       "place":  null,
+                       "gender":  "girls",
+                       "event":  "4x100 Meter Relay",
+                       "mark":  "DQ",
+                       "squad":  "A",
+                       "points":  "zone vi",
+                       "athletes":  [
+                                        "Kylie Smith",
+                                        "Alaila Jenkins",
+                                        "Jordan Goings",
+                                        "Jade Gregoire"
+                                    ]
+                   },
+                   {
+                       "place":  1,
+                       "gender":  "boys",
+                       "event":  "4x100 Meter Relay",
+                       "mark":  "51.26",
+                       "squad":  "A",
+                       "points":  "10",
+                       "athletes":  [
+                                        "Nathan Mcalpine",
+                                        "Stephen Jefferson",
+                                        "Marquis Roberts",
+                                        "Aaron Jones"
+                                    ]
+                   },
+                   {
+                       "place":  3,
+                       "gender":  "girls",
+                       "event":  "1600 Sprint Medley",
+                       "mark":  "5:24.34",
+                       "squad":  "A",
+                       "points":  "6",
+                       "athletes":  [
+                                        "Jade Gregoire",
+                                        "Kylie Smith",
+                                        "Raven Jackson",
+                                        "Emily Almagro"
+                                    ]
+                   },
+                   {
+                       "place":  null,
+                       "gender":  "boys",
+                       "event":  "1600 Sprint Medley",
+                       "mark":  "DNS",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+                                        "Ethan Andrade",
+                                        "Mark Burke",
+                                        "Sacha Gregoire",
+                                        "Ben Kaiser-Bulmash"
+                                    ]
+                   },
+                   {
+                       "place":  null,
+                       "gender":  "boys",
+                       "event":  "4x400 Meter Relay",
+                       "mark":  "DNS",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+                                        "Ben Kaiser-Bulmash",
+                                        "Sacha Gregoire",
+                                        "Mark Burke",
+                                        "Ethan Andrade"
+                                    ]
+                   }
+               ]
+}

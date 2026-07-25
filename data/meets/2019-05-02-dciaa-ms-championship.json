@@ -1,0 +1,559 @@
+﻿{
+    "meet":  "DCIAA MS Championship",
+    "date":  "2019-05-02",
+    "season":  "outdoor",
+    "school":  "Hardy Middle School",
+    "location":  "Spingarn, DC",
+    "source":  {
+                   "meet_url":  "https://dc.milesplit.com/meets/354578-dciaa-middle-school-outdoor-track-and-field-championships-2019/results/653892/raw",
+                   "captured":  "2026-07-25",
+                   "method":  "parsed from static Hy-Tek results"
+               },
+    "individual":  [
+                       {
+                           "place":  12,
+                           "athlete":  "Amirah Taliaferro Brunn",
+                           "gender":  "girls",
+                           "event":  "100 Meter Dash",
+                           "grade":  "",
+                           "mark":  "14.83",
+                           "points":  ""
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Laura McEwen",
+                           "gender":  "girls",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "27.26",
+                           "points":  ""
+                       },
+                       {
+                           "place":  4,
+                           "athlete":  "Indie Wallace",
+                           "gender":  "girls",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "28.54",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Kymia Bridgett",
+                           "gender":  "girls",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "29.14",
+                           "points":  ""
+                       },
+                       {
+                           "place":  15,
+                           "athlete":  "Alicia Hardy",
+                           "gender":  "girls",
+                           "event":  "400 Meter Dash",
+                           "grade":  "",
+                           "mark":  "1:32.14",
+                           "points":  ""
+                       },
+                       {
+                           "place":  10,
+                           "athlete":  "Laura Welles",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "3:02.34",
+                           "points":  ""
+                       },
+                       {
+                           "place":  12,
+                           "athlete":  "Lucia Mikaelian",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "3:20.03",
+                           "points":  ""
+                       },
+                       {
+                           "place":  13,
+                           "athlete":  "Avajane Lei",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "3:28.31",
+                           "points":  ""
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "Laura Welles",
+                           "gender":  "girls",
+                           "event":  "1600 Meter Run",
+                           "grade":  "",
+                           "mark":  "7:11.96",
+                           "points":  ""
+                       },
+                       {
+                           "place":  13,
+                           "athlete":  "Lucia Mikaelian",
+                           "gender":  "girls",
+                           "event":  "1600 Meter Run",
+                           "grade":  "",
+                           "mark":  "7:44.78",
+                           "points":  ""
+                       },
+                       {
+                           "place":  14,
+                           "athlete":  "Avajane Lei",
+                           "gender":  "girls",
+                           "event":  "1600 Meter Run",
+                           "grade":  "",
+                           "mark":  "7:52.15",
+                           "points":  ""
+                       },
+                       {
+                           "place":  1,
+                           "athlete":  "Kymia Bridgett",
+                           "gender":  "girls",
+                           "event":  "100 Meter Hurdles",
+                           "grade":  "",
+                           "mark":  "18.26",
+                           "points":  ""
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Laura McEwen",
+                           "gender":  "girls",
+                           "event":  "100 Meter Hurdles",
+                           "grade":  "",
+                           "mark":  "19.45",
+                           "points":  ""
+                       },
+                       {
+                           "place":  1,
+                           "athlete":  "Laura McEwen",
+                           "gender":  "girls",
+                           "event":  "High Jump",
+                           "grade":  "",
+                           "mark":  "4-04.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  1,
+                           "athlete":  "Laura McEwen",
+                           "gender":  "girls",
+                           "event":  "Long Jump",
+                           "grade":  "",
+                           "mark":  "14-10.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  13,
+                           "athlete":  "Jannat Dbilij",
+                           "gender":  "girls",
+                           "event":  "Long Jump",
+                           "grade":  "",
+                           "mark":  "10-08.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  15,
+                           "athlete":  "Zoe Antczak-Chung",
+                           "gender":  "girls",
+                           "event":  "Long Jump",
+                           "grade":  "",
+                           "mark":  "10-07.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Zoe Antczak-Chung",
+                           "gender":  "girls",
+                           "event":  "Triple Jump",
+                           "grade":  "",
+                           "mark":  "25-01.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "Jannat Dbilij",
+                           "gender":  "girls",
+                           "event":  "Triple Jump",
+                           "grade":  "",
+                           "mark":  "21-11.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Amirah Taliaferro Brunn",
+                           "gender":  "girls",
+                           "event":  "Shot Put",
+                           "grade":  "",
+                           "mark":  "25-00.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  19,
+                           "athlete":  "Eleanora Metelski",
+                           "gender":  "girls",
+                           "event":  "Shot Put",
+                           "grade":  "",
+                           "mark":  "18-04.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  10,
+                           "athlete":  "Alicia Hardy",
+                           "gender":  "girls",
+                           "event":  "Discus Throw",
+                           "grade":  "",
+                           "mark":  "26-09",
+                           "points":  ""
+                       },
+                       {
+                           "place":  24,
+                           "athlete":  "Amare Carter",
+                           "gender":  "boys",
+                           "event":  "100 Meter Dash",
+                           "grade":  "",
+                           "mark":  "15.04",
+                           "points":  ""
+                       },
+                       {
+                           "place":  32,
+                           "athlete":  "Amir Graham",
+                           "gender":  "boys",
+                           "event":  "100 Meter Dash",
+                           "grade":  "",
+                           "mark":  "15.44",
+                           "points":  ""
+                       },
+                       {
+                           "place":  34,
+                           "athlete":  "Jalen Pope",
+                           "gender":  "boys",
+                           "event":  "100 Meter Dash",
+                           "grade":  "",
+                           "mark":  "15.81",
+                           "points":  ""
+                       },
+                       {
+                           "place":  18,
+                           "athlete":  "Elijah Wynn",
+                           "gender":  "boys",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "30.53",
+                           "points":  ""
+                       },
+                       {
+                           "place":  22,
+                           "athlete":  "Ricardo Hardy",
+                           "gender":  "boys",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "32.07",
+                           "points":  ""
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "Elijah Wynn",
+                           "gender":  "boys",
+                           "event":  "400 Meter Dash",
+                           "grade":  "",
+                           "mark":  "1:06.26",
+                           "points":  ""
+                       },
+                       {
+                           "place":  10,
+                           "athlete":  "Martin Welles",
+                           "gender":  "boys",
+                           "event":  "400 Meter Dash",
+                           "grade":  "",
+                           "mark":  "1:07.56",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Ben Kaiser-Bulmash",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "2:34.64",
+                           "points":  ""
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "Martin Welles",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "2:39.47",
+                           "points":  ""
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "Leonardo Almagro",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "2:42.97",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "William Schwendinger",
+                           "gender":  "boys",
+                           "event":  "1600 Meter Run",
+                           "grade":  "",
+                           "mark":  "6:29.62",
+                           "points":  ""
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Leonardo Almagro",
+                           "gender":  "boys",
+                           "event":  "1600 Meter Run",
+                           "grade":  "",
+                           "mark":  "6:33.15",
+                           "points":  ""
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "Ben Kaiser-Bulmash",
+                           "gender":  "boys",
+                           "event":  "1600 Meter Run",
+                           "grade":  "",
+                           "mark":  "6:36.12",
+                           "points":  ""
+                       },
+                       {
+                           "place":  10,
+                           "athlete":  "Jalen Pope",
+                           "gender":  "boys",
+                           "event":  "100 Meter Hurdles",
+                           "grade":  "",
+                           "mark":  "21.33",
+                           "points":  ""
+                       },
+                       {
+                           "place":  12,
+                           "athlete":  "Max Eller",
+                           "gender":  "boys",
+                           "event":  "100 Meter Hurdles",
+                           "grade":  "",
+                           "mark":  "22.08",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Tyler Wilborn",
+                           "gender":  "boys",
+                           "event":  "High Jump",
+                           "grade":  "",
+                           "mark":  "NH",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Max Eller",
+                           "gender":  "boys",
+                           "event":  "High Jump",
+                           "grade":  "",
+                           "mark":  "NH",
+                           "points":  ""
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "Max Eller",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "",
+                           "mark":  "10-11.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Tyler Wilborn",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "",
+                           "mark":  "FOUL",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Ma Andersson-Potterveld",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "",
+                           "mark":  "FOUL",
+                           "points":  ""
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Ricardo Hardy",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "",
+                           "mark":  "28-09.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  10,
+                           "athlete":  "Martin Welles",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "",
+                           "mark":  "27-08.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "Max Eller",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "",
+                           "mark":  "27-03.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  14,
+                           "athlete":  "Ma Andersson-Potterveld",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "",
+                           "mark":  "26-08.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Edward McKenna",
+                           "gender":  "boys",
+                           "event":  "Shot Put",
+                           "grade":  "",
+                           "mark":  "28-03.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Andre Carter",
+                           "gender":  "boys",
+                           "event":  "Shot Put",
+                           "grade":  "",
+                           "mark":  "26-03.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  16,
+                           "athlete":  "John Grimm",
+                           "gender":  "boys",
+                           "event":  "Shot Put",
+                           "grade":  "",
+                           "mark":  "19-02.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Andre Carter",
+                           "gender":  "boys",
+                           "event":  "Discus Throw",
+                           "grade":  "",
+                           "mark":  "59-01.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "Ricardo Hardy",
+                           "gender":  "boys",
+                           "event":  "Discus Throw",
+                           "grade":  "",
+                           "mark":  "53-10",
+                           "points":  ""
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "Edward McKenna",
+                           "gender":  "boys",
+                           "event":  "Discus Throw",
+                           "grade":  "",
+                           "mark":  "48-00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  18,
+                           "athlete":  "John Grimm",
+                           "gender":  "boys",
+                           "event":  "Discus Throw",
+                           "grade":  "",
+                           "mark":  "29-09.50",
+                           "points":  ""
+                       }
+                   ],
+    "relays":  [
+                   {
+                       "place":  3,
+                       "gender":  "girls",
+                       "event":  "4x100 Meter Relay",
+                       "mark":  "58.25",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  3,
+                       "gender":  "girls",
+                       "event":  "4x200 Meter Relay",
+                       "mark":  "2:07.60",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  5,
+                       "gender":  "girls",
+                       "event":  "4x400 Meter Relay",
+                       "mark":  "5:17.64",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  12,
+                       "gender":  "boys",
+                       "event":  "4x100 Meter Relay",
+                       "mark":  "1:00.01",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  9,
+                       "gender":  "boys",
+                       "event":  "4x200 Meter Relay",
+                       "mark":  "2:06.70",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  5,
+                       "gender":  "boys",
+                       "event":  "4x400 Meter Relay",
+                       "mark":  "4:52.53",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   }
+               ]
+}

@@ -96,8 +96,11 @@ foreach ($m in $meets) {
       }
     }
     $totalMarks++
-    if (-not $matched) {
-      $label = "$($rel.event) relay squad"
+    # A relay whose legs are simply unrecorded (some exports omit splits for
+    # a lower-placing squad) has no name to attach a card to - nothing to
+    # drop but a blank heading, so skip it rather than show one.
+    if (-not $matched -and $rel.athletes.Count -gt 0) {
+      $label = "$($rel.event) relay squad " + ($rel.athletes -join ", ")
       $byAthlete[$label] = [pscustomobject]@{
         name = ($rel.athletes -join ", "); gender = $rel.gender; grade = ""
         marks = @([pscustomobject]@{ event = "$($rel.event) relay"; mark = "$($rel.mark)"; place = $rel.place; relay = $true })
@@ -144,9 +147,12 @@ foreach ($c in $ordered) {
 }
 
 # Suggest names that actually exist, so the examples always return something.
-$examples = ($ordered | Where-Object { $_.athlete -notmatch ',' } |
-             ForEach-Object { ($_.athlete -split '\s+')[-1] } |
-             Sort-Object -Unique | Get-Random -Count ([Math]::Min(3, 3)) )
+# Filter blanks explicitly: Get-Random's -InputObject rejects a null/empty
+# pipeline outright, which an all-blank candidate list would otherwise hit.
+$surnames = @($ordered | Where-Object { $_.athlete -notmatch ',' } |
+              ForEach-Object { ($_.athlete -split '\s+')[-1] } |
+              Where-Object { $_ } | Sort-Object -Unique)
+$examples = @(if ($surnames.Count -gt 0) { $surnames | Get-Random -Count ([Math]::Min(3, $surnames.Count)) })
 $exHtml = ($examples | ForEach-Object { '<button type="button" class="example" data-example="' + (Esc $_) + '">' + (Esc $_) + '</button>' }) -join " "
 
 $meetWord = if ($meets.Count -eq 1) { "meet" } else { "meets" }

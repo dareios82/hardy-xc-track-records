@@ -1,0 +1,447 @@
+﻿{
+    "meet":  "DCIAA MS/HS Developmental",
+    "date":  "2023-01-11",
+    "season":  "indoor",
+    "school":  "Hardy Middle School",
+    "location":  "",
+    "source":  {
+                   "meet_url":  "https://results2.mdtimingllc.com/itf_23/dciaa1/",
+                   "captured":  "2026-07-25",
+                   "method":  "parsed from static Hy-Tek results"
+               },
+    "individual":  [
+                       {
+                           "place":  7,
+                           "athlete":  "Gabrielle Graham",
+                           "gender":  "girls",
+                           "event":  "55 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "8.37",
+                           "points":  "8.368"
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "Addison Gebreyes",
+                           "gender":  "girls",
+                           "event":  "55 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "8.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  14,
+                           "athlete":  "Nia Travis",
+                           "gender":  "girls",
+                           "event":  "55 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "8.74",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Tinsley Barmeyer",
+                           "gender":  "girls",
+                           "event":  "300 Meter Dash",
+                           "grade":  "6",
+                           "mark":  "52.32",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Gabrielle Graham",
+                           "gender":  "girls",
+                           "event":  "300 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "53.04",
+                           "points":  ""
+                       },
+                       {
+                           "place":  15,
+                           "athlete":  "Zoe Date",
+                           "gender":  "girls",
+                           "event":  "300 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "56.42",
+                           "points":  ""
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Avan Joseph",
+                           "gender":  "girls",
+                           "event":  "500 Meter Dash",
+                           "grade":  "7",
+                           "mark":  "1:35.48",
+                           "points":  ""
+                       },
+                       {
+                           "place":  4,
+                           "athlete":  "Audrey Schwendinger",
+                           "gender":  "girls",
+                           "event":  "500 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "1:40.77",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Zoe Date",
+                           "gender":  "girls",
+                           "event":  "500 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "1:46.47",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Isabelle Pessey",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "6",
+                           "mark":  "2:59.38",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Charlotte Kravitz",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "6",
+                           "mark":  "3:07.85",
+                           "points":  ""
+                       },
+                       {
+                           "place":  10,
+                           "athlete":  "Gabrielle Popovich",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "8",
+                           "mark":  "3:26.96",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Isabelle Pessey",
+                           "gender":  "girls",
+                           "event":  "1600 Meter Run",
+                           "grade":  "6",
+                           "mark":  "6:30.49",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Charlotte Kravitz",
+                           "gender":  "girls",
+                           "event":  "1600 Meter Run",
+                           "grade":  "6",
+                           "mark":  "6:34.79",
+                           "points":  ""
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "Gabrielle Popovich",
+                           "gender":  "girls",
+                           "event":  "1600 Meter Run",
+                           "grade":  "8",
+                           "mark":  "7:02.36",
+                           "points":  ""
+                       },
+                       {
+                           "place":  4,
+                           "athlete":  "Julia Khoury",
+                           "gender":  "girls",
+                           "event":  "55 Meter Hurdles",
+                           "grade":  "8",
+                           "mark":  "11.61",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Addison Gebreyes",
+                           "gender":  "girls",
+                           "event":  "55 Meter Hurdles",
+                           "grade":  "8",
+                           "mark":  "12.09",
+                           "points":  ""
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Nia Travis",
+                           "gender":  "girls",
+                           "event":  "High Jump",
+                           "grade":  "8",
+                           "mark":  "J4-06.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Hope Davis",
+                           "gender":  "girls",
+                           "event":  "High Jump",
+                           "grade":  "8",
+                           "mark":  "J4-00.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  1,
+                           "athlete":  "Hope Davis",
+                           "gender":  "girls",
+                           "event":  "Long Jump",
+                           "grade":  "8",
+                           "mark":  "12-11.75",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Julia Khoury",
+                           "gender":  "girls",
+                           "event":  "Long Jump",
+                           "grade":  "8",
+                           "mark":  "11-02.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Audrey Schwendinger",
+                           "gender":  "girls",
+                           "event":  "Long Jump",
+                           "grade":  "8",
+                           "mark":  "10-03.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Hope Davis",
+                           "gender":  "girls",
+                           "event":  "Triple Jump",
+                           "grade":  "8",
+                           "mark":  "25-11.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Julia Khoury",
+                           "gender":  "girls",
+                           "event":  "Triple Jump",
+                           "grade":  "8",
+                           "mark":  "25-02.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Hope Ternet",
+                           "gender":  "girls",
+                           "event":  "Triple Jump",
+                           "grade":  "8",
+                           "mark":  "20-06.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Sayum Iddamalagoda",
+                           "gender":  "boys",
+                           "event":  "55 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "7.69",
+                           "points":  ""
+                       },
+                       {
+                           "place":  13,
+                           "athlete":  "Issac Lei",
+                           "gender":  "boys",
+                           "event":  "55 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "8.05",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Sayum Iddamalagoda",
+                           "gender":  "boys",
+                           "event":  "300 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "46.25",
+                           "points":  ""
+                       },
+                       {
+                           "place":  14,
+                           "athlete":  "Nicholas Tamarin",
+                           "gender":  "boys",
+                           "event":  "300 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "51.45",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Sebasti Linnell-Simmons",
+                           "gender":  "boys",
+                           "event":  "500 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "1:29.07",
+                           "points":  ""
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Nicholas Tamarin",
+                           "gender":  "boys",
+                           "event":  "500 Meter Dash",
+                           "grade":  "8",
+                           "mark":  "1:36.80",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Arnav Iyengar",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "8",
+                           "mark":  "2:36.94",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Lars Kearney",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "7",
+                           "mark":  "2:43.26",
+                           "points":  ""
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Sebasti Linnell-Simmons",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "8",
+                           "mark":  "2:45.02",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Lars Kearney",
+                           "gender":  "boys",
+                           "event":  "1600 Meter Run",
+                           "grade":  "7",
+                           "mark":  "6:01.05",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Arnav Iyengar",
+                           "gender":  "boys",
+                           "event":  "1600 Meter Run",
+                           "grade":  "8",
+                           "mark":  "6:18.52",
+                           "points":  ""
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Sayum Iddamalagoda",
+                           "gender":  "boys",
+                           "event":  "55 Meter Hurdles",
+                           "grade":  "8",
+                           "mark":  "11.56",
+                           "points":  ""
+                       },
+                       {
+                           "place":  1,
+                           "athlete":  "George Sipher",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "8",
+                           "mark":  "13-10.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Edomias Anania",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "8",
+                           "mark":  "13-06.75",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Issac Lei",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "8",
+                           "mark":  "13-00.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "George Sipher",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "8",
+                           "mark":  "31-00.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  4,
+                           "athlete":  "Edomias Anania",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "8",
+                           "mark":  "27-11.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Issac Lei",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "8",
+                           "mark":  "26-00.00",
+                           "points":  ""
+                       }
+                   ],
+    "relays":  [
+                   {
+                       "place":  2,
+                       "gender":  "girls",
+                       "event":  "4x200 Meter Relay",
+                       "mark":  "2:11.20",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  4,
+                       "gender":  "girls",
+                       "event":  "4x400 Meter Relay",
+                       "mark":  "5:39.90",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  null,
+                       "gender":  "boys",
+                       "event":  "4x200 Meter Relay",
+                       "mark":  "DQ",
+                       "squad":  "A",
+                       "points":  "exchang",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  1,
+                       "gender":  "boys",
+                       "event":  "4x400 Meter Relay",
+                       "mark":  "4:33.48",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   }
+               ]
+}

@@ -1,0 +1,510 @@
+﻿{
+    "meet":  "DCIAA MS Championship",
+    "date":  "2022-05-24",
+    "season":  "outdoor",
+    "school":  "Hardy Middle School",
+    "location":  "Spingarn, DC",
+    "source":  {
+                   "meet_url":  "https://www.milesplit.com/meets/483769-dciaa-elementary-and-middle-school-championships-2022/results",
+                   "captured":  "2026-07-25",
+                   "method":  "parsed from static Hy-Tek results"
+               },
+    "individual":  [
+                       {
+                           "place":  1,
+                           "athlete":  "Samiah Bucey-Onyekwere",
+                           "gender":  "girls",
+                           "event":  "100 Meter Dash",
+                           "grade":  "",
+                           "mark":  "13.36",
+                           "points":  "10"
+                       },
+                       {
+                           "place":  15,
+                           "athlete":  "Gabrielle Graham",
+                           "gender":  "girls",
+                           "event":  "100 Meter Dash",
+                           "grade":  "",
+                           "mark":  "15.14",
+                           "points":  ""
+                       },
+                       {
+                           "place":  22,
+                           "athlete":  "Autumn Winkler",
+                           "gender":  "girls",
+                           "event":  "100 Meter Dash",
+                           "grade":  "",
+                           "mark":  "15.81",
+                           "points":  ""
+                       },
+                       {
+                           "place":  1,
+                           "athlete":  "Samiah Bucey-Onyekwere",
+                           "gender":  "girls",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "26.61",
+                           "points":  "10"
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Gabrielle Graham",
+                           "gender":  "girls",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "29.65",
+                           "points":  "4"
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Kennedy Corley",
+                           "gender":  "girls",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "30.41",
+                           "points":  "2"
+                       },
+                       {
+                           "place":  1,
+                           "athlete":  "Samiah Bucey-Onyekwere",
+                           "gender":  "girls",
+                           "event":  "400 Meter Dash",
+                           "grade":  "",
+                           "mark":  "1:01.79",
+                           "points":  "10"
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Kennedy Corley",
+                           "gender":  "girls",
+                           "event":  "400 Meter Dash",
+                           "grade":  "",
+                           "mark":  "1:11.23",
+                           "points":  "1"
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "Mila Perazich",
+                           "gender":  "girls",
+                           "event":  "400 Meter Dash",
+                           "grade":  "",
+                           "mark":  "1:14.43",
+                           "points":  ""
+                       },
+                       {
+                           "place":  1,
+                           "athlete":  "Marie-Celeste Pessey",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "2:42.69",
+                           "points":  "10"
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Caroline Kuhnert",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "2:59.50",
+                           "points":  "2"
+                       },
+                       {
+                           "place":  12,
+                           "athlete":  "Gabrielle Popovich",
+                           "gender":  "girls",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "3:12.53",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Marie-Celeste Pessey",
+                           "gender":  "girls",
+                           "event":  "1600 Meter Run",
+                           "grade":  "",
+                           "mark":  "6:07.56",
+                           "points":  "6"
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Caroline Kuhnert",
+                           "gender":  "girls",
+                           "event":  "1600 Meter Run",
+                           "grade":  "",
+                           "mark":  "7:03.00",
+                           "points":  "1"
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Addison Gebreyes",
+                           "gender":  "girls",
+                           "event":  "100 Meter Hurdles",
+                           "grade":  "",
+                           "mark":  "21.34",
+                           "points":  "3"
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Lucille Seagroves",
+                           "gender":  "girls",
+                           "event":  "100 Meter Hurdles",
+                           "grade":  "",
+                           "mark":  "21.55",
+                           "points":  "1"
+                       },
+                       {
+                           "place":  18,
+                           "athlete":  "Carmen (Flow Couvertier",
+                           "gender":  "girls",
+                           "event":  "100 Meter Hurdles",
+                           "grade":  "",
+                           "mark":  "24.29",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Lucille Seagroves",
+                           "gender":  "girls",
+                           "event":  "High Jump",
+                           "grade":  "",
+                           "mark":  "4-02.00",
+                           "points":  "5.50"
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Josefine Watts",
+                           "gender":  "girls",
+                           "event":  "High Jump",
+                           "grade":  "",
+                           "mark":  "3-10.00",
+                           "points":  "3"
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Addison Gebreyes",
+                           "gender":  "girls",
+                           "event":  "High Jump",
+                           "grade":  "",
+                           "mark":  "NH",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Julia Khoury",
+                           "gender":  "girls",
+                           "event":  "Long Jump",
+                           "grade":  "",
+                           "mark":  "12-09.00",
+                           "points":  "6"
+                       },
+                       {
+                           "place":  12,
+                           "athlete":  "Carmen (Flow Couvertier",
+                           "gender":  "girls",
+                           "event":  "Long Jump",
+                           "grade":  "",
+                           "mark":  "10-07.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Julia Khoury",
+                           "gender":  "girls",
+                           "event":  "Triple Jump",
+                           "grade":  "",
+                           "mark":  "26-07.00",
+                           "points":  "6"
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Josefine Watts",
+                           "gender":  "girls",
+                           "event":  "Triple Jump",
+                           "grade":  "",
+                           "mark":  "22-10.50",
+                           "points":  "1"
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Mila Perazich",
+                           "gender":  "girls",
+                           "event":  "Triple Jump",
+                           "grade":  "",
+                           "mark":  "FOUL",
+                           "points":  ""
+                       },
+                       {
+                           "place":  15,
+                           "athlete":  "Autumn Winkler",
+                           "gender":  "girls",
+                           "event":  "Shot Put",
+                           "grade":  "",
+                           "mark":  "18-10.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  10,
+                           "athlete":  "Carmen (Flow Couvertier",
+                           "gender":  "girls",
+                           "event":  "Discus Throw",
+                           "grade":  "",
+                           "mark":  "32-01",
+                           "points":  ""
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "Autumn Winkler",
+                           "gender":  "girls",
+                           "event":  "Discus Throw",
+                           "grade":  "",
+                           "mark":  "31-06",
+                           "points":  ""
+                       },
+                       {
+                           "place":  14,
+                           "athlete":  "Audrey Schwendinger",
+                           "gender":  "girls",
+                           "event":  "Discus Throw",
+                           "grade":  "",
+                           "mark":  "26-08",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Nicholas Queen",
+                           "gender":  "boys",
+                           "event":  "100 Meter Dash",
+                           "grade":  "",
+                           "mark":  "12.81",
+                           "points":  "4"
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "Isaiah Wright",
+                           "gender":  "boys",
+                           "event":  "100 Meter Dash",
+                           "grade":  "",
+                           "mark":  "13.33",
+                           "points":  ""
+                       },
+                       {
+                           "place":  22,
+                           "athlete":  "Miles Bishop",
+                           "gender":  "boys",
+                           "event":  "100 Meter Dash",
+                           "grade":  "",
+                           "mark":  "14.49",
+                           "points":  ""
+                       },
+                       {
+                           "place":  10,
+                           "athlete":  "Sayum Iddamlagoda",
+                           "gender":  "boys",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "27.40",
+                           "points":  ""
+                       },
+                       {
+                           "place":  22,
+                           "athlete":  "Eamon McKenna",
+                           "gender":  "boys",
+                           "event":  "200 Meter Dash",
+                           "grade":  "",
+                           "mark":  "31.53",
+                           "points":  ""
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "Aram Gabriel",
+                           "gender":  "boys",
+                           "event":  "400 Meter Dash",
+                           "grade":  "",
+                           "mark":  "1:07.40",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Arnav Iyengar",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "2:35.56",
+                           "points":  "4"
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Aram Gabriel",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "2:40.19",
+                           "points":  "1"
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "Lars Kearney",
+                           "gender":  "boys",
+                           "event":  "800 Meter Run",
+                           "grade":  "",
+                           "mark":  "2:48.57",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Lars Kearney",
+                           "gender":  "boys",
+                           "event":  "1600 Meter Run",
+                           "grade":  "",
+                           "mark":  "5:55.13",
+                           "points":  "6"
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Arnav Iyengar",
+                           "gender":  "boys",
+                           "event":  "1600 Meter Run",
+                           "grade":  "",
+                           "mark":  "5:58.48",
+                           "points":  "3"
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Isaiah Wright",
+                           "gender":  "boys",
+                           "event":  "110 Meter Hurdles",
+                           "grade":  "",
+                           "mark":  "20.62",
+                           "points":  "6"
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Nicholas Queen",
+                           "gender":  "boys",
+                           "event":  "110 Meter Hurdles",
+                           "grade":  "",
+                           "mark":  "21.56",
+                           "points":  "3"
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Sayum Iddamlagoda",
+                           "gender":  "boys",
+                           "event":  "110 Meter Hurdles",
+                           "grade":  "",
+                           "mark":  "22.77",
+                           "points":  "2"
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Miles Bishop",
+                           "gender":  "boys",
+                           "event":  "High Jump",
+                           "grade":  "",
+                           "mark":  "4-00.00",
+                           "points":  "1"
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "Aram Gabriel",
+                           "gender":  "boys",
+                           "event":  "High Jump",
+                           "grade":  "",
+                           "mark":  "3-10.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  4,
+                           "athlete":  "Isaiah Wright",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "",
+                           "mark":  "13-11.00",
+                           "points":  "5"
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "George Sipher",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "",
+                           "mark":  "13-02.00",
+                           "points":  "2"
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Nicholas Queen",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "",
+                           "mark":  "12-04.00",
+                           "points":  "1"
+                       },
+                       {
+                           "place":  4,
+                           "athlete":  "George Sipher",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "",
+                           "mark":  "30-01.50",
+                           "points":  "5"
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Nicholas Queen",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "",
+                           "mark":  "27-09.00",
+                           "points":  "1"
+                       }
+                   ],
+    "relays":  [
+                   {
+                       "place":  1,
+                       "gender":  "girls",
+                       "event":  "4x100 Meter Relay",
+                       "mark":  "57.11",
+                       "squad":  "A",
+                       "points":  "10",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  3,
+                       "gender":  "girls",
+                       "event":  "4x400 Meter Relay",
+                       "mark":  "5:07.14",
+                       "squad":  "A",
+                       "points":  "6",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  2,
+                       "gender":  "boys",
+                       "event":  "4x100 Meter Relay",
+                       "mark":  "55.56",
+                       "squad":  "A",
+                       "points":  "8",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  3,
+                       "gender":  "boys",
+                       "event":  "4x400 Meter Relay",
+                       "mark":  "4:27.92",
+                       "squad":  "A",
+                       "points":  "6",
+                       "athletes":  [
+
+                                    ]
+                   }
+               ]
+}

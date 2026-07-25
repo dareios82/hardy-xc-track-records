@@ -5,11 +5,12 @@ Working list for building the results archive. Tick items off as they land in
 
 ## Why this list exists
 
-Meets hosted on `results.mdtimingllc.com` and `athletic.net` are JavaScript
-applications that load their results from Firebase. A crawler sees an empty
-page shell, so the Wayback Machine cannot preserve them, and the Firebase REST
-endpoint refuses unauthenticated reads (`Permission denied`); `edge.athletic.net`
-returns 403 on every path. There is no way to pull these from the link alone.
+Meets hosted on `results.mdtimingllc.com` (the Firebase-backed team pages) and
+`athletic.net` are JavaScript applications that load their results from
+Firebase. A crawler sees an empty page shell, so the Wayback Machine cannot
+preserve them, and the Firebase REST endpoint refuses unauthenticated reads
+(`Permission denied`); `edge.athletic.net` returns 403 on every path. There is
+no way to pull these from the link alone.
 
 Verified 2026-07-25 across all 39 source links: 12 are genuinely archived, 19
 are empty shells, 7 were never archived. The only durable copy is the one we
@@ -39,30 +40,61 @@ Claude Code session. The `/teams` suffix goes straight to the team picker.
 | ☐ | Outdoor | 2025-05-15 | St Albans / National Cathedral | https://www.athletic.net/TrackAndField/meet/610090/results |
 | ☐ | Outdoor | 2025-05-19 | DCIAA MS Championship | https://www.athletic.net/TrackAndField/meet/613581/results |
 
-Done:
+This is the complete remaining list — every other outdoor/indoor T&F source
+link on the site is now either automated (below) or was manually captured.
 
-| ✓ | Season | Date | Meet | File |
-|---|--------|------|------|------|
-| ☑ | Outdoor | 2023-05-23 | DCIAA MS Championship | `data/meets/2023-05-23-dciaa-es-ms-champs.json` |
+## Automated — done (18 meets, 802 marks)
 
-## Automated (no action needed from you)
+`tools/parse-hytek.ps1` reads the static Hy-Tek export format, wherever it's
+hosted, and `tools/harvest-static-meets.ps1` runs it over every known static
+link and writes straight into `data/meets/`. Re-run after adding a new static
+source; it overwrites in place and is safe to run repeatedly.
 
-Static Hy-Tek pages on `results2.mdtimingllc.com` are parsed by
-`tools/parse-hytek.ps1`. Twelve meets, of which two (2016-12-07 and 2017-01-25)
-genuinely contain no Hardy athletes — your own source notes say "DCIAA but no
-Deal and Hardy", so empty is the correct result there.
+Two hosts turned out to carry this same format once inspected directly, not
+just `results2.mdtimingllc.com`:
+- **`results2.mdtimingllc.com`** (12 meets) — the original legacy host.
+- **`milesplit.com` / `dc.milesplit.com`** (7 meets) — same underlying export,
+  three format variants: classic bib-after-name, a `#`-prefixed bib, and a
+  newer "Athlete / Yr / Team / Mark" layout with no squad-letter quotes on
+  relay rows at all (letter is inferred from order of appearance).
 
-Not yet built: a second parser for the MileSplit and TFRRS pages, which use a
-different layout.
+Two meets on `results2.mdtimingllc.com` genuinely have zero Hardy entries and
+are correctly not written: 2016-12-07 and 2017-01-25 — your own source notes
+say "DCIAA but no Deal and Hardy" for both.
+
+One meet was found this way that wasn't on anyone's radar: the outdoor
+**2025-04-03 developmental** (`milesplit.com/meets/675779`) is now captured —
+43 marks including Ulyses Stewart Torres's 400m and the boys 4x100 relay. It
+had never been added to the manual list above; this closes that gap.
+
+**Not building for now:** TFRRS (`tfrrs.org`) hosts the 2015 and 2016 indoor
+championships. Confirmed static and does contain real Hardy marks, but it's a
+genuinely different shape — an event-index page linking out to one HTML page
+per event (~25+ fetches per meet) rather than one flat Hy-Tek dump — so it
+would need its own parser. Worth doing later; two meets, not urgent.
+
+## Data-quality findings from the harvest
+
+Two issues turned up as a byproduct of holding the real per-meet data, not
+just the final "record" a page displays:
+
+- **Samiah Bucey-Onyekwere's 100m (12.80) and 200m (26.30) girls outdoor
+  records are attributed to the wrong meet.** The outdoor page credits them to
+  the 5/24/2022 DCIAA MS Championship, but that meet's own raw results show
+  her running 13.36 / 26.61 there — 12.80 and 26.30 are printed in the *Seed*
+  column of that same row, not Finals. The actual finals matching those times
+  come from the 5/10/2022 developmental meet
+  (`data/meets/2022-05-10-dciaa-ms-developmental.json`). The date on
+  `trackwall_outdoor.html` should change from 5/24/2022 to 5/10/2022.
+- Sayum Iddamalagoda's indoor 55m record reads 7.6 on the site; the harvested
+  2023-01-11 results say 7.69. Still unresolved — a decision, not a silent
+  overwrite.
 
 ## Open issues
 
-- The 2017 exports carry a bib number into the athlete name ("Aaron 56 Jones").
-  Must be fixed before that batch is committed.
-- Sayum Iddamalagoda's indoor 55m record reads 7.6 on the site; the 2023-01-11
-  results say 7.69. Needs a decision, not a silent overwrite.
-- Cross country has no sources table at all yet, so no XC meets are listed here.
-- The 2025/26 season is missing entirely from the site.
+- Cross country has no sources table at all yet, so no XC meets are listed
+  here or captured as data.
+- The 2025/26 school year is missing entirely from every page.
 
 ## Archive design
 
@@ -72,7 +104,10 @@ Two layers, so presentation stays cheap to change:
    result: place, athlete, gender, event, mark, metric conversion, points,
    heat/flight, grade year, plus relay squads. Schema is set by the 2023 file.
    This is the archive, and it depends on nothing external.
-2. **Pages** — generated from that data. A single searchable results archive
-   grouped by school year, so a kid types their name and sees every mark they
-   ever ran at Hardy. Later, the same data drives record progressions, deep
-   all-time lists, and eventually the record boards themselves.
+2. **Pages** — generated from that data via `tools/build-archive.ps1`, which
+   produces `results-archive.html`. Never hand-edit that file; rerun the
+   script after any change under `data/meets/`. It's search-first (nothing
+   shows until you type), one card per athlete per meet, with relay legs
+   folded into the runner's own card wherever the leg name can be matched
+   back to a known athlete in the same meet. Later, the same data can drive
+   record progressions and deep all-time lists on the record boards too.

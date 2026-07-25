@@ -1,0 +1,428 @@
+﻿{
+    "meet":  "DCIAA MS Developmental",
+    "date":  "2025-04-03",
+    "season":  "outdoor",
+    "school":  "Hardy Middle School",
+    "location":  "Spingarn, DC",
+    "source":  {
+                   "meet_url":  "https://www.milesplit.com/meets/675779-dciaa-middle-school-outdoor-track-and-field-developmental-meet-2025/results",
+                   "captured":  "2026-07-25",
+                   "method":  "parsed from static Hy-Tek results"
+               },
+    "individual":  [
+                       {
+                           "place":  25,
+                           "athlete":  "Jahlil Pinnix",
+                           "gender":  "boys",
+                           "event":  "100 Meters",
+                           "grade":  "8",
+                           "mark":  "14.10",
+                           "points":  ""
+                       },
+                       {
+                           "place":  30,
+                           "athlete":  "Odinn Barry",
+                           "gender":  "boys",
+                           "event":  "100 Meters",
+                           "grade":  "8",
+                           "mark":  "14.77",
+                           "points":  ""
+                       },
+                       {
+                           "place":  42,
+                           "athlete":  "Joshua Banks",
+                           "gender":  "boys",
+                           "event":  "100 Meters",
+                           "grade":  "7",
+                           "mark":  "16.04",
+                           "points":  ""
+                       },
+                       {
+                           "place":  17,
+                           "athlete":  "Elias DiNunzio",
+                           "gender":  "boys",
+                           "event":  "200 Meters",
+                           "grade":  "8",
+                           "mark":  "28.59",
+                           "points":  ""
+                       },
+                       {
+                           "place":  26,
+                           "athlete":  "Ethan Achi",
+                           "gender":  "boys",
+                           "event":  "200 Meters",
+                           "grade":  "7",
+                           "mark":  "29.47",
+                           "points":  ""
+                       },
+                       {
+                           "place":  32,
+                           "athlete":  "Jabril Blakney",
+                           "gender":  "boys",
+                           "event":  "200 Meters",
+                           "grade":  "8",
+                           "mark":  "31.35",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Derron Davis",
+                           "gender":  "boys",
+                           "event":  "200 Meters",
+                           "grade":  "8",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Ulyses Stewart Torres",
+                           "gender":  "boys",
+                           "event":  "400 Meters",
+                           "grade":  "8",
+                           "mark":  "59.39",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Javier Laryea",
+                           "gender":  "boys",
+                           "event":  "400 Meters",
+                           "grade":  "8",
+                           "mark":  "1:03.72",
+                           "points":  ""
+                       },
+                       {
+                           "place":  25,
+                           "athlete":  "Felipe Sebastian Mesa Mc",
+                           "gender":  "boys",
+                           "event":  "400 Meters",
+                           "grade":  "7",
+                           "mark":  "1:13.40",
+                           "points":  ""
+                       },
+                       {
+                           "place":  34,
+                           "athlete":  "Brennan O\u0027Hara",
+                           "gender":  "boys",
+                           "event":  "400 Meters",
+                           "grade":  "6",
+                           "mark":  "1:32.75",
+                           "points":  ""
+                       },
+                       {
+                           "place":  2,
+                           "athlete":  "Pierce Leen",
+                           "gender":  "boys",
+                           "event":  "800 Meters",
+                           "grade":  "8",
+                           "mark":  "2:30.64",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Sean O\u0027Connell",
+                           "gender":  "boys",
+                           "event":  "800 Meters",
+                           "grade":  "6",
+                           "mark":  "2:37.36",
+                           "points":  ""
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "Felipe Sebastian Mesa Mc",
+                           "gender":  "boys",
+                           "event":  "800 Meters",
+                           "grade":  "7",
+                           "mark":  "2:45.01",
+                           "points":  ""
+                       },
+                       {
+                           "place":  13,
+                           "athlete":  "Aaron Huang",
+                           "gender":  "boys",
+                           "event":  "800 Meters",
+                           "grade":  "7",
+                           "mark":  "2:46.42",
+                           "points":  ""
+                       },
+                       {
+                           "place":  1,
+                           "athlete":  "Holden Consentino",
+                           "gender":  "boys",
+                           "event":  "1600 Meters",
+                           "grade":  "8",
+                           "mark":  "5:19.57",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "William Sawyer",
+                           "gender":  "boys",
+                           "event":  "1600 Meters",
+                           "grade":  "8",
+                           "mark":  "5:45.77",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Kaj Ljung",
+                           "gender":  "boys",
+                           "event":  "1600 Meters",
+                           "grade":  "8",
+                           "mark":  "5:46.70",
+                           "points":  ""
+                       },
+                       {
+                           "place":  13,
+                           "athlete":  "Allan Maldonado",
+                           "gender":  "boys",
+                           "event":  "1600 Meters",
+                           "grade":  "6",
+                           "mark":  "6:17.53",
+                           "points":  ""
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Odinn Barry",
+                           "gender":  "boys",
+                           "event":  "100m Hurdles",
+                           "grade":  "8",
+                           "mark":  "18.33",
+                           "points":  ""
+                       },
+                       {
+                           "place":  12,
+                           "athlete":  "Jahlil Pinnix",
+                           "gender":  "boys",
+                           "event":  "100m Hurdles",
+                           "grade":  "8",
+                           "mark":  "19.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  19,
+                           "athlete":  "Luca Deregibus",
+                           "gender":  "boys",
+                           "event":  "100m Hurdles",
+                           "grade":  "6",
+                           "mark":  "20.93",
+                           "points":  ""
+                       },
+                       {
+                           "place":  21,
+                           "athlete":  "Elias DiNunzio",
+                           "gender":  "boys",
+                           "event":  "100m Hurdles",
+                           "grade":  "8",
+                           "mark":  "22.21",
+                           "points":  ""
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "James Crino",
+                           "gender":  "boys",
+                           "event":  "Shot Put",
+                           "grade":  "8",
+                           "mark":  "22-2",
+                           "points":  ""
+                       },
+                       {
+                           "place":  12,
+                           "athlete":  "Elias DiNunzio",
+                           "gender":  "boys",
+                           "event":  "Shot Put",
+                           "grade":  "8",
+                           "mark":  "22-1",
+                           "points":  ""
+                       },
+                       {
+                           "place":  14,
+                           "athlete":  "Jahlil Pinnix",
+                           "gender":  "boys",
+                           "event":  "Shot Put",
+                           "grade":  "8",
+                           "mark":  "21-8",
+                           "points":  ""
+                       },
+                       {
+                           "place":  30,
+                           "athlete":  "Sean O\u0027Connell",
+                           "gender":  "boys",
+                           "event":  "Shot Put",
+                           "grade":  "6",
+                           "mark":  "11-2",
+                           "points":  ""
+                       },
+                       {
+                           "place":  1,
+                           "athlete":  "James Crino",
+                           "gender":  "boys",
+                           "event":  "Shot Put",
+                           "grade":  "8",
+                           "mark":  "78-4",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Ulyses Stewart Torres",
+                           "gender":  "boys",
+                           "event":  "Shot Put",
+                           "grade":  "8",
+                           "mark":  "55-1",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Aaron Huang",
+                           "gender":  "boys",
+                           "event":  "Shot Put",
+                           "grade":  "7",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Holden Consentino",
+                           "gender":  "boys",
+                           "event":  "Shot Put",
+                           "grade":  "8",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Odinn Barry",
+                           "gender":  "boys",
+                           "event":  "High Jump",
+                           "grade":  "8",
+                           "mark":  "4-6",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Jahlil Pinnix",
+                           "gender":  "boys",
+                           "event":  "High Jump",
+                           "grade":  "8",
+                           "mark":  "4-4",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Luca Deregibus",
+                           "gender":  "boys",
+                           "event":  "High Jump",
+                           "grade":  "6",
+                           "mark":  "NH",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Matthew Hemphill",
+                           "gender":  "boys",
+                           "event":  "High Jump",
+                           "grade":  "8",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  11,
+                           "athlete":  "Joshua Banks",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "7",
+                           "mark":  "12-5.75",
+                           "points":  ""
+                       },
+                       {
+                           "place":  12,
+                           "athlete":  "Lance Brent",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "7",
+                           "mark":  "12-2.5",
+                           "points":  ""
+                       },
+                       {
+                           "place":  23,
+                           "athlete":  "William Chicoski",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "7",
+                           "mark":  "8-4.25",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Jacob Hemphill",
+                           "gender":  "boys",
+                           "event":  "Long Jump",
+                           "grade":  "7",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  6,
+                           "athlete":  "Jabril Blakney",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "8",
+                           "mark":  "29-3",
+                           "points":  ""
+                       },
+                       {
+                           "place":  9,
+                           "athlete":  "James Crino",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "8",
+                           "mark":  "28-7",
+                           "points":  ""
+                       },
+                       {
+                           "place":  15,
+                           "athlete":  "William Chicoski",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "7",
+                           "mark":  "20-4",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Jacob Hemphill",
+                           "gender":  "boys",
+                           "event":  "Triple Jump",
+                           "grade":  "7",
+                           "mark":  "DNS",
+                           "points":  ""
+                       }
+                   ],
+    "relays":  [
+                   {
+                       "place":  17,
+                       "gender":  "boys",
+                       "event":  "4x100m Relay",
+                       "mark":  "3:13.20",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+                                        "Ethan Achi",
+                                        "Lance Brent",
+                                        "Matthew Hemphill",
+                                        "James Crino"
+                                    ]
+                   },
+                   {
+                       "place":  19,
+                       "gender":  "boys",
+                       "event":  "4x100m Relay",
+                       "mark":  "3:16.77",
+                       "squad":  "B",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   }
+               ]
+}

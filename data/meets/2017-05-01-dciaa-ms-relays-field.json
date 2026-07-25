@@ -1,0 +1,316 @@
+﻿{
+    "meet":  "DCIAA MS Relays \u0026 Field",
+    "date":  "2017-05-01",
+    "season":  "outdoor",
+    "school":  "Hardy Middle School",
+    "location":  "Spingarn, DC",
+    "source":  {
+                   "meet_url":  "https://results2.mdtimingllc.com/outdoor_2017/esmsrelays/",
+                   "captured":  "2026-07-25",
+                   "method":  "parsed from static Hy-Tek results"
+               },
+    "individual":  [
+                       {
+                           "place":  4,
+                           "athlete":  "Alaila Jenkins",
+                           "gender":  "girls",
+                           "event":  "100 Meter Hurdles Middle",
+                           "grade":  "",
+                           "mark":  "23.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  7,
+                           "athlete":  "Annabelle Harbold",
+                           "gender":  "girls",
+                           "event":  "100 Meter Hurdles Middle",
+                           "grade":  "",
+                           "mark":  "24.23",
+                           "points":  ""
+                       },
+                       {
+                           "place":  10,
+                           "athlete":  "Erin O\u0027Neill",
+                           "gender":  "girls",
+                           "event":  "100 Meter Hurdles Middle",
+                           "grade":  "",
+                           "mark":  "26.80",
+                           "points":  ""
+                       },
+                       {
+                           "place":  5,
+                           "athlete":  "Aaron Jones",
+                           "gender":  "boys",
+                           "event":  "110 Meter Hurdles Middle",
+                           "grade":  "",
+                           "mark":  "21.04",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Stephen Jefferson",
+                           "gender":  "boys",
+                           "event":  "110 Meter Hurdles Middle",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Nathan Mcalpine",
+                           "gender":  "boys",
+                           "event":  "110 Meter Hurdles Middle",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Nathan Mcalpine",
+                           "gender":  "boys",
+                           "event":  "High Jump Middle",
+                           "grade":  "",
+                           "mark":  "J4-10.00",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Alexand Liesegang",
+                           "gender":  "boys",
+                           "event":  "High Jump Middle",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "William DeLuce",
+                           "gender":  "boys",
+                           "event":  "Long Jump Middle",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Ethan Andrade",
+                           "gender":  "boys",
+                           "event":  "Long Jump Middle",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Taylor Harris",
+                           "gender":  "girls",
+                           "event":  "Triple Jump Middle",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Ashani Bolton",
+                           "gender":  "girls",
+                           "event":  "Triple Jump Middle",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  3,
+                           "athlete":  "Charity Jones",
+                           "gender":  "girls",
+                           "event":  "Shot Put Middle",
+                           "grade":  "",
+                           "mark":  "24-05.50",
+                           "points":  ""
+                       },
+                       {
+                           "place":  null,
+                           "athlete":  "Annabelle Harbold",
+                           "gender":  "girls",
+                           "event":  "Shot Put Middle",
+                           "grade":  "",
+                           "mark":  "DNS",
+                           "points":  ""
+                       },
+                       {
+                           "place":  8,
+                           "athlete":  "Jabbar Eatmon",
+                           "gender":  "boys",
+                           "event":  "Shot Put Middle",
+                           "grade":  "",
+                           "mark":  "20-00.00",
+                           "points":  ""
+                       }
+                   ],
+    "relays":  [
+                   {
+                       "place":  null,
+                       "gender":  "girls",
+                       "event":  "4x800 Meter Relay Middle",
+                       "mark":  "DNS",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  null,
+                       "gender":  "boys",
+                       "event":  "4x800 Meter Relay Middle",
+                       "mark":  "DNS",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  6,
+                       "gender":  "girls",
+                       "event":  "4x200 Meter Relay Middle",
+                       "mark":  "2:18.02",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  null,
+                       "gender":  "girls",
+                       "event":  "4x200 Meter Relay Middle",
+                       "mark":  "DNS",
+                       "squad":  "B",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  1,
+                       "gender":  "boys",
+                       "event":  "4x200 Meter Relay Middle",
+                       "mark":  "x1:45.48",
+                       "squad":  "B",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  null,
+                       "gender":  "boys",
+                       "event":  "4x200 Meter Relay Middle",
+                       "mark":  "DNS",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  3,
+                       "gender":  "girls",
+                       "event":  "1600 Sprint Medley Middle",
+                       "mark":  "5:48.37",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  4,
+                       "gender":  "boys",
+                       "event":  "1600 Sprint Medley Middle",
+                       "mark":  "x4:59.77",
+                       "squad":  "B",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  null,
+                       "gender":  "boys",
+                       "event":  "1600 Sprint Medley Middle",
+                       "mark":  "DNS",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  7,
+                       "gender":  "girls",
+                       "event":  "4x100 Meter Relay Middle",
+                       "mark":  "1:06.67",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  null,
+                       "gender":  "girls",
+                       "event":  "4x100 Meter Relay Middle",
+                       "mark":  "DNS",
+                       "squad":  "B",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  2,
+                       "gender":  "boys",
+                       "event":  "4x100 Meter Relay Middle",
+                       "mark":  "52.37",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  null,
+                       "gender":  "girls",
+                       "event":  "4x400 Meter Relay Middle",
+                       "mark":  "DNS",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  4,
+                       "gender":  "boys",
+                       "event":  "4x400 Meter Relay Middle",
+                       "mark":  "5:28.08",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   },
+                   {
+                       "place":  null,
+                       "gender":  "boys",
+                       "event":  "Shot Put Middle",
+                       "mark":  "berts, Marquis       Hardy Middle School        DNS",
+                       "squad":  "A",
+                       "points":  "",
+                       "athletes":  [
+
+                                    ]
+                   }
+               ]
+}
