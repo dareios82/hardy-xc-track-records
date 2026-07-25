@@ -16,16 +16,13 @@ Verified 2026-07-25 across all 39 source links: 12 are genuinely archived, 19
 are empty shells, 7 were never archived. The only durable copy is the one we
 hold ourselves, in `data/meets/`.
 
-## Needs manual capture (16 remaining)
+## Needs manual capture (13 remaining)
 
 Open the link, click **Hardy**, copy the whole team result, paste it into a
 Claude Code session. The `/teams` suffix goes straight to the team picker.
 
 | ✓ | Season | Date | Meet | Link |
 |---|--------|------|------|------|
-| ☐ | Indoor | 2018-01-03 | DCIAA Developmental | https://results.mdtimingllc.com/meets/642/teams |
-| ☐ | Indoor | 2018-01-24 | DCIAA MS/HS Championship | https://results.mdtimingllc.com/meets/699/teams |
-| ☐ | Indoor | 2024-01-18 | DCIAA MS Developmental | https://results.mdtimingllc.com/meets/29702/teams |
 | ☐ | Indoor | 2025-01-15 | DCIAA MS/HS Developmental | https://www.athletic.net/TrackAndField/meet/575023/results |
 | ☐ | Indoor | 2025-02-25 | DCIAA MS Championship | https://results.mdtimingllc.com/meets/42558/teams/1081719 |
 | ☐ | Outdoor | 2018-04-12 | DCIAA MS Developmental | https://results.mdtimingllc.com/meets/974/teams |
@@ -42,6 +39,15 @@ Claude Code session. The `/teams` suffix goes straight to the team picker.
 
 This is the complete remaining list — every other outdoor/indoor T&F source
 link on the site is now either automated (below) or was manually captured.
+
+Done manually:
+
+| ✓ | Season | Date | Meet | File |
+|---|--------|------|------|------|
+| ☑ | Outdoor | 2023-05-23 | DCIAA MS Championship | `data/meets/2023-05-23-dciaa-es-ms-champs.json` |
+| ☑ | Indoor | 2018-01-03 | DCIAA Developmental Meet 4 | `data/meets/2018-01-03-dciaa-developmental.json` |
+| ☑ | Indoor | 2018-01-24 | DCIAA MS/HS Championship | `data/meets/2018-01-24-dciaa-ms-hs-championship.json` |
+| ☑ | Indoor | 2024-01-18 | DCIAA MS Developmental Meet 1 | `data/meets/2024-01-18-dciaa-ms-developmental.json` |
 
 ## Automated — done (18 meets, 802 marks)
 
