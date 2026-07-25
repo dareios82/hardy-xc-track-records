@@ -16,7 +16,7 @@ Verified 2026-07-25 across all 39 source links: 12 are genuinely archived, 19
 are empty shells, 7 were never archived. The only durable copy is the one we
 hold ourselves, in `data/meets/`.
 
-## Needs manual capture (7 remaining)
+## Needs manual capture (3 remaining)
 
 Open the link, click **Hardy**, copy the whole team result, paste it into a
 Claude Code session. The `/teams` suffix goes straight to the team picker.
@@ -24,12 +24,8 @@ Claude Code session. The `/teams` suffix goes straight to the team picker.
 | ✓ | Season | Date | Meet | Link |
 |---|--------|------|------|------|
 | ☐ | Indoor | 2025-01-15 | DCIAA MS/HS Developmental | https://www.athletic.net/TrackAndField/meet/575023/results |
-| ☐ | Outdoor | 2023-05-02 | DCIAA MS Developmental | https://results.mdtimingllc.com/meets/24466/teams |
-| ☐ | Outdoor | 2024-05-20 | DCIAA MS Developmental | https://results.mdtimingllc.com/meets/38240/teams |
-| ☐ | Outdoor | 2024-05-30 | DCIAA MS Championship | https://results.mdtimingllc.com/meets/38470/teams |
 | ☐ | Outdoor | 2025-05-09 | DCIAA MS Developmental | https://www.athletic.net/TrackAndField/meet/607132/results |
 | ☐ | Outdoor | 2025-05-15 | St Albans / National Cathedral | https://www.athletic.net/TrackAndField/meet/610090/results |
-| ☐ | Outdoor | 2025-05-19 | DCIAA MS Championship | https://www.athletic.net/TrackAndField/meet/613581/results |
 
 This is the complete remaining list — every other outdoor/indoor T&F source
 link on the site is now either automated (below) or was manually captured.
@@ -48,6 +44,10 @@ Done manually:
 | ☑ | Outdoor | 2018-05-22 | DCIAA MS Championship | `data/meets/2018-05-22-dciaa-ms-championship.json` |
 | ☑ | Outdoor | 2019-04-03 | DCIAA MS Developmental | `data/meets/2019-04-03-dciaa-ms-developmental.json` |
 | ☑ | Outdoor | 2021-05-18 | DCIAA MS Developmental | `data/meets/2021-05-18-dciaa-ms-developmental.json` |
+| ☑ | Outdoor | 2023-05-02 | DCIAA MS Developmental Meet 2 | `data/meets/2023-05-02-dciaa-ms-developmental.json` |
+| ☑ | Outdoor | 2024-05-20 | DCIAA MS Developmental Meet 3 | `data/meets/2024-05-20-dciaa-ms-developmental.json` |
+| ☑ | Outdoor | 2024-05-30 | DCIAA MS Championship | `data/meets/2024-05-30-dciaa-ms-championship.json` |
+| ☑ | Outdoor | 2025-05-19 | DCIAA MS Championship | `data/meets/2025-05-19-dciaa-ms-championship.json` |
 
 ## Automated — done (18 meets, 802 marks)
 
@@ -112,6 +112,12 @@ would need its own parser. Worth doing later; two meets, not urgent.
   Andersson-Potterveld and Amirah Taliaferro Brunn, matching their spelling in
   meets already in the archive. A third, "L Rosales Rivera", couldn't be
   resolved against anything on file and is kept as shown.
+- The 2025-05-19 championship (athletic.net) truncates long names with "...".
+  Three were resolved against spellings already confirmed elsewhere in the
+  archive (Ulyses Stewart-Torres, Felipe Sebastian Mesa McGovern, Vanina
+  Mazzei-Paterni). A fourth, "Samantha Kirschenba...", has no prior match
+  anywhere in the archive - expanded to "Samantha Kirschenbaum" as the most
+  likely completion, but this is a guess, not a verified spelling.
 
 ## Open issues
 
