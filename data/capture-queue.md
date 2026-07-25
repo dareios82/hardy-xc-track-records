@@ -84,9 +84,10 @@ would need its own parser. Worth doing later; two meets, not urgent.
   (`data/meets/2022-05-10-dciaa-ms-developmental.json`). Date corrected on
   both rows; the 400m row was already right (1:01.79 finals there, matching
   the site's 1:01.8) and was left alone.
-- Sayum Iddamalagoda's indoor 55m record reads 7.6 on the site; the harvested
-  2023-01-11 results say 7.69. Still unresolved — a decision, not a silent
-  overwrite.
+- ~~Sayum Iddamalagoda's indoor 55m record reads 7.6 on the site; the
+  harvested 2023-01-11 results say 7.69~~ — **fixed.** Same meet, same
+  athlete, no other explanation than the site rounding to one decimal place.
+  Updated to 7.69.
 - ~~The site's boys 4x400m indoor record may be wrong~~ — **not a conflict,
   confirmed correct.** `trackwall_indoor.html` credits Leen/Munzer/Consentino/
   Stewart Torres with 4:28.2 at the 2025-01-15 DCIAA MS/HS Developmental #2 -
@@ -109,15 +110,52 @@ would need its own parser. Worth doing later; two meets, not urgent.
   Andersson-Potterveld and Amirah Taliaferro Brunn, matching their spelling in
   meets already in the archive. A third, "L Rosales Rivera", couldn't be
   resolved against anything on file and is kept as shown.
-- All four 2025 athletic.net meets truncate long names with "...". Most were
-  resolved against spellings already confirmed elsewhere in the archive
-  (Ulyses Stewart-Torres, Felipe Sebastian Mesa McGovern, Vanina
-  Mazzei-Paterni). "Samantha Kirschenba..." has no prior match anywhere in
-  the archive - expanded to "Samantha Kirschenbaum" as the most likely
-  completion. It now recurs identically across three of these meets
-  (2025-05-09, 2025-05-15, 2025-05-19), which at least confirms the
-  truncation is consistent, but the full spelling is still an educated guess,
-  not a verified one.
+- ~~All four 2025 athletic.net meets truncate long names with "..."~~ —
+  **resolved.** Most were resolved against spellings already confirmed
+  elsewhere in the archive (Ulyses Stewart-Torres, Felipe Sebastian Mesa
+  McGovern, Vanina Mazzei-Paterni). "Samantha Kirschenba..." had no prior
+  match anywhere in the archive when first transcribed; confirmed correct by
+  Dario as "Samantha Kirschenbaum" across all three meets where it appears
+  (2025-05-09, 2025-05-15, 2025-05-19).
+- **Full record-wall cross-check against the archive (2026-07-25).** Every
+  mark on `trackwall_indoor.html` and `trackwall_outdoor.html` was checked
+  against the best matching mark across all of `data/meets/`. Results:
+  - Four small same-meet, same-athlete rounding gaps, fixed to the archive's
+    more precise value: indoor boys 55m Dash (Iddamalagoda, above), indoor
+    girls Shot Put (Laura McEwen, 22-05 → 22-05.25), indoor girls Triple Jump
+    (Taylor McMahan, 31-04 → 31-04.5), indoor boys Long Jump (Cole Mandaza,
+    14-01 → 14-01.25).
+  - Three cases where the record was attributed to the wrong meet - the same
+    athlete or squad ran faster at a different meet already in the archive:
+    outdoor girls 100 Hurdles (Kymia Bridgett, 18.26 at the 5/2/2019
+    championship → 18.05 at the 4/3/2019 developmental), outdoor girls
+    4x100m (same four legs, 54.26 at the 5/19/2025 championship → 54.05 four
+    days earlier at St Albans/NCS), outdoor boys 200m (Aaron Jones, 25.22 at
+    the 5/12/2017 championship → 24.79 at the 4/11/2017 developmental).
+    Fixed on both walls.
+  - **A real parser bug found along the way:** the automated harvest of the
+    2025-04-03 meet (`data/meets/2025-04-03-dciaa-ms-developmental.json`)
+    had mislabeled two Discus results as "Shot Put" - James Crino's 78-4 and
+    Ulyses Stewart Torres's 55-1, both physically impossible shot put
+    distances. Re-fetched the source page directly to confirm both are
+    genuine Discus marks and relabeled them. This was the only file found
+    with this bug.
+  - **Two large discrepancies, not auto-fixed - flagged for Dario to review:**
+    - Outdoor boys Discus: the wall credits Ulyses Stewart Torres with 72-10
+      (5/9/2025), but the archive now shows James Crino at 80-00 five days
+      later at St Albans/NCS (5/15/2025) - and, after the parser fix above,
+      also 78-4 at an even earlier meet (4/3/2025). A different athlete and
+      a ~7-foot jump is too large to silently swap in.
+    - Outdoor boys Triple Jump: the wall credits George Sipher with 32-02
+      (5/2/2023), but the archive shows James Crino at 34-02.50 at the
+      5/19/2025 championship (marked PB in the source). A different athlete
+      two years later, ~2 feet further - flagged rather than auto-applied.
+  - Two wall entries have no matching source meet anywhere in the archive at
+    all, so they're unverifiable rather than in conflict: indoor boys 4x200m
+    (credited to "2017" with no meet named - no indoor 2017 file exists) and
+    indoor girls Long Jump (Nyla Ward, 1/28/2015 - no 2015 file exists).
+    Left untouched; nothing to compare them against.
+  - Everything else on both walls matched the archive exactly.
 
 ## Open issues
 

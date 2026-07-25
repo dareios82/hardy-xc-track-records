@@ -7,7 +7,8 @@
     "source":  {
                    "meet_url":  "https://www.milesplit.com/meets/675779-dciaa-middle-school-outdoor-track-and-field-developmental-meet-2025/results",
                    "captured":  "2026-07-25",
-                   "method":  "parsed from static Hy-Tek results"
+                   "method":  "parsed from static Hy-Tek results",
+                   "note":  "The automated parser mislabeled the boys Discus block as 'Shot Put' for two rows (James Crino 78-4, Ulyses Stewart Torres 55-1); both appear correctly as Discus in the source page and were corrected here on 2026-07-25 after a record-wall cross-check flagged the implausible shot put distances."
                },
     "individual":  [
                        {
@@ -257,7 +258,7 @@
                            "place":  1,
                            "athlete":  "James Crino",
                            "gender":  "boys",
-                           "event":  "Shot Put",
+                           "event":  "Discus Throw",
                            "grade":  "8",
                            "mark":  "78-4",
                            "points":  ""
@@ -266,7 +267,7 @@
                            "place":  7,
                            "athlete":  "Ulyses Stewart Torres",
                            "gender":  "boys",
-                           "event":  "Shot Put",
+                           "event":  "Discus Throw",
                            "grade":  "8",
                            "mark":  "55-1",
                            "points":  ""
