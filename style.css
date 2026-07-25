@@ -414,7 +414,129 @@ a { color: var(--blue); }
   .section.boys > h2::before { background: #1F6E9C; }
 }
 
-/* ---------- Results archive ---------- */
+/* ---------- Results archive: search-first cards ---------- */
+
+.search-prompt {
+  margin: 30px 0;
+  padding: 30px 24px;
+  text-align: center;
+  background: var(--surface);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+}
+
+.prompt-lead { margin: 0 0 14px; font-size: 1.05rem; color: var(--text); }
+.prompt-eg { margin: 0 0 14px; color: var(--muted); font-size: .92rem; }
+.prompt-note { margin: 0; color: var(--muted); font-size: .84rem; }
+
+.example {
+  font: inherit;
+  font-size: .88rem;
+  font-weight: 650;
+  cursor: pointer;
+  margin: 0 3px;
+  padding: 5px 13px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--accent-soft);
+  color: var(--blue);
+}
+
+.example:hover { border-color: var(--blue); }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+
+.result-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 16px 18px;
+}
+
+.card-head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 3px;
+}
+
+.card-athlete {
+  font-size: 1.08rem;
+  font-weight: 700;
+  letter-spacing: -.2px;
+}
+
+.card-sub { font-size: .8rem; color: var(--muted); }
+
+.season-badge {
+  margin-left: auto;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--blue);
+  white-space: nowrap;
+}
+
+.season-badge.outdoor { background: #FBEEDC; color: #97621B; }
+.season-badge.xc { background: #E3F3E6; color: #2C6B3A; }
+
+@media (prefers-color-scheme: dark) {
+  .season-badge.outdoor { background: #3A2C15; color: #E0AE60; }
+  .season-badge.xc { background: #17301E; color: #7FBE8F; }
+}
+
+.card-meet { margin: 0; font-size: .92rem; font-weight: 600; }
+.card-meet a { text-decoration: none; }
+.card-meet a:hover { text-decoration: underline; }
+
+.card-date { margin: 1px 0 12px; font-size: .82rem; color: var(--muted); }
+
+.card-marks { list-style: none; margin: 0; padding: 0; }
+
+.card-marks li {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 6px 0;
+  border-top: 1px solid var(--border);
+  font-size: .9rem;
+}
+
+.card-marks .ev { flex: 1 1 auto; color: var(--muted); }
+
+.card-marks .mk {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  color: var(--blue);
+  white-space: nowrap;
+}
+
+.card-marks .pl {
+  flex: 0 0 auto;
+  min-width: 2.7em;
+  text-align: right;
+  font-size: .78rem;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.card-marks .pl.gold { color: var(--gold); }
+.card-marks .pl.silver { color: var(--silver); }
+.card-marks .pl.bronze { color: var(--bronze); }
+.card-marks .pl.none { opacity: .5; }
+
+/* ---------- Results archive: by-year listing (unused when search-first) ---------- */
 
 .year-head {
   margin: 42px 0 6px;

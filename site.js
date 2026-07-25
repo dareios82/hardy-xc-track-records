@@ -1,23 +1,28 @@
-// Name search for the record boards. Filters rows in every table on the page
-// except the sources tables, and hides sections that end up empty.
+// Search for the record boards and the results archive.
 //
-// Team rosters abbreviate given names ("M. Caldara") while the individual
-// lists spell them out ("Maja Caldara"), so matching is initial-aware and
-// works in both directions without needing the full names on file.
+// Two shapes of content: table rows on the record pages, and result cards on
+// the archive. Two modes: "filter" (default, everything visible until you
+// narrow it) and "reveal" (nothing visible until you search, for the archive
+// where there is far too much to show at once).
+//
+// Team rosters abbreviate given names ("M. Caldara") while individual lists
+// spell them out ("Maja Caldara"), so matching is initial-aware and works in
+// both directions without needing the full names on file.
 (function () {
   "use strict";
 
   var input = document.querySelector("[data-search]");
   if (!input) return;
 
+  var mode = input.getAttribute("data-search-mode") === "reveal" ? "reveal" : "filter";
   var status = document.querySelector("[data-search-status]");
   var empty = document.querySelector("[data-search-empty]");
-  var tables = Array.prototype.slice.call(
-    document.querySelectorAll(".record-table:not(.sources)")
-  );
-  var asides = Array.prototype.slice.call(
-    document.querySelectorAll("[data-hide-on-search]")
-  );
+  var prompt = document.querySelector("[data-search-prompt]");
+  var asides = toArray(document.querySelectorAll("[data-hide-on-search]"));
+  var cards = toArray(document.querySelectorAll(".result-card"));
+  var tables = toArray(document.querySelectorAll(".record-table:not(.sources)"));
+
+  function toArray(nodes) { return Array.prototype.slice.call(nodes); }
 
   // Drop the punctuation that varies between how a name is written in an
   // individual list and in a roster, so "Mazzei-Paterni" and "Mazzei Paterni"
@@ -31,9 +36,7 @@
       .trim();
   }
 
-  function escapeRx(s) {
-    return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  }
+  function escapeRx(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
 
   function buildMatcher(q) {
     var toks = q.split(" ").filter(Boolean);
@@ -46,9 +49,9 @@
       // "Maja Caldara" -> also match a roster's "M. Caldara".
       tests.push(new RegExp("\\b" + escapeRx(first.charAt(0)) + "\\s+" + rest));
 
-      // "M. Caldara" -> also match the individual list's "Maja Caldara".
-      // Only when an initial was actually typed, so a full given name still
-      // has to match in full and won't collide with a different M. Caldara.
+      // "M. Caldara" -> also match the spelled-out "Maja Caldara". Only when
+      // an initial was actually typed, so a full given name still has to match
+      // in full and won't collide with a different M. Caldara.
       if (first.length === 1) {
         tests.push(new RegExp("\\b" + escapeRx(first) + "[a-z]+\\s+" + rest));
       }
@@ -68,27 +71,33 @@
   // becomes "dc128m caldara") and the initial no longer starts a word.
   function rowText(row) {
     return normalize(
-      Array.prototype.map
-        .call(row.cells, function (c) { return c.textContent; })
-        .join(" ")
+      Array.prototype.map.call(row.cells, function (c) { return c.textContent; }).join(" ")
     );
   }
 
-  var rows = [];
-  tables.forEach(function (table) {
-    Array.prototype.forEach.call(table.tBodies[0].rows, function (row) {
-      rows.push({ el: row, text: rowText(row) });
+  var items = [];
+  if (cards.length) {
+    cards.forEach(function (el) {
+      items.push({ el: el, text: normalize(el.textContent) });
     });
-  });
+  } else {
+    tables.forEach(function (table) {
+      Array.prototype.forEach.call(table.tBodies[0].rows, function (row) {
+        items.push({ el: row, text: rowText(row) });
+      });
+    });
+  }
 
   function apply() {
     var q = normalize(input.value);
-    var match = q === "" ? null : buildMatcher(q);
+    var idle = q === "";
+    var match = idle ? null : buildMatcher(q);
     var shown = 0;
 
-    rows.forEach(function (row) {
-      var hit = !match || match(row.text);
-      row.el.classList.toggle("is-hidden", !hit);
+    items.forEach(function (item) {
+      // In reveal mode an empty box means show nothing, not show everything.
+      var hit = idle ? (mode === "filter") : match(item.text);
+      item.el.classList.toggle("is-hidden", !hit);
       if (hit) shown++;
     });
 
@@ -103,23 +112,33 @@
     });
 
     // The sources list isn't searchable, so it just gets out of the way.
-    asides.forEach(function (el) {
-      el.classList.toggle("is-hidden", q !== "");
-    });
+    asides.forEach(function (el) { el.classList.toggle("is-hidden", !idle); });
 
-    if (empty) empty.classList.toggle("is-hidden", shown !== 0);
+    if (prompt) prompt.classList.toggle("is-hidden", !idle);
+    if (empty) empty.classList.toggle("is-hidden", idle || shown !== 0);
 
     if (status) {
-      if (q === "") {
+      if (idle) {
         status.textContent = "";
+      } else if (shown === 0) {
+        status.textContent = "Nothing matches “" + input.value.trim() + "”.";
       } else {
-        status.textContent =
-          shown === 0
-            ? "No performances match “" + input.value.trim() + "”."
-            : "Showing " + shown + " of " + rows.length + " performances.";
+        var noun = cards.length ? (shown === 1 ? "result card" : "result cards") : "performances";
+        status.textContent = cards.length
+          ? "Showing " + shown + " " + noun + "."
+          : "Showing " + shown + " of " + items.length + " performances.";
       }
     }
   }
+
+  // Example chips on the archive's empty state.
+  toArray(document.querySelectorAll("[data-example]")).forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      input.value = btn.getAttribute("data-example");
+      input.focus();
+      apply();
+    });
+  });
 
   input.addEventListener("input", apply);
   input.addEventListener("search", apply);

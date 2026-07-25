@@ -1,5 +1,8 @@
 # Generates results-archive.html from every meet file in data/meets/.
 # Re-run after adding a meet; the page is output, never edited by hand.
+#
+# One card per athlete per meet, so the meet name, date and season are stated
+# once rather than repeated on every mark. Cards are hidden until searched.
 $ErrorActionPreference = "Stop"
 $root = Split-Path -Parent $PSScriptRoot
 $meets = @()
@@ -8,87 +11,128 @@ foreach ($f in Get-ChildItem "$root\data\meets\*.json" | Sort-Object Name) {
   $meets += (Get-Content -Raw -Encoding UTF8 $f.FullName | ConvertFrom-Json)
 }
 
-function SchoolYear([string]$date) {
-  $d = [datetime]::Parse($date)
-  if ($d.Month -ge 8) { return "{0}/{1}" -f $d.Year, ($d.Year + 1).ToString().Substring(2) }
-  return "{0}/{1}" -f ($d.Year - 1), $d.Year.ToString().Substring(2)
-}
-
 function Esc([string]$s) { return [System.Net.WebUtility]::HtmlEncode($s) }
 
-function RankClass([object]$place) {
-  switch ("$place") { "1" { "rank gold" } "2" { "rank silver" } "3" { "rank bronze" } default { "rank" } }
+function Ordinal([object]$p) {
+  if (-not $p) { return "" }
+  $n = [int]$p
+  $suffix = switch ($n % 100) {
+    { $_ -in 11, 12, 13 } { "th"; break }
+    default {
+      switch ($n % 10) { 1 { "st" } 2 { "nd" } 3 { "rd" } default { "th" } }
+    }
+  }
+  return "$n$suffix"
 }
 
-$sb = New-Object System.Text.StringBuilder
-$total = 0
+function PlaceClass([object]$p) {
+  switch ("$p") { "1" { "pl gold" } "2" { "pl silver" } "3" { "pl bronze" } default { "pl" } }
+}
 
-# Group meets by school year, newest first.
-$byYear = $meets | Group-Object { SchoolYear $_.date } | Sort-Object Name -Descending
+# "G. Sipher" in a relay squad refers to "George Sipher" in the same meet.
+function MatchesAthlete([string]$leg, [string]$full) {
+  $leg = ($leg -replace '[.]', '').Trim()
+  $full = $full.Trim()
+  $lp = $leg -split '\s+'; $fp = $full -split '\s+'
+  if ($lp.Count -lt 2 -or $fp.Count -lt 2) { return $false }
+  if ($lp[-1] -ne $fp[-1]) { return $false }
+  return $lp[0].Substring(0, 1).ToUpper() -eq $fp[0].Substring(0, 1).ToUpper()
+}
 
-$jump = ($byYear | ForEach-Object {
-  '            <a href="#y{0}">{1}</a>' -f ($_.Name -replace '/', '-'), $_.Name
-}) -join "`n"
+$cards = New-Object System.Collections.ArrayList
+$totalMarks = 0
 
-foreach ($yr in $byYear) {
-  $anchor = "y" + ($yr.Name -replace '/', '-')
-  [void]$sb.AppendLine('        <h2 class="year-head" id="' + $anchor + '">' + $yr.Name + '</h2>')
+foreach ($m in $meets) {
+  $when = [datetime]::Parse($m.date)
+  $season = if ($m.season) { $m.season } else { "outdoor" }
 
-  foreach ($m in ($yr.Group | Sort-Object date -Descending)) {
-    $rows = New-Object System.Collections.ArrayList
-
-    foreach ($r in $m.individual) {
-      $label = (Get-Culture).TextInfo.ToTitleCase($r.gender) + " " + $r.event
-      $mark = if ($r.metric) { "$($r.mark) ($($r.metric))" } else { "$($r.mark)" }
-      [void]$rows.Add([pscustomobject]@{
-        sort = "$($r.gender)|$($r.event)|$('{0:d3}' -f [int]($(if ($r.place) { $r.place } else { 999 })))"
-        place = $r.place; who = $r.athlete; label = $label; mark = $mark
-        grade = $r.grade; pts = $r.points
-      })
+  # Bucket every individual mark under its athlete.
+  $byAthlete = @{}
+  foreach ($r in $m.individual) {
+    if (-not $byAthlete.ContainsKey($r.athlete)) {
+      $byAthlete[$r.athlete] = [pscustomobject]@{
+        name = $r.athlete; gender = $r.gender; grade = $r.grade
+        marks = New-Object System.Collections.ArrayList
+      }
     }
-    foreach ($r in $m.relays) {
-      $label = (Get-Culture).TextInfo.ToTitleCase($r.gender) + " " + $r.event
-      [void]$rows.Add([pscustomobject]@{
-        sort = "$($r.gender)|zz$($r.event)|$('{0:d3}' -f [int]($(if ($r.place) { $r.place } else { 999 })))"
-        place = $r.place; who = ($r.athletes -join ", "); label = $label; mark = "$($r.mark)"
-        grade = ""; pts = $r.points
-      })
+    [void]$byAthlete[$r.athlete].marks.Add([pscustomobject]@{
+      event = $r.event
+      mark  = if ($r.metric) { "$($r.mark) ($($r.metric))" } else { "$($r.mark)" }
+      place = $r.place
+      relay = $false
+    })
+    $totalMarks++
+  }
+
+  # Fold each relay into the cards of the legs we can identify, so a runner's
+  # card shows their whole day. Unmatched relays become their own card.
+  foreach ($rel in $m.relays) {
+    $matched = $false
+    foreach ($leg in $rel.athletes) {
+      foreach ($key in @($byAthlete.Keys)) {
+        if (MatchesAthlete $leg $key) {
+          [void]$byAthlete[$key].marks.Add([pscustomobject]@{
+            event = "$($rel.event) relay"
+            mark  = "$($rel.mark)"
+            place = $rel.place
+            relay = $true
+          })
+          $matched = $true
+          break
+        }
+      }
     }
-
-    $total += $rows.Count
-    $when = [datetime]::Parse($m.date).ToString("MMMM d, yyyy")
-    $src = if ($m.source.meet_url) { $m.source.meet_url } else { "" }
-
-    [void]$sb.AppendLine('        <section class="section">')
-    [void]$sb.AppendLine('            <h3 class="meet-head">' + (Esc $m.meet) + '</h3>')
-    [void]$sb.AppendLine('            <p class="meet-meta">' + $when +
-      $(if ($m.location) { ' &middot; ' + (Esc $m.location) } else { '' }) +
-      $(if ($src) { ' &middot; <a href="' + $src + '">original results</a>' } else { '' }) + '</p>')
-    [void]$sb.AppendLine('            <div class="table-wrap">')
-    [void]$sb.AppendLine('                <table class="record-table">')
-    [void]$sb.AppendLine('                    <thead><tr><th>Place</th><th>Athlete</th><th>Event</th><th>Mark</th><th>Yr</th><th>Pts</th></tr></thead>')
-    [void]$sb.AppendLine('                    <tbody>')
-
-    foreach ($r in ($rows | Sort-Object sort)) {
-      $placeCell = if ($r.place) { '<span class="' + (RankClass $r.place) + '">' + $r.place + '</span>' } else { '<span class="rank">&ndash;</span>' }
-      $pts = if ("$($r.pts)" -and "$($r.pts)" -ne "0") { "$($r.pts)" } else { "" }
-      [void]$sb.AppendLine('                        <tr>' +
-        '<td data-label="Place">' + $placeCell + '</td>' +
-        '<td data-label="Athlete" class="cell-athlete"><span class="athlete">' + (Esc $r.who) + '</span></td>' +
-        '<td data-label="Event" class="meet">' + (Esc $r.label) + '</td>' +
-        '<td data-label="Mark" class="cell-perf"><span class="perf">' + (Esc $r.mark) + '</span></td>' +
-        '<td data-label="Yr" class="date">' + (Esc "$($r.grade)") + '</td>' +
-        '<td data-label="Pts" class="date">' + (Esc $pts) + '</td>' +
-        '</tr>')
+    $totalMarks++
+    if (-not $matched) {
+      $label = "$($rel.event) relay squad"
+      $byAthlete[$label] = [pscustomobject]@{
+        name = ($rel.athletes -join ", "); gender = $rel.gender; grade = ""
+        marks = @([pscustomobject]@{ event = "$($rel.event) relay"; mark = "$($rel.mark)"; place = $rel.place; relay = $true })
+      }
     }
+  }
 
-    [void]$sb.AppendLine('                    </tbody>')
-    [void]$sb.AppendLine('                </table>')
-    [void]$sb.AppendLine('            </div>')
-    [void]$sb.AppendLine('            <p class="to-top"><a href="#top">&uarr; Back to top</a></p>')
-    [void]$sb.AppendLine('        </section>')
+  foreach ($a in $byAthlete.Values) {
+    [void]$cards.Add([pscustomobject]@{
+      sortDate = $when; athlete = $a.name; gender = $a.gender; grade = $a.grade
+      meet = $m.meet; date = $when.ToString("MMMM d, yyyy"); location = $m.location
+      season = $season; url = $m.source.meet_url; marks = $a.marks
+    })
   }
 }
+
+# Newest first, then alphabetical, so a name's cards read as a career backwards.
+$ordered = $cards | Sort-Object @{e = { $_.sortDate }; Descending = $true }, athlete
+
+$sb = New-Object System.Text.StringBuilder
+foreach ($c in $ordered) {
+  [void]$sb.AppendLine('            <article class="result-card is-hidden">')
+  [void]$sb.AppendLine('                <div class="card-head">')
+  [void]$sb.AppendLine('                    <span class="card-athlete">' + (Esc $c.athlete) + '</span>')
+  $bits = @()
+  if ($c.grade) { $bits += "Yr " + (Esc "$($c.grade)") }
+  if ($c.gender) { $bits += (Get-Culture).TextInfo.ToTitleCase($c.gender) }
+  if ($bits.Count) { [void]$sb.AppendLine('                    <span class="card-sub">' + ($bits -join ' &middot; ') + '</span>') }
+  [void]$sb.AppendLine('                    <span class="season-badge ' + $c.season + '">' + (Get-Culture).TextInfo.ToTitleCase($c.season) + '</span>')
+  [void]$sb.AppendLine('                </div>')
+  $meetLine = (Esc $c.meet)
+  if ($c.url) { $meetLine = '<a href="' + $c.url + '">' + $meetLine + '</a>' }
+  [void]$sb.AppendLine('                <p class="card-meet">' + $meetLine + '</p>')
+  [void]$sb.AppendLine('                <p class="card-date">' + $c.date + $(if ($c.location) { ' &middot; ' + (Esc $c.location) } else { '' }) + '</p>')
+  [void]$sb.AppendLine('                <ul class="card-marks">')
+  foreach ($mk in ($c.marks | Sort-Object event)) {
+    $pl = if ($mk.place) { '<span class="' + (PlaceClass $mk.place) + '">' + (Ordinal $mk.place) + '</span>' } else { '<span class="pl none">&ndash;</span>' }
+    [void]$sb.AppendLine('                    <li><span class="ev">' + (Esc $mk.event) + '</span><span class="mk">' + (Esc $mk.mark) + '</span>' + $pl + '</li>')
+  }
+  [void]$sb.AppendLine('                </ul>')
+  [void]$sb.AppendLine('            </article>')
+}
+
+# Suggest names that actually exist, so the examples always return something.
+$examples = ($ordered | Where-Object { $_.athlete -notmatch ',' } |
+             ForEach-Object { ($_.athlete -split '\s+')[-1] } |
+             Sort-Object -Unique | Get-Random -Count ([Math]::Min(3, 3)) )
+$exHtml = ($examples | ForEach-Object { '<button type="button" class="example" data-example="' + (Esc $_) + '">' + (Esc $_) + '</button>' }) -join " "
 
 $meetWord = if ($meets.Count -eq 1) { "meet" } else { "meets" }
 
@@ -98,10 +142,10 @@ $html = @"
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hardy Middle School Results Archive</title>
-    <meta name="description" content="Every Hardy Middle School track and cross country result we have on file, searchable by athlete name.">
-    <meta property="og:title" content="Hardy Middle School Results Archive">
-    <meta property="og:description" content="Every Hardy Middle School result we have on file, searchable by athlete name.">
+    <title>Hardy Middle School T&amp;F Results</title>
+    <meta name="description" content="Search every Hardy Middle School track and field result we have on file, by athlete name.">
+    <meta property="og:title" content="Hardy Middle School T&amp;F Results">
+    <meta property="og:description" content="Search every Hardy Middle School track and field result we have on file, by athlete name.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="hardylogo.png">
     <link rel="icon" href="hardylogo.png">
@@ -119,34 +163,39 @@ $html = @"
                 <a href="xc_record_wall.html">Cross Country</a>
                 <a href="trackwall_indoor.html">Indoor</a>
                 <a href="trackwall_outdoor.html">Outdoor</a>
-                <a href="results-archive.html" aria-current="page">Results</a>
+                <a href="results-archive.html" aria-current="page">T&amp;F Results</a>
             </nav>
         </div>
     </header>
 
     <div class="container">
         <div class="page-head" id="top">
-            <h1>Find Your Results</h1>
-            <p>Every Hardy result we have on file &mdash; not just the records. Type your name.</p>
+            <h1>T&amp;F Results</h1>
+            <p>Every track and field result we have on file &mdash; not just the records.</p>
         </div>
 
         <div class="search">
             <label class="is-hidden" for="q">Search by athlete name</label>
-            <input id="q" type="search" data-search placeholder="Search for an athlete, event or meet&hellip;" autocomplete="off">
+            <input id="q" type="search" data-search data-search-mode="reveal"
+                   placeholder="Type an athlete's name&hellip;" autocomplete="off" autofocus>
         </div>
         <p class="search-status" data-search-status role="status"></p>
 
-        <div class="no-results is-hidden" data-search-empty>
-            No results match your search. Try a last name, an event, or a year.
+        <div class="search-prompt" data-search-prompt>
+            <p class="prompt-lead">Search for an athlete to see every meet they competed in.</p>
+            <p class="prompt-eg">Try $exHtml</p>
+            <p class="prompt-note">$totalMarks marks from $($meets.Count) $meetWord on file.</p>
         </div>
 
-        <nav class="jump" data-hide-on-search aria-label="Jump to a school year">
-$jump
-        </nav>
+        <div class="no-results is-hidden" data-search-empty>
+            Nothing found. Try a surname on its own, or check the spelling.
+        </div>
 
-$($sb.ToString())
+        <div class="card-grid">
+$($sb.ToString())        </div>
+
         <div class="footer">
-            <p>$total results from $($meets.Count) $meetWord. Missing a meet? Email
+            <p>Missing a meet, or spotted a mistake? Email
                <a href="mailto:dario.caldara@gmail.com">dario.caldara@gmail.com</a>.</p>
             <p>&copy; 2026 Hardy Middle School. All rights reserved.</p>
         </div>
@@ -158,4 +207,4 @@ $($sb.ToString())
 "@
 
 $html | Out-File -Encoding utf8 "$root\results-archive.html"
-"built results-archive.html : $($meets.Count) $meetWord, $total rows"
+"built results-archive.html : $($meets.Count) $meetWord, $($ordered.Count) cards, $totalMarks marks"

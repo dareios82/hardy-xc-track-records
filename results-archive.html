@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hardy Middle School Results Archive</title>
-    <meta name="description" content="Every Hardy Middle School track and cross country result we have on file, searchable by athlete name.">
-    <meta property="og:title" content="Hardy Middle School Results Archive">
-    <meta property="og:description" content="Every Hardy Middle School result we have on file, searchable by athlete name.">
+    <title>Hardy Middle School T&amp;F Results</title>
+    <meta name="description" content="Search every Hardy Middle School track and field result we have on file, by athlete name.">
+    <meta property="og:title" content="Hardy Middle School T&amp;F Results">
+    <meta property="og:description" content="Search every Hardy Middle School track and field result we have on file, by athlete name.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="hardylogo.png">
     <link rel="icon" href="hardylogo.png">
@@ -24,100 +24,388 @@
                 <a href="xc_record_wall.html">Cross Country</a>
                 <a href="trackwall_indoor.html">Indoor</a>
                 <a href="trackwall_outdoor.html">Outdoor</a>
-                <a href="results-archive.html" aria-current="page">Results</a>
+                <a href="results-archive.html" aria-current="page">T&amp;F Results</a>
             </nav>
         </div>
     </header>
 
     <div class="container">
         <div class="page-head" id="top">
-            <h1>Find Your Results</h1>
-            <p>Every Hardy result we have on file &mdash; not just the records. Type your name.</p>
+            <h1>T&amp;F Results</h1>
+            <p>Every track and field result we have on file &mdash; not just the records.</p>
         </div>
 
         <div class="search">
             <label class="is-hidden" for="q">Search by athlete name</label>
-            <input id="q" type="search" data-search placeholder="Search for an athlete, event or meet&hellip;" autocomplete="off">
+            <input id="q" type="search" data-search data-search-mode="reveal"
+                   placeholder="Type an athlete's name&hellip;" autocomplete="off" autofocus>
         </div>
         <p class="search-status" data-search-status role="status"></p>
 
-        <div class="no-results is-hidden" data-search-empty>
-            No results match your search. Try a last name, an event, or a year.
+        <div class="search-prompt" data-search-prompt>
+            <p class="prompt-lead">Search for an athlete to see every meet they competed in.</p>
+            <p class="prompt-eg">Try <button type="button" class="example" data-example="Popovich">Popovich</button> <button type="button" class="example" data-example="Schwendinger">Schwendinger</button> <button type="button" class="example" data-example="Malm">Malm</button></p>
+            <p class="prompt-note">53 marks from 1 meet on file.</p>
         </div>
 
-        <nav class="jump" data-hide-on-search aria-label="Jump to a school year">
-            <a href="#y2022-23">2022/23</a>
-        </nav>
+        <div class="no-results is-hidden" data-search-empty>
+            Nothing found. Try a surname on its own, or check the spelling.
+        </div>
 
-        <h2 class="year-head" id="y2022-23">2022/23</h2>
-        <section class="section">
-            <h3 class="meet-head">DCIAA ES-MS Championships</h3>
-            <p class="meet-meta">May 23, 2023 &middot; Spingarn, DC &middot; <a href="https://results.mdtimingllc.com/meets/25883">original results</a></p>
-            <div class="table-wrap">
-                <table class="record-table">
-                    <thead><tr><th>Place</th><th>Athlete</th><th>Event</th><th>Mark</th><th>Yr</th><th>Pts</th></tr></thead>
-                    <tbody>
-                        <tr><td data-label="Place"><span class="rank silver">2</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Jason Afeni</span></td><td data-label="Event" class="meet">Boys 110m Hurdles</td><td data-label="Mark" class="cell-perf"><span class="perf">19.89</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date">8</td></tr>
-                        <tr><td data-label="Place"><span class="rank">11</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Sayum Iddamalagoda</span></td><td data-label="Event" class="meet">Boys 110m Hurdles</td><td data-label="Mark" class="cell-perf"><span class="perf">21.99</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">5</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Lars Kearney</span></td><td data-label="Event" class="meet">Boys 1600m</td><td data-label="Mark" class="cell-perf"><span class="perf">5:39.85</span></td><td data-label="Yr" class="date">7</td><td data-label="Pts" class="date">4</td></tr>
-                        <tr><td data-label="Place"><span class="rank">9</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Arnav Iyengar</span></td><td data-label="Event" class="meet">Boys 1600m</td><td data-label="Mark" class="cell-perf"><span class="perf">6:07.23</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">12</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Cameron Howes</span></td><td data-label="Event" class="meet">Boys 1600m</td><td data-label="Mark" class="cell-perf"><span class="perf">6:26.95</span></td><td data-label="Yr" class="date">7</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">9</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Sayum Iddamalagoda</span></td><td data-label="Event" class="meet">Boys 200m</td><td data-label="Mark" class="cell-perf"><span class="perf">26.47</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">5</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Jason Afeni</span></td><td data-label="Event" class="meet">Boys 400m</td><td data-label="Mark" class="cell-perf"><span class="perf">58.90</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date">4</td></tr>
-                        <tr><td data-label="Place"><span class="rank">10</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Issac Lei</span></td><td data-label="Event" class="meet">Boys 400m</td><td data-label="Mark" class="cell-perf"><span class="perf">1:02.79</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">&ndash;</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">George Sipher</span></td><td data-label="Event" class="meet">Boys 400m</td><td data-label="Mark" class="cell-perf"><span class="perf">DNS</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">4</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Arnav Iyengar</span></td><td data-label="Event" class="meet">Boys 800m</td><td data-label="Mark" class="cell-perf"><span class="perf">2:25.60</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date">5</td></tr>
-                        <tr><td data-label="Place"><span class="rank">6</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Sebastian Linnell-Simmons</span></td><td data-label="Event" class="meet">Boys 800m</td><td data-label="Mark" class="cell-perf"><span class="perf">2:36.01</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date">3</td></tr>
-                        <tr><td data-label="Place"><span class="rank">7</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Dennis Beath</span></td><td data-label="Event" class="meet">Boys 800m</td><td data-label="Mark" class="cell-perf"><span class="perf">2:40.35</span></td><td data-label="Yr" class="date">7</td><td data-label="Pts" class="date">2</td></tr>
-                        <tr><td data-label="Place"><span class="rank">14</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Youssif Rageai</span></td><td data-label="Event" class="meet">Boys Discus</td><td data-label="Mark" class="cell-perf"><span class="perf">40-04 (12.29m)</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">&ndash;</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Jason Afeni</span></td><td data-label="Event" class="meet">Boys High Jump</td><td data-label="Mark" class="cell-perf"><span class="perf">NH</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank gold">1</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">George Sipher</span></td><td data-label="Event" class="meet">Boys Long Jump</td><td data-label="Mark" class="cell-perf"><span class="perf">17-00.25 (5.19m)</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date">10</td></tr>
-                        <tr><td data-label="Place"><span class="rank">5</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Issac Lei</span></td><td data-label="Event" class="meet">Boys Long Jump</td><td data-label="Mark" class="cell-perf"><span class="perf">14-04.50 (4.38m)</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date">4</td></tr>
-                        <tr><td data-label="Place"><span class="rank">9</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Kai Newman</span></td><td data-label="Event" class="meet">Boys Long Jump</td><td data-label="Mark" class="cell-perf"><span class="perf">12-08.50 (3.87m)</span></td><td data-label="Yr" class="date">7</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">5</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Youssif Rageai</span></td><td data-label="Event" class="meet">Boys Shot Put</td><td data-label="Mark" class="cell-perf"><span class="perf">32-10.50 (10.02m)</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date">4</td></tr>
-                        <tr><td data-label="Place"><span class="rank">4</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">George Sipher</span></td><td data-label="Event" class="meet">Boys Triple Jump</td><td data-label="Mark" class="cell-perf"><span class="perf">31-05.50 (9.59m)</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date">5</td></tr>
-                        <tr><td data-label="Place"><span class="rank">5</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Issac Lei</span></td><td data-label="Event" class="meet">Boys Triple Jump</td><td data-label="Mark" class="cell-perf"><span class="perf">30-07.50 (9.33m)</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date">4</td></tr>
-                        <tr><td data-label="Place"><span class="rank">9</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Kai Newman</span></td><td data-label="Event" class="meet">Boys Triple Jump</td><td data-label="Mark" class="cell-perf"><span class="perf">26-05.00 (8.05m)</span></td><td data-label="Yr" class="date">7</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">5</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">S. Iddamalagoda, E. Aritman, G. Sipher, J. Afeni</span></td><td data-label="Event" class="meet">Boys 4x100</td><td data-label="Mark" class="cell-perf"><span class="perf">50.06</span></td><td data-label="Yr" class="date"></td><td data-label="Pts" class="date">4</td></tr>
-                        <tr><td data-label="Place"><span class="rank">6</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">D. Beath, K. Newman, E. Aritman, S. Linnell-Simmons</span></td><td data-label="Event" class="meet">Boys 4x400</td><td data-label="Mark" class="cell-perf"><span class="perf">4:28.63</span></td><td data-label="Yr" class="date"></td><td data-label="Pts" class="date">3</td></tr>
-                        <tr><td data-label="Place"><span class="rank">8</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Lucy Seagroves</span></td><td data-label="Event" class="meet">Girls 100m Hurdles</td><td data-label="Mark" class="cell-perf"><span class="perf">21.00</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date">1</td></tr>
-                        <tr><td data-label="Place"><span class="rank">10</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Mariah Wright</span></td><td data-label="Event" class="meet">Girls 100m Hurdles</td><td data-label="Mark" class="cell-perf"><span class="perf">21.29</span></td><td data-label="Yr" class="date">6</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">&ndash;</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Nia Travis</span></td><td data-label="Event" class="meet">Girls 100m Hurdles</td><td data-label="Mark" class="cell-perf"><span class="perf">DNS</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">16</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Gabrielle Graham</span></td><td data-label="Event" class="meet">Girls 100m</td><td data-label="Mark" class="cell-perf"><span class="perf">14.62</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">25</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Adriana Castillo-Redman</span></td><td data-label="Event" class="meet">Girls 100m</td><td data-label="Mark" class="cell-perf"><span class="perf">15.09</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">30</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Mariah Wright</span></td><td data-label="Event" class="meet">Girls 100m</td><td data-label="Mark" class="cell-perf"><span class="perf">15.55</span></td><td data-label="Yr" class="date">6</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">7</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Gabrielle Popovich</span></td><td data-label="Event" class="meet">Girls 1600m</td><td data-label="Mark" class="cell-perf"><span class="perf">6:47.82</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date">2</td></tr>
-                        <tr><td data-label="Place"><span class="rank">12</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Isabelle Pessey</span></td><td data-label="Event" class="meet">Girls 1600m</td><td data-label="Mark" class="cell-perf"><span class="perf">7:24.30</span></td><td data-label="Yr" class="date">6</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">&ndash;</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Hannah Malm</span></td><td data-label="Event" class="meet">Girls 1600m</td><td data-label="Mark" class="cell-perf"><span class="perf">DNS</span></td><td data-label="Yr" class="date">6</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">9</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Gabrielle Graham</span></td><td data-label="Event" class="meet">Girls 200m</td><td data-label="Mark" class="cell-perf"><span class="perf">29.57</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">18</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Adriana Castillo-Redman</span></td><td data-label="Event" class="meet">Girls 200m</td><td data-label="Mark" class="cell-perf"><span class="perf">31.30</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">21</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Tinsley Barmeyer</span></td><td data-label="Event" class="meet">Girls 200m</td><td data-label="Mark" class="cell-perf"><span class="perf">31.48</span></td><td data-label="Yr" class="date">6</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">6</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Lucy Seagroves</span></td><td data-label="Event" class="meet">Girls 400m</td><td data-label="Mark" class="cell-perf"><span class="perf">1:11.90</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date">3</td></tr>
-                        <tr><td data-label="Place"><span class="rank">7</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Aven Joseph</span></td><td data-label="Event" class="meet">Girls 400m</td><td data-label="Mark" class="cell-perf"><span class="perf">1:11.99</span></td><td data-label="Yr" class="date">7</td><td data-label="Pts" class="date">2</td></tr>
-                        <tr><td data-label="Place"><span class="rank">9</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Zoe Date</span></td><td data-label="Event" class="meet">Girls 400m</td><td data-label="Mark" class="cell-perf"><span class="perf">1:12.17</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank bronze">3</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Isabelle Pessey</span></td><td data-label="Event" class="meet">Girls 800m</td><td data-label="Mark" class="cell-perf"><span class="perf">2:48.43</span></td><td data-label="Yr" class="date">6</td><td data-label="Pts" class="date">6</td></tr>
-                        <tr><td data-label="Place"><span class="rank">5</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Hannah Malm</span></td><td data-label="Event" class="meet">Girls 800m</td><td data-label="Mark" class="cell-perf"><span class="perf">3:05.98</span></td><td data-label="Yr" class="date">6</td><td data-label="Pts" class="date">4</td></tr>
-                        <tr><td data-label="Place"><span class="rank">10</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Audrey Schwendinger</span></td><td data-label="Event" class="meet">Girls 800m</td><td data-label="Mark" class="cell-perf"><span class="perf">3:13.34</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">12</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Audrey Schwendinger</span></td><td data-label="Event" class="meet">Girls Discus</td><td data-label="Mark" class="cell-perf"><span class="perf">32-03 (9.83m)</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank gold">1</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Nia Travis</span></td><td data-label="Event" class="meet">Girls High Jump</td><td data-label="Mark" class="cell-perf"><span class="perf">4-08.00 (1.42m)</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date">10</td></tr>
-                        <tr><td data-label="Place"><span class="rank">7</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Hope Davis</span></td><td data-label="Event" class="meet">Girls High Jump</td><td data-label="Mark" class="cell-perf"><span class="perf">4-00.00 (1.22m)</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date">2</td></tr>
-                        <tr><td data-label="Place"><span class="rank">&ndash;</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Lucy Seagroves</span></td><td data-label="Event" class="meet">Girls High Jump</td><td data-label="Mark" class="cell-perf"><span class="perf">NH</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">7</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Julia Khoury</span></td><td data-label="Event" class="meet">Girls Long Jump</td><td data-label="Mark" class="cell-perf"><span class="perf">12-01.50 (3.70m)</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date">2</td></tr>
-                        <tr><td data-label="Place"><span class="rank">8</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Hope Davis</span></td><td data-label="Event" class="meet">Girls Long Jump</td><td data-label="Mark" class="cell-perf"><span class="perf">11-11.75 (3.65m)</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date">1</td></tr>
-                        <tr><td data-label="Place"><span class="rank">&ndash;</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Taylor McMahan</span></td><td data-label="Event" class="meet">Girls Long Jump</td><td data-label="Mark" class="cell-perf"><span class="perf">FOUL</span></td><td data-label="Yr" class="date">6</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank bronze">3</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Hope Davis</span></td><td data-label="Event" class="meet">Girls Triple Jump</td><td data-label="Mark" class="cell-perf"><span class="perf">26-10.50 (8.19m)</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date">6</td></tr>
-                        <tr><td data-label="Place"><span class="rank">4</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Julia Khoury</span></td><td data-label="Event" class="meet">Girls Triple Jump</td><td data-label="Mark" class="cell-perf"><span class="perf">26-06.50 (8.09m)</span></td><td data-label="Yr" class="date">8</td><td data-label="Pts" class="date">5</td></tr>
-                        <tr><td data-label="Place"><span class="rank">&ndash;</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">Aven Joseph</span></td><td data-label="Event" class="meet">Girls Triple Jump</td><td data-label="Mark" class="cell-perf"><span class="perf">FOUL</span></td><td data-label="Yr" class="date">7</td><td data-label="Pts" class="date"></td></tr>
-                        <tr><td data-label="Place"><span class="rank">5</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">T. McMahan, N. Travis, J. Khoury, G. Graham</span></td><td data-label="Event" class="meet">Girls 4x100</td><td data-label="Mark" class="cell-perf"><span class="perf">56.38</span></td><td data-label="Yr" class="date"></td><td data-label="Pts" class="date">4</td></tr>
-                        <tr><td data-label="Place"><span class="rank bronze">3</span></td><td data-label="Athlete" class="cell-athlete"><span class="athlete">A. Joseph, T. Barmeyer, Z. Date, L. Seagroves</span></td><td data-label="Event" class="meet">Girls 4x400</td><td data-label="Mark" class="cell-perf"><span class="perf">4:53.72</span></td><td data-label="Yr" class="date"></td><td data-label="Pts" class="date">6</td></tr>
-                    </tbody>
-                </table>
-            </div>
-            <p class="to-top"><a href="#top">&uarr; Back to top</a></p>
-        </section>
+        <div class="card-grid">
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Adriana Castillo-Redman</span>
+                    <span class="card-sub">Yr 8 &middot; Girls</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">100m</span><span class="mk">15.09</span><span class="pl">25th</span></li>
+                    <li><span class="ev">200m</span><span class="mk">31.30</span><span class="pl">18th</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Arnav Iyengar</span>
+                    <span class="card-sub">Yr 8 &middot; Boys</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">1600m</span><span class="mk">6:07.23</span><span class="pl">9th</span></li>
+                    <li><span class="ev">800m</span><span class="mk">2:25.60</span><span class="pl">4th</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Audrey Schwendinger</span>
+                    <span class="card-sub">Yr 8 &middot; Girls</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">800m</span><span class="mk">3:13.34</span><span class="pl">10th</span></li>
+                    <li><span class="ev">Discus</span><span class="mk">32-03 (9.83m)</span><span class="pl">12th</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Aven Joseph</span>
+                    <span class="card-sub">Yr 7 &middot; Girls</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">400m</span><span class="mk">1:11.99</span><span class="pl">7th</span></li>
+                    <li><span class="ev">4x400 relay</span><span class="mk">4:53.72</span><span class="pl bronze">3rd</span></li>
+                    <li><span class="ev">Triple Jump</span><span class="mk">FOUL</span><span class="pl none">&ndash;</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Cameron Howes</span>
+                    <span class="card-sub">Yr 7 &middot; Boys</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">1600m</span><span class="mk">6:26.95</span><span class="pl">12th</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Dennis Beath</span>
+                    <span class="card-sub">Yr 7 &middot; Boys</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">4x400 relay</span><span class="mk">4:28.63</span><span class="pl">6th</span></li>
+                    <li><span class="ev">800m</span><span class="mk">2:40.35</span><span class="pl">7th</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Gabrielle Graham</span>
+                    <span class="card-sub">Yr 8 &middot; Girls</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">100m</span><span class="mk">14.62</span><span class="pl">16th</span></li>
+                    <li><span class="ev">200m</span><span class="mk">29.57</span><span class="pl">9th</span></li>
+                    <li><span class="ev">4x100 relay</span><span class="mk">56.38</span><span class="pl">5th</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Gabrielle Popovich</span>
+                    <span class="card-sub">Yr 8 &middot; Girls</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">1600m</span><span class="mk">6:47.82</span><span class="pl">7th</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">George Sipher</span>
+                    <span class="card-sub">Yr 8 &middot; Boys</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">400m</span><span class="mk">DNS</span><span class="pl none">&ndash;</span></li>
+                    <li><span class="ev">4x100 relay</span><span class="mk">50.06</span><span class="pl">5th</span></li>
+                    <li><span class="ev">Long Jump</span><span class="mk">17-00.25 (5.19m)</span><span class="pl gold">1st</span></li>
+                    <li><span class="ev">Triple Jump</span><span class="mk">31-05.50 (9.59m)</span><span class="pl">4th</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Hannah Malm</span>
+                    <span class="card-sub">Yr 6 &middot; Girls</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">1600m</span><span class="mk">DNS</span><span class="pl none">&ndash;</span></li>
+                    <li><span class="ev">800m</span><span class="mk">3:05.98</span><span class="pl">5th</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Hope Davis</span>
+                    <span class="card-sub">Yr 8 &middot; Girls</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">High Jump</span><span class="mk">4-00.00 (1.22m)</span><span class="pl">7th</span></li>
+                    <li><span class="ev">Long Jump</span><span class="mk">11-11.75 (3.65m)</span><span class="pl">8th</span></li>
+                    <li><span class="ev">Triple Jump</span><span class="mk">26-10.50 (8.19m)</span><span class="pl bronze">3rd</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Isabelle Pessey</span>
+                    <span class="card-sub">Yr 6 &middot; Girls</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">1600m</span><span class="mk">7:24.30</span><span class="pl">12th</span></li>
+                    <li><span class="ev">800m</span><span class="mk">2:48.43</span><span class="pl bronze">3rd</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Issac Lei</span>
+                    <span class="card-sub">Yr 8 &middot; Boys</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">400m</span><span class="mk">1:02.79</span><span class="pl">10th</span></li>
+                    <li><span class="ev">Long Jump</span><span class="mk">14-04.50 (4.38m)</span><span class="pl">5th</span></li>
+                    <li><span class="ev">Triple Jump</span><span class="mk">30-07.50 (9.33m)</span><span class="pl">5th</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Jason Afeni</span>
+                    <span class="card-sub">Yr 8 &middot; Boys</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">110m Hurdles</span><span class="mk">19.89</span><span class="pl silver">2nd</span></li>
+                    <li><span class="ev">400m</span><span class="mk">58.90</span><span class="pl">5th</span></li>
+                    <li><span class="ev">4x100 relay</span><span class="mk">50.06</span><span class="pl">5th</span></li>
+                    <li><span class="ev">High Jump</span><span class="mk">NH</span><span class="pl none">&ndash;</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Julia Khoury</span>
+                    <span class="card-sub">Yr 8 &middot; Girls</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">4x100 relay</span><span class="mk">56.38</span><span class="pl">5th</span></li>
+                    <li><span class="ev">Long Jump</span><span class="mk">12-01.50 (3.70m)</span><span class="pl">7th</span></li>
+                    <li><span class="ev">Triple Jump</span><span class="mk">26-06.50 (8.09m)</span><span class="pl">4th</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Kai Newman</span>
+                    <span class="card-sub">Yr 7 &middot; Boys</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">4x400 relay</span><span class="mk">4:28.63</span><span class="pl">6th</span></li>
+                    <li><span class="ev">Long Jump</span><span class="mk">12-08.50 (3.87m)</span><span class="pl">9th</span></li>
+                    <li><span class="ev">Triple Jump</span><span class="mk">26-05.00 (8.05m)</span><span class="pl">9th</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Lars Kearney</span>
+                    <span class="card-sub">Yr 7 &middot; Boys</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">1600m</span><span class="mk">5:39.85</span><span class="pl">5th</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Lucy Seagroves</span>
+                    <span class="card-sub">Yr 8 &middot; Girls</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">100m Hurdles</span><span class="mk">21.00</span><span class="pl">8th</span></li>
+                    <li><span class="ev">400m</span><span class="mk">1:11.90</span><span class="pl">6th</span></li>
+                    <li><span class="ev">4x400 relay</span><span class="mk">4:53.72</span><span class="pl bronze">3rd</span></li>
+                    <li><span class="ev">High Jump</span><span class="mk">NH</span><span class="pl none">&ndash;</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Mariah Wright</span>
+                    <span class="card-sub">Yr 6 &middot; Girls</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">100m</span><span class="mk">15.55</span><span class="pl">30th</span></li>
+                    <li><span class="ev">100m Hurdles</span><span class="mk">21.29</span><span class="pl">10th</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Nia Travis</span>
+                    <span class="card-sub">Yr 8 &middot; Girls</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">100m Hurdles</span><span class="mk">DNS</span><span class="pl none">&ndash;</span></li>
+                    <li><span class="ev">4x100 relay</span><span class="mk">56.38</span><span class="pl">5th</span></li>
+                    <li><span class="ev">High Jump</span><span class="mk">4-08.00 (1.42m)</span><span class="pl gold">1st</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Sayum Iddamalagoda</span>
+                    <span class="card-sub">Yr 8 &middot; Boys</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">110m Hurdles</span><span class="mk">21.99</span><span class="pl">11th</span></li>
+                    <li><span class="ev">200m</span><span class="mk">26.47</span><span class="pl">9th</span></li>
+                    <li><span class="ev">4x100 relay</span><span class="mk">50.06</span><span class="pl">5th</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Sebastian Linnell-Simmons</span>
+                    <span class="card-sub">Yr 8 &middot; Boys</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">4x400 relay</span><span class="mk">4:28.63</span><span class="pl">6th</span></li>
+                    <li><span class="ev">800m</span><span class="mk">2:36.01</span><span class="pl">6th</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Taylor McMahan</span>
+                    <span class="card-sub">Yr 6 &middot; Girls</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">4x100 relay</span><span class="mk">56.38</span><span class="pl">5th</span></li>
+                    <li><span class="ev">Long Jump</span><span class="mk">FOUL</span><span class="pl none">&ndash;</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Tinsley Barmeyer</span>
+                    <span class="card-sub">Yr 6 &middot; Girls</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">200m</span><span class="mk">31.48</span><span class="pl">21st</span></li>
+                    <li><span class="ev">4x400 relay</span><span class="mk">4:53.72</span><span class="pl bronze">3rd</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Youssif Rageai</span>
+                    <span class="card-sub">Yr 8 &middot; Boys</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">Discus</span><span class="mk">40-04 (12.29m)</span><span class="pl">14th</span></li>
+                    <li><span class="ev">Shot Put</span><span class="mk">32-10.50 (10.02m)</span><span class="pl">5th</span></li>
+                </ul>
+            </article>
+            <article class="result-card is-hidden">
+                <div class="card-head">
+                    <span class="card-athlete">Zoe Date</span>
+                    <span class="card-sub">Yr 8 &middot; Girls</span>
+                    <span class="season-badge outdoor">Outdoor</span>
+                </div>
+                <p class="card-meet"><a href="https://results.mdtimingllc.com/meets/25883">DCIAA ES-MS Championships</a></p>
+                <p class="card-date">May 23, 2023 &middot; Spingarn, DC</p>
+                <ul class="card-marks">
+                    <li><span class="ev">400m</span><span class="mk">1:12.17</span><span class="pl">9th</span></li>
+                    <li><span class="ev">4x400 relay</span><span class="mk">4:53.72</span><span class="pl bronze">3rd</span></li>
+                </ul>
+            </article>
+        </div>
 
         <div class="footer">
-            <p>53 results from 1 meet. Missing a meet? Email
+            <p>Missing a meet, or spotted a mistake? Email
                <a href="mailto:dario.caldara@gmail.com">dario.caldara@gmail.com</a>.</p>
             <p>&copy; 2026 Hardy Middle School. All rights reserved.</p>
         </div>
