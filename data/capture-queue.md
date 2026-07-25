@@ -140,16 +140,15 @@ would need its own parser. Worth doing later; two meets, not urgent.
     distances. Re-fetched the source page directly to confirm both are
     genuine Discus marks and relabeled them. This was the only file found
     with this bug.
-  - **Two large discrepancies, not auto-fixed - flagged for Dario to review:**
-    - Outdoor boys Discus: the wall credits Ulyses Stewart Torres with 72-10
-      (5/9/2025), but the archive now shows James Crino at 80-00 five days
-      later at St Albans/NCS (5/15/2025) - and, after the parser fix above,
-      also 78-4 at an even earlier meet (4/3/2025). A different athlete and
-      a ~7-foot jump is too large to silently swap in.
-    - Outdoor boys Triple Jump: the wall credits George Sipher with 32-02
-      (5/2/2023), but the archive shows James Crino at 34-02.50 at the
-      5/19/2025 championship (marked PB in the source). A different athlete
-      two years later, ~2 feet further - flagged rather than auto-applied.
+  - **Two large discrepancies, flagged for Dario to review - both confirmed
+    and applied 2026-07-25:**
+    - ~~Outdoor boys Discus: the wall credited Ulyses Stewart Torres with
+      72-10 (5/9/2025)~~ — updated to James Crino, 80-00, 5/15/2025 at St
+      Albans/NCS - his best of three, after the parser fix above also
+      surfaced a 78-4 at an even earlier meet (4/3/2025).
+    - ~~Outdoor boys Triple Jump: the wall credited George Sipher with 32-02
+      (5/2/2023)~~ — updated to James Crino, 34-02.50, 5/19/2025 championship
+      (marked PB in the source).
   - Two wall entries have no matching source meet anywhere in the archive at
     all, so they're unverifiable rather than in conflict: indoor boys 4x200m
     (credited to "2017" with no meet named - no indoor 2017 file exists) and
