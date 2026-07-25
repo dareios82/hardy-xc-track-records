@@ -75,17 +75,14 @@ would need its own parser. Worth doing later; two meets, not urgent.
 
 ## Data-quality findings from the harvest
 
-Two issues turned up as a byproduct of holding the real per-meet data, not
-just the final "record" a page displays:
-
-- **Samiah Bucey-Onyekwere's 100m (12.80) and 200m (26.30) girls outdoor
-  records are attributed to the wrong meet.** The outdoor page credits them to
-  the 5/24/2022 DCIAA MS Championship, but that meet's own raw results show
-  her running 13.36 / 26.61 there — 12.80 and 26.30 are printed in the *Seed*
-  column of that same row, not Finals. The actual finals matching those times
-  come from the 5/10/2022 developmental meet
-  (`data/meets/2022-05-10-dciaa-ms-developmental.json`). The date on
-  `trackwall_outdoor.html` should change from 5/24/2022 to 5/10/2022.
+- ~~Samiah Bucey-Onyekwere's 100m/200m records attributed to the wrong
+  meet~~ — **fixed.** `trackwall_outdoor.html` credited her 12.80/26.30 to the
+  5/24/2022 championship, but that meet's raw results show her running
+  13.36/26.61 there; 12.80/26.30 sit in the *Seed* column of that same row,
+  not Finals, and actually belong to the 5/10/2022 developmental meet
+  (`data/meets/2022-05-10-dciaa-ms-developmental.json`). Date corrected on
+  both rows; the 400m row was already right (1:01.79 finals there, matching
+  the site's 1:01.8) and was left alone.
 - Sayum Iddamalagoda's indoor 55m record reads 7.6 on the site; the harvested
   2023-01-11 results say 7.69. Still unresolved — a decision, not a silent
   overwrite.
