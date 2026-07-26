@@ -183,9 +183,11 @@ would need its own parser. Worth doing later; two meets, not urgent.
       (5/13/2026 DCIAA MS Championship) - an 11.6-second improvement.
     - Outdoor girls 4x400m: the wall credits Migliaccio/Pessey/Kravitz/Mazzei
       Paterni with 4:31.81 (5/9/2025). The new archive shows a mostly
-      different squad - Teresa Ljung, Maja Caldara, Seynabou Samba, Vanina
+      different squad - Teresa Ljung, Maja Caldara, Isabel Gardiner, Vanina
       Mazzei-Paterni (only Mazzei-Paterni carries over) - at 4:25.62
-      (5/21/2026, Carlos Parson Invitational).
+      (5/21/2026, Carlos Parson Invitational). The third leg was originally
+      transcribed as Seynabou Samba, who did not run this race - corrected
+      to Isabel Gardiner after Dario caught it against the source.
   - One name was truncated in the athletic.net view with no prior match
     anywhere in the archive to confirm against: "Piper Cudworth-MacG..."
     (2026-05-02 meet, girls 800m) - expanded to "Piper Cudworth-MacGregor"

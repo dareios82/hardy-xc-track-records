@@ -8,7 +8,7 @@
     "meet_url": "https://www.athletic.net/TrackAndField/meet/628756/results/all",
     "captured": "2026-07-26",
     "method": "manual copy from the Hardy team results view (athletic.net)",
-    "note": "Listed under 'Rose L Hardy'. Wind readings and PB/SB badges dropped from marks. This meet included an 'SMR 1600m - [200-200-400-800]' sprint medley relay not seen elsewhere in the archive; recorded under that literal event name since there's no established equivalent."
+    "note": "Listed under 'Rose L Hardy'. Wind readings and PB/SB badges dropped from marks. This meet included an 'SMR 1600m - [200-200-400-800]' sprint medley relay not seen elsewhere in the archive; recorded under that literal event name since there's no established equivalent. The girls 4x400m relay's third leg was corrected from 'Seynabou Samba' to 'Isabel Gardiner' - Samba did not run this race; the initial transcription mistakenly carried her name over from an adjacent relay listing."
   },
   "individual": [
     { "place": 1,  "athlete": "Nico Schoenbauer",                "gender": "boys", "event": "1600m", "mark": "5:04.18", "points": null, "flight": null, "grade": 8 },
@@ -35,7 +35,7 @@
     { "place": 3, "gender": "boys",  "event": "SMR 1600m", "mark": "4:29.31", "squad": "A", "points": null, "flight": null, "athletes": ["Allan Maldonado", "Harrison Fitts", "Timothy Carlson", "Lionel Schoenbauer"] },
     { "place": 3, "gender": "girls", "event": "4x100m",   "mark": "55.06",   "squad": "A", "points": null, "flight": null, "athletes": ["Eliana Prager", "Seynabou Samba", "Caroline Consentino", "Judah Johnson"] },
     { "place": 6, "gender": "girls", "event": "4x200m",   "mark": "2:04.43", "squad": "A", "points": null, "flight": null, "athletes": ["Eliana Prager", "Caroline Consentino", "Bailee McGill", "Judah Johnson"] },
-    { "place": 1, "gender": "girls", "event": "4x400m",   "mark": "4:25.62", "squad": "A", "points": null, "flight": null, "athletes": ["Teresa Ljung", "Maja Caldara", "Seynabou Samba", "Vanina Mazzei-Paterni"] },
+    { "place": 1, "gender": "girls", "event": "4x400m",   "mark": "4:25.62", "squad": "A", "points": null, "flight": null, "athletes": ["Teresa Ljung", "Maja Caldara", "Isabel Gardiner", "Vanina Mazzei-Paterni"] },
     { "place": 2, "gender": "girls", "event": "SMR 1600m", "mark": "4:36.08", "squad": "A", "points": null, "flight": null, "athletes": ["Teresa Ljung", "Saila Fuad", "Isabel Gardiner", "Vanina Mazzei-Paterni"] }
   ]
 }
