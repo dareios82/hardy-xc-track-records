@@ -177,21 +177,20 @@ would need its own parser. Worth doing later; two meets, not urgent.
     updated to 5:29.03 (5/2/2026, DCIAA MS/HS Developmental #2). Same
     athlete beating her own mark a year later - no review needed.
   - **Three large discrepancies, flagged for Dario to review - each swaps in
-    a different athlete or squad, not just a faster mark by the same
-    person:**
-    - Outdoor girls 400m: the wall credits Samiah Bucey-Onyekwere with 1:01.8
-      (5/24/2022). The new archive shows Vanina Mazzei-Paterni at 1:00.42
-      (5/13/2026 DCIAA MS Championship).
-    - Outdoor girls 800m: the wall credits Symbul Logan with 2:37.0
-      (5/30/2024). The new archive shows Vanina Mazzei-Paterni at 2:25.42
-      (5/13/2026 DCIAA MS Championship) - an 11.6-second improvement.
-    - Outdoor girls 4x400m: the wall credits Migliaccio/Pessey/Kravitz/Mazzei
-      Paterni with 4:31.81 (5/9/2025). The new archive shows a mostly
-      different squad - Teresa Ljung, Maja Caldara, Isabel Gardiner, Vanina
-      Mazzei-Paterni (only Mazzei-Paterni carries over) - at 4:25.62
-      (5/21/2026, Carlos Parson Invitational). The third leg was originally
-      transcribed as Seynabou Samba, who did not run this race - corrected
-      to Isabel Gardiner after Dario caught it against the source.
+    a different athlete or squad - all confirmed and applied 2026-07-26:**
+    - ~~Outdoor girls 400m: the wall credited Samiah Bucey-Onyekwere with
+      1:01.8 (5/24/2022)~~ — updated to Vanina Mazzei-Paterni, 1:00.42,
+      5/13/2026 DCIAA MS Championship.
+    - ~~Outdoor girls 800m: the wall credited Symbul Logan with 2:37.0
+      (5/30/2024)~~ — updated to Vanina Mazzei-Paterni, 2:25.42, 5/13/2026
+      DCIAA MS Championship - an 11.6-second improvement.
+    - ~~Outdoor girls 4x400m: the wall credited Migliaccio/Pessey/Kravitz/
+      Mazzei Paterni with 4:31.81 (5/9/2025)~~ — updated to a mostly
+      different squad, Teresa Ljung, Maja Caldara, Isabel Gardiner, Vanina
+      Mazzei-Paterni (only Mazzei-Paterni carries over), 4:25.62, 5/21/2026
+      Carlos Parson Invitational. The third leg was originally transcribed
+      as Seynabou Samba, who did not run this race - corrected to Isabel
+      Gardiner after Dario caught it against the source.
   - One name was truncated in the athletic.net view with no prior match
     anywhere in the archive to confirm against: "Piper Cudworth-MacG..."
     (2026-05-02 meet, girls 800m) - expanded to "Piper Cudworth-MacGregor"
