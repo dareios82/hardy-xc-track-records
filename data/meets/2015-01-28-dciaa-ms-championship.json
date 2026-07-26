@@ -1,0 +1,40 @@
+{
+  "meet": "DCIAA MS Championship",
+  "date": "2015-01-28",
+  "season": "indoor",
+  "location": "Prince George's Sports & Learning Complex, MD",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://www.tfrrs.org/results/37365/DCIAA_Indoor_Track_and_Field_Championship_Middle_School",
+    "captured": "2026-07-26",
+    "method": "manual copy from TFRRS results pages (one page per event, unlike the flat Hy-Tek dumps used elsewhere in the archive)",
+    "note": "Only a Women's/girls results section was pasted; no boys/Men's section has been captured for this meet yet. Overall (Top) results used where TFRRS also printed a redundant per-section/heat breakdown of the same swimmers. This meet directly confirms the girls Long Jump record on trackwall_indoor.html: Nyla Ward, 17-00 (5.18m), matching exactly."
+  },
+  "individual": [
+    { "place": 2,  "athlete": "Nyla Ward",               "gender": "girls", "event": "55m",   "mark": "7.84",    "points": 8, "flight": null, "grade": 8 },
+    { "place": 9,  "athlete": "Inez Denton",              "gender": "girls", "event": "55m",   "mark": "8.47",    "points": null, "flight": null, "grade": 8 },
+    { "place": 11, "athlete": "Aja Taylor",                "gender": "girls", "event": "55m",   "mark": "8.62",    "points": null, "flight": null, "grade": 7 },
+    { "place": 6,  "athlete": "Nyla Ward",                 "gender": "girls", "event": "200m",  "mark": "29.39",   "points": 3, "flight": null, "grade": 8 },
+    { "place": 14, "athlete": "Aja Taylor",                 "gender": "girls", "event": "200m",  "mark": "31.84",   "points": null, "flight": null, "grade": 7 },
+    { "place": 15, "athlete": "Faith Smith",                "gender": "girls", "event": "200m",  "mark": "33.02",   "points": null, "flight": null, "grade": 7 },
+    { "place": 5,  "athlete": "Inez Denton",                "gender": "girls", "event": "400m",  "mark": "1:12.98", "points": 4, "flight": null, "grade": 8 },
+    { "place": 7,  "athlete": "India Skinner",               "gender": "girls", "event": "400m",  "mark": "1:22.10", "points": 2, "flight": null, "grade": 8 },
+    { "place": 8,  "athlete": "Destiny Frink-Morgan",        "gender": "girls", "event": "400m",  "mark": "1:24.05", "points": 1, "flight": null, "grade": 7 },
+    { "place": 2,  "athlete": "A'rai Hyman",                 "gender": "girls", "event": "800m",  "mark": "3:14.37", "points": 8, "flight": null, "grade": 6 },
+    { "place": 3,  "athlete": "Zoe Walker",                  "gender": "girls", "event": "800m",  "mark": "3:16.20", "points": 6, "flight": null, "grade": 6 },
+    { "place": 7,  "athlete": "Jaliyah Abdul-Hagg",          "gender": "girls", "event": "800m",  "mark": "3:57.24", "points": 2, "flight": null, "grade": 6 },
+    { "place": 2,  "athlete": "Zoe Walker",                  "gender": "girls", "event": "1600m", "mark": "6:54.04", "points": 8, "flight": null, "grade": 6 },
+    { "place": 3,  "athlete": "Faith Smith",                 "gender": "girls", "event": "1600m", "mark": "7:47.28", "points": 6, "flight": null, "grade": 7 },
+    { "place": null, "athlete": "A'rai Hyman",                "gender": "girls", "event": "High Jump", "mark": "NH", "points": null, "flight": null, "grade": 6 },
+    { "place": 1,  "athlete": "Nyla Ward",                   "gender": "girls", "event": "Long Jump", "mark": "17-00",    "metric": "5.18m", "points": 10, "flight": null, "grade": 8 },
+    { "place": 3,  "athlete": "A'rai Hyman",                 "gender": "girls", "event": "Long Jump", "mark": "13-04",    "metric": "4.06m", "points": 6,  "flight": null, "grade": 6 },
+    { "place": 11, "athlete": "Aja Taylor",                  "gender": "girls", "event": "Long Jump", "mark": "9-10.25",  "metric": "3.00m", "points": null, "flight": null, "grade": 7 },
+    { "place": 6,  "athlete": "Destiny Frink-Morgan",        "gender": "girls", "event": "Shot Put",  "mark": "19-06.50", "metric": "5.95m", "points": 3, "flight": null, "grade": 7 },
+    { "place": 9,  "athlete": "India Skinner",               "gender": "girls", "event": "Shot Put",  "mark": "14-11",    "metric": "4.54m", "points": null, "flight": null, "grade": 8 }
+  ],
+  "relays": [
+    { "place": 2, "gender": "girls", "event": "4x200m", "mark": "2:05.24", "squad": "A", "points": 8, "flight": null, "athletes": ["A'Rai Hyman", "Aja Taylor", "Bailey Moore", "Nyla Ward"] },
+    { "place": 3, "gender": "girls", "event": "4x400m", "mark": "5:55.79", "squad": "A", "points": 6, "flight": null, "athletes": ["India Skinner", "Adarcy'len Williams", "Destiny Frink-Morgan", "Jaliyah Abdul-Hagg"] },
+    { "place": 2, "gender": "girls", "event": "Sprint Medley Relay", "mark": "6:15.63", "squad": "A", "points": 8, "flight": null, "athletes": ["Bailey Moore", "Bianca Johnson", "Adarcy'len Williams", "Faith Smith"] }
+  ]
+}

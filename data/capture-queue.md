@@ -51,10 +51,13 @@ Done manually:
 | ☑ | Indoor | 2026-01-05 | DCIAA ES/MS Developmental #1 | `data/meets/2026-01-05-dciaa-es-ms-developmental.json` |
 | ☑ | Indoor | 2026-01-14 | DCIAA ES/MS Developmental #2 | `data/meets/2026-01-14-dciaa-es-ms-developmental.json` |
 | ☑ | Indoor | 2026-02-24 | DCIAA ES/MS Championship | `data/meets/2026-02-24-dciaa-es-ms-championship.json` |
+| ☑ | Indoor | 2015-01-28 | DCIAA MS Championship (girls only) | `data/meets/2015-01-28-dciaa-ms-championship.json` |
 
 These eight complete the entire 2025/26 school year, both indoor and
 outdoor - the school year that was previously missing from the site (see
-Open Issues, below).
+Open Issues, below). The 2015-01-28 meet is the first one pulled from
+TFRRS rather than a Hy-Tek/athletic.net source - see the Automated section
+below for why that host needed a different approach.
 
 ## Automated — done (18 meets, 802 marks)
 
@@ -80,11 +83,15 @@ One meet was found this way that wasn't on anyone's radar: the outdoor
 43 marks including Ulyses Stewart Torres's 400m and the boys 4x100 relay. It
 had never been added to the manual list above; this closes that gap.
 
-**Not building for now:** TFRRS (`tfrrs.org`) hosts the 2015 and 2016 indoor
-championships. Confirmed static and does contain real Hardy marks, but it's a
-genuinely different shape — an event-index page linking out to one HTML page
-per event (~25+ fetches per meet) rather than one flat Hy-Tek dump — so it
-would need its own parser. Worth doing later; two meets, not urgent.
+**TFRRS (`tfrrs.org`):** hosts the 2015 and 2016 indoor championships. It's a
+genuinely different shape from every other source — an event-index page
+linking out to one HTML page per event, rather than one flat dump — so no
+parser was built; the 2015 meet was instead captured by hand, one event page
+pasted at a time (see the manual-capture entry above). The 2016 meet
+(`https://www.tfrrs.org/results/42316/2016_DCIAA_Middle_School_Indoor_Track_and_Field_Championship`)
+is the same shape and still needs the same treatment. Also, only the
+girls/Women's section of the 2015 meet has been pasted so far - the
+boys/Men's section of that same meet is still open if there was one.
 
 ## Data-quality findings from the harvest
 
@@ -161,12 +168,15 @@ would need its own parser. Worth doing later; two meets, not urgent.
     - ~~Outdoor boys Triple Jump: the wall credited George Sipher with 32-02
       (5/2/2023)~~ — updated to James Crino, 34-02.50, 5/19/2025 championship
       (marked PB in the source).
-  - Two wall entries have no matching source meet anywhere in the archive at
-    all, so they're unverifiable rather than in conflict: indoor boys 4x200m
-    (credited to "2017" with no meet named - no indoor 2017 file exists) and
-    indoor girls Long Jump (Nyla Ward, 1/28/2015 - no 2015 file exists).
-    Left untouched; nothing to compare them against.
+  - One wall entry had no matching source meet anywhere in the archive:
+    indoor boys 4x200m (credited to "2017" with no meet named - no indoor
+    2017 file exists). Still unverifiable; left untouched.
   - Everything else on both walls matched the archive exactly.
+- ~~Indoor girls Long Jump record unverifiable (Nyla Ward, 1/28/2015 - no
+  source meet existed)~~ — **confirmed correct (2026-07-26).** The 2015
+  DCIAA MS Championship, captured from TFRRS, gives Nyla Ward 17-00 (5.18m),
+  1st place - matching the wall exactly. Added the metric conversion to the
+  wall's display since the source provides it.
 - **2025/26 outdoor season captured and cross-checked (2026-07-26).** Five
   meets (DCIAA HS/MS Developmental #1 3/24, DCIAA MS/HS Developmental #2
   5/2, Quakers Mini Invite 5/4, DCIAA MS Championship 5/13, Carlos Parson
