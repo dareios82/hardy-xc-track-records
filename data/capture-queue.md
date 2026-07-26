@@ -48,9 +48,13 @@ Done manually:
 | ☑ | Outdoor | 2026-05-04 | Quakers Mini Invite | `data/meets/2026-05-04-quakers-mini-invite.json` |
 | ☑ | Outdoor | 2026-05-13 | DCIAA MS Championship | `data/meets/2026-05-13-dciaa-ms-championship.json` |
 | ☑ | Outdoor | 2026-05-21 | Carlos Parson Invitational | `data/meets/2026-05-21-carlos-parson-invitational.json` |
+| ☑ | Indoor | 2026-01-05 | DCIAA ES/MS Developmental #1 | `data/meets/2026-01-05-dciaa-es-ms-developmental.json` |
+| ☑ | Indoor | 2026-01-14 | DCIAA ES/MS Developmental #2 | `data/meets/2026-01-14-dciaa-es-ms-developmental.json` |
+| ☑ | Indoor | 2026-02-24 | DCIAA ES/MS Championship | `data/meets/2026-02-24-dciaa-es-ms-championship.json` |
 
-These five complete the 2025/26 outdoor season - the entire school year that
-was previously missing from the site (see Open Issues, below).
+These eight complete the entire 2025/26 school year, both indoor and
+outdoor - the school year that was previously missing from the site (see
+Open Issues, below).
 
 ## Automated — done (18 meets, 802 marks)
 
@@ -195,13 +199,47 @@ would need its own parser. Worth doing later; two meets, not urgent.
   - `tools/build-archive.ps1`'s non-result filter didn't recognize "NT" (no
     time), printed by athletic.net for Seynabou Samba's scratched 200m at
     the 2026 championship. Added to the filter alongside DNS/DNF/etc.
+- **2025/26 indoor season captured and cross-checked (2026-07-26).** Three
+  meets (DCIAA ES/MS Developmental #1 1/5, DCIAA ES/MS Developmental #2
+  1/14, DCIAA ES/MS Championship 2/24) transcribed from athletic.net
+  team-results pages and cross-checked against the indoor record board.
+  Unlike the outdoor sweep, this one turned up several real changes:
+  - ~~Indoor girls 1600m: Maja Caldara's own 5:51.6 (1/15/2025)~~ — updated
+    to 5:37.15 (1/14/2026, DCIAA ES/MS Developmental #2). Same athlete
+    beating her own mark a year later - no review needed.
+  - **Five large discrepancies, flagged for Dario to review - each swaps in
+    a different athlete or squad:**
+    - Indoor girls 800m: the wall credits Julia Migliaccio with 2:47.1
+      (2/25/2025). The new archive shows "Vanina Mazzei" at 2:33.64
+      (2/24/2026 DCIAA ES/MS Championship) - a 13.5-second improvement.
+      ("Vanina Mazzei" without "-Paterni" is how this data source prints
+      her name throughout all three new meets - same convention as her
+      500m entry in the 2024-01-18 file - so almost certainly the same
+      Vanina Mazzei-Paterni already in the archive, not a different person.)
+    - Indoor boys 55m Dash: the wall credits Sayum Iddamalagoda with 7.69
+      (1/11/2023). The new archive shows Heyab Robel at 7.53 (2/24/2026
+      championship) - though that's a Prelims time; Hardy had no finalist.
+    - Indoor boys 800m: the wall credits Pierce Leen with 2:30.1
+      (2/25/2025). The new archive shows Nico Schoenbauer at 2:26.77
+      (2/24/2026 championship).
+    - Indoor girls 4x200m: the wall credits Hanson/Luna/Mazzei-Paterni/
+      McMahan with 2:00.9 (2/25/2025). The new archive shows an entirely
+      different squad - Samba/Patterson/Consentino/Johnson - at 2:00.58
+      (2/24/2026 championship).
+    - Indoor girls 4x400m: the wall credits Migliaccio/Sullivan/Ljung/
+      Mazzei-Paterni with 4:48.9 (2/25/2025). The new archive shows a mostly
+      different squad - Ljung/Caldara/Samba/Mazzei - at 4:40.56 (2/24/2026
+      championship).
+  - "FelipeSebastion Mes..." recurred garbled and truncated across all
+    three new meets, same as previously seen; expanded to Felipe Sebastian
+    Mesa McGovern each time. "Saila Faud" (transposed letters) corrected to
+    Saila Fuad, matching her spelling in every outdoor 2026 meet already in
+    the archive.
 
 ## Open issues
 
 - Cross country has no sources table at all yet, so no XC meets are listed
   here or captured as data.
-- The indoor half of the 2025/26 school year (winter/spring 2026) is still
-  missing - only the outdoor season has been captured so far.
 
 ## Archive design
 
