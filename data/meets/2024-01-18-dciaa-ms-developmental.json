@@ -40,7 +40,7 @@
     { "place": 11,   "athlete": "Betty Markus",                        "gender": "girls", "event": "300m",  "mark": "56.45",    "points": null, "flight": "H6", "grade": 6 },
     { "place": 11,   "athlete": "Lucia Mazzarelli",                    "gender": "girls", "event": "800m",  "mark": "3:28.09",  "points": null, "flight": "H3", "grade": 6 },
     { "place": null, "athlete": "Lucia Mazzarelli",                    "gender": "girls", "event": "1600m", "mark": "DNF",      "points": null, "flight": "H1", "grade": 6 },
-    { "place": 3,    "athlete": "Vanina Mazzei",                       "gender": "girls", "event": "500m",  "mark": "1:36.98",  "points": null, "flight": "H2", "grade": 6 },
+    { "place": 3,    "athlete": "Vanina Mazzei-Paterni",                       "gender": "girls", "event": "500m",  "mark": "1:36.98",  "points": null, "flight": "H2", "grade": 6 },
     { "place": null, "athlete": "Taylor McMahan",                      "gender": "girls", "event": "55m",   "mark": "DNS",      "points": null, "flight": "H3", "grade": 7 },
     { "place": 14,   "athlete": "Felipe Sebastian Mesa McGovern",      "gender": "boys",  "event": "800m",  "mark": "3:10.02",  "points": null, "flight": "H2", "grade": 6 },
     { "place": null, "athlete": "Kai Newman",                          "gender": "boys",  "event": "500m",  "mark": "DNS",      "points": null, "flight": "H6", "grade": 8 },

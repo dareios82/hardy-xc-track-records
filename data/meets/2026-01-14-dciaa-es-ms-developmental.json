@@ -48,7 +48,7 @@
     { "place": 12, "athlete": "Salma Brown",                      "gender": "girls", "event": "400m", "mark": "1:14.11", "points": null, "flight": null, "grade": 6 },
     { "place": 16, "athlete": "Ella Nushi",                       "gender": "girls", "event": "400m", "mark": "1:17.19", "points": null, "flight": null, "grade": 7 },
     { "place": 18, "athlete": "Lucia Mazzarelli",                 "gender": "girls", "event": "400m", "mark": "1:18.10", "points": null, "flight": null, "grade": 8 },
-    { "place": 1,  "athlete": "Vanina Mazzei",                    "gender": "girls", "event": "800m", "mark": "2:36.24", "points": null, "flight": null, "grade": 8 },
+    { "place": 1,  "athlete": "Vanina Mazzei-Paterni",                    "gender": "girls", "event": "800m", "mark": "2:36.24", "points": null, "flight": null, "grade": 8 },
     { "place": 6,  "athlete": "Saila Fuad",                       "gender": "girls", "event": "800m", "mark": "2:53.69", "points": null, "flight": null, "grade": 6 },
     { "place": 9,  "athlete": "Skai Moore",                       "gender": "girls", "event": "800m", "mark": "3:03.62", "points": null, "flight": null, "grade": 7 },
     { "place": 1,  "athlete": "Maja Caldara",                     "gender": "girls", "event": "1600m", "mark": "5:37.15", "points": null, "flight": null, "grade": 8 },
@@ -75,7 +75,7 @@
     { "place": 14, "gender": "boys",  "event": "4x400m", "mark": "5:13.31", "squad": "C", "points": null, "flight": null, "athletes": ["Hayden Koh", "Allan Maldonado", "August DeGood", "Conor Benavides"] },
     { "place": 6,  "gender": "girls", "event": "4x200m", "mark": "2:05.00", "squad": "A", "points": null, "flight": null, "athletes": ["Seynabou Samba", "Caroline Consentino", "Miah Patterson", "Eliana Prager"] },
     { "place": 12, "gender": "girls", "event": "4x200m", "mark": "2:12.32", "squad": "B", "points": null, "flight": null, "athletes": ["Judah Johnson", "Soleil Rasul", "Naomi Kihn", "Ingrid Kearney"] },
-    { "place": 2,  "gender": "girls", "event": "4x400m", "mark": "4:51.37", "squad": "A", "points": null, "flight": null, "athletes": ["Teresa Ljung", "Saila Fuad", "Maja Caldara", "Vanina Mazzei"] },
+    { "place": 2,  "gender": "girls", "event": "4x400m", "mark": "4:51.37", "squad": "A", "points": null, "flight": null, "athletes": ["Teresa Ljung", "Saila Fuad", "Maja Caldara", "Vanina Mazzei-Paterni"] },
     { "place": 5,  "gender": "girls", "event": "4x400m", "mark": "5:10.46", "squad": "B", "points": null, "flight": null, "athletes": ["Salma Brown", "Lydia Mohlenkamp", "Ella Nushi", "Lucia Mazzarelli"] },
     { "place": 6,  "gender": "girls", "event": "4x400m", "mark": "5:10.81", "squad": "C", "points": null, "flight": null, "athletes": ["Judah Johnson", "Skai Moore", "Sonnia Klapper", "Miah Patterson"] }
   ]

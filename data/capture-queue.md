@@ -208,33 +208,35 @@ would need its own parser. Worth doing later; two meets, not urgent.
     to 5:37.15 (1/14/2026, DCIAA ES/MS Developmental #2). Same athlete
     beating her own mark a year later - no review needed.
   - **Five large discrepancies, flagged for Dario to review - each swaps in
-    a different athlete or squad:**
-    - Indoor girls 800m: the wall credits Julia Migliaccio with 2:47.1
-      (2/25/2025). The new archive shows "Vanina Mazzei" at 2:33.64
-      (2/24/2026 DCIAA ES/MS Championship) - a 13.5-second improvement.
-      ("Vanina Mazzei" without "-Paterni" is how this data source prints
-      her name throughout all three new meets - same convention as her
-      500m entry in the 2024-01-18 file - so almost certainly the same
-      Vanina Mazzei-Paterni already in the archive, not a different person.)
-    - Indoor boys 55m Dash: the wall credits Sayum Iddamalagoda with 7.69
-      (1/11/2023). The new archive shows Heyab Robel at 7.53 (2/24/2026
-      championship) - though that's a Prelims time; Hardy had no finalist.
-    - Indoor boys 800m: the wall credits Pierce Leen with 2:30.1
-      (2/25/2025). The new archive shows Nico Schoenbauer at 2:26.77
-      (2/24/2026 championship).
-    - Indoor girls 4x200m: the wall credits Hanson/Luna/Mazzei-Paterni/
-      McMahan with 2:00.9 (2/25/2025). The new archive shows an entirely
-      different squad - Samba/Patterson/Consentino/Johnson - at 2:00.58
-      (2/24/2026 championship).
-    - Indoor girls 4x400m: the wall credits Migliaccio/Sullivan/Ljung/
-      Mazzei-Paterni with 4:48.9 (2/25/2025). The new archive shows a mostly
-      different squad - Ljung/Caldara/Samba/Mazzei - at 4:40.56 (2/24/2026
-      championship).
+    a different athlete or squad - all confirmed and applied 2026-07-26:**
+    - ~~Indoor girls 800m: the wall credited Julia Migliaccio with 2:47.1
+      (2/25/2025)~~ — updated to Vanina Mazzei-Paterni, 2:33.64, 2/24/2026
+      DCIAA ES/MS Championship - a 13.5-second improvement.
+    - ~~Indoor boys 55m Dash: the wall credited Sayum Iddamalagoda with
+      7.69 (1/11/2023)~~ — updated to Heyab Robel, 7.53, 2/24/2026
+      championship (a Prelims time; Hardy had no finalist that round).
+    - ~~Indoor boys 800m: the wall credited Pierce Leen with 2:30.1
+      (2/25/2025)~~ — updated to Nico Schoenbauer, 2:26.77, 2/24/2026
+      championship.
+    - ~~Indoor girls 4x200m: the wall credited Hanson/Luna/Mazzei-Paterni/
+      McMahan with 2:00.9 (2/25/2025)~~ — updated to an entirely different
+      squad, Samba/Patterson/Consentino/Johnson, 2:00.58, 2/24/2026
+      championship.
+    - ~~Indoor girls 4x400m: the wall credited Migliaccio/Sullivan/Ljung/
+      Mazzei-Paterni with 4:48.9 (2/25/2025)~~ — updated to a mostly
+      different squad, Ljung/Caldara/Samba/Mazzei-Paterni, 4:40.56,
+      2/24/2026 championship.
   - "FelipeSebastion Mes..." recurred garbled and truncated across all
     three new meets, same as previously seen; expanded to Felipe Sebastian
     Mesa McGovern each time. "Saila Faud" (transposed letters) corrected to
     Saila Fuad, matching her spelling in every outdoor 2026 meet already in
     the archive.
+  - "Vanina Mazzei" (without "-Paterni") was how this data source printed
+    her name throughout all three new indoor meets, plus one older entry in
+    the 2024-01-18 file - same athlete as Vanina Mazzei-Paterni elsewhere in
+    the archive. Normalized all eight occurrences to "Vanina Mazzei-Paterni"
+    per Dario's instruction to keep her name consistent across the
+    database.
 
 ## Open issues
 

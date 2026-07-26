@@ -33,7 +33,7 @@
     { "place": 8,  "athlete": "Salma Brown",                      "gender": "girls", "event": "400m", "mark": "1:16.18", "points": null, "flight": null, "grade": 6 },
     { "place": 10, "athlete": "Ella Nushi",                       "gender": "girls", "event": "400m", "mark": "1:18.88", "points": null, "flight": null, "grade": 7 },
     { "place": 11, "athlete": "Lucia Mazzarelli",                 "gender": "girls", "event": "400m", "mark": "1:18.98", "points": null, "flight": null, "grade": 8 },
-    { "place": 2,  "athlete": "Vanina Mazzei",                    "gender": "girls", "event": "800m", "mark": "2:42.92", "points": null, "flight": null, "grade": 8 },
+    { "place": 2,  "athlete": "Vanina Mazzei-Paterni",                    "gender": "girls", "event": "800m", "mark": "2:42.92", "points": null, "flight": null, "grade": 8 },
     { "place": 5,  "athlete": "Saila Fuad",                       "gender": "girls", "event": "800m", "mark": "2:59.28", "points": null, "flight": null, "grade": 6 },
     { "place": 7,  "athlete": "Lydia Mohlenkamp",                 "gender": "girls", "event": "800m", "mark": "3:00.38", "points": null, "flight": null, "grade": 7 },
     { "place": 2,  "athlete": "Teresa Ljung",                     "gender": "girls", "event": "1600m", "mark": "5:41.67", "points": null, "flight": null, "grade": 7 },
@@ -43,7 +43,7 @@
     { "place": 21, "athlete": "Naomi Kihn",                       "gender": "girls", "event": "55m Hurdles", "mark": "14.03", "points": null, "flight": null, "grade": 7 },
     { "place": 1,  "athlete": "Ella Nushi",                       "gender": "girls", "event": "High Jump", "mark": "4-04", "points": null, "flight": null, "grade": 7 },
     { "place": null, "athlete": "Lucia Mazzarelli",                "gender": "girls", "event": "High Jump", "mark": "NH", "points": null, "flight": null, "grade": 8 },
-    { "place": 2,  "athlete": "Vanina Mazzei",                    "gender": "girls", "event": "Long Jump", "mark": "13-10", "points": null, "flight": null, "grade": 8 },
+    { "place": 2,  "athlete": "Vanina Mazzei-Paterni",                    "gender": "girls", "event": "Long Jump", "mark": "13-10", "points": null, "flight": null, "grade": 8 },
     { "place": 3,  "athlete": "Teresa Ljung",                     "gender": "girls", "event": "Triple Jump", "mark": "25-00", "points": null, "flight": null, "grade": 7 },
     { "place": 4,  "athlete": "Ingrid Kearney",                   "gender": "girls", "event": "Triple Jump", "mark": "23-06.25", "points": null, "flight": null, "grade": 7 },
     { "place": 8,  "athlete": "Naomi Kihn",                       "gender": "girls", "event": "Triple Jump", "mark": "21-02", "points": null, "flight": null, "grade": 7 }
