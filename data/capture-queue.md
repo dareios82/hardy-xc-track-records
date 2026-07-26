@@ -191,10 +191,11 @@ would need its own parser. Worth doing later; two meets, not urgent.
       Carlos Parson Invitational. The third leg was originally transcribed
       as Seynabou Samba, who did not run this race - corrected to Isabel
       Gardiner after Dario caught it against the source.
-  - One name was truncated in the athletic.net view with no prior match
-    anywhere in the archive to confirm against: "Piper Cudworth-MacG..."
-    (2026-05-02 meet, girls 800m) - expanded to "Piper Cudworth-MacGregor"
-    as the likely completion, not verified.
+  - ~~One name was truncated in the athletic.net view with no prior match
+    anywhere in the archive to confirm against: "Piper Cudworth-MacG..."~~
+    — **resolved.** Confirmed by Dario as Piper Cudworth-MacGillis; corrected
+    in both the 2026-01-05 and 2026-05-02 files (originally guessed as
+    "Cudworth-MacGregor").
   - `tools/build-archive.ps1`'s non-result filter didn't recognize "NT" (no
     time), printed by athletic.net for Seynabou Samba's scratched 200m at
     the 2026 championship. Added to the filter alongside DNS/DNF/etc.

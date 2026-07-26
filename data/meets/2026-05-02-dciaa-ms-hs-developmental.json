@@ -8,7 +8,7 @@
     "meet_url": "https://www.athletic.net/TrackAndField/meet/661256/results/all",
     "captured": "2026-07-26",
     "method": "manual copy from the Hardy team results view (athletic.net)",
-    "note": "Listed under 'Rose L Hardy'. Wind readings and PB/SB badges dropped from marks. 'Vanina Mazzei-Pater...' expanded to Vanina Mazzei-Paterni, matching her established spelling. 'Piper Cudworth-MacG...' has no prior match anywhere in the archive to confirm against; expanded to 'Piper Cudworth-MacGregor' as the most likely completion but not verified."
+    "note": "Listed under 'Rose L Hardy'. Wind readings and PB/SB badges dropped from marks. 'Vanina Mazzei-Pater...' expanded to Vanina Mazzei-Paterni, matching her established spelling. 'Piper Cudworth-MacG...' expanded to Piper Cudworth-MacGillis, confirmed correct by Dario."
   },
   "individual": [
     { "place": 13, "athlete": "Heyab Robel",                   "gender": "boys", "event": "100m", "mark": "12.84", "points": null, "flight": null, "grade": 7 },
@@ -43,7 +43,7 @@
     { "place": 19, "athlete": "Ella Nushi",                      "gender": "girls", "event": "400m", "mark": "1:16.62", "points": null, "flight": null, "grade": 7 },
     { "place": 1,  "athlete": "Vanina Mazzei-Paterni",           "gender": "girls", "event": "800m", "mark": "2:27.69", "points": null, "flight": null, "grade": 8 },
     { "place": 4,  "athlete": "Skai Moore",                      "gender": "girls", "event": "800m", "mark": "2:43.18", "points": null, "flight": null, "grade": 7 },
-    { "place": 14, "athlete": "Piper Cudworth-MacGregor",        "gender": "girls", "event": "800m", "mark": "3:15.22", "points": null, "flight": null, "grade": 6 },
+    { "place": 14, "athlete": "Piper Cudworth-MacGillis",        "gender": "girls", "event": "800m", "mark": "3:15.22", "points": null, "flight": null, "grade": 6 },
     { "place": 1,  "athlete": "Maja Caldara",                    "gender": "girls", "event": "1600m", "mark": "5:29.03", "points": null, "flight": null, "grade": 8 },
     { "place": 3,  "athlete": "Sonnia Klapper",                  "gender": "girls", "event": "1600m", "mark": "5:54.25", "points": null, "flight": null, "grade": 6 },
     { "place": 8,  "athlete": "Lydia Mohlenkamp",                "gender": "girls", "event": "1600m", "mark": "6:25.27", "points": null, "flight": null, "grade": 7 },
