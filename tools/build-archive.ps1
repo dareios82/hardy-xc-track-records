@@ -149,13 +149,16 @@ foreach ($c in $ordered) {
 # Suggest names that actually exist, so the examples always return something.
 # Filter blanks explicitly: Get-Random's -InputObject rejects a null/empty
 # pipeline outright, which an all-blank candidate list would otherwise hit.
-$surnames = @($ordered | Where-Object { $_.athlete -notmatch ',' } |
-              ForEach-Object { ($_.athlete -split '\s+')[-1] } |
-              Where-Object { $_ } | Sort-Object -Unique)
+# The same filtered list (real named athletes, not a comma-joined unmatched
+# relay squad standing in for one) also gives us an honest athlete count.
+$namedAthletes = @($ordered | Where-Object { $_.athlete -notmatch ',' } | ForEach-Object { $_.athlete } | Sort-Object -Unique)
+$athleteCount = $namedAthletes.Count
+$surnames = @($namedAthletes | ForEach-Object { ($_ -split '\s+')[-1] } | Where-Object { $_ } | Sort-Object -Unique)
 $examples = @(if ($surnames.Count -gt 0) { $surnames | Get-Random -Count ([Math]::Min(3, $surnames.Count)) })
 $exHtml = ($examples | ForEach-Object { '<button type="button" class="example" data-example="' + (Esc $_) + '">' + (Esc $_) + '</button>' }) -join " "
 
 $meetWord = if ($meets.Count -eq 1) { "meet" } else { "meets" }
+$athleteWord = if ($athleteCount -eq 1) { "athlete" } else { "athletes" }
 
 $html = @"
 <!DOCTYPE html>
@@ -182,6 +185,7 @@ $html = @"
             <nav class="nav">
                 <a href="index.html">Home</a>
                 <a href="xc_record_wall.html">Cross Country</a>
+                <a href="xc-results-archive.html">XC Results</a>
                 <a href="trackwall_indoor.html">Indoor</a>
                 <a href="trackwall_outdoor.html">Outdoor</a>
                 <a href="results-archive.html" aria-current="page">T&amp;F Results</a>
@@ -205,7 +209,7 @@ $html = @"
         <div class="search-prompt" data-search-prompt>
             <p class="prompt-lead">Search for an athlete to see every meet they competed in.</p>
             <p class="prompt-eg">Try $exHtml</p>
-            <p class="prompt-note">$totalMarks marks from $($meets.Count) $meetWord on file.</p>
+            <p class="prompt-note">$athleteCount $athleteWord &middot; $($meets.Count) $meetWord &middot; $totalMarks marks on file.</p>
         </div>
 
         <div class="no-results is-hidden" data-search-empty>
@@ -228,4 +232,4 @@ $($sb.ToString())        </div>
 "@
 
 $html | Out-File -Encoding utf8 "$root\results-archive.html"
-"built results-archive.html : $($meets.Count) $meetWord, $($ordered.Count) cards, $totalMarks marks"
+"built results-archive.html : $($meets.Count) $meetWord, $($ordered.Count) cards, $totalMarks marks, $athleteCount $athleteWord"

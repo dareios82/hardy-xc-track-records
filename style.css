@@ -239,6 +239,33 @@ a { color: var(--blue); }
   text-transform: uppercase;
 }
 
+/* Zone headers on the home page, splitting "School Records" from
+   "Every Performance" - same colored-bar language as .section > h2. */
+.section-head {
+  margin: 44px 0 4px;
+}
+
+.section-head:first-of-type { margin-top: 34px; }
+
+.section-head h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.3rem;
+  margin: 0 0 6px;
+  letter-spacing: -.2px;
+}
+
+.section-head h2::before {
+  content: "";
+  width: 5px;
+  height: 1.15em;
+  border-radius: 3px;
+  background: var(--blue);
+}
+
+.section-head p { margin: 0; color: var(--muted); font-size: .96rem; max-width: 60ch; }
+
 /* ---------- Record spotlight + jump links ---------- */
 
 .records-spotlight {
