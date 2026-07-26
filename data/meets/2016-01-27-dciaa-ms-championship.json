@@ -1,0 +1,48 @@
+{
+  "meet": "DCIAA MS Championship",
+  "date": "2016-01-27",
+  "season": "indoor",
+  "location": "Prince George's Sports & Learning Complex, MD",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://www.tfrrs.org/results/42316/2016_DCIAA_Middle_School_Indoor_Track_and_Field_Championship",
+    "captured": "2026-07-26",
+    "method": "manual copy from TFRRS results pages (one page per event, unlike the flat Hy-Tek dumps used elsewhere in the archive)",
+    "note": "Both the Women's/girls and Men's/boys sections are captured. Overall (Top) results used where TFRRS also printed a redundant per-section/heat breakdown of the same athletes; per-attempt jump/throw sequences (e.g. 'FOUL, FOUL, FOUL, 28-8.5') were dropped in favor of the single best mark already given in the Top table. All four relay rows (girls 4x200m, 4x400m, Sprint Medley, boys 4x200m) printed no athlete names at all, only a team total; recorded with empty athletes lists. The girls 4x400m relay printed 'PL 0' with a DNF time - recorded with a null place."
+  },
+  "individual": [
+    { "place": 10, "athlete": "Taylor Harris",               "gender": "girls", "event": "55m",   "mark": "8.48",    "points": null, "flight": null, "grade": 7 },
+    { "place": 23, "athlete": "Fiona Watkins",                "gender": "girls", "event": "55m",   "mark": "10.20",   "points": null, "flight": null, "grade": 6 },
+    { "place": 6,  "athlete": "Taylor Harris",                "gender": "girls", "event": "200m",  "mark": "31.20",   "points": 3, "flight": null, "grade": 7 },
+    { "place": null, "athlete": "Jaliyah Abdul-Hagg",          "gender": "girls", "event": "200m",  "mark": "DQ",      "points": null, "flight": null, "grade": 7 },
+    { "place": 13, "athlete": "Fiona Watkins",                 "gender": "girls", "event": "400m",  "mark": "1:27.81", "points": null, "flight": null, "grade": 6 },
+    { "place": 14, "athlete": "Samatha Spooner",               "gender": "girls", "event": "400m",  "mark": "1:28.59", "points": null, "flight": null, "grade": 6 },
+    { "place": 15, "athlete": "Nishi Mehta",                   "gender": "girls", "event": "400m",  "mark": "1:32.10", "points": null, "flight": null, "grade": 7 },
+    { "place": 4,  "athlete": "Zoe Walker",                    "gender": "girls", "event": "800m",  "mark": "2:58.55", "points": 5, "flight": null, "grade": 7 },
+    { "place": 7,  "athlete": "Annabelle Harbold",              "gender": "girls", "event": "800m",  "mark": "3:15.09", "points": 2, "flight": null, "grade": 6 },
+    { "place": 4,  "athlete": "Zoe Walker",                    "gender": "girls", "event": "1600m", "mark": "6:35.95", "points": 5, "flight": null, "grade": 7 },
+    { "place": 6,  "athlete": "Annabelle Harbold",              "gender": "girls", "event": "1600m", "mark": "6:46.28", "points": 3, "flight": null, "grade": 6 },
+    { "place": 8,  "athlete": "Samatha Spooner",                "gender": "girls", "event": "1600m", "mark": "7:29.87", "points": 1, "flight": null, "grade": 6 },
+    { "place": 7,  "athlete": "Ashani Bolton",                  "gender": "girls", "event": "55m Hurdles", "mark": "11.68", "points": 2, "flight": null, "grade": 7 },
+    { "place": 3,  "athlete": "Jaliyah Abdul-Hagg",             "gender": "girls", "event": "Triple Jump", "mark": "28-08.50", "metric": "8.75m", "points": 6, "flight": null, "grade": 7 },
+    { "place": 5,  "athlete": "Zoe Walker",                     "gender": "girls", "event": "Triple Jump", "mark": "25-01.50", "metric": "7.65m", "points": 4, "flight": null, "grade": 7 },
+    { "place": 12, "athlete": "Skye Bryant",                    "gender": "girls", "event": "Shot Put", "mark": "17-01", "metric": "5.20m", "points": null, "flight": null, "grade": 7 },
+    { "place": 11, "athlete": "Nathan McAlpine",                "gender": "boys", "event": "400m",  "mark": "1:12.08", "points": null, "flight": null, "grade": 7 },
+    { "place": 17, "athlete": "Henry Hankerson",                "gender": "boys", "event": "400m",  "mark": "1:29.01", "points": null, "flight": null, "grade": 7 },
+    { "place": 6,  "athlete": "Estaban Ceja",                   "gender": "boys", "event": "800m",  "mark": "3:00.58", "points": 3, "flight": null, "grade": 8 },
+    { "place": 10, "athlete": "Oskar Floman",                   "gender": "boys", "event": "800m",  "mark": "3:20.86", "points": null, "flight": null, "grade": 8 },
+    { "place": 9,  "athlete": "Estaban Ceja",                   "gender": "boys", "event": "1600m", "mark": "6:40.34", "points": null, "flight": null, "grade": 8 },
+    { "place": 13, "athlete": "Oskar Floman",                   "gender": "boys", "event": "1600m", "mark": "7:11.28", "points": null, "flight": null, "grade": 8 },
+    { "place": 4,  "athlete": "Nathan McAlpine",                "gender": "boys", "event": "Long Jump", "mark": "13-03.75", "metric": "4.05m", "points": 5, "flight": null, "grade": 7 },
+    { "place": 10, "athlete": "Aidan Bulmash-Kaiser",           "gender": "boys", "event": "Long Jump", "mark": "10-03", "metric": "3.12m", "points": null, "flight": null, "grade": 8 },
+    { "place": 3,  "athlete": "Nathan McAlpine",                "gender": "boys", "event": "Triple Jump", "mark": "30-02.75", "metric": "9.21m", "points": 6, "flight": null, "grade": 7 },
+    { "place": null, "athlete": "Aidan Bulmash-Kaiser",         "gender": "boys", "event": "Triple Jump", "mark": "FOUL", "points": null, "flight": null, "grade": 8 },
+    { "place": 12, "athlete": "Henry Hankerson",                "gender": "boys", "event": "Shot Put", "mark": "16-03", "metric": "4.95m", "points": null, "flight": null, "grade": 7 }
+  ],
+  "relays": [
+    { "place": 5,    "gender": "girls", "event": "4x200m", "mark": "2:18.24", "squad": "A", "points": 4, "flight": null, "athletes": [] },
+    { "place": null, "gender": "girls", "event": "4x400m", "mark": "DNF",     "squad": "A", "points": null, "flight": null, "athletes": [] },
+    { "place": 4,    "gender": "girls", "event": "Sprint Medley Relay", "mark": "6:38.21", "squad": "A", "points": 5, "flight": null, "athletes": [] },
+    { "place": 6,    "gender": "boys",  "event": "4x200m", "mark": "2:13.70", "squad": "A", "points": 3, "flight": null, "athletes": [] }
+  ]
+}

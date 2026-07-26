@@ -52,6 +52,7 @@ Done manually:
 | ☑ | Indoor | 2026-01-14 | DCIAA ES/MS Developmental #2 | `data/meets/2026-01-14-dciaa-es-ms-developmental.json` |
 | ☑ | Indoor | 2026-02-24 | DCIAA ES/MS Championship | `data/meets/2026-02-24-dciaa-es-ms-championship.json` |
 | ☑ | Indoor | 2015-01-28 | DCIAA MS Championship | `data/meets/2015-01-28-dciaa-ms-championship.json` |
+| ☑ | Indoor | 2016-01-27 | DCIAA MS Championship | `data/meets/2016-01-27-dciaa-ms-championship.json` |
 
 These eight complete the entire 2025/26 school year, both indoor and
 outdoor - the school year that was previously missing from the site (see
@@ -83,14 +84,13 @@ One meet was found this way that wasn't on anyone's radar: the outdoor
 43 marks including Ulyses Stewart Torres's 400m and the boys 4x100 relay. It
 had never been added to the manual list above; this closes that gap.
 
-**TFRRS (`tfrrs.org`):** hosts the 2015 and 2016 indoor championships. It's a
-genuinely different shape from every other source — an event-index page
+**TFRRS (`tfrrs.org`):** hosted the 2015 and 2016 indoor championships - now
+both fully captured by hand, one event page pasted at a time, both girls and
+boys sections (see the manual-capture entries above). It's a genuinely
+different shape from every other source in the archive — an event-index page
 linking out to one HTML page per event, rather than one flat dump — so no
-parser was built; the 2015 meet was instead captured by hand, one event page
-pasted at a time (see the manual-capture entry above), both girls and boys
-sections. The 2016 meet
-(`https://www.tfrrs.org/results/42316/2016_DCIAA_Middle_School_Indoor_Track_and_Field_Championship`)
-is the same shape and still needs the same treatment.
+parser was built; wasn't worth it for two meets. None of the 2016 marks beat
+any current record on either wall. This closes out TFRRS entirely.
 
 ## Data-quality findings from the harvest
 
