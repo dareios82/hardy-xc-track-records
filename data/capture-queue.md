@@ -51,7 +51,7 @@ Done manually:
 | ☑ | Indoor | 2026-01-05 | DCIAA ES/MS Developmental #1 | `data/meets/2026-01-05-dciaa-es-ms-developmental.json` |
 | ☑ | Indoor | 2026-01-14 | DCIAA ES/MS Developmental #2 | `data/meets/2026-01-14-dciaa-es-ms-developmental.json` |
 | ☑ | Indoor | 2026-02-24 | DCIAA ES/MS Championship | `data/meets/2026-02-24-dciaa-es-ms-championship.json` |
-| ☑ | Indoor | 2015-01-28 | DCIAA MS Championship (girls only) | `data/meets/2015-01-28-dciaa-ms-championship.json` |
+| ☑ | Indoor | 2015-01-28 | DCIAA MS Championship | `data/meets/2015-01-28-dciaa-ms-championship.json` |
 
 These eight complete the entire 2025/26 school year, both indoor and
 outdoor - the school year that was previously missing from the site (see
@@ -87,11 +87,10 @@ had never been added to the manual list above; this closes that gap.
 genuinely different shape from every other source — an event-index page
 linking out to one HTML page per event, rather than one flat dump — so no
 parser was built; the 2015 meet was instead captured by hand, one event page
-pasted at a time (see the manual-capture entry above). The 2016 meet
+pasted at a time (see the manual-capture entry above), both girls and boys
+sections. The 2016 meet
 (`https://www.tfrrs.org/results/42316/2016_DCIAA_Middle_School_Indoor_Track_and_Field_Championship`)
-is the same shape and still needs the same treatment. Also, only the
-girls/Women's section of the 2015 meet has been pasted so far - the
-boys/Men's section of that same meet is still open if there was one.
+is the same shape and still needs the same treatment.
 
 ## Data-quality findings from the harvest
 
