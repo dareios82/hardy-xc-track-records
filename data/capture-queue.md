@@ -43,6 +43,14 @@ Done manually:
 | ☑ | Indoor | 2025-01-15 | DCIAA MS/HS Developmental #2 | `data/meets/2025-01-15-dciaa-ms-hs-developmental.json` |
 | ☑ | Outdoor | 2025-05-09 | DCIAA MS Challenge | `data/meets/2025-05-09-dciaa-ms-developmental.json` |
 | ☑ | Outdoor | 2025-05-15 | St Albans / National Cathedral | `data/meets/2025-05-15-st-albans-national-cathedral.json` |
+| ☑ | Outdoor | 2026-03-24 | DCIAA HS/MS Developmental #1 | `data/meets/2026-03-24-dciaa-hs-ms-developmental.json` |
+| ☑ | Outdoor | 2026-05-02 | DCIAA MS/HS Developmental #2 | `data/meets/2026-05-02-dciaa-ms-hs-developmental.json` |
+| ☑ | Outdoor | 2026-05-04 | Quakers Mini Invite | `data/meets/2026-05-04-quakers-mini-invite.json` |
+| ☑ | Outdoor | 2026-05-13 | DCIAA MS Championship | `data/meets/2026-05-13-dciaa-ms-championship.json` |
+| ☑ | Outdoor | 2026-05-21 | Carlos Parson Invitational | `data/meets/2026-05-21-carlos-parson-invitational.json` |
+
+These five complete the 2025/26 outdoor season - the entire school year that
+was previously missing from the site (see Open Issues, below).
 
 ## Automated — done (18 meets, 802 marks)
 
@@ -155,12 +163,43 @@ would need its own parser. Worth doing later; two meets, not urgent.
     indoor girls Long Jump (Nyla Ward, 1/28/2015 - no 2015 file exists).
     Left untouched; nothing to compare them against.
   - Everything else on both walls matched the archive exactly.
+- **2025/26 outdoor season captured and cross-checked (2026-07-26).** Five
+  meets (DCIAA HS/MS Developmental #1 3/24, DCIAA MS/HS Developmental #2
+  5/2, Quakers Mini Invite 5/4, DCIAA MS Championship 5/13, Carlos Parson
+  Invitational 5/21) transcribed from athletic.net team-results pages and
+  cross-checked against both outdoor record boards. No boys record fell.
+  Girls results:
+  - ~~Outdoor girls 1600m: Maja Caldara's own 5:35.75 (5/15/2025)~~ —
+    updated to 5:29.03 (5/2/2026, DCIAA MS/HS Developmental #2). Same
+    athlete beating her own mark a year later - no review needed.
+  - **Three large discrepancies, flagged for Dario to review - each swaps in
+    a different athlete or squad, not just a faster mark by the same
+    person:**
+    - Outdoor girls 400m: the wall credits Samiah Bucey-Onyekwere with 1:01.8
+      (5/24/2022). The new archive shows Vanina Mazzei-Paterni at 1:00.42
+      (5/13/2026 DCIAA MS Championship).
+    - Outdoor girls 800m: the wall credits Symbul Logan with 2:37.0
+      (5/30/2024). The new archive shows Vanina Mazzei-Paterni at 2:25.42
+      (5/13/2026 DCIAA MS Championship) - an 11.6-second improvement.
+    - Outdoor girls 4x400m: the wall credits Migliaccio/Pessey/Kravitz/Mazzei
+      Paterni with 4:31.81 (5/9/2025). The new archive shows a mostly
+      different squad - Teresa Ljung, Maja Caldara, Seynabou Samba, Vanina
+      Mazzei-Paterni (only Mazzei-Paterni carries over) - at 4:25.62
+      (5/21/2026, Carlos Parson Invitational).
+  - One name was truncated in the athletic.net view with no prior match
+    anywhere in the archive to confirm against: "Piper Cudworth-MacG..."
+    (2026-05-02 meet, girls 800m) - expanded to "Piper Cudworth-MacGregor"
+    as the likely completion, not verified.
+  - `tools/build-archive.ps1`'s non-result filter didn't recognize "NT" (no
+    time), printed by athletic.net for Seynabou Samba's scratched 200m at
+    the 2026 championship. Added to the filter alongside DNS/DNF/etc.
 
 ## Open issues
 
 - Cross country has no sources table at all yet, so no XC meets are listed
   here or captured as data.
-- The 2025/26 school year is missing entirely from every page.
+- The indoor half of the 2025/26 school year (winter/spring 2026) is still
+  missing - only the outdoor season has been captured so far.
 
 ## Archive design
 

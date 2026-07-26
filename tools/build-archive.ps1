@@ -35,7 +35,7 @@ function PlaceClass([object]$p) {
 function IsResult([object]$mark) {
   $m = "$mark".Trim()
   if (-not $m) { return $false }
-  return $m -notmatch '^(DNS|DNF|DQ|DNC|NH|NM|ND|FOUL|SCR|SCRATCH|X+|-+)$'
+  return $m -notmatch '^(DNS|DNF|DQ|DNC|NT|NH|NM|ND|FOUL|SCR|SCRATCH|X+|-+)$'
 }
 
 # "G. Sipher" in a relay squad refers to "George Sipher" in the same meet.
