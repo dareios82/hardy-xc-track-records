@@ -1,0 +1,26 @@
+{
+  "meet": "18th Annual Lafayette Invitational",
+  "date": "2023-09-20",
+  "location": "Colmar Manor Community Park, MD",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://md.milesplit.com/meets/568152-18th-annual-lafayette-invitational-2023/results?type=formatted",
+    "captured": "2026-07-27",
+    "method": "manual copy from a Hardy-only extract of the milesplit.com results page",
+    "note": "'Ulyses Stewart Torres' hyphenated to Ulyses Stewart-Torres, matching the spelling used for JSON data everywhere else in the archive. Isabelle Pessey's 20:23.84 here beats the sub-21:00 cutoff but is well behind her already-recorded 2024 best (17:35.75), so no wall change; no other time here is close to the sub-19:00 (boys) / sub-21:00 (girls) cutoffs."
+  },
+  "results": [
+    { "place": 29, "athlete": "Theodore Allen-Schack", "gender": "boys",  "grade": 6, "time": "21:51.34", "distance": "4100m" },
+    { "place": 34, "athlete": "Drew Simms",             "gender": "boys",  "grade": 6, "time": "22:31.24", "distance": "4100m" },
+    { "place": 36, "athlete": "Ulyses Stewart-Torres",  "gender": "boys",  "grade": 7, "time": "23:09.14", "distance": "4100m" },
+    { "place": 39, "athlete": "William Chicoski",       "gender": "boys",  "grade": 6, "time": "24:09.28", "distance": "4100m" },
+    { "place": 41, "athlete": "Graham Schwendinger",    "gender": "boys",  "grade": 6, "time": "24:43.39", "distance": "4100m" },
+    { "place": 59, "athlete": "Jacob Hemphill",         "gender": "boys",  "grade": 6, "time": "29:31.99", "distance": "4100m" },
+    { "place": 8,  "athlete": "Isabelle Pessey",        "gender": "girls", "grade": 7, "time": "20:23.84", "distance": "4100m" },
+    { "place": 16, "athlete": "Charlotte Kravitz",      "gender": "girls", "grade": 7, "time": "22:05.50", "distance": "4100m" },
+    { "place": 27, "athlete": "Xiomi Sullivan",         "gender": "girls", "grade": 7, "time": "24:56.33", "distance": "4100m" },
+    { "place": 28, "athlete": "Maja Caldara",           "gender": "girls", "grade": 6, "time": "25:10.98", "distance": "4100m" },
+    { "place": 37, "athlete": "Lucia Mazzarelli",       "gender": "girls", "grade": 6, "time": "29:20.90", "distance": "4100m" },
+    { "place": 54, "athlete": "Emma Morena Villamil",   "gender": "girls", "grade": 7, "time": "34:08.52", "distance": "4100m" }
+  ]
+}

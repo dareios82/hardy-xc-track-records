@@ -1,0 +1,23 @@
+{
+  "meet": "DCIAA Developmental Meet #1",
+  "date": "2014-10-04",
+  "location": "Dunbar High School, Washington, DC",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://dc.milesplit.com/meets/185695-dciaa-developmental-meet-1-2014/results/328714?type=formatted",
+    "captured": "2026-07-27",
+    "method": "manual copy of the full mixed-school results page, filtered here to only the rows marked 'Hardy Middle School'",
+    "note": "Explicitly a 2-mile race ('Men's/Women's 2 Mile Run (Middle)'), not the usual ~4100m course, so excluded from the individual record-wall comparison - same handling as the GP Middle School Challenge and St. Anselm's XC #2. Names reformatted from the source's 'Last, First' order. The source's 'Avg. Mile' pace column was dropped, keeping only the finish time. Makaio McCaskill, Isaak McDuffie, Ava Mackeye, Zoe Walker, Gabriela Merlos and India Skinner all also appear in the 2014-10-25 DCIAA Elementary and MS Championships three weeks later, same grades - consistent identities."
+  },
+  "results": [
+    { "place": 28, "athlete": "Perkins Broussard", "gender": "boys",  "grade": 8, "time": "21:45.1", "distance": "2 miles" },
+    { "place": 31, "athlete": "Makaio McCaskill",  "gender": "boys",  "grade": 8, "time": "22:11.0", "distance": "2 miles" },
+    { "place": 49, "athlete": "Isaak McDuffie",    "gender": "boys",  "grade": 8, "time": "31:55.8", "distance": "2 miles" },
+    { "place": 17, "athlete": "Ava Mackeye",       "gender": "girls", "grade": 7, "time": "22:32.0", "distance": "2 miles" },
+    { "place": 18, "athlete": "Zoe Walker",        "gender": "girls", "grade": 6, "time": "22:32.6", "distance": "2 miles" },
+    { "place": 33, "athlete": "Gabriela Merlos",   "gender": "girls", "grade": 8, "time": "26:10.7", "distance": "2 miles" },
+    { "place": 41, "athlete": "Jaya Wilson",       "gender": "girls", "grade": 8, "time": "31:41.0", "distance": "2 miles" },
+    { "place": 47, "athlete": "Alijah Barber",     "gender": "girls", "grade": 6, "time": "37:03.8", "distance": "2 miles" },
+    { "place": 51, "athlete": "India Skinner",     "gender": "girls", "grade": 8, "time": "38:04.0", "distance": "2 miles" }
+  ]
+}

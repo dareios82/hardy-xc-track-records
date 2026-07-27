@@ -4,8 +4,8 @@ Mirrors `data/capture-queue.md`, the same working list for the track &
 field archive, but for cross country. `xc_record_wall.html` was originally
 a hand-built top-N list plus team-championship summaries with no per-meet
 data behind it; as of 2026-07-27 the 2024 and 2025 seasons, the 2022 and
-2023 DCSAA Cross Country Championships, and five older meets spanning
-2009-2021 have been captured as real per-meet data too, so the record
+2023 DCSAA Cross Country Championships, and twelve older meets spanning
+2009-2023 have been captured as real per-meet data too, so the record
 wall and the archive now draw from the same source for all of these.
 What's left of 2011-2023 is still only reflected in the record wall's
 hand-built rows - see Open issues, below.
@@ -32,6 +32,13 @@ Both full seasons, plus several older meets, are captured with results and sourc
 | ☑ | 2015-10-06 | DCIAA Elementary/Middle Developmental #1 | [athletic.net/115664](https://www.athletic.net/CrossCountry/meet/115664/info) | `data/xc-meets/2015-10-06-dciaa-es-ms-developmental.json` |
 | ☑ | 2010-10-30 | DCIAA Cross Country East/West Championship | [athletic.net/42842](https://www.athletic.net/CrossCountry/meet/42842/info) | `data/xc-meets/2010-10-30-dciaa-cross-country-east-west-championship.json` |
 | ☑ | 2009-10-31 | DCIAA East/West Championships | [athletic.net/29393](https://www.athletic.net/CrossCountry/meet/29393/info) | `data/xc-meets/2009-10-31-dciaa-east-west-championships.json` |
+| ☑ | 2023-10-04 | DCIAA Elementary & Middle School Developmental | [milesplit/574904](https://md.milesplit.com/meets/574904-dciaa-elementary-and-middle-school-developmental-2023) | `data/xc-meets/2023-10-04-dciaa-es-ms-developmental.json` |
+| ☑ | 2023-09-20 | 18th Annual Lafayette Invitational | [milesplit/568152](https://md.milesplit.com/meets/568152-18th-annual-lafayette-invitational-2023/results?type=formatted) | `data/xc-meets/2023-09-20-lafayette-invitational.json` |
+| ☑ | 2022-10-05 | DCIAA Elementary & Middle School Developmental | [milesplit/503103](https://md.milesplit.com/meets/503103-dciaa-elementary-and-middle-school-developmental-2022/results) | `data/xc-meets/2022-10-05-dciaa-es-ms-developmental.json` |
+| ☑ | 2021-09-22 | 16th Annual Lafayette Invitational | [milesplit/444621](https://md.milesplit.com/meets/444621-16th-annual-lafayette-invitational-2021) | `data/xc-meets/2021-09-22-lafayette-invitational.json` |
+| ☑ | 2019-10-05 | DCIAA Elementary & Middle School Developmental | [milesplit/369268](https://dc.milesplit.com/meets/369268-dciaa-elementary-and-middle-school-developmental-2019/results) | `data/xc-meets/2019-10-05-dciaa-es-ms-developmental.json` |
+| ☑ | 2014-10-25 | DCIAA Elementary and MS Championships | [milesplit/187969](https://md.milesplit.com/meets/187969-dciaa-elementary-and-ms-championships-2014/results) | `data/xc-meets/2014-10-25-dciaa-es-ms-championships.json` |
+| ☑ | 2014-10-04 | DCIAA Developmental Meet #1 | [milesplit/185695](https://dc.milesplit.com/meets/185695-dciaa-developmental-meet-1-2014/results/328714?type=formatted) | `data/xc-meets/2014-10-04-dciaa-developmental-meet-1.json` |
 
 The 2024-10-22 and 2024-11-02 championship results matched
 `xc_record_wall.html`'s pre-existing hand-built rows for those meets
@@ -77,6 +84,43 @@ of a colon (e.g. "22.20") and read as M:SS.
 
 What's left of 2011-2023 still has no links or per-meet data at all - see
 Open issues, below.
+
+Seven more meets (2014-2023) were added from `data/rawdataxc.txt`, a
+mix of milesplit.com pages Dario pasted in either already Hardy-filtered
+or as the full mixed-school field. None changed any wall record - every
+qualifying time was already beaten by a later mark from the same athlete,
+or fell outside the sub-19:00 / sub-21:00 cutoffs:
+- 2023-10-04 and 2022-10-05 DCIAA Elementary & Middle School Developmental,
+  2023-09-20 (18th) and 2021-09-22 (16th) Lafayette Invitational - all at
+  Colmar Manor, distance set to 4100m to match.
+- 2019-10-05 DCIAA Elementary & Middle School Developmental (Kenilworth
+  Park) - names reformatted from the source's "Last, First" order. "Ma
+  Andersson-Potterveld" is printed that way in the source and matches the
+  wall's existing (also truncated) form - may be short for Mats
+  Andersson-Potterveld, the fuller name already resolved in the track
+  archive, but left as printed pending confirmation.
+- 2014-10-25 DCIAA Elementary and MS Championships (Colmar Manor) - no
+  team score total was given, only per-athlete scoring positions, so no
+  `team_scores` entry.
+- 2014-10-04 DCIAA Developmental Meet #1 (Dunbar HS) - explicitly a
+  2-mile race, excluded from the individual comparison like the GP
+  Middle School Challenge and St. Anselm's XC #2.
+
+Two more meets from that file have no results available anywhere yet -
+see "Needs a source", below.
+
+## Needs a source
+
+These meets are known to have happened (Dario has the date/location) but
+no results page has been found:
+
+| Date | Meet | Location |
+|------|------|----------|
+| 2022-09-21 | 17th Annual Lafayette Invitational | Colmar Manor Community Park, MD |
+| 2020-10-05 | DCIAA Elementary & Middle School Developmental | Colmar Manor Community Park, MD |
+
+Dario's note: could try contacting M&D Timing Services, LLC, who appear to
+run timing for the Colmar Manor meets.
 
 ## Schema
 
@@ -146,10 +190,13 @@ Same two-layer approach as track:
 ## Open issues
 
 - The 2024 and 2025 seasons (nine meets), the 2022 and 2023 DCSAA Cross
-  Country Championships, and five older meets from 2009-2021 (sixteen
+  Country Championships, and twelve older meets from 2009-2023 (twenty-three
   meets total) have been captured as real per-meet data. Everything else
   from 2011-2023 exists only as the hand-built rows already on
   `xc_record_wall.html`, sourced from whatever Dario originally compiled
   them from - there's no `data/xc-meets/*.json` backing those years, and
   no way to search an individual athlete's 2019 race, for example, the way
   the archive lets you for the meets already captured.
+- Two meets (2022 17th Lafayette Invitational, 2020 ES/MS Developmental)
+  are known to have happened but have no results page found yet - see
+  "Needs a source", above.

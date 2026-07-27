@@ -1,0 +1,23 @@
+{
+  "meet": "DCIAA Elementary and MS Championships",
+  "date": "2014-10-25",
+  "location": "Colmar Manor Community Park, MD",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://md.milesplit.com/meets/187969-dciaa-elementary-and-ms-championships-2014/results",
+    "captured": "2026-07-27",
+    "method": "manual copy of the full mixed-school results page, filtered here to only the rows marked 'Hardy Middle School'",
+    "note": "Names reformatted from the source's 'Last, First' order. Distance not stated in the paste; set to 4100m matching the Colmar Manor course used for other championship-level meets. The source's 'Avg. Mile' pace column was dropped, keeping only the finish time. No total team place/points were given (only per-athlete scoring positions, which weren't consistently listed), so no team_scores entry. Estaban Ceja and Oskar Floman also appear in the already-captured 2015-10-06 DCIAA Developmental #1 file, one year later, consistent with the same athletes. No time is close to the sub-19:00 (boys) / sub-21:00 (girls) individual record-wall cutoffs, so no wall changes."
+  },
+  "results": [
+    { "place": 20, "athlete": "Estaban Ceja",    "gender": "boys",  "grade": 7, "time": "20:41.9", "distance": "4100m" },
+    { "place": 21, "athlete": "Makaio McCaskill", "gender": "boys",  "grade": 8, "time": "20:45.5", "distance": "4100m" },
+    { "place": 26, "athlete": "Oskar Floman",     "gender": "boys",  "grade": 7, "time": "25:09.4", "distance": "4100m" },
+    { "place": 32, "athlete": "Isaak McDuffie",   "gender": "boys",  "grade": 8, "time": "31:19.9", "distance": "4100m" },
+    { "place": 14, "athlete": "Ava Mackeye",      "gender": "girls", "grade": 7, "time": "21:43.7", "distance": "4100m" },
+    { "place": 15, "athlete": "Faith Smith",      "gender": "girls", "grade": 8, "time": "21:57.3", "distance": "4100m" },
+    { "place": 16, "athlete": "Zoe Walker",       "gender": "girls", "grade": 6, "time": "22:32.1", "distance": "4100m" },
+    { "place": 25, "athlete": "Gabriela Merlos",  "gender": "girls", "grade": 8, "time": "25:28.8", "distance": "4100m" },
+    { "place": 30, "athlete": "India Skinner",    "gender": "girls", "grade": 8, "time": "29:52.5", "distance": "4100m" }
+  ]
+}

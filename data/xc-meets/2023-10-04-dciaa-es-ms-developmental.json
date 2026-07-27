@@ -1,0 +1,35 @@
+{
+  "meet": "DCIAA Elementary & Middle School Developmental",
+  "date": "2023-10-04",
+  "location": "Colmar Manor Community Park, MD",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://md.milesplit.com/meets/574904-dciaa-elementary-and-middle-school-developmental-2023",
+    "captured": "2026-07-27",
+    "method": "manual copy from a Hardy-only extract of the milesplit.com results page",
+    "note": "'Aaron Hung' corrected to Aaron Huang (same athlete - grade 6 here matches grade 7 the following year in the 2024-10-02 file - matching the spelling used everywhere else in the archive). No time here is close to the sub-19:00 (boys) / sub-21:00 (girls) individual record-wall cutoffs, so no wall changes."
+  },
+  "results": [
+    { "place": 21, "athlete": "Holden Consentino",      "gender": "boys",  "grade": 7, "time": "20:03.08", "distance": "4100m" },
+    { "place": 23, "athlete": "Jake Puller",             "gender": "boys",  "grade": 6, "time": "20:05.83", "distance": "4100m" },
+    { "place": 24, "athlete": "Aaron Huang",             "gender": "boys",  "grade": 6, "time": "20:05.86", "distance": "4100m" },
+    { "place": 28, "athlete": "Everett Stowe-Utsick",    "gender": "boys",  "grade": 7, "time": "20:45.57", "distance": "4100m" },
+    { "place": 34, "athlete": "Jackson Howes",           "gender": "boys",  "grade": 8, "time": "21:58.92", "distance": "4100m" },
+    { "place": 35, "athlete": "J'Shaun Walls",           "gender": "boys",  "grade": 8, "time": "22:04.87", "distance": "4100m" },
+    { "place": 36, "athlete": "Theodore Allen-Schack",   "gender": "boys",  "grade": 6, "time": "22:16.79", "distance": "4100m" },
+    { "place": 38, "athlete": "William Chicoski",        "gender": "boys",  "grade": 6, "time": "22:50.01", "distance": "4100m" },
+    { "place": 43, "athlete": "Graham Schwendinger",     "gender": "boys",  "grade": 6, "time": "24:46.09", "distance": "4100m" },
+    { "place": 45, "athlete": "Drew Simms",              "gender": "boys",  "grade": 6, "time": "25:28.06", "distance": "4100m" },
+    { "place": 46, "athlete": "Luke Brennan",            "gender": "boys",  "grade": 6, "time": "25:30.04", "distance": "4100m" },
+    { "place": 54, "athlete": "Hugo Arsenault",          "gender": "boys",  "grade": 6, "time": "27:05.30", "distance": "4100m" },
+    { "place": 58, "athlete": "Ants Kristjan Prikk",     "gender": "boys",  "grade": 6, "time": "28:58.67", "distance": "4100m" },
+    { "place": 65, "athlete": "Jacob Hemphill",          "gender": "boys",  "grade": 6, "time": "30:23.46", "distance": "4100m" },
+    { "place": 14, "athlete": "Isabelle Pessey",         "gender": "girls", "grade": 7, "time": "21:34.04", "distance": "4100m" },
+    { "place": 16, "athlete": "Charlotte Kravitz",       "gender": "girls", "grade": 7, "time": "22:18.52", "distance": "4100m" },
+    { "place": 20, "athlete": "Xiomi Sullivan",          "gender": "girls", "grade": 7, "time": "23:30.12", "distance": "4100m" },
+    { "place": 25, "athlete": "Maja Caldara",            "gender": "girls", "grade": 6, "time": "23:57.70", "distance": "4100m" },
+    { "place": 31, "athlete": "Lucia Mazzarelli",        "gender": "girls", "grade": 6, "time": "25:38.38", "distance": "4100m" },
+    { "place": 58, "athlete": "Paige Sutton",            "gender": "girls", "grade": 7, "time": "31:10.02", "distance": "4100m" },
+    { "place": 66, "athlete": "Emma Morena Villamil",    "gender": "girls", "grade": 7, "time": "33:19.46", "distance": "4100m" }
+  ]
+}

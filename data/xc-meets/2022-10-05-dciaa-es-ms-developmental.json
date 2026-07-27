@@ -1,0 +1,42 @@
+{
+  "meet": "DCIAA Elementary & Middle School Developmental",
+  "date": "2022-10-05",
+  "location": "Colmar Manor Community Park, MD",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://md.milesplit.com/meets/503103-dciaa-elementary-and-middle-school-developmental-2022/results",
+    "captured": "2026-07-27",
+    "method": "manual copy of the full mixed-school results page, filtered here to only the rows marked 'Hardy Middle School'",
+    "note": "Distance not stated in the paste; set to 4100m matching the same Colmar Manor course used at the 2023/2024 ES/MS Developmental meets. A different athlete named J'shaun Walls also appears in the full results but is listed for Brookland Middle School, not Hardy - excluded here. No time is close to the sub-19:00 (boys) / sub-21:00 (girls) individual record-wall cutoffs, so no wall changes."
+  },
+  "results": [
+    { "place": 16, "athlete": "Arnav Iyengar",             "gender": "boys",  "grade": 8, "time": "19:20.1", "distance": "4100m" },
+    { "place": 18, "athlete": "Nicholas Tamarin",          "gender": "boys",  "grade": 8, "time": "19:47.3", "distance": "4100m" },
+    { "place": 19, "athlete": "Sebastian Linnell-Simmons", "gender": "boys",  "grade": 8, "time": "19:49.1", "distance": "4100m" },
+    { "place": 27, "athlete": "Lars Kearney",              "gender": "boys",  "grade": 7, "time": "20:27.9", "distance": "4100m" },
+    { "place": 33, "athlete": "Dennis Beath",              "gender": "boys",  "grade": 7, "time": "21:08.7", "distance": "4100m" },
+    { "place": 35, "athlete": "Everett Stowe-Utsick",      "gender": "boys",  "grade": 6, "time": "21:39.8", "distance": "4100m" },
+    { "place": 38, "athlete": "Felix Mulville",            "gender": "boys",  "grade": 6, "time": "21:55.7", "distance": "4100m" },
+    { "place": 42, "athlete": "Theo Parrott",               "gender": "boys",  "grade": 7, "time": "22:26.9", "distance": "4100m" },
+    { "place": 47, "athlete": "Issac Lei",                  "gender": "boys",  "grade": 8, "time": "23:13.2", "distance": "4100m" },
+    { "place": 50, "athlete": "Ulyses Stewart-Torres",      "gender": "boys",  "grade": 6, "time": "24:16.8", "distance": "4100m" },
+    { "place": 58, "athlete": "Edomias Anania",             "gender": "boys",  "grade": 8, "time": "25:56.1", "distance": "4100m" },
+    { "place": 65, "athlete": "Alessandro Mastruzzi",       "gender": "boys",  "grade": 6, "time": "26:45.1", "distance": "4100m" },
+    { "place": 74, "athlete": "Adrian Wagner",              "gender": "boys",  "grade": 7, "time": "30:16.5", "distance": "4100m" },
+    { "place": 21, "athlete": "Isabelle Pessey",            "gender": "girls", "grade": 6, "time": "22:05.1", "distance": "4100m" },
+    { "place": 26, "athlete": "Xiomi Sullivan",             "gender": "girls", "grade": 6, "time": "22:56.9", "distance": "4100m" },
+    { "place": 29, "athlete": "Charlotte Kravitz",          "gender": "girls", "grade": 6, "time": "23:09.5", "distance": "4100m" },
+    { "place": 31, "athlete": "Talia Green",                "gender": "girls", "grade": 8, "time": "23:18.9", "distance": "4100m" },
+    { "place": 32, "athlete": "Caroline Kuhnert",           "gender": "girls", "grade": 8, "time": "23:20.5", "distance": "4100m" },
+    { "place": 33, "athlete": "Gabrielle Popovich",         "gender": "girls", "grade": 8, "time": "23:34.7", "distance": "4100m" },
+    { "place": 34, "athlete": "Anna Mulhern",               "gender": "girls", "grade": 6, "time": "23:50.4", "distance": "4100m" },
+    { "place": 35, "athlete": "Yareni Nicholson",           "gender": "girls", "grade": 6, "time": "23:52.4", "distance": "4100m" },
+    { "place": 36, "athlete": "Adelaide Kuhnert",           "gender": "girls", "grade": 6, "time": "24:31.1", "distance": "4100m" },
+    { "place": 38, "athlete": "Margot Best Bellemore",      "gender": "girls", "grade": 6, "time": "24:46.7", "distance": "4100m" },
+    { "place": 41, "athlete": "Nina Bance",                 "gender": "girls", "grade": 6, "time": "25:07.2", "distance": "4100m" },
+    { "place": 43, "athlete": "Zoe Schwager",               "gender": "girls", "grade": 6, "time": "26:00.7", "distance": "4100m" },
+    { "place": 56, "athlete": "Emma Morena Villamil",       "gender": "girls", "grade": 6, "time": "31:32.6", "distance": "4100m" },
+    { "place": 60, "athlete": "Paige Sutton",               "gender": "girls", "grade": 6, "time": "32:30.4", "distance": "4100m" },
+    { "place": 61, "athlete": "Bridget Kenney",              "gender": "girls", "grade": 6, "time": "32:35.5", "distance": "4100m" }
+  ]
+}

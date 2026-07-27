@@ -1,0 +1,30 @@
+{
+  "meet": "16th Annual Lafayette Invitational",
+  "date": "2021-09-22",
+  "location": "Colmar Manor Community Park, MD",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://md.milesplit.com/meets/444621-16th-annual-lafayette-invitational-2021",
+    "captured": "2026-07-27",
+    "method": "manual copy from a Hardy-only extract of the milesplit.com results page",
+    "note": "Distance not stated in the paste; set to 4100m matching the same Colmar Manor course used at the 2023/2024/2025 Lafayette Invitationals. Source printed a trailing number after most times (a scoring position among Hardy's own scorers, not a course record or split) - dropped, matching how PB/SB annotations are dropped elsewhere. Annika Russell's 21:01.11 and Nicholas Tamarin's 22:37.95 are both well behind their already-recorded personal bests from later meets, and no other time is close to the sub-19:00 (boys) / sub-21:00 (girls) cutoffs, so no wall changes."
+  },
+  "results": [
+    { "place": 20, "athlete": "Sebastian Linnell-Simmons", "gender": "boys",  "grade": 7, "time": "21:06.19", "distance": "4100m" },
+    { "place": 31, "athlete": "Dylan Welsh",                "gender": "boys",  "grade": 6, "time": "22:37.85", "distance": "4100m" },
+    { "place": 32, "athlete": "Nicholas Tamarin",           "gender": "boys",  "grade": 7, "time": "22:37.95", "distance": "4100m" },
+    { "place": 34, "athlete": "Kai Newman",                 "gender": "boys",  "grade": 6, "time": "22:41.40", "distance": "4100m" },
+    { "place": 38, "athlete": "Matthew Whitley",            "gender": "boys",  "grade": 8, "time": "23:17.98", "distance": "4100m" },
+    { "place": 51, "athlete": "Issac Lei",                  "gender": "boys",  "grade": 7, "time": "29:06.30", "distance": "4100m" },
+    { "place": 52, "athlete": "Luke Petry",                 "gender": "boys",  "grade": 7, "time": "30:18.86", "distance": "4100m" },
+    { "place": 53, "athlete": "Edomias Anania",             "gender": "boys",  "grade": 7, "time": "30:45.62", "distance": "4100m" },
+    { "place": 55, "athlete": "George Sipher",              "gender": "boys",  "grade": 7, "time": "31:59.89", "distance": "4100m" },
+    { "place": 56, "athlete": "Bobby Hemphill",             "gender": "boys",  "grade": 6, "time": "32:40.26", "distance": "4100m" },
+    { "place": 57, "athlete": "Filippo Napoli",             "gender": "boys",  "grade": 6, "time": "33:50.43", "distance": "4100m" },
+    { "place": 5,  "athlete": "Annika Russell",             "gender": "girls", "grade": 8, "time": "21:01.11", "distance": "4100m" },
+    { "place": 34, "athlete": "Riley MacClellan",           "gender": "girls", "grade": 8, "time": "27:07.90", "distance": "4100m" },
+    { "place": 36, "athlete": "Lucy Seagroves",             "gender": "girls", "grade": 7, "time": "27:29.40", "distance": "4100m" },
+    { "place": 40, "athlete": "Isabella Iordache",          "gender": "girls", "grade": 6, "time": "27:50.98", "distance": "4100m" },
+    { "place": 41, "athlete": "Ada Comizzoli",              "gender": "girls", "grade": 7, "time": "27:51.54", "distance": "4100m" }
+  ]
+}
