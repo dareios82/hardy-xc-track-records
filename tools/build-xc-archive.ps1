@@ -185,10 +185,10 @@ $html = @"
             <nav class="nav">
                 <a href="index.html">Home</a>
                 <a href="xc_record_wall.html">XC Records</a>
-                <a href="xc-results-archive.html" aria-current="page">XC Results</a>
                 <a href="trackwall_indoor.html">Indoor Records</a>
                 <a href="trackwall_outdoor.html">Outdoor Records</a>
-                <a href="results-archive.html">T&amp;F Results</a>
+                <a href="xc-results-archive.html" aria-current="page">XC Search Tools</a>
+                <a href="results-archive.html">T&amp;F Search Tools</a>
             </nav>
         </div>
     </header>
