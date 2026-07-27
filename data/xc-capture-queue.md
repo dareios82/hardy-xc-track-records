@@ -282,8 +282,21 @@ Same two-layer approach as track:
 - Two meets (2022 17th Lafayette Invitational, 2020 ES/MS Developmental)
   are known to have happened but have no results page found yet - see
   "Needs a source", above.
-- Still unresolved: the wall's 10/24/2015 girls team row has no matching
-  source found anywhere (TFRRS or milesplit.com) yet.
+- Still unresolved: the wall's 10/24/2015 girls team row (Jade Gregoire,
+  Annabelle Harbold, Nishi Mehta, Fiona Watkins, Zoe Walker; 3rd, 76 pts)
+  has no matching source found anywhere yet. Tried 2026-07-27: several
+  `site:tfrrs.org` and `site:milesplit.com` phrasings, thedciaa.com's
+  champions page (only shows the current year, no archive), and Hardy's
+  own school website's "Cross Country Records" page (just links back to
+  our own site, not an independent source). It's almost certainly on
+  athletic.net - the same host as the 2015-10-06 developmental meet three
+  weeks earlier - but athletic.net returns 403 Forbidden on every page
+  type tried via WebFetch (team page, division stats page, individual
+  athlete bio pages), and the Wayback Machine is blocked for this tool
+  entirely. Annabelle Harbold's athletic.net athlete bio
+  (`athletic.net/CrossCountry/Athlete.aspx?AID=8924296`) would likely
+  list this meet directly if visited manually - Dario may have better
+  luck than an automated fetch here.
 - TFRRS's own search is unreliable (returns nothing for meets that do
   exist on the site) - a `site:tfrrs.org` web search found three DCIAA XC
   meets it missed. Worth trying again with different query phrasings, or

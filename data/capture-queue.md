@@ -316,12 +316,12 @@ any current record on either wall. This closes out TFRRS entirely.
 - 2018-05-10 DCIAA Middle School City Championships has a confirmed
   source link (https://dc.milesplit.com/meets/317918-dciaa-middle-school-city-championships-2018/results)
   but no results have been pasted in yet.
-- 2024-04-04 DCIAA Middle School Developmental Meet and 2024-05-20 "DCIAA
-  Middle School Developmental Meet 2" (Spingarn HS) are identified but
-  have no source link yet - the 2024-05-20 date already has a captured
-  meet (`data/meets/2024-05-20-dciaa-ms-developmental.json`, "Meet 3" per
-  this queue), so it's unclear yet whether "Meet 2" is a separate meet or
-  the same one under a different name.
+- 2024-04-04 DCIAA Middle School Developmental Meet (Spingarn HS) is
+  identified but has no source link yet. ~~2024-05-20 "DCIAA Middle
+  School Developmental Meet 2" - unclear if separate from the
+  already-captured meet on that date~~ - **resolved 2026-07-27**: Dario
+  confirmed there was only one meet that day, so
+  `data/meets/2024-05-20-dciaa-ms-developmental.json` already covers it.
 - 2018-04-26 DCIAA Elementary and Middle Field Meet has no results
   available; Dario suggests trying M&D Timing Services, LLC.
 
