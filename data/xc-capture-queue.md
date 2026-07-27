@@ -4,7 +4,7 @@ Mirrors `data/capture-queue.md`, the same working list for the track &
 field archive, but for cross country. `xc_record_wall.html` was originally
 a hand-built top-N list plus team-championship summaries with no per-meet
 data behind it; as of 2026-07-27 the 2024 and 2025 seasons, the 2022 and
-2023 DCSAA Cross Country Championships, and eighteen older meets spanning
+2023 DCSAA Cross Country Championships, and nineteen older meets spanning
 2009-2023 have been captured as real per-meet data too, so the record
 wall and the archive now draw from the same source for all of these.
 What's left of 2011-2023 is still only reflected in the record wall's
@@ -55,6 +55,7 @@ Both full seasons, plus several older meets, are captured with results and sourc
 | ☑ | 2016-10-11 | DCIAA Elementary and Middle School Developmental #2 | [milesplit/253150](https://dc.milesplit.com/meets/253150-dciaa-elementary-and-middle-school-developmental-2-2016) | `data/xc-meets/2016-10-11-dciaa-es-ms-developmental-2.json` |
 | ☑ | 2016-10-04 | DCIAA Developmental #1 | [milesplit/253148](https://dc.milesplit.com/meets/253148-dciaa-developmental-1-2016/results) | `data/xc-meets/2016-10-04-dciaa-developmental-1.json` |
 | ☑ | 2013-11-02 | DCIAA Middle School City Cross Country Championships | [tfrrs.org/xc/5984](https://www.tfrrs.org/results/xc/5984.html) | `data/xc-meets/2013-11-02-dciaa-ms-city-cross-country-championships.json` |
+| ☑ | 2019-10-24 | DCIAA Elementary and Middle School Cross Country Championships | [milesplit/370202](https://md.milesplit.com/meets/370202-dciaa-elementary-and-middle-school-cross-country-championships-2019/results?type=formatted) | `data/xc-meets/2019-10-24-dciaa-cross-country-championships.json` |
 
 **Found via TFRRS (2026-07-27).** Dario suspected TFRRS held more DCIAA
 meets Hardy attended that weren't showing up because the site's own
@@ -83,6 +84,19 @@ directly on the site - only a web search scoped to `site:tfrrs.org`
 found them. Worth repeating this search periodically or trying different
 query phrasings (team name, "Rose L Hardy", specific years) since there
 may be more.
+
+**2019-10-24 championship, resolves the date discrepancy (2026-07-27).**
+Dario pasted this meet's full results (from the milesplit.com mirror,
+after his earlier fetch of the "rescheduled" TFRRS listing didn't turn up
+a usable page). `xc_record_wall.html` had this meet's individual rows and
+its team-table row dated 2019-10-22; this source confirms 2019-10-24, and
+every wall row referencing it has been corrected. Annika Russell's time
+also corrected from 19:39.30 to this source's 19:39.32 (trivial rounding
+difference). This source also settles a loose end from earlier in the
+project: "Ma Andersson-Potterveld", printed truncated in two other
+already-captured meets (2018-10-10, 2019-10-05) and on the wall itself,
+is confirmed short for Mats Andersson-Potterveld - all three normalized
+to the full name.
 
 The 2024-10-22 and 2024-11-02 championship results matched
 `xc_record_wall.html`'s pre-existing hand-built rows for those meets
@@ -258,8 +272,8 @@ Same two-layer approach as track:
 ## Open issues
 
 - The 2024 and 2025 seasons (nine meets), the 2022 and 2023 DCSAA Cross
-  Country Championships, and eighteen older meets from 2009-2023
-  (twenty-nine meets total) have been captured as real per-meet data.
+  Country Championships, and nineteen older meets from 2009-2023
+  (thirty meets total) have been captured as real per-meet data.
   Everything else from 2011-2023 exists only as the hand-built rows
   already on `xc_record_wall.html`, sourced from whatever Dario originally
   compiled them from - there's no `data/xc-meets/*.json` backing those
@@ -269,12 +283,7 @@ Same two-layer approach as track:
   are known to have happened but have no results page found yet - see
   "Needs a source", above.
 - Still unresolved: the wall's 10/24/2015 girls team row has no matching
-  source found anywhere (TFRRS or milesplit.com) yet, and the
-  2019 rescheduled DCIAA Elementary and Middle School Cross Country
-  Championships has a date discrepancy - the wall says 10/22/2019, but a
-  MileSplit listing calls it "(Rescheduled)" to 10/24/2019. Dario is
-  re-pasting `data/rawdataxc.txt` with results for that 2019 meet plus
-  one more TFRRS meet he found separately, to resolve both.
+  source found anywhere (TFRRS or milesplit.com) yet.
 - TFRRS's own search is unreliable (returns nothing for meets that do
   exist on the site) - a `site:tfrrs.org` web search found three DCIAA XC
   meets it missed. Worth trying again with different query phrasings, or

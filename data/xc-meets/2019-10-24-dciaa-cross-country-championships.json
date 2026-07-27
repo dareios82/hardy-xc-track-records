@@ -1,0 +1,31 @@
+{
+  "meet": "DCIAA Elementary and Middle School Cross Country Championships",
+  "date": "2019-10-24",
+  "location": "Colmar Manor Community Park, MD",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://md.milesplit.com/meets/370202-dciaa-elementary-and-middle-school-cross-country-championships-2019/results?type=formatted",
+    "captured": "2026-07-27",
+    "method": "manual copy from the Hardy team results view (milesplit.com)",
+    "note": "Resolves a long-standing date discrepancy: xc_record_wall.html had this meet's individual rows and team-table row dated 2019-10-22, but this source (labeled 'Rescheduled' in a separate MileSplit meet listing) confirms 2019-10-24 - the wall corrected to match. Every mark here matches the wall's existing rows almost exactly (Annika Russell's 19:39.32 vs the wall's previously-listed 19:39.30 is a trivial rounding difference, now corrected to this source's value). Also confirms 'Ma Andersson-Potterveld', printed truncated in an earlier-captured meet and on the wall, is short for Mats Andersson-Potterveld - the wall's boys individual table corrected to the full name. Team scores (girls 2nd/60, boys 4th/83) match the wall's existing team-table row exactly; the girls top-5 scorer sum (6+12+13+14+15=60) matches precisely."
+  },
+  "results": [
+    { "place": 4,  "athlete": "Leonardo Almagro",         "gender": "boys",  "grade": 7, "time": "16:46.49", "distance": "4100m" },
+    { "place": 14, "athlete": "Mats Andersson-Potterveld", "gender": "boys",  "grade": 7, "time": "18:53.37", "distance": "4100m" },
+    { "place": 15, "athlete": "Martin Welles",             "gender": "boys",  "grade": 8, "time": "18:57.86", "distance": "4100m" },
+    { "place": 27, "athlete": "William Schwendinger",      "gender": "boys",  "grade": 8, "time": "21:30.91", "distance": "4100m" },
+    { "place": 31, "athlete": "William Floman",             "gender": "boys",  "grade": 8, "time": "22:27.23", "distance": "4100m" },
+    { "place": 34, "athlete": "Jacob Gagosian",              "gender": "boys",  "grade": 8, "time": "23:04.57", "distance": "4100m" },
+    { "place": 42, "athlete": "Robert Welles",               "gender": "boys",  "grade": 7, "time": "24:29.99", "distance": "4100m" },
+    { "place": 6,  "athlete": "Annika Russell",              "gender": "girls", "grade": 6, "time": "19:39.32", "distance": "4100m" },
+    { "place": 12, "athlete": "Rohini Kieffer",               "gender": "girls", "grade": 7, "time": "20:33.58", "distance": "4100m" },
+    { "place": 13, "athlete": "Josephine Caplan",             "gender": "girls", "grade": 7, "time": "20:52.93", "distance": "4100m" },
+    { "place": 14, "athlete": "Norah Caplan",                 "gender": "girls", "grade": 7, "time": "20:58.98", "distance": "4100m" },
+    { "place": 15, "athlete": "Avajane Lei",                  "gender": "girls", "grade": 8, "time": "21:16.92", "distance": "4100m" },
+    { "place": 21, "athlete": "Laura Welles",                 "gender": "girls", "grade": 8, "time": "23:06.63", "distance": "4100m" }
+  ],
+  "team_scores": [
+    { "gender": "girls", "place": 2, "points": 60, "scorers": ["Annika Russell", "Rohini Kieffer", "Josephine Caplan", "Norah Caplan", "Avajane Lei", "Laura Welles"] },
+    { "gender": "boys",  "place": 4, "points": 83, "scorers": ["Leonardo Almagro", "Mats Andersson-Potterveld", "Martin Welles", "William Schwendinger", "William Floman", "Jacob Gagosian", "Robert Welles"] }
+  ]
+}

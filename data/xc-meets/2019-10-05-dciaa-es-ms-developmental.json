@@ -7,12 +7,12 @@
     "meet_url": "https://dc.milesplit.com/meets/369268-dciaa-elementary-and-middle-school-developmental-2019/results",
     "captured": "2026-07-27",
     "method": "manual copy of the full mixed-school results page, filtered here to only the rows marked 'Hardy Middle School'",
-    "note": "Names reformatted from the source's 'Last, First' order. Distance not stated in the paste; set to 4100m matching the course distance used elsewhere in Hardy's history, though this is a different venue (Kenilworth Park) than the usual Colmar Manor course. Source printed a trailing scoring-position number after some times - dropped, not part of the schema. 'Ma Andersson-Potterveld' is printed exactly this way in the source and matches the same (also truncated) form already on xc_record_wall.html's boys individual table - may be a truncation of 'Mats Andersson-Potterveld', the fuller name resolved elsewhere in the archive's track data, but left as printed pending confirmation. Leonardo Almagro and Martin Welles both beat the sub-19:00 cutoff here but are well behind their already-recorded faster times from later meets, so no wall changes."
+    "note": "Names reformatted from the source's 'Last, First' order. Distance not stated in the paste; set to 4100m matching the course distance used elsewhere in Hardy's history, though this is a different venue (Kenilworth Park) than the usual Colmar Manor course. Source printed a trailing scoring-position number after some times - dropped, not part of the schema. 'Ma Andersson-Potterveld' expanded to Mats Andersson-Potterveld - confirmed 2026-07-27 via the 2019-10-24 championship meet, which printed his name in full and matches this same athlete's time progression exactly. Leonardo Almagro and Martin Welles both beat the sub-19:00 cutoff here but are well behind their already-recorded faster times from later meets, so no wall changes."
   },
   "results": [
     { "place": 9,  "athlete": "Leonardo Almagro",           "gender": "boys",  "grade": 7, "time": "17:24.60", "distance": "4100m" },
     { "place": 23, "athlete": "Martin Welles",               "gender": "boys",  "grade": 8, "time": "18:55.47", "distance": "4100m" },
-    { "place": 25, "athlete": "Ma Andersson-Potterveld",      "gender": "boys",  "grade": 7, "time": "19:16.46", "distance": "4100m" },
+    { "place": 25, "athlete": "Mats Andersson-Potterveld",    "gender": "boys",  "grade": 7, "time": "19:16.46", "distance": "4100m" },
     { "place": 32, "athlete": "William Schwendinger",         "gender": "boys",  "grade": 8, "time": "20:14.44", "distance": "4100m" },
     { "place": 43, "athlete": "Jacob Gagosian",                "gender": "boys",  "grade": 7, "time": "21:48.09", "distance": "4100m" },
     { "place": 49, "athlete": "William Floman",                "gender": "boys",  "grade": 8, "time": "22:38.82", "distance": "4100m" },

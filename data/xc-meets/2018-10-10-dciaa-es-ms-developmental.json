@@ -7,13 +7,13 @@
     "meet_url": "https://dc.milesplit.com/meets/330451-dciaa-elementary-and-middle-school-developmental-meet-2018",
     "captured": "2026-07-27",
     "method": "manual copy of the full mixed-school results page, filtered here to only the rows marked 'Hardy Middle School'",
-    "note": "Names reformatted from the source's 'Last, First' order. Not run at Colmar Manor or Kenilworth Park, so distance set to 4000m per Dario. Source printed a trailing scoring-position number after some times - dropped, not part of the schema. Rebecca Khoury and Tyler Kenney both beat the sub-21:00 / sub-19:00 cutoffs here but are behind their already-recorded faster times from the 2018-10-23 DCIAA XC Championship two weeks later, so no wall changes."
+    "note": "Names reformatted from the source's 'Last, First' order. Not run at Colmar Manor or Kenilworth Park, so distance set to 4000m per Dario. Source printed a trailing scoring-position number after some times - dropped, not part of the schema. 'Ma Andersson-Potterveld' expanded to Mats Andersson-Potterveld, confirmed 2026-07-27 via a later meet that printed his name in full. Rebecca Khoury and Tyler Kenney both beat the sub-21:00 / sub-19:00 cutoffs here but are behind their already-recorded faster times from the 2018-10-23 DCIAA XC Championship two weeks later, so no wall changes."
   },
   "results": [
     { "place": 11, "athlete": "Tyler Kenney",             "gender": "boys",  "grade": 8, "time": "18:58.40", "distance": "4000m" },
     { "place": 16, "athlete": "Daniel Whitley",            "gender": "boys",  "grade": 8, "time": "19:40.08", "distance": "4000m" },
     { "place": 17, "athlete": "Leonardo Almagro",          "gender": "boys",  "grade": 6, "time": "19:45.74", "distance": "4000m" },
-    { "place": 20, "athlete": "Ma Andersson-Potterveld",   "gender": "boys",  "grade": 6, "time": "20:33.93", "distance": "4000m" },
+    { "place": 20, "athlete": "Mats Andersson-Potterveld", "gender": "boys",  "grade": 6, "time": "20:33.93", "distance": "4000m" },
     { "place": 23, "athlete": "William Schwendinger",      "gender": "boys",  "grade": 7, "time": "20:40.48", "distance": "4000m" },
     { "place": 45, "athlete": "William Reid",               "gender": "boys",  "grade": 7, "time": "23:19.12", "distance": "4000m" },
     { "place": 71, "athlete": "Morgan Sans",                "gender": "boys",  "grade": 8, "time": "28:24.84", "distance": "4000m" },
