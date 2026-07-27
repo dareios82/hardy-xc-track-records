@@ -1,0 +1,28 @@
+{
+  "meet": "DCIAA Cross Country City Championships (ES/MS/HS) All Levels",
+  "date": "2015-10-24",
+  "location": "Fort Dupont Park, DC",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://xc.tfrrs.org/results/xc/9063/DCIAA_Cross_Country_City_Championships_ES_MS_HS_All_Levels",
+    "captured": "2026-07-27",
+    "method": "manual copy from TFRRS, filtered to Hardy Middle School rows",
+    "note": "This is the exact meet already backing xc_record_wall.html's 10/24/2015 team rows - girls (3rd, 76 pts) and boys (6th, 144 pts) both match exactly, and both sets of five scorers match the wall's existing team lists precisely, confirmed by summing the source's SCORE column (girls 7+12+17+18+22=76, boys 19+26+31+33+35=144). Explicitly a 2.5-mile race. Grade wasn't printed directly - TFRRS's 'YEAR' column here is HS graduation class, converted to grade via grade=2028-class for this school year (2015-16); cross-checked against five of these same athletes' grades in already-captured 2016 meets and all five progressed exactly one grade as expected. No individual time is close to the sub-19:00 (boys) / sub-21:00 (girls) record-wall cutoffs, so no individual wall changes."
+  },
+  "results": [
+    { "place": 31, "athlete": "Estaban Ceja",     "gender": "boys",  "grade": 8, "time": "21:16.9", "distance": "2.5 miles" },
+    { "place": 41, "athlete": "Oskar Floman",     "gender": "boys",  "grade": 8, "time": "23:32.2", "distance": "2.5 miles" },
+    { "place": 49, "athlete": "Ismail Kalala",    "gender": "boys",  "grade": 6, "time": "26:19.8", "distance": "2.5 miles" },
+    { "place": 52, "athlete": "Henry Hankerson",  "gender": "boys",  "grade": 7, "time": "27:21.6", "distance": "2.5 miles" },
+    { "place": 55, "athlete": "Taha Hayee",       "gender": "boys",  "grade": 7, "time": "30:29.9", "distance": "2.5 miles" },
+    { "place": 8,  "athlete": "Annabelle Harbold","gender": "girls", "grade": 6, "time": "20:38.9", "distance": "2.5 miles" },
+    { "place": 13, "athlete": "Zoe Walker",       "gender": "girls", "grade": 7, "time": "21:47.3", "distance": "2.5 miles" },
+    { "place": 21, "athlete": "Fiona Watkins",    "gender": "girls", "grade": 6, "time": "23:58.3", "distance": "2.5 miles" },
+    { "place": 23, "athlete": "Jade Gregoire",    "gender": "girls", "grade": 7, "time": "24:19.0", "distance": "2.5 miles" },
+    { "place": 35, "athlete": "Nishi Mehta",      "gender": "girls", "grade": 7, "time": "33:03.7", "distance": "2.5 miles" }
+  ],
+  "team_scores": [
+    { "gender": "girls", "place": 3, "points": 76,  "scorers": ["Annabelle Harbold", "Zoe Walker", "Fiona Watkins", "Jade Gregoire", "Nishi Mehta"] },
+    { "gender": "boys",  "place": 6, "points": 144, "scorers": ["Estaban Ceja", "Oskar Floman", "Ismail Kalala", "Henry Hankerson", "Taha Hayee"] }
+  ]
+}

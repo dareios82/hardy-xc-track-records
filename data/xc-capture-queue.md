@@ -4,7 +4,7 @@ Mirrors `data/capture-queue.md`, the same working list for the track &
 field archive, but for cross country. `xc_record_wall.html` was originally
 a hand-built top-N list plus team-championship summaries with no per-meet
 data behind it; as of 2026-07-27 the 2024 and 2025 seasons, the 2022 and
-2023 DCSAA Cross Country Championships, and nineteen older meets spanning
+2023 DCSAA Cross Country Championships, and twenty older meets spanning
 2009-2023 have been captured as real per-meet data too, so the record
 wall and the archive now draw from the same source for all of these.
 What's left of 2011-2023 is still only reflected in the record wall's
@@ -55,6 +55,7 @@ Both full seasons, plus several older meets, are captured with results and sourc
 | ☑ | 2016-10-11 | DCIAA Elementary and Middle School Developmental #2 | [milesplit/253150](https://dc.milesplit.com/meets/253150-dciaa-elementary-and-middle-school-developmental-2-2016) | `data/xc-meets/2016-10-11-dciaa-es-ms-developmental-2.json` |
 | ☑ | 2016-10-04 | DCIAA Developmental #1 | [milesplit/253148](https://dc.milesplit.com/meets/253148-dciaa-developmental-1-2016/results) | `data/xc-meets/2016-10-04-dciaa-developmental-1.json` |
 | ☑ | 2013-11-02 | DCIAA Middle School City Cross Country Championships | [tfrrs.org/xc/5984](https://www.tfrrs.org/results/xc/5984.html) | `data/xc-meets/2013-11-02-dciaa-ms-city-cross-country-championships.json` |
+| ☑ | 2015-10-24 | DCIAA Cross Country City Championships (ES/MS/HS) All Levels | [xc.tfrrs.org/xc/9063](https://xc.tfrrs.org/results/xc/9063/DCIAA_Cross_Country_City_Championships_ES_MS_HS_All_Levels) | `data/xc-meets/2015-10-24-dciaa-cross-country-city-championships.json` |
 | ☑ | 2019-10-24 | DCIAA Elementary and Middle School Cross Country Championships | [milesplit/370202](https://md.milesplit.com/meets/370202-dciaa-elementary-and-middle-school-cross-country-championships-2019/results?type=formatted) | `data/xc-meets/2019-10-24-dciaa-cross-country-championships.json` |
 
 **Found via TFRRS (2026-07-27).** Dario suspected TFRRS held more DCIAA
@@ -272,8 +273,8 @@ Same two-layer approach as track:
 ## Open issues
 
 - The 2024 and 2025 seasons (nine meets), the 2022 and 2023 DCSAA Cross
-  Country Championships, and nineteen older meets from 2009-2023
-  (thirty meets total) have been captured as real per-meet data.
+  Country Championships, and twenty older meets from 2009-2023
+  (thirty-one meets total) have been captured as real per-meet data.
   Everything else from 2011-2023 exists only as the hand-built rows
   already on `xc_record_wall.html`, sourced from whatever Dario originally
   compiled them from - there's no `data/xc-meets/*.json` backing those
@@ -282,23 +283,30 @@ Same two-layer approach as track:
 - Two meets (2022 17th Lafayette Invitational, 2020 ES/MS Developmental)
   are known to have happened but have no results page found yet - see
   "Needs a source", above.
-- Still unresolved: the wall's 10/24/2015 girls team row (Jade Gregoire,
-  Annabelle Harbold, Nishi Mehta, Fiona Watkins, Zoe Walker; 3rd, 76 pts)
-  has no matching source found anywhere yet. Tried 2026-07-27: several
-  `site:tfrrs.org` and `site:milesplit.com` phrasings, thedciaa.com's
-  champions page (only shows the current year, no archive), and Hardy's
-  own school website's "Cross Country Records" page (just links back to
-  our own site, not an independent source). It's almost certainly on
-  athletic.net - the same host as the 2015-10-06 developmental meet three
-  weeks earlier - but athletic.net returns 403 Forbidden on every page
-  type tried via WebFetch (team page, division stats page, individual
-  athlete bio pages), and the Wayback Machine is blocked for this tool
-  entirely. Annabelle Harbold's athletic.net athlete bio
-  (`athletic.net/CrossCountry/Athlete.aspx?AID=8924296`) would likely
-  list this meet directly if visited manually - Dario may have better
-  luck than an automated fetch here.
+- ~~The wall's 10/24/2015 girls team row had no matching source~~ -
+  **resolved 2026-07-27.** Dario found it himself on `xc.tfrrs.org` (a
+  different subdomain than the `www.tfrrs.org` I'd been searching -
+  "DCIAA Cross Country City Championships (ES/MS/HS) All Levels", meet ID
+  9063) and pasted it into `data/rawdataxc.txt`. Now captured as
+  `data/xc-meets/2015-10-24-dciaa-cross-country-city-championships.json`
+  - both the girls (3rd/76) and boys (6th/144) team rows match the wall
+  exactly, confirmed by summing the source's SCORE column for each
+  team's top 5. Grade wasn't printed directly; TFRRS showed HS graduation
+  class instead, converted via grade=2028-class for the 2015-16 school
+  year and cross-checked against five of these athletes' already-known
+  grades in 2016 meets - all matched.
+- Followed up on Dario's hunch that TFRRS has more DCIAA meets than
+  found so far: searched `site:xc.tfrrs.org`, found Hardy's own team
+  page on the underlying data provider
+  (`directathletics.com/teams/xc/52576.html`), which lists every meet
+  it has Hardy XC results for. All five meets listed there correspond to
+  meets already captured or already checked (zero Hardy participants) -
+  no new meets surfaced this pass. Worth revisiting periodically, or
+  checking whether that team page has a season selector for years other
+  than 2015 that a live browser session could reveal but automated
+  fetching didn't.
 - TFRRS's own search is unreliable (returns nothing for meets that do
-  exist on the site) - a `site:tfrrs.org` web search found three DCIAA XC
-  meets it missed. Worth trying again with different query phrasings, or
-  searching TFRRS's roster/team pages directly for Hardy's team ID if one
-  exists, since there may be more years not yet found this way.
+  exist on the site) - a `site:tfrrs.org` (or `site:xc.tfrrs.org`) web
+  search finds meets it misses. Worth trying again with different query
+  phrasings periodically, since there may be more years not yet found
+  this way.
