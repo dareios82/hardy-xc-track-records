@@ -1,0 +1,19 @@
+{
+  "meet": "DCIAA MS Championship (league archive - exact date unknown)",
+  "date": "2014-01-15",
+  "season": "indoor",
+  "location": "Prince George's Sports & Learning Complex, MD",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": null,
+    "captured": "2026-07-27",
+    "method": "DCIAA league-wide yearly-champion ledger shared by another coach (data/Middle School Girls Indoor Records.xlsx), not a full meet result",
+    "note": "The source only gives the school year (2013-14) and each event champion's mark, not an exact date or the rest of the field. Placeholder date of January 15 is used purely for chronological sorting - only the school year is confirmed. Location assumed to be the PG Sports & Learning Complex, matching every other captured DCIAA MS indoor championship. Nyla Ward's Long Jump here (15-00.75) is the DCIAA-wide all-time record as of this source's last update; her own later mark (17-00, 1/28/2015, already on file) supersedes it. Dasia Newell's 400m/500m entry is recorded here as a 400m - Dario confirmed this from memory, since the source sheet itself covers both distances without specifying which was run that year. See data/dciaa-league-records-hardy.json for full source context."
+  },
+  "individual": [
+    { "place": 1, "athlete": "Nyla Ward", "gender": "girls", "event": "55m", "mark": "7.97", "points": null, "flight": null, "grade": null },
+    { "place": 1, "athlete": "Nyla Ward", "gender": "girls", "event": "Long Jump", "mark": "15-00.75", "points": null, "flight": null, "grade": null },
+    { "place": 1, "athlete": "Dasia Newell", "gender": "girls", "event": "400m", "mark": "1:06.53", "points": null, "flight": null, "grade": null }
+  ],
+  "relays": []
+}

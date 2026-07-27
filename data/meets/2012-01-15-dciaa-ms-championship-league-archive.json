@@ -1,0 +1,18 @@
+{
+  "meet": "DCIAA MS Championship (league archive - exact date unknown)",
+  "date": "2012-01-15",
+  "season": "indoor",
+  "location": "Prince George's Sports & Learning Complex, MD",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": null,
+    "captured": "2026-07-27",
+    "method": "DCIAA league-wide yearly-champion ledger shared by another coach (data/Middle School Girls Indoor Records.xlsx), not a full meet result",
+    "note": "The source only gives the school year (2011-12) and each event champion's mark, not an exact date or the rest of the field. Placeholder date of January 15 is used purely for chronological sorting - only the school year is confirmed. Location assumed to be the PG Sports & Learning Complex, matching every other captured DCIAA MS indoor championship. The 800m/1000m event is left ambiguous because the source sheet covers both distances without saying which was run in 2011-12 (unlike the 400m entry in the 2013-14 file, which Dario confirmed was run as a 400m). See data/dciaa-league-records-hardy.json for full source context."
+  },
+  "individual": [
+    { "place": 1, "athlete": "Asia Amis", "gender": "girls", "event": "800m/1000m (distance unconfirmed by source)", "mark": "3:42.94", "points": null, "flight": null, "grade": null },
+    { "place": 1, "athlete": "Asia Amis", "gender": "girls", "event": "Triple Jump", "mark": "26-08.50", "points": null, "flight": null, "grade": null }
+  ],
+  "relays": []
+}

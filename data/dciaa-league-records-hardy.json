@@ -1,5 +1,5 @@
 {
-  "note": "Hardy entries pulled from four DCIAA-wide records documents given to Dario by another middle school coach. Each source is a league-wide YEARLY-CHAMPION ledger (one row per event per year: who won it, what mark) - not full meet results with every finisher - so these can confirm or flag Hardy's own record wall, but can't be turned into per-meet result files the way TFRRS/athletic.net captures can. They also predate this site's meet-by-meet captures, covering roughly 2007/08-2015/16.",
+  "note": "Hardy entries pulled from four DCIAA-wide records documents given to Dario by another middle school coach. Each source is a league-wide YEARLY-CHAMPION ledger (one row per event per year: who won it, what mark) - not full meet results with every finisher. Where a season wasn't otherwise on file, the win itself has been entered as a minimal single-result 'meet' file (see archived_as below) so it shows up in the searchable results archive, per Dario's 2026-07-27 instruction to do so 'especially since some/all are victories' - even though it can't be applied to the record wall without a fuller source. Where a season IS already on file from a fuller capture, no new file was made; the existing capture is noted instead.",
   "sources": [
     {
       "file": "data/MS XC.pdf",
@@ -35,7 +35,8 @@
       "season": "2011-12",
       "athlete": "Asia Amis",
       "mark": "19:16",
-      "wall_comparison": "Confirms the DCIAA XC individual title already credited to Asia Amis on xc_record_wall.html (listed there as 2011-10-XX, 19:16.00). This document is the actual source for that entry."
+      "wall_comparison": "Confirms the DCIAA XC individual title already credited to Asia Amis on xc_record_wall.html (listed there as 2011-10-XX, 19:16.00). This document is the actual source for that entry.",
+      "archived_as": "data/xc-meets/2011-10-01-dciaa-xc-championship-league-archive.json"
     },
     {
       "sport": "indoor",
@@ -46,7 +47,8 @@
       "athlete": "Nyla Ward",
       "mark": "15' .75\"",
       "location": "PG Complex",
-      "wall_comparison": "Listed as the DCIAA-wide all-time record as of this workbook's last update. Hardy's own indoor wall already lists a better Nyla Ward mark from the following season (17', 1/28/2015), so the wall itself is already ahead of this snapshot - no change needed."
+      "wall_comparison": "Listed as the DCIAA-wide all-time record as of this workbook's last update. Hardy's own indoor wall already lists a better Nyla Ward mark from the following season (17', 1/28/2015), so the wall itself is already ahead of this snapshot - no change needed.",
+      "archived_as": "data/meets/2014-01-15-dciaa-ms-championship-league-archive.json"
     },
     {
       "sport": "indoor",
@@ -57,18 +59,20 @@
       "athlete": "Nyla Ward",
       "mark": "7.97",
       "location": "PG Complex",
-      "wall_comparison": "Slower than the current wall record (Taylor McMahan, 7.59, 2/25/2025). No change."
+      "wall_comparison": "Slower than the current wall record (Taylor McMahan, 7.59, 2/25/2025). No change.",
+      "archived_as": "data/meets/2014-01-15-dciaa-ms-championship-league-archive.json"
     },
     {
       "sport": "indoor",
       "category": "yearly_champion",
       "gender": "girls",
-      "event": "400m/500m (source sheet covers both distances without specifying which was run that year)",
+      "event": "400m",
       "season": "2013-14",
       "athlete": "Dasia Newell",
       "mark": "1:06.53",
       "location": "PG Complex",
-      "wall_comparison": "NEEDS VERIFICATION, not applied to the wall. If this was a 500m it would be far faster than the current wall record (Vanina Mazzei-Paterni, 1:27.4, 2/25/2025); if 400m it isn't directly comparable to anything currently posted. Logged as an open issue in data/capture-queue.md rather than guessing."
+      "wall_comparison": "Distance confirmed as 400m by Dario (2026-07-27) - the source sheet itself covers both 400m and 500m without saying which was run that year. Not applied to the record wall (no 400m category exists on trackwall_indoor.html, only 300m/500m/800m/1600m), but entered into the searchable archive as a confirmed individual win.",
+      "archived_as": "data/meets/2014-01-15-dciaa-ms-championship-league-archive.json"
     },
     {
       "sport": "indoor",
@@ -79,7 +83,8 @@
       "athlete": "Asia Amis",
       "mark": "3:42.94",
       "location": "PG Complex",
-      "wall_comparison": "Slower than the current wall record either way (800m: 2:33.64; nothing posted for 1000m). No change."
+      "wall_comparison": "Slower than the current wall record either way (800m: 2:33.64; nothing posted for 1000m). No change. Distance left ambiguous, unlike the 2013-14 400m above which Dario confirmed from memory - not resolved for this one.",
+      "archived_as": "data/meets/2012-01-15-dciaa-ms-championship-league-archive.json"
     },
     {
       "sport": "indoor",
@@ -90,7 +95,8 @@
       "athlete": "Asia Amis",
       "mark": "26' 8.50\"",
       "location": "PG Complex",
-      "wall_comparison": "Slower than the current wall record (Taylor McMahan, 31' 4.5\", 2/25/2025). No change."
+      "wall_comparison": "Slower than the current wall record (Taylor McMahan, 31' 4.5\", 2/25/2025). No change.",
+      "archived_as": "data/meets/2012-01-15-dciaa-ms-championship-league-archive.json"
     },
     {
       "sport": "outdoor",
@@ -100,7 +106,8 @@
       "season": "2014",
       "athlete": "Nyla Ward",
       "mark": "13.36",
-      "wall_comparison": "Slower than the current wall record (Samiah Bucey-Onyekwere, 12.8, 5/10/2022). No change."
+      "wall_comparison": "Slower than the current wall record (Samiah Bucey-Onyekwere, 12.8, 5/10/2022). No change.",
+      "archived_as": "data/meets/2014-05-15-dciaa-ms-championship-league-archive.json"
     },
     {
       "sport": "outdoor",
@@ -110,7 +117,7 @@
       "season": "2013",
       "athlete": "Nyla Ward",
       "mark": "13.64",
-      "wall_comparison": "Slower than the current wall record. Ward won this event's DCIAA title in both 2013 and 2014."
+      "wall_comparison": "OPEN DISCREPANCY, not archived: our own fully-captured 2013-05-06 meet (data/meets/2013-05-06-dciaa-ms-championship.json, Hardy's West bracket) shows a different girls 100m winner that day (Amber Primus, 14.44) with no Nyla Ward entry at all. Either Ward competed in the East bracket that this capture's note says had 'no Hardy entries' - which this ledger now contradicts - or the two sources aren't describing the same meet. Not added to the searchable archive until this is resolved; see data/capture-queue.md."
     },
     {
       "sport": "outdoor",
@@ -120,7 +127,7 @@
       "season": "2015",
       "athlete": "A'Rai Hyman",
       "mark": "2:55.77",
-      "wall_comparison": "Slower than the current wall record (Vanina Mazzei-Paterni, 2:25.42, 2026). No change; not currently on the wall or in any captured meet file."
+      "wall_comparison": "Already fully captured with a 1st-place finish in data/meets/2015-05-08-dciaa-ms-outdoor-city-championship.json - no new file needed, already searchable. Slower than the current wall record (Vanina Mazzei-Paterni, 2:25.42, 2026); this is a DCIAA yearly-champion mark, not a school-best, so no conflict."
     },
     {
       "sport": "outdoor",
@@ -130,7 +137,7 @@
       "season": "2015",
       "athlete": null,
       "mark": "54.72",
-      "wall_comparison": "Slower than the current wall record (54.05, 5/15/2025). No change."
+      "wall_comparison": "Already fully captured with all four names in data/meets/2015-05-08-dciaa-ms-outdoor-city-championship.json (Dasia Newell, Rogzane St. John, A'rai Hyman, Nyla Ward). Slower than the current wall record (54.05, 5/15/2025). No new file needed, already searchable."
     },
     {
       "sport": "outdoor",
@@ -170,7 +177,7 @@
       "season": "2015",
       "athlete": "Dasia Newell",
       "mark": "4' 8\"",
-      "wall_comparison": "Matches the current wall record exactly (Dasia Newell, 4'8\", 5/8/2015, DCIAA MS Outdoor City Championship) - independent confirmation from a second source."
+      "wall_comparison": "Already fully captured (place 1) in data/meets/2015-05-08-dciaa-ms-outdoor-city-championship.json - it's the source of the current wall record (Dasia Newell, 4'8\", 5/8/2015). No new file needed."
     },
     {
       "sport": "outdoor",
@@ -180,7 +187,7 @@
       "season": "2013",
       "athlete": "Dasia Bando",
       "mark": "4' 2\"",
-      "wall_comparison": "Slower than the current wall record, so no wall impact either way. Name is 'Dasia Bando' in this source, two years before Dasia Newell's 2015 win of the same event - flagging as a possible typo/variant of 'Newell' rather than assuming; could also be a different athlete."
+      "wall_comparison": "RESOLVED: 'Dasia Bando' is a real, distinct Hardy athlete, not a typo for 'Newell' - Dario's instinct was correct. Confirmed via data/meets/2013-05-06-dciaa-ms-championship.json, which already has her winning this same event (place 1) with a mark of 4-04.00 (4'4\"), plus a 2nd-place 100m and a 1st-place 100m Hurdles that same day. Note the marks don't match exactly (4'4\" already on file vs 4'2\" in this ledger) - a minor discrepancy between the two sources, not touching the wall since neither beats the current record. Already searchable, no new file needed."
     },
     {
       "sport": "outdoor",
@@ -190,7 +197,7 @@
       "season": "2015",
       "athlete": "Nyla Ward",
       "mark": "16' 5\"",
-      "wall_comparison": "Matches the current wall record exactly (Nyla Ward, 16'5\", 5/8/2015) - independent confirmation from a second source."
+      "wall_comparison": "Already fully captured (place 1) in data/meets/2015-05-08-dciaa-ms-outdoor-city-championship.json - it's the source of the current wall record (Nyla Ward, 16'5\", 5/8/2015). No new file needed."
     },
     {
       "sport": "outdoor",
@@ -200,7 +207,8 @@
       "season": "2014",
       "athlete": "Nyla Ward",
       "mark": "13' 11.5\"",
-      "wall_comparison": "Earlier and slower than her 2015 mark already on the wall. No change."
+      "wall_comparison": "Earlier and slower than her 2015 mark already on the wall. No change.",
+      "archived_as": "data/meets/2014-05-15-dciaa-ms-championship-league-archive.json"
     },
     {
       "sport": "outdoor",
@@ -210,7 +218,7 @@
       "season": "2013",
       "athlete": "Nyla Ward",
       "mark": "13' 9.75\"",
-      "wall_comparison": "Earlier and slower than her 2015 mark already on the wall. No change."
+      "wall_comparison": "OPEN DISCREPANCY, not archived: same issue as her 2013 100m Dash entry above - our own captured 2013-05-06 meet has no Nyla Ward Long Jump entry at all (only Myniah Pulliam and Ayhana Davis competed in that event for Hardy's West bracket). Not added to the searchable archive until resolved; see data/capture-queue.md."
     }
   ]
 }

@@ -381,12 +381,30 @@ any current record on either wall. This closes out TFRRS entirely.
   available; Dario suggests trying M&D Timing Services, LLC.
 - A DCIAA coach shared four league-wide historical records documents
   (PDF + 3 Excel workbooks); the Hardy entries pulled from them are in
-  `data/dciaa-league-records-hardy.json`. One needs Dario's call:
-  Dasia Newell's 2013-14 indoor "400m/500m" title (1:06.53) - the
-  source sheet covers both distances without saying which was run
-  that year, and if it was a 500m it would beat the current indoor
-  wall record (1:27.4). Everything else in that file is confirmed
-  weaker than what's already posted, or already matches it.
+  `data/dciaa-league-records-hardy.json`, and every season not already
+  covered by a full meet capture has been added as a minimal
+  single-result "league archive" file so those wins are searchable
+  (2011 XC, 2011-12 and 2013-14 indoor, 2014 outdoor). Dasia Newell's
+  1:06.53 indoor title is now recorded as a 400m per Dario (2026-07-27).
+  Two items are still open:
+  - **Nyla Ward's 2013 outdoor 100m Dash (13.64) and Long Jump
+    (13'9.75") titles, per the coach's ledger, don't match Hardy's own
+    fully-captured 2013-05-06 meet** (`data/meets/2013-05-06-dciaa-ms-championship.json`,
+    West bracket only) - that capture has a different 100m winner
+    (Amber Primus, 14.44) and no Nyla Ward entries in either event at
+    all. Its own capture note says Hardy had "no entries in any East
+    event" that day, which this ledger now seems to contradict. Not
+    added to the searchable archive pending Dario's read on this.
+  - Asia Amis's 2011-12 indoor "800m/1000m" title (3:42.94) still has
+    an unresolved distance, unlike the 400m item above - the source
+    sheet doesn't say which was run that year and Dario hasn't
+    confirmed one. Archived as-is with the ambiguity spelled out in
+    the event name; doesn't affect the wall either way since it's
+    slower than the current record for both distances.
+  - Also confirmed **"Dasia Bando" is a real, separate Hardy athlete**,
+    not a typo for "Newell" as first guessed - she's already on file
+    in the 2013-05-06 meet (High Jump win, 100m Hurdles win, 2nd in
+    100m), matching this coach's ledger.
 
 ## Archive design
 

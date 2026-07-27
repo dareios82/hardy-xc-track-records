@@ -1,0 +1,18 @@
+{
+  "meet": "DCIAA MS Championship (league archive - exact date unknown)",
+  "date": "2014-05-15",
+  "season": "outdoor",
+  "location": null,
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": null,
+    "captured": "2026-07-27",
+    "method": "DCIAA league-wide yearly-champion ledger shared by another coach (data/Middle School Girls Outdoor Championship Meet Records.xlsx), not a full meet result",
+    "note": "The source only gives the calendar year (2014) and each event champion's mark, not an exact date, location or the rest of the field. Placeholder date of May 15 is used purely for chronological sorting - only the year is confirmed. No 2014 DCIAA MS outdoor meet has otherwise been captured for this archive. See data/dciaa-league-records-hardy.json for full source context."
+  },
+  "individual": [
+    { "place": 1, "athlete": "Nyla Ward", "gender": "girls", "event": "100m", "mark": "13.36", "points": null, "flight": null, "grade": null },
+    { "place": 1, "athlete": "Nyla Ward", "gender": "girls", "event": "Long Jump", "mark": "13-11.50", "points": null, "flight": null, "grade": null }
+  ],
+  "relays": []
+}

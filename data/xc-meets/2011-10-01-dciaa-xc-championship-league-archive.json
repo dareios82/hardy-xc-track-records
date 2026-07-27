@@ -1,0 +1,15 @@
+{
+  "meet": "DCIAA XC Championship (league archive - exact date unknown)",
+  "date": "2011-10-01",
+  "location": "Fort Dupont Park, DC",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": null,
+    "captured": "2026-07-27",
+    "method": "DCIAA league-wide yearly-champion ledger shared by another coach (data/MS XC.pdf), not a full meet result",
+    "note": "The source only gives the school year (2011-12) and the champion's time, not an exact date, location or the rest of the field. Placeholder date of October 1 is used purely for chronological sorting - only the school year is confirmed. Location assumed to be Fort Dupont Park, DC to match the adjacent captured years (2009, 2010) and the existing xc_record_wall.html entry, not independently confirmed for this specific meet. This is the source document for Asia Amis's DCIAA XC individual championship already credited on the wall (2011-10-XX, 19:16.00). See data/dciaa-league-records-hardy.json for full source context."
+  },
+  "results": [
+    { "place": 1, "athlete": "Asia Amis", "gender": "girls", "grade": null, "time": "19:16", "distance": null }
+  ]
+}
