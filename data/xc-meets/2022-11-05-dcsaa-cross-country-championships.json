@@ -1,0 +1,26 @@
+{
+  "meet": "DCSAA Cross Country Championships",
+  "date": "2022-11-05",
+  "location": "Kenilworth Park, DC",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://www.athletic.net/CrossCountry/meet/220733/info",
+    "captured": "2026-07-27",
+    "method": "manual copy from the Hardy team results view (athletic.net)",
+    "note": "Distance not stated in the paste; set to 4100m matching the same DCSAA Kenilworth Park course used in 2023/2024/2025. PB/SB badges dropped from the time field. Boys had no official team score (only 4 finishers, meet requires 5). These results match xc_record_wall.html's pre-existing individual and team rows for this meet exactly - no wall changes needed, this just backs those existing rows with real per-meet data. Charlotte Kravitz, Xiomi Sullivan and Isabelle Pessey already have faster personal-best times on file from later meets, so none of their marks here update the individual lists."
+  },
+  "results": [
+    { "place": 12, "athlete": "Charlotte Kravitz",   "gender": "girls", "grade": 6, "time": "19:14.2", "distance": "4100m" },
+    { "place": 16, "athlete": "Xiomi Sullivan",       "gender": "girls", "grade": 6, "time": "19:41.4", "distance": "4100m" },
+    { "place": 18, "athlete": "Isabelle Pessey",      "gender": "girls", "grade": 6, "time": "19:58.7", "distance": "4100m" },
+    { "place": 25, "athlete": "Gabrielle Popovich",   "gender": "girls", "grade": 8, "time": "21:33.9", "distance": "4100m" },
+    { "place": 33, "athlete": "Talia Green",          "gender": "girls", "grade": 8, "time": "22:54.1", "distance": "4100m" },
+    { "place": 27, "athlete": "Nicholas Tamarin",     "gender": "boys",  "grade": 8, "time": "17:32.2", "distance": "4100m" },
+    { "place": 34, "athlete": "Arnav Iyengar",        "gender": "boys",  "grade": 8, "time": "18:06.1", "distance": "4100m" },
+    { "place": 60, "athlete": "Issac Lei",            "gender": "boys",  "grade": 8, "time": "19:55.1", "distance": "4100m" },
+    { "place": 61, "athlete": "Felix Mulville",       "gender": "boys",  "grade": 6, "time": "19:56.3", "distance": "4100m" }
+  ],
+  "team_scores": [
+    { "gender": "girls", "place": 3, "points": 93, "scorers": ["Talia Green", "Charlotte Kravitz", "Isabelle Pessey", "Gabrielle Popovich", "Xiomi Sullivan"] }
+  ]
+}

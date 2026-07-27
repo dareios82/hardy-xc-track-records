@@ -3,15 +3,15 @@
 Mirrors `data/capture-queue.md`, the same working list for the track &
 field archive, but for cross country. `xc_record_wall.html` was originally
 a hand-built top-N list plus team-championship summaries with no per-meet
-data behind it; as of 2026-07-27 both the 2024 and 2025 seasons have been
-captured as real per-meet data too, so the record wall and the archive now
-draw from the same source for those two seasons. Earlier seasons
-(2011-2023) are still only reflected in the record wall's hand-built rows
-- see Open issues, below.
+data behind it; as of 2026-07-27 the 2024 and 2025 seasons, plus the 2022
+and 2023 DCSAA Cross Country Championships, have been captured as real
+per-meet data too, so the record wall and the archive now draw from the
+same source for those meets. Everything else from 2011-2023 is still only
+reflected in the record wall's hand-built rows - see Open issues, below.
 
-## Needs manual capture (none remaining for 2024 or 2025)
+## Needs manual capture (none remaining for 2024 or 2025; two 2022/2023 meets also captured)
 
-Both seasons are fully captured, results and source links:
+Both full seasons, plus two older DCSAA championships, are captured with results and source links:
 
 | ✓ | Date | Meet | Link | File |
 |---|------|------|------|------|
@@ -24,6 +24,8 @@ Both seasons are fully captured, results and source links:
 | ☑ | 2025-10-17 | DCIAA XC ES/MS Challenge | [athletic.net/262497](https://www.athletic.net/CrossCountry/meet/262497/info) | `data/xc-meets/2025-10-17-dciaa-xc-es-ms-challenge.json` |
 | ☑ | 2025-10-22 | DCIAA Cross Country Championships | [athletic.net/269060](https://www.athletic.net/CrossCountry/meet/269060/info) | `data/xc-meets/2025-10-22-dciaa-cross-country-championships.json` |
 | ☑ | 2025-11-01 | DCSAA Cross Country Championships | [athletic.net/260003](https://www.athletic.net/CrossCountry/meet/260003/info) | `data/xc-meets/2025-11-01-dcsaa-cross-country-championships.json` |
+| ☑ | 2023-11-04 | DCSAA Cross Country Championships | [athletic.net/235268](https://www.athletic.net/CrossCountry/meet/235268/info) | `data/xc-meets/2023-11-04-dcsaa-cross-country-championships.json` |
+| ☑ | 2022-11-05 | DCSAA Cross Country Championships | [athletic.net/220733](https://www.athletic.net/CrossCountry/meet/220733/info) | `data/xc-meets/2022-11-05-dcsaa-cross-country-championships.json` |
 
 The 2024-10-22 and 2024-11-02 championship results matched
 `xc_record_wall.html`'s pre-existing hand-built rows for those meets
@@ -41,8 +43,17 @@ both team tables on `xc_record_wall.html` got a new row for it, labeled
 "GP Middle School Challenge (2 mi course)" so it reads as distinct from
 the 4100m results around it.
 
-Earlier seasons (2011-2023) still have no links or per-meet data at all -
-see Open issues, below.
+The 2023-11-04 and 2022-11-05 DCSAA Cross Country Championships also
+matched `xc_record_wall.html`'s pre-existing rows exactly - no individual
+or team rows needed to change. Neither meet's paste stated a course
+distance, so `distance` was set to 4100m to match the same Kenilworth Park
+DCSAA course used in adjacent years (noted in each file's `source.note`).
+The 2022 meet's boys race had no official team score (only 4 finishers,
+below the 5 needed), matching the wall's lack of a 2022 DCSAA boys team
+row.
+
+The rest of 2011-2023 still has no links or per-meet data at all - see
+Open issues, below.
 
 ## Schema
 
@@ -111,9 +122,10 @@ Same two-layer approach as track:
 
 ## Open issues
 
-- Only the 2024 and 2025 seasons (nine meets) have been captured as real
-  per-meet data. Everything from 2011-2023 exists only as the hand-built
-  rows already on `xc_record_wall.html`, sourced from whatever Dario
-  originally compiled them from - there's no `data/xc-meets/*.json`
+- Only the 2024 and 2025 seasons (nine meets), plus the 2022 and 2023
+  DCSAA Cross Country Championships (two meets), have been captured as
+  real per-meet data. Everything else from 2011-2023 exists only as the
+  hand-built rows already on `xc_record_wall.html`, sourced from whatever
+  Dario originally compiled them from - there's no `data/xc-meets/*.json`
   backing those years, and no way to search an individual athlete's 2019
   race, for example, the way the archive lets you for 2024/2025.

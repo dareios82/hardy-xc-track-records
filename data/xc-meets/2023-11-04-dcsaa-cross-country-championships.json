@@ -1,0 +1,30 @@
+{
+  "meet": "DCSAA Cross Country Championships",
+  "date": "2023-11-04",
+  "location": "Kenilworth Park, DC",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://www.athletic.net/CrossCountry/meet/235268/info",
+    "captured": "2026-07-27",
+    "method": "manual copy from the Hardy team results view (athletic.net)",
+    "note": "Distance not stated in the paste; set to 4100m matching the same DCSAA Kenilworth Park course used in 2024/2025. PB/SB badges dropped from the time field. 'Holden Cousentino' corrected to Holden Consentino (established spelling elsewhere). These results match xc_record_wall.html's pre-existing individual and team rows for this meet exactly - no wall changes needed, this just backs those existing rows with real per-meet data. Holden Consentino, Isabelle Pessey, Xiomi Sullivan, Maja Caldara, Lucia Mazzarelli and Ulyses Stewart-Torres already have faster personal-best times on file from later meets, so none of their marks here update the individual lists."
+  },
+  "results": [
+    { "place": 26, "athlete": "Jake Puller",             "gender": "boys",  "grade": 6, "time": "17:53.99", "distance": "4100m" },
+    { "place": 29, "athlete": "Holden Consentino",        "gender": "boys",  "grade": 7, "time": "18:07.36", "distance": "4100m" },
+    { "place": 39, "athlete": "Jackson Howes",            "gender": "boys",  "grade": 8, "time": "18:39.07", "distance": "4100m" },
+    { "place": 76, "athlete": "William Chicoski",         "gender": "boys",  "grade": 6, "time": "21:29.54", "distance": "4100m" },
+    { "place": 80, "athlete": "Ulyses Stewart-Torres",    "gender": "boys",  "grade": 7, "time": "22:00.85", "distance": "4100m" },
+    { "place": 89, "athlete": "Graham Schwendinger",      "gender": "boys",  "grade": 6, "time": "24:13.26", "distance": "4100m" },
+    { "place": 14, "athlete": "Isabelle Pessey",          "gender": "girls", "grade": 7, "time": "18:29.71", "distance": "4100m" },
+    { "place": 17, "athlete": "Charlotte Kravitz",        "gender": "girls", "grade": 7, "time": "19:05.36", "distance": "4100m" },
+    { "place": 23, "athlete": "Xiomi Sullivan",           "gender": "girls", "grade": 7, "time": "20:20.87", "distance": "4100m" },
+    { "place": 26, "athlete": "Maja Caldara",             "gender": "girls", "grade": 6, "time": "21:12.32", "distance": "4100m" },
+    { "place": 28, "athlete": "Lucia Mazzarelli",         "gender": "girls", "grade": 6, "time": "22:01.22", "distance": "4100m" },
+    { "place": 46, "athlete": "Emma Morena Villamil",     "gender": "girls", "grade": 7, "time": "26:20.30", "distance": "4100m" }
+  ],
+  "team_scores": [
+    { "gender": "girls", "place": 4, "points": 89,  "scorers": ["Maja Caldara", "Charlotte Kravitz", "Lucia Mazzarelli", "Emma Morena Villamil", "Isabelle Pessey", "Xiomi Sullivan"] },
+    { "gender": "boys",  "place": 8, "points": 185, "scorers": ["William Chicoski", "Holden Consentino", "Jackson Howes", "Jake Puller", "Graham Schwendinger", "Ulyses Stewart-Torres"] }
+  ]
+}
