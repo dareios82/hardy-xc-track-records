@@ -246,6 +246,39 @@ any current record on either wall. This closes out TFRRS entirely.
     the archive. Normalized all eight occurrences to "Vanina Mazzei-Paterni"
     per Dario's instruction to keep her name consistent across the
     database.
+- **Three more meets captured from milesplit.com pastes (2026-07-27).**
+  Dario dropped five txt files with full results into `data/`; two turned
+  out to be exact duplicates of meets already in the archive (2018-04-19
+  ES/MS Dual and 2021-05-18 MS Developmental - every single Hardy mark
+  matched, confirming both existing files are accurate) and were not
+  re-added. Three were genuinely new:
+  - `data/meets/2017-12-06-dciaa-es-ms-developmental.json` - this fills a
+    gap `trackwall_indoor.html`'s Sources table had flagged as "Broken"
+    with zero data since this project started; the milesplit.com mirror
+    has the full results. No record changes.
+  - `data/meets/2021-05-26-dciaa-es-ms-meet-2.json` - small meet, no
+    record changes.
+  - `data/meets/2013-05-06-dciaa-ms-championship.json` - run as an
+    East/West Championship split (Hardy competed West only). **Aaron
+    Coates ran 56.74 in the boys 400m, which beats
+    `trackwall_outdoor.html`'s current record (57.38, Ulyses Stewart
+    Torres, 5/19/2025) by 0.64s - flagged for Dario to confirm, not
+    applied to the wall.** Everything else at this meet was well off any
+    current record.
+  - Both walls' Sources tables updated with the new links; the indoor
+    wall's Dec 6 2017 row no longer says "Broken".
+- **Five more meet identifications from Dario (2026-07-27), logged but not
+  yet fully captured** - see "Needs manual capture", above, for the two
+  new source links (2018-05-10 MS City Championships, no results pasted
+  yet) and "Needs a source" would apply to 2024-04-04 MS Developmental and
+  2024-05-20 "Developmental Meet 2" (a possible second meet on the same
+  date as the already-captured 2024-05-20 file - needs checking once a
+  source is found) and 2018-04-26 Elementary and Middle Field Meet
+  (explicitly "no results, inquire: M&D Timing Services, LLC"). The
+  2017-04-11 MS Developmental Meet mention just re-confirms the file
+  already in the archive.
+- results-archive.html: 44 -> 47 meets, 2031 -> 2110 marks, 299 -> 314
+  athletes.
 
 ## Open issues
 
@@ -253,6 +286,22 @@ any current record on either wall. This closes out TFRRS entirely.
   As of 2026-07-27 the entire 2025 season (4 meets) is captured as real
   per-meet data and searchable at `xc-results-archive.html`; seasons before
   that still only exist as the hand-built rows on `xc_record_wall.html`.
+- **Outdoor boys 400m: possible new record, needs Dario's confirmation.**
+  Aaron Coates ran 56.74 at the 2013-05-06 DCIAA Middle School
+  Championship (`data/meets/2013-05-06-dciaa-ms-championship.json`) -
+  faster than the current wall record of 57.38 (Ulyses Stewart Torres,
+  5/19/2025). Not applied to `trackwall_outdoor.html` pending review.
+- 2018-05-10 DCIAA Middle School City Championships has a confirmed
+  source link (https://dc.milesplit.com/meets/317918-dciaa-middle-school-city-championships-2018/results)
+  but no results have been pasted in yet.
+- 2024-04-04 DCIAA Middle School Developmental Meet and 2024-05-20 "DCIAA
+  Middle School Developmental Meet 2" (Spingarn HS) are identified but
+  have no source link yet - the 2024-05-20 date already has a captured
+  meet (`data/meets/2024-05-20-dciaa-ms-developmental.json`, "Meet 3" per
+  this queue), so it's unclear yet whether "Meet 2" is a separate meet or
+  the same one under a different name.
+- 2018-04-26 DCIAA Elementary and Middle Field Meet has no results
+  available; Dario suggests trying M&D Timing Services, LLC.
 
 ## Archive design
 

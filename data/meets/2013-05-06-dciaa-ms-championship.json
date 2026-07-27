@@ -1,0 +1,41 @@
+{
+  "meet": "DCIAA Middle School Championship",
+  "date": "2013-05-06",
+  "season": "outdoor",
+  "location": "Spingarn, DC",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://dc.milesplit.com/meets/144866-dciaa-middle-school-champs-2013/results",
+    "captured": "2026-07-27",
+    "method": "manual copy of the full mixed-school results page, filtered here to only 'Rose L Hardy' rows",
+    "note": "Run as an East/West Championship split - Hardy competed in the West bracket only (no Hardy entries in any East event). The header line Dario captured says 'May 8, 2013' but the Hy-Tek meet manager's own internal timestamp says '5/6/2013' twice - used the internal date. No 'Year' (grade) column was printed for any athlete at this meet, Hardy or otherwise, so grade is null throughout. The 800 Sprint Medley (100-100-200-400 legs) is named to match the '1600 Sprint Medley Middle' convention already used in the archive. IMPORTANT: Aaron Coates's 56.74 in the boys 400m is FASTER than trackwall_outdoor.html's current record (57.38, Ulyses Stewart Torres, 5/19/2025) - flagged for Dario to review before touching the wall, not applied automatically. Grade progression is consistent with the same Aaron Coates who ran XC for Hardy as a 6th grader in fall 2010 (data/xc-meets/2010-10-30-...json), who'd be an 8th grader by spring 2013."
+  },
+  "individual": [
+    { "place": 1,  "athlete": "Amber Primus",     "gender": "girls", "event": "100m",          "mark": "14.44", "points": 10, "flight": "H2", "grade": null },
+    { "place": 2,  "athlete": "Dasia Bando",       "gender": "girls", "event": "100m",          "mark": "14.58", "points": 8,  "flight": "H2", "grade": null },
+    { "place": 3,  "athlete": "Amber Primus",     "gender": "girls", "event": "200m",          "mark": "28.22", "points": 6,  "flight": null, "grade": null },
+    { "place": 7,  "athlete": "Jordan Harmon",    "gender": "girls", "event": "200m",          "mark": "30.80", "points": 2,  "flight": null, "grade": null },
+    { "place": 1,  "athlete": "Dasia Bando",       "gender": "girls", "event": "100m Hurdles",  "mark": "18.76", "points": 10, "flight": null, "grade": null },
+    { "place": 1,  "athlete": "Dasia Bando",       "gender": "girls", "event": "High Jump",     "mark": "4-04.00","points": 10, "flight": null, "grade": null },
+    { "place": 2,  "athlete": "Myniah Pulliam",    "gender": "girls", "event": "Long Jump",     "mark": "12-08.25","points": 8, "flight": null, "grade": null },
+    { "place": 5,  "athlete": "Ayhana Davis",      "gender": "girls", "event": "Long Jump",     "mark": "10-04.00","points": 4, "flight": null, "grade": null },
+    { "place": 3,  "athlete": "Jae'la Robinson",   "gender": "girls", "event": "Shot Put",      "mark": "17-06.00","points": 6, "flight": null, "grade": null },
+    { "place": 3,  "athlete": "Jae'la Robinson",   "gender": "girls", "event": "Discus",        "mark": "35-06",  "points": 6, "flight": null, "grade": null },
+    { "place": 7,  "athlete": "Elijah McDuffie",   "gender": "boys",  "event": "100m",          "mark": "13.83",  "points": 2,  "flight": "H1", "grade": null },
+    { "place": 9,  "athlete": "Hudson Primus",     "gender": "boys",  "event": "100m",          "mark": "14.77",  "points": null, "flight": "H2", "grade": null },
+    { "place": 4,  "athlete": "Elijah McDuffie",   "gender": "boys",  "event": "200m",          "mark": "28.87",  "points": 5,  "flight": null, "grade": null },
+    { "place": 6,  "athlete": "Hudson Primus",     "gender": "boys",  "event": "200m",          "mark": "32.41",  "points": 3,  "flight": null, "grade": null },
+    { "place": 1,  "athlete": "Aaron Coates",      "gender": "boys",  "event": "400m",          "mark": "56.74",  "points": 10, "flight": "H1", "grade": null },
+    { "place": 6,  "athlete": "Hudson Primus",     "gender": "boys",  "event": "400m",          "mark": "1:14.47","points": 3,  "flight": "H1", "grade": null },
+    { "place": 8,  "athlete": "Taj Jean-Baptiste", "gender": "boys",  "event": "800m",          "mark": "3:17.14","points": null, "flight": null, "grade": null },
+    { "place": 6,  "athlete": "Taj Jean-Baptiste", "gender": "boys",  "event": "1600m",         "mark": "6:38.58","points": 3,  "flight": null, "grade": null },
+    { "place": 2,  "athlete": "Elijah McDuffie",   "gender": "boys",  "event": "110m Hurdles",  "mark": "22.89",  "points": 8,  "flight": null, "grade": null },
+    { "place": 5,  "athlete": "Taj Jean-Baptiste", "gender": "boys",  "event": "110m Hurdles",  "mark": "28.60",  "points": 4,  "flight": null, "grade": null }
+  ],
+  "relays": [
+    { "place": 1, "gender": "girls", "event": "4x100m", "mark": "59.78",   "squad": "A", "points": 10, "flight": null, "athletes": ["Dasia Bando", "Jordan Harmon", "Gabriela Bermudez", "Amber Primus"] },
+    { "place": 2, "gender": "girls", "event": "4x200m", "mark": "2:11.23", "squad": "A", "points": 8,  "flight": null, "athletes": ["Gabriela Bermudez", "Inez Denton", "Aliyah Massey", "Jordan Harmon"] },
+    { "place": 3, "gender": "girls", "event": "800 Sprint Medley Middle", "mark": "2:29.64", "squad": "A", "points": 6, "flight": null, "athletes": ["Amberatta Faulkner", "India Skinner", "Myniah Pulliam", "Inez Denton"] },
+    { "place": 3, "gender": "boys",  "event": "4x100m", "mark": "1:02.66", "squad": "A", "points": 6,  "flight": null, "athletes": ["Hudson Primus", "Zarchary Spooner", "Elmer Ellis", "Elijah McDuffie"] }
+  ]
+}

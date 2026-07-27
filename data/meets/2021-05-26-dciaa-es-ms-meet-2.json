@@ -1,0 +1,35 @@
+{
+  "meet": "DCIAA Elementary & Middle School Meet #2",
+  "date": "2021-05-26",
+  "season": "outdoor",
+  "location": "Spingarn, DC",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://www.milesplit.com/meets/430599-dciaa-elementary-and-middle-school-meet-2-2021",
+    "captured": "2026-07-27",
+    "method": "manual copy from the Hardy team results view (milesplit.com)",
+    "note": "'Sayum Iddamlagoda' corrected to Iddamalagoda, matching the spelling confirmed elsewhere in the archive. No mark here comes close to any current entry on trackwall_outdoor.html, so no wall changes."
+  },
+  "individual": [
+    { "place": 2,  "athlete": "Robert Welles",       "gender": "boys",  "event": "100m", "mark": "13.91",   "points": null, "flight": "H2", "grade": 8 },
+    { "place": 3,  "athlete": "Sayum Iddamalagoda",  "gender": "boys",  "event": "100m", "mark": "14.03",   "points": null, "flight": "H1", "grade": 6 },
+    { "place": 8,  "athlete": "Lucas Pilz",          "gender": "boys",  "event": "100m", "mark": "15.66",   "points": null, "flight": "H1", "grade": 6 },
+    { "place": 10, "athlete": "Matthew Whitley",     "gender": "boys",  "event": "100m", "mark": "16.06",   "points": null, "flight": "H1", "grade": 7 },
+    { "place": 14, "athlete": "Issac Lei",           "gender": "boys",  "event": "100m", "mark": "16.69",   "points": null, "flight": "H2", "grade": 6 },
+    { "place": 7,  "athlete": "Eli Levin",           "gender": "boys",  "event": "400m", "mark": "1:22.12", "points": null, "flight": "H2", "grade": 6 },
+    { "place": 8,  "athlete": "Yax Orsburn",         "gender": "boys",  "event": "400m", "mark": "1:24.96", "points": null, "flight": "H3", "grade": 6 },
+    { "place": 10, "athlete": "Issac Lei",           "gender": "boys",  "event": "400m", "mark": "1:33.60", "points": null, "flight": "H2", "grade": 6 },
+    { "place": 1,  "athlete": "Laura McEwen",        "gender": "girls", "event": "100m", "mark": "12.97",   "points": null, "flight": "H4", "grade": 8 },
+    { "place": 4,  "athlete": "Nina Taylor-Sparks",  "gender": "girls", "event": "100m", "mark": "15.78",   "points": null, "flight": "H4", "grade": 6 },
+    { "place": 6,  "athlete": "Naila Verma",         "gender": "girls", "event": "100m", "mark": "16.34",   "points": null, "flight": "H2", "grade": 6 },
+    { "place": 7,  "athlete": "Neve O'Connell",      "gender": "girls", "event": "100m", "mark": "16.35",   "points": null, "flight": "H1", "grade": 7 },
+    { "place": 9,  "athlete": "Sara Mihalke",        "gender": "girls", "event": "100m", "mark": "16.65",   "points": null, "flight": "H2", "grade": 6 },
+    { "place": 10, "athlete": "Riley MacClellan",    "gender": "girls", "event": "100m", "mark": "16.72",   "points": null, "flight": "H1", "grade": 7 },
+    { "place": 12, "athlete": "Lillian Menier",      "gender": "girls", "event": "100m", "mark": "17.19",   "points": null, "flight": "H2", "grade": 6 },
+    { "place": 17, "athlete": "Hope Ternet",         "gender": "girls", "event": "100m", "mark": "19.22",   "points": null, "flight": "H3", "grade": 6 },
+    { "place": 1,  "athlete": "Marie-Celeste Pessey","gender": "girls", "event": "400m", "mark": "1:16.51", "points": null, "flight": "H4", "grade": 7 },
+    { "place": 5,  "athlete": "Sara Mihalke",        "gender": "girls", "event": "400m", "mark": "1:21.97", "points": null, "flight": "H1", "grade": 6 },
+    { "place": 8,  "athlete": "Lucille Seagroves",   "gender": "girls", "event": "800m", "mark": "3:51.65", "points": null, "flight": null, "grade": 6 }
+  ],
+  "relays": []
+}
