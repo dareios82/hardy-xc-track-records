@@ -280,6 +280,27 @@ any current record on either wall. This closes out TFRRS entirely.
   already in the archive.
 - results-archive.html: 44 -> 47 meets, 2031 -> 2110 marks, 299 -> 314
   athletes.
+- **Two TFRRS championships captured (2026-07-27) after Dario copy-pasted
+  them cleanly** (the earlier automated fetch of these same two meets had
+  garbled the tables - see the entry below about that):
+  - `data/meets/2015-05-08-dciaa-ms-outdoor-city-championship.json` -
+    **Nyla Ward's Long Jump, 16-05.00 (5.00m), beats the current wall
+    record (15-06.25 / 4.73m, Taylor McMahan, 5/19/2025) by about 11
+    inches.** **Dasia Newell's High Jump, 4-08.00, exactly ties the
+    current wall record height** (Nia Travis, 5/23/2023, same 4-08.00).
+    Neither applied to `trackwall_outdoor.html` - both flagged below for
+    Dario to confirm. Aaron Jones (grade 6, 12.98/26.07) and Oskar Floman
+    (grade 7) both already appear elsewhere in the archive at older ages
+    with faster marks - consistent identity, no conflict.
+  - `data/meets/2016-05-11-dciaa-ms-city-championship.json` - no records
+    close. Confirms "Aidan Bulmash-Kaiser" (grade 8) is a different
+    person from "Ben Kaiser-Bulmash" (grade 6-7 in 2016-2017 elsewhere in
+    the archive) - the grade gap rules out them being the same athlete;
+    likely siblings, kept as separate people.
+  - Both walls updated: `trackwall_outdoor.html`'s Sources table has the
+    two new links.
+  - results-archive.html: 47 -> 49 meets, 2110 -> 2207 marks, 314 -> 332
+    athletes.
 
 ## Open issues
 
@@ -290,27 +311,17 @@ any current record on either wall. This closes out TFRRS entirely.
 - 2018-05-10 DCIAA Middle School City Championships has a confirmed
   source link (https://dc.milesplit.com/meets/317918-dciaa-middle-school-city-championships-2018/results)
   but no results have been pasted in yet.
-- **Two outdoor championships found on TFRRS (2026-07-27), found via a
-  `site:tfrrs.org` web search since the site's own search box misses
-  meets that are actually there:**
-  - 2015-05-08 "DCIAA Middle School Outdoor City Track & Field
-    Championships", Spingarn HS - https://www.tfrrs.org/results/41044/DCIAA_Middle_School_Outdoor_City_Track__Field_Championships
-    Hardy girls scored 2nd (112 pts), boys 6th (30 pts). Confirmed Hardy
-    athletes include Nyla Ward (already the indoor Long Jump record
-    holder from the same school year), Aaron Jones (already the outdoor
-    100m/200m record holder from 2 years later), Dasia Newell, A'rai
-    Hyman, Zoe Walker, Ava Mackeye, Perkins Broussard, Oskar Floman.
-  - 2016-05-11 "DCIAA Middle School City Championship", Spingarn HS -
-    https://www.tfrrs.org/results/46205/DCIAA_Middle_School_City_Championship
-    Confirmed Hardy athletes include Estaban Ceja and Aidan
-    Bulmash-Kaiser (possibly the same person as Ben Kaiser-Bulmash
-    elsewhere in the archive, surname word order swapped - needs
-    checking).
-  - **Not yet captured - my automated fetch garbled both meets' complex
-    tables (multiple heats/jump attempts rendered as extra phantom
-    columns, producing implausible marks).** Dario is going to copy-paste
-    these manually instead, the same reliable method used for every
-    other meet in this archive.
+- **Outdoor girls Long Jump: new record pending confirmation.** Nyla
+  Ward jumped 16-05.00 (5.00m) at the 2015-05-08 DCIAA MS Outdoor City
+  Championship (`data/meets/2015-05-08-dciaa-ms-outdoor-city-championship.json`)
+  - beats the current wall record of 15-06.25 (4.73m, Taylor McMahan,
+  5/19/2025) by about 11 inches. Not applied to `trackwall_outdoor.html`
+  pending Dario's review.
+- **Outdoor girls High Jump: exact tie, needs a decision.** Dasia Newell
+  cleared 4-08.00 at the same 2015-05-08 meet - identical height to the
+  current wall record (Nia Travis, 5/23/2023). Not applied; Dario needs
+  to decide whether to feature the earlier mark, keep the current one, or
+  show both.
 - 2024-04-04 DCIAA Middle School Developmental Meet and 2024-05-20 "DCIAA
   Middle School Developmental Meet 2" (Spingarn HS) are identified but
   have no source link yet - the 2024-05-20 date already has a captured
