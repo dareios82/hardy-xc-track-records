@@ -30,11 +30,15 @@ function PlaceClass([object]$p) {
 }
 
 # Track has no team-championship concept (Hardy has never won one), so unlike
-# the XC archive this only ever marks an individual/relay event win.
+# the XC archive this only ever marks an individual/relay event win. The
+# "titleholder" span is invisible (see .sr-only in style.css) but still part
+# of the card's text, so searching that word finds every champion without
+# colliding with "DCIAA ... Championship" meet names, which every card at a
+# championship meet would otherwise match regardless of who actually won.
 function BadgeHtml([string]$league) {
   switch ($league) {
-    "dciaa" { return ' <span class="title-badge dciaa" title="DCIAA event champion">&#127942; DCIAA</span>' }
-    "dcsaa" { return ' <span class="title-badge dcsaa" title="DCSAA event champion">&#127942; DCSAA</span>' }
+    "dciaa" { return ' <span class="title-badge dciaa" title="DCIAA event champion">&#127942; DCIAA<span class="sr-only"> titleholder</span></span>' }
+    "dcsaa" { return ' <span class="title-badge dcsaa" title="DCSAA event champion">&#127942; DCSAA<span class="sr-only"> titleholder</span></span>' }
     default { return '' }
   }
 }
@@ -175,6 +179,7 @@ $athleteCount = $namedAthletes.Count
 $surnames = @($namedAthletes | ForEach-Object { ($_ -split '\s+')[-1] } | Where-Object { $_ } | Sort-Object -Unique)
 $examples = @(if ($surnames.Count -gt 0) { $surnames | Get-Random -Count ([Math]::Min(3, $surnames.Count)) })
 $exHtml = ($examples | ForEach-Object { '<button type="button" class="example" data-example="' + (Esc $_) + '">' + (Esc $_) + '</button>' }) -join " "
+$exHtml += ' <button type="button" class="example" data-example="titleholder">&#127942; Champions</button>'
 
 $meetWord = if ($meets.Count -eq 1) { "meet" } else { "meets" }
 $athleteWord = if ($athleteCount -eq 1) { "athlete" } else { "athletes" }

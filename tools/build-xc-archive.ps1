@@ -31,14 +31,19 @@ function PlaceClass([object]$p) {
   switch ("$p") { "1" { "pl gold" } "2" { "pl silver" } "3" { "pl bronze" } default { "pl" } }
 }
 
+# The "titleholder" span is invisible (see .sr-only in style.css) but still
+# part of the card's text, so searching that word finds every champion
+# without cluttering the badge itself - and without colliding with "DCIAA
+# ... Championship" meet names, which every card at a championship meet
+# would otherwise match regardless of whether that athlete actually won.
 function BadgeHtml([object]$badges) {
   $html = ""
   foreach ($b in $badges) {
     switch ($b) {
-      "dciaa-indiv" { $html += '<span class="title-badge dciaa" title="DCIAA individual champion">&#127942; DCIAA</span>' }
-      "dcsaa-indiv" { $html += '<span class="title-badge dcsaa" title="DCSAA individual champion">&#127942; DCSAA</span>' }
-      "dciaa-team"  { $html += '<span class="title-badge dciaa team" title="DCIAA team champion">&#129351; DCIAA</span>' }
-      "dcsaa-team"  { $html += '<span class="title-badge dcsaa team" title="DCSAA team champion">&#129351; DCSAA</span>' }
+      "dciaa-indiv" { $html += '<span class="title-badge dciaa" title="DCIAA individual champion">&#127942; DCIAA<span class="sr-only"> titleholder</span></span>' }
+      "dcsaa-indiv" { $html += '<span class="title-badge dcsaa" title="DCSAA individual champion">&#127942; DCSAA<span class="sr-only"> titleholder</span></span>' }
+      "dciaa-team"  { $html += '<span class="title-badge dciaa team" title="DCIAA team champion">&#129351; DCIAA<span class="sr-only"> titleholder</span></span>' }
+      "dcsaa-team"  { $html += '<span class="title-badge dcsaa team" title="DCSAA team champion">&#129351; DCSAA<span class="sr-only"> titleholder</span></span>' }
     }
   }
   return $html
@@ -114,6 +119,7 @@ $athleteCount = $namedAthletes.Count
 $surnames = @($namedAthletes | ForEach-Object { ($_ -split '\s+')[-1] } | Where-Object { $_ } | Sort-Object -Unique)
 $examples = @(if ($surnames.Count -gt 0) { $surnames | Get-Random -Count ([Math]::Min(3, $surnames.Count)) })
 $exHtml = ($examples | ForEach-Object { '<button type="button" class="example" data-example="' + (Esc $_) + '">' + (Esc $_) + '</button>' }) -join " "
+$exHtml += ' <button type="button" class="example" data-example="titleholder">&#127942; Champions</button>'
 
 $meetWord = if ($meets.Count -eq 1) { "meet" } else { "meets" }
 $athleteWord = if ($athleteCount -eq 1) { "athlete" } else { "athletes" }
