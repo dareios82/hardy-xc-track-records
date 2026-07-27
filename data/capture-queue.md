@@ -259,12 +259,13 @@ any current record on either wall. This closes out TFRRS entirely.
   - `data/meets/2021-05-26-dciaa-es-ms-meet-2.json` - small meet, no
     record changes.
   - `data/meets/2013-05-06-dciaa-ms-championship.json` - run as an
-    East/West Championship split (Hardy competed West only). **Aaron
-    Coates ran 56.74 in the boys 400m, which beats
-    `trackwall_outdoor.html`'s current record (57.38, Ulyses Stewart
-    Torres, 5/19/2025) by 0.64s - flagged for Dario to confirm, not
-    applied to the wall.** Everything else at this meet was well off any
-    current record.
+    East/West Championship split (Hardy competed West only). ~~Aaron
+    Coates ran 56.74 in the boys 400m, which beats the previous record
+    (57.38, Ulyses Stewart Torres, 5/19/2025) by 0.64s - flagged for
+    Dario to confirm~~ - **confirmed 2026-07-27** (the source lists him
+    under "Rose L Hardy"); `trackwall_outdoor.html` updated, Ulyses
+    Stewart Torres's 57.38 (5/19/2025) is now second-best. Everything
+    else at this meet was well off any current record.
   - Both walls' Sources tables updated with the new links; the indoor
     wall's Dec 6 2017 row no longer says "Broken".
 - **Five more meet identifications from Dario (2026-07-27), logged but not
@@ -286,11 +287,6 @@ any current record on either wall. This closes out TFRRS entirely.
   As of 2026-07-27 the entire 2025 season (4 meets) is captured as real
   per-meet data and searchable at `xc-results-archive.html`; seasons before
   that still only exist as the hand-built rows on `xc_record_wall.html`.
-- **Outdoor boys 400m: possible new record, needs Dario's confirmation.**
-  Aaron Coates ran 56.74 at the 2013-05-06 DCIAA Middle School
-  Championship (`data/meets/2013-05-06-dciaa-ms-championship.json`) -
-  faster than the current wall record of 57.38 (Ulyses Stewart Torres,
-  5/19/2025). Not applied to `trackwall_outdoor.html` pending review.
 - 2018-05-10 DCIAA Middle School City Championships has a confirmed
   source link (https://dc.milesplit.com/meets/317918-dciaa-middle-school-city-championships-2018/results)
   but no results have been pasted in yet.
