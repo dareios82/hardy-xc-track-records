@@ -66,10 +66,13 @@ foreach ($m in $meets) {
   $when = [datetime]::Parse($m.date)
   $isChamp = $m.meet -match 'Championship'
   $league = if ($m.meet -match 'DCIAA') { 'dciaa' } elseif ($m.meet -match 'DCSAA') { 'dcsaa' } else { $null }
-  $teamChampScorers = @{}
+  # A team title belongs to everyone who ran that day for the winning team,
+  # not just the 7 who scored - team_scores.scorers only exists to record
+  # who counted toward the point total, not who gets recognized for the win.
+  $teamChampGenders = @{}
   if ($isChamp -and $league -and $m.team_scores) {
     foreach ($ts in $m.team_scores) {
-      if ("$($ts.place)" -eq '1') { $teamChampScorers[$ts.gender] = @($ts.scorers) }
+      if ("$($ts.place)" -eq '1') { $teamChampGenders[$ts.gender] = $true }
     }
   }
 
@@ -78,7 +81,7 @@ foreach ($m in $meets) {
     $totalMarks++
     $badges = New-Object System.Collections.ArrayList
     if ($isChamp -and $league -and "$($r.place)" -eq '1') { [void]$badges.Add("$league-indiv") }
-    if ($teamChampScorers.ContainsKey($r.gender) -and $teamChampScorers[$r.gender] -contains $r.athlete) {
+    if ($teamChampGenders.ContainsKey($r.gender)) {
       [void]$badges.Add("$league-team")
     }
     [void]$cards.Add([pscustomobject]@{
