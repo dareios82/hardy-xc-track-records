@@ -4,11 +4,21 @@ Mirrors `data/capture-queue.md`, the same working list for the track &
 field archive, but for cross country. `xc_record_wall.html` was originally
 a hand-built top-N list plus team-championship summaries with no per-meet
 data behind it; as of 2026-07-27 the 2024 and 2025 seasons, the 2022 and
-2023 DCSAA Cross Country Championships, and twelve older meets spanning
+2023 DCSAA Cross Country Championships, and seventeen older meets spanning
 2009-2023 have been captured as real per-meet data too, so the record
 wall and the archive now draw from the same source for all of these.
 What's left of 2011-2023 is still only reflected in the record wall's
 hand-built rows - see Open issues, below.
+
+**Course distance convention (2026-07-27):** Colmar Manor Community Park
+and Kenilworth Park meets run 4100m; everywhere else (Fort Dupont Park,
+Dunbar HS, Old Soldiers Home, etc.) Dario says the course is closer to
+4000m. Three early files (2009-10-31, 2010-10-30, 2015-10-06) were
+originally captured with a blanket 4100m guess before this was known and
+have been corrected. This distinction isn't shown anywhere on
+`xc_record_wall.html` itself (no per-row distance column exists there) -
+it only lives in each meet's `distance` field, which is the intentionally
+"easier in database" home for it per Dario.
 
 ## Needs manual capture (none remaining for 2024 or 2025; several older meets also captured)
 
@@ -39,6 +49,11 @@ Both full seasons, plus several older meets, are captured with results and sourc
 | ☑ | 2019-10-05 | DCIAA Elementary & Middle School Developmental | [milesplit/369268](https://dc.milesplit.com/meets/369268-dciaa-elementary-and-middle-school-developmental-2019/results) | `data/xc-meets/2019-10-05-dciaa-es-ms-developmental.json` |
 | ☑ | 2014-10-25 | DCIAA Elementary and MS Championships | [milesplit/187969](https://md.milesplit.com/meets/187969-dciaa-elementary-and-ms-championships-2014/results) | `data/xc-meets/2014-10-25-dciaa-es-ms-championships.json` |
 | ☑ | 2014-10-04 | DCIAA Developmental Meet #1 | [milesplit/185695](https://dc.milesplit.com/meets/185695-dciaa-developmental-meet-1-2014/results/328714?type=formatted) | `data/xc-meets/2014-10-04-dciaa-developmental-meet-1.json` |
+| ☑ | 2018-10-10 | DCIAA Elementary and Middle School Developmental Meet | [milesplit/330451](https://dc.milesplit.com/meets/330451-dciaa-elementary-and-middle-school-developmental-meet-2018) | `data/xc-meets/2018-10-10-dciaa-es-ms-developmental.json` |
+| ☑ | 2016-10-27 | DCIAA XC City Championships | [milesplit/254926](https://dc.milesplit.com/meets/254926-dciaa-xc-city-championships-2016/results) | `data/xc-meets/2016-10-27-dciaa-xc-city-championships.json` |
+| ☑ | 2016-10-22 | DCIAA XC Developmental Meet - All Levels | [milesplit/254921](https://dc.milesplit.com/meets/254921-dciaa-xc-developmental-meet-all-levels-2016/results) | `data/xc-meets/2016-10-22-dciaa-xc-developmental-all-levels.json` |
+| ☑ | 2016-10-11 | DCIAA Elementary and Middle School Developmental #2 | [milesplit/253150](https://dc.milesplit.com/meets/253150-dciaa-elementary-and-middle-school-developmental-2-2016) | `data/xc-meets/2016-10-11-dciaa-es-ms-developmental-2.json` |
+| ☑ | 2016-10-04 | DCIAA Developmental #1 | [milesplit/253148](https://dc.milesplit.com/meets/253148-dciaa-developmental-1-2016/results) | `data/xc-meets/2016-10-04-dciaa-developmental-1.json` |
 
 The 2024-10-22 and 2024-11-02 championship results matched
 `xc_record_wall.html`'s pre-existing hand-built rows for those meets
@@ -108,6 +123,30 @@ or fell outside the sub-19:00 / sub-21:00 cutoffs:
 
 Two more meets from that file have no results available anywhere yet -
 see "Needs a source", below.
+
+Dario then confirmed the still-open 2017 XC candidates, the 2012 EAST
+CROSS COUNTRY CHAMPIONSHIP, and the 2014-10-11 Developmental meet were
+all HS-only (no Hardy MS involvement) - crossed off the list without
+being captured. He also pasted five 2016/2018 milesplit.com pages, all
+extracted from full mixed-school results:
+- 2018-10-10 DCIAA Elementary and Middle School Developmental Meet (Old
+  Soldiers Home) - no wall changes.
+- **2016-10-27 DCIAA XC City Championships (Fort Dupont Park) is the
+  exact meet already backing `xc_record_wall.html`'s 10/27/2016 rows**
+  (Annabelle Harbold, Emily Almagro, Manfred Leckszas, plus both team
+  rows) - every time and both team scores (girls 3rd/67, boys 4th/86)
+  matched exactly. `team_scores.scorers` here is the verified actual
+  top-5 counted finishers (confirmed by summing their scoring positions
+  against the final team points), not just "whoever the source listed."
+- 2016-10-22 DCIAA XC Developmental Meet - All Levels (Fort Dupont Park)
+  - source explicitly labels the boys race "2.5 Mile Run (Middle
+    School)"; distance set to 2.5 miles for both genders (assumed shared
+    course). Kept in the individual comparison since 2.5mi (~4023m) is
+    close enough to the usual course, unlike the clearly-shorter GP
+    Challenge or St. Anselm's races.
+- 2016-10-11 DCIAA Elementary and Middle School Developmental #2 and
+  2016-10-04 DCIAA Developmental #1 (both Fort Dupont Park) - no wall
+  changes.
 
 ## Needs a source
 
@@ -190,13 +229,13 @@ Same two-layer approach as track:
 ## Open issues
 
 - The 2024 and 2025 seasons (nine meets), the 2022 and 2023 DCSAA Cross
-  Country Championships, and twelve older meets from 2009-2023 (twenty-three
-  meets total) have been captured as real per-meet data. Everything else
-  from 2011-2023 exists only as the hand-built rows already on
-  `xc_record_wall.html`, sourced from whatever Dario originally compiled
-  them from - there's no `data/xc-meets/*.json` backing those years, and
-  no way to search an individual athlete's 2019 race, for example, the way
-  the archive lets you for the meets already captured.
+  Country Championships, and seventeen older meets from 2009-2023
+  (twenty-eight meets total) have been captured as real per-meet data.
+  Everything else from 2011-2023 exists only as the hand-built rows
+  already on `xc_record_wall.html`, sourced from whatever Dario originally
+  compiled them from - there's no `data/xc-meets/*.json` backing those
+  years, and no way to search an individual athlete's 2019 race, for
+  example, the way the archive lets you for the meets already captured.
 - Two meets (2022 17th Lafayette Invitational, 2020 ES/MS Developmental)
   are known to have happened but have no results page found yet - see
   "Needs a source", above.

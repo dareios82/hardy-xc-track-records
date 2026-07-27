@@ -1,0 +1,26 @@
+{
+  "meet": "DCIAA XC Developmental Meet - All Levels",
+  "date": "2016-10-22",
+  "location": "Fort Dupont Park, DC",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://dc.milesplit.com/meets/254921-dciaa-xc-developmental-meet-all-levels-2016/results",
+    "captured": "2026-07-27",
+    "method": "manual copy of the full mixed-school results page, filtered here to only the rows marked 'Hardy Middle School'",
+    "note": "Source explicitly labels the boys race 'Boys' 2.5 Mile Run (Middle School)'; girls distance wasn't separately stated but almost certainly ran the same course at the same meet, so both set to 2.5 miles. 2.5 miles (~4023m) is close enough to Hardy's usual course that these times are kept in the individual comparison, unlike the clearly-shorter GP Middle School Challenge (2 mi) or St. Anselm's XC #2 (1.8 mi). No time here beats an athlete's already-recorded faster mark from elsewhere, so no wall changes."
+  },
+  "results": [
+    { "place": 3,  "athlete": "Pierre Attiogbe",  "gender": "boys",  "grade": 6, "time": "16:49.38", "distance": "2.5 miles" },
+    { "place": 19, "athlete": "Tyler Kenney",      "gender": "boys",  "grade": 6, "time": "19:36.42", "distance": "2.5 miles" },
+    { "place": 20, "athlete": "Manfred Leckszas",  "gender": "boys",  "grade": 7, "time": "19:47.31", "distance": "2.5 miles" },
+    { "place": 26, "athlete": "Frederic Truslow",  "gender": "boys",  "grade": 8, "time": "20:33.80", "distance": "2.5 miles" },
+    { "place": 38, "athlete": "Andrew Zagurski",   "gender": "boys",  "grade": 7, "time": "22:12.45", "distance": "2.5 miles" },
+    { "place": 44, "athlete": "Ben Kaiser-Bulmash", "gender": "boys", "grade": 6, "time": "23:32.23", "distance": "2.5 miles" },
+    { "place": 57, "athlete": "Sacha Gregoire",    "gender": "boys",  "grade": 8, "time": "27:29.82", "distance": "2.5 miles" },
+    { "place": 4,  "athlete": "Annabelle Harbold", "gender": "girls", "grade": 7, "time": "20:41.23", "distance": "2.5 miles" },
+    { "place": 7,  "athlete": "Emily Almagro",     "gender": "girls", "grade": 7, "time": "21:12.14", "distance": "2.5 miles" },
+    { "place": 19, "athlete": "Fiona Watkins",     "gender": "girls", "grade": 7, "time": "22:38.52", "distance": "2.5 miles" },
+    { "place": 27, "athlete": "Jade Gregoire",     "gender": "girls", "grade": 8, "time": "24:02.41", "distance": "2.5 miles" },
+    { "place": 47, "athlete": "Alyssa Martinez",   "gender": "girls", "grade": 7, "time": "30:51.86", "distance": "2.5 miles" }
+  ]
+}

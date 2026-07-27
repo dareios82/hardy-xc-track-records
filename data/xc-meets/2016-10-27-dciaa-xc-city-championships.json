@@ -1,0 +1,31 @@
+{
+  "meet": "DCIAA XC City Championships",
+  "date": "2016-10-27",
+  "location": "Fort Dupont Park, DC",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://dc.milesplit.com/meets/254926-dciaa-xc-city-championships-2016/results",
+    "captured": "2026-07-27",
+    "method": "manual copy of the full mixed-school results page, filtered here to only the rows marked 'Hardy Middle School'",
+    "note": "Dario flagged this course as likely 4000m rather than 4100m since it's not at Colmar Manor or Kenilworth Park. This is the exact meet already backing xc_record_wall.html's 10/27/2016 rows (Annabelle Harbold, Emily Almagro, Manfred Leckszas individually, plus both team rows) - every time and the team scores (girls 3rd/67, boys 4th/86) match the wall exactly, so no wall changes, just real per-meet data. team_scores.scorers is the actual top-5 counted toward each team's point total, verified by summing the source's per-athlete scoring-position numbers against the final team points (girls 4+7+13+21+22=67, boys 4+16+19+23+24=86); the 6th Hardy finisher in each race (Jade Gregoire, Johnathon Cota) scored but wasn't in the counted five."
+  },
+  "results": [
+    { "place": 4,  "athlete": "Pierre Attiogbe",   "gender": "boys",  "grade": 6, "time": "16:40.96", "distance": "4000m" },
+    { "place": 16, "athlete": "Manfred Leckszas",  "gender": "boys",  "grade": 7, "time": "18:21.65", "distance": "4000m" },
+    { "place": 19, "athlete": "Tyler Kenney",      "gender": "boys",  "grade": 6, "time": "18:51.56", "distance": "4000m" },
+    { "place": 23, "athlete": "Frederic Truslow",  "gender": "boys",  "grade": 8, "time": "19:51.37", "distance": "4000m" },
+    { "place": 24, "athlete": "Andrew Zagurski",   "gender": "boys",  "grade": 7, "time": "21:15.23", "distance": "4000m" },
+    { "place": 26, "athlete": "Johnathon Cota",    "gender": "boys",  "grade": 6, "time": "22:52.27", "distance": "4000m" },
+    { "place": 4,  "athlete": "Annabelle Harbold", "gender": "girls", "grade": 7, "time": "19:14.26", "distance": "4000m" },
+    { "place": 7,  "athlete": "Emily Almagro",     "gender": "girls", "grade": 7, "time": "20:11.64", "distance": "4000m" },
+    { "place": 14, "athlete": "Fiona Watkins",     "gender": "girls", "grade": 7, "time": "21:28.29", "distance": "4000m" },
+    { "place": 24, "athlete": "Zoe Walker",        "gender": "girls", "grade": 8, "time": "23:28.99", "distance": "4000m" },
+    { "place": 25, "athlete": "Chloe Walker",      "gender": "girls", "grade": 6, "time": "23:30.02", "distance": "4000m" },
+    { "place": 26, "athlete": "Jade Gregoire",     "gender": "girls", "grade": 8, "time": "23:48.14", "distance": "4000m" },
+    { "place": 37, "athlete": "Alyssa Martinez",   "gender": "girls", "grade": 7, "time": "28:41.56", "distance": "4000m" }
+  ],
+  "team_scores": [
+    { "gender": "girls", "place": 3, "points": 67, "scorers": ["Annabelle Harbold", "Emily Almagro", "Fiona Watkins", "Zoe Walker", "Chloe Walker"] },
+    { "gender": "boys",  "place": 4, "points": 86, "scorers": ["Pierre Attiogbe", "Manfred Leckszas", "Tyler Kenney", "Frederic Truslow", "Andrew Zagurski"] }
+  ]
+}

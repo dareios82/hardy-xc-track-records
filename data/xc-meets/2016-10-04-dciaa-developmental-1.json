@@ -1,0 +1,29 @@
+{
+  "meet": "DCIAA Developmental #1",
+  "date": "2016-10-04",
+  "location": "Fort Dupont Park, DC",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://dc.milesplit.com/meets/253148-dciaa-developmental-1-2016/results",
+    "captured": "2026-07-27",
+    "method": "manual copy of the full mixed-school results page, filtered here to only the rows marked 'Hardy Middle School'",
+    "note": "Not run at Colmar Manor or Kenilworth Park, so distance set to 4000m per Dario. No time here is close to the sub-19:00 (boys) / sub-21:00 (girls) individual record-wall cutoffs, so no wall changes."
+  },
+  "results": [
+    { "place": 2,  "athlete": "Pierre Attiogbe",     "gender": "boys",  "grade": 6, "time": "16:44.30", "distance": "4000m" },
+    { "place": 14, "athlete": "Manfred Leckszas",    "gender": "boys",  "grade": 7, "time": "19:21.40", "distance": "4000m" },
+    { "place": 15, "athlete": "Tyler Kenney",        "gender": "boys",  "grade": 6, "time": "19:33.20", "distance": "4000m" },
+    { "place": 23, "athlete": "Frederic Truslow",    "gender": "boys",  "grade": 8, "time": "21:02.80", "distance": "4000m" },
+    { "place": 30, "athlete": "Guilio Iacoviello",   "gender": "boys",  "grade": 8, "time": "22:46.90", "distance": "4000m" },
+    { "place": 44, "athlete": "Kellen Paulsen",      "gender": "boys",  "grade": 7, "time": "24:44.20", "distance": "4000m" },
+    { "place": 56, "athlete": "Ben Kaiser-Bulmash",  "gender": "boys",  "grade": 6, "time": "26:56.60", "distance": "4000m" },
+    { "place": 72, "athlete": "William Jacobs",      "gender": "boys",  "grade": 8, "time": "39:53.50", "distance": "4000m" },
+    { "place": 5,  "athlete": "Annabelle Harbold",   "gender": "girls", "grade": 7, "time": "21:49.61", "distance": "4000m" },
+    { "place": 8,  "athlete": "Zoe Walker",          "gender": "girls", "grade": 8, "time": "22:54.77", "distance": "4000m" },
+    { "place": 14, "athlete": "Fiona Watkins",       "gender": "girls", "grade": 7, "time": "24:09.29", "distance": "4000m" },
+    { "place": 15, "athlete": "Emily Almagro",       "gender": "girls", "grade": 7, "time": "24:09.48", "distance": "4000m" },
+    { "place": 26, "athlete": "Chloe Walker",        "gender": "girls", "grade": 6, "time": "26:35.68", "distance": "4000m" },
+    { "place": 30, "athlete": "Samantha Spooner",    "gender": "girls", "grade": 7, "time": "26:49.69", "distance": "4000m" },
+    { "place": 34, "athlete": "Grace Mtunguja",      "gender": "girls", "grade": 7, "time": "30:07.91", "distance": "4000m" }
+  ]
+}

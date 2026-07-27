@@ -1,0 +1,37 @@
+{
+  "meet": "DCIAA Elementary and Middle School Developmental Meet",
+  "date": "2018-10-10",
+  "location": "Old Soldiers Home, Washington, DC",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://dc.milesplit.com/meets/330451-dciaa-elementary-and-middle-school-developmental-meet-2018",
+    "captured": "2026-07-27",
+    "method": "manual copy of the full mixed-school results page, filtered here to only the rows marked 'Hardy Middle School'",
+    "note": "Names reformatted from the source's 'Last, First' order. Not run at Colmar Manor or Kenilworth Park, so distance set to 4000m per Dario. Source printed a trailing scoring-position number after some times - dropped, not part of the schema. Rebecca Khoury and Tyler Kenney both beat the sub-21:00 / sub-19:00 cutoffs here but are behind their already-recorded faster times from the 2018-10-23 DCIAA XC Championship two weeks later, so no wall changes."
+  },
+  "results": [
+    { "place": 11, "athlete": "Tyler Kenney",             "gender": "boys",  "grade": 8, "time": "18:58.40", "distance": "4000m" },
+    { "place": 16, "athlete": "Daniel Whitley",            "gender": "boys",  "grade": 8, "time": "19:40.08", "distance": "4000m" },
+    { "place": 17, "athlete": "Leonardo Almagro",          "gender": "boys",  "grade": 6, "time": "19:45.74", "distance": "4000m" },
+    { "place": 20, "athlete": "Ma Andersson-Potterveld",   "gender": "boys",  "grade": 6, "time": "20:33.93", "distance": "4000m" },
+    { "place": 23, "athlete": "William Schwendinger",      "gender": "boys",  "grade": 7, "time": "20:40.48", "distance": "4000m" },
+    { "place": 45, "athlete": "William Reid",               "gender": "boys",  "grade": 7, "time": "23:19.12", "distance": "4000m" },
+    { "place": 71, "athlete": "Morgan Sans",                "gender": "boys",  "grade": 8, "time": "28:24.84", "distance": "4000m" },
+    { "place": 73, "athlete": "Jacob Gagosian",             "gender": "boys",  "grade": 6, "time": "29:13.12", "distance": "4000m" },
+    { "place": 86, "athlete": "William Floman",             "gender": "boys",  "grade": 7, "time": "33:20.10", "distance": "4000m" },
+    { "place": 94, "athlete": "Hector Benitez Gonzalez",    "gender": "boys",  "grade": 7, "time": "34:50.74", "distance": "4000m" },
+    { "place": 95, "athlete": "Pearce Myers",                "gender": "boys",  "grade": 7, "time": "34:55.52", "distance": "4000m" },
+    { "place": 96, "athlete": "Eric Sanchez",                "gender": "boys",  "grade": 6, "time": "35:04.80", "distance": "4000m" },
+    { "place": 12, "athlete": "Rebecca Khoury",              "gender": "girls", "grade": 8, "time": "20:48.30", "distance": "4000m" },
+    { "place": 14, "athlete": "Rohini Kieffer",              "gender": "girls", "grade": 6, "time": "21:21.42", "distance": "4000m" },
+    { "place": 20, "athlete": "Elise Attiogbe",              "gender": "girls", "grade": 6, "time": "21:54.51", "distance": "4000m" },
+    { "place": 23, "athlete": "Avajane Lei",                 "gender": "girls", "grade": 7, "time": "22:53.22", "distance": "4000m" },
+    { "place": 31, "athlete": "Michelle Dunkley",            "gender": "girls", "grade": 6, "time": "24:16.80", "distance": "4000m" },
+    { "place": 47, "athlete": "Helena Mooney-Twyford",       "gender": "girls", "grade": 6, "time": "28:00.89", "distance": "4000m" },
+    { "place": 57, "athlete": "Maya Maaloui",                "gender": "girls", "grade": 7, "time": "31:18.96", "distance": "4000m" },
+    { "place": 58, "athlete": "Sosena Johnson",              "gender": "girls", "grade": 7, "time": "31:38.29", "distance": "4000m" },
+    { "place": 60, "athlete": "Leah Mallard",                "gender": "girls", "grade": 8, "time": "31:46.37", "distance": "4000m" },
+    { "place": 79, "athlete": "Amirahimaan Kalonji",         "gender": "girls", "grade": 7, "time": "37:13.74", "distance": "4000m" },
+    { "place": 94, "athlete": "Asis Wilkins",                "gender": "girls", "grade": 8, "time": "42:54.73", "distance": "4000m" }
+  ]
+}

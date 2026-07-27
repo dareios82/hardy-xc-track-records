@@ -1,0 +1,30 @@
+{
+  "meet": "DCIAA Elementary and Middle School Developmental #2",
+  "date": "2016-10-11",
+  "location": "Fort Dupont Park, DC",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://dc.milesplit.com/meets/253150-dciaa-elementary-and-middle-school-developmental-2-2016",
+    "captured": "2026-07-27",
+    "method": "manual copy of the full mixed-school results page, filtered here to only the rows marked 'Hardy Middle School'",
+    "note": "Not run at Colmar Manor or Kenilworth Park, so distance set to 4000m per Dario. No time here is close to the sub-19:00 (boys) / sub-21:00 (girls) individual record-wall cutoffs, so no wall changes."
+  },
+  "results": [
+    { "place": 3,  "athlete": "Pierre Attiogbe",     "gender": "boys",  "grade": 6, "time": "17:33.57", "distance": "4000m" },
+    { "place": 35, "athlete": "Andrew Zagurski",     "gender": "boys",  "grade": 7, "time": "22:18.06", "distance": "4000m" },
+    { "place": 41, "athlete": "Ben Kaiser-Bulmash",  "gender": "boys",  "grade": 6, "time": "23:13.49", "distance": "4000m" },
+    { "place": 48, "athlete": "Johnathon Cota",      "gender": "boys",  "grade": 6, "time": "24:10.74", "distance": "4000m" },
+    { "place": 64, "athlete": "Kellen Paulsen",      "gender": "boys",  "grade": 7, "time": "26:29.31", "distance": "4000m" },
+    { "place": 74, "athlete": "Sacha Gregoire",      "gender": "boys",  "grade": 8, "time": "30:49.93", "distance": "4000m" },
+    { "place": 84, "athlete": "William Jacobs",      "gender": "boys",  "grade": 8, "time": "38:57.53", "distance": "4000m" },
+    { "place": 2,  "athlete": "Annabelle Harbold",   "gender": "girls", "grade": 7, "time": "21:26.13", "distance": "4000m" },
+    { "place": 5,  "athlete": "Emily Almagro",       "gender": "girls", "grade": 7, "time": "22:18.20", "distance": "4000m" },
+    { "place": 13, "athlete": "Chloe Walker",        "gender": "girls", "grade": 6, "time": "23:27.48", "distance": "4000m" },
+    { "place": 14, "athlete": "Zoe Walker",          "gender": "girls", "grade": 8, "time": "23:27.55", "distance": "4000m" },
+    { "place": 16, "athlete": "Fiona Watkins",       "gender": "girls", "grade": 7, "time": "23:49.73", "distance": "4000m" },
+    { "place": 23, "athlete": "Jade Gregoire",       "gender": "girls", "grade": 8, "time": "25:03.75", "distance": "4000m" },
+    { "place": 42, "athlete": "Josephine Carras",    "gender": "girls", "grade": 8, "time": "31:37.89", "distance": "4000m" },
+    { "place": 51, "athlete": "Alyssa Martinez",     "gender": "girls", "grade": 7, "time": "34:39.33", "distance": "4000m" },
+    { "place": 53, "athlete": "Nishi Mehta",         "gender": "girls", "grade": 8, "time": "36:12.35", "distance": "4000m" }
+  ]
+}

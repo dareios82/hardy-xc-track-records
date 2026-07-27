@@ -7,17 +7,17 @@
     "meet_url": "https://www.athletic.net/CrossCountry/meet/42842/info",
     "captured": "2026-07-27",
     "method": "manual copy from the Hardy team results view (athletic.net)",
-    "note": "Meet listed as 'Partial Results' on athletic.net. Distance not stated in the paste; set to 4100m matching the Fort Dupont Park course used in other years. PB badges dropped from the time field; times as printed had no hundredths, padded to .00 to match the wall's Performance column format (same convention already used for Asia Amis's 2011 row). Alexis Coates's 20:39.00 is faster than any existing girls individual entry outside the top 19 and beats the sub-21:00 cutoff, so it's a new addition to xc_record_wall.html's girls individual table (inserted between Rohini Kieffer and Josephine Caplan). Asia Amis's 20:08 here is slower than her already-recorded 2011 best (19:16.00) so it doesn't change her row. No boys time is close to the sub-19:00 cutoff (Aaron Coates's 19:21 misses it by 21 seconds)."
+    "note": "Meet listed as 'Partial Results' on athletic.net. Distance not stated in the paste; set to 4000m matching the Fort Dupont Park course (corrected 2026-07-27 from an initial 4100m guess - Dario confirmed non-Colmar Manor/Kenilworth courses run closer to 4000m). PB badges dropped from the time field; times as printed had no hundredths, padded to .00 to match the wall's Performance column format (same convention already used for Asia Amis's 2011 row). Alexis Coates's 20:39.00 is faster than any existing girls individual entry outside the top 19 and beats the sub-21:00 cutoff, so it's a new addition to xc_record_wall.html's girls individual table (inserted between Rohini Kieffer and Josephine Caplan). Asia Amis's 20:08 here is slower than her already-recorded 2011 best (19:16.00) so it doesn't change her row. No boys time is close to the sub-19:00 cutoff (Aaron Coates's 19:21 misses it by 21 seconds)."
   },
   "results": [
-    { "place": 6,  "athlete": "Aaron Coates",   "gender": "boys",  "grade": 6,    "time": "19:21.00", "distance": "4100m" },
-    { "place": 11, "athlete": "Andre Mobley",   "gender": "boys",  "grade": null, "time": "22:58.00", "distance": "4100m" },
-    { "place": 12, "athlete": "Jordan Tyner",   "gender": "boys",  "grade": null, "time": "23:05.00", "distance": "4100m" },
-    { "place": 13, "athlete": "Kyle Hudson",    "gender": "boys",  "grade": null, "time": "25:03.00", "distance": "4100m" },
-    { "place": 14, "athlete": "Oliver Eligado", "gender": "boys",  "grade": null, "time": "26:07.00", "distance": "4100m" },
-    { "place": 15, "athlete": "Jeremy Ledoux",  "gender": "boys",  "grade": null, "time": "30:04.00", "distance": "4100m" },
-    { "place": 3,  "athlete": "Asia Amis",      "gender": "girls", "grade": null, "time": "20:08.00", "distance": "4100m" },
-    { "place": 5,  "athlete": "Alexis Coates",  "gender": "girls", "grade": null, "time": "20:39.00", "distance": "4100m" },
-    { "place": 19, "athlete": "Imani Campbell", "gender": "girls", "grade": null, "time": "26:28.00", "distance": "4100m" }
+    { "place": 6,  "athlete": "Aaron Coates",   "gender": "boys",  "grade": 6,    "time": "19:21.00", "distance": "4000m" },
+    { "place": 11, "athlete": "Andre Mobley",   "gender": "boys",  "grade": null, "time": "22:58.00", "distance": "4000m" },
+    { "place": 12, "athlete": "Jordan Tyner",   "gender": "boys",  "grade": null, "time": "23:05.00", "distance": "4000m" },
+    { "place": 13, "athlete": "Kyle Hudson",    "gender": "boys",  "grade": null, "time": "25:03.00", "distance": "4000m" },
+    { "place": 14, "athlete": "Oliver Eligado", "gender": "boys",  "grade": null, "time": "26:07.00", "distance": "4000m" },
+    { "place": 15, "athlete": "Jeremy Ledoux",  "gender": "boys",  "grade": null, "time": "30:04.00", "distance": "4000m" },
+    { "place": 3,  "athlete": "Asia Amis",      "gender": "girls", "grade": null, "time": "20:08.00", "distance": "4000m" },
+    { "place": 5,  "athlete": "Alexis Coates",  "gender": "girls", "grade": null, "time": "20:39.00", "distance": "4000m" },
+    { "place": 19, "athlete": "Imani Campbell", "gender": "girls", "grade": null, "time": "26:28.00", "distance": "4000m" }
   ]
 }
