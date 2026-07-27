@@ -4,10 +4,10 @@
   "location": "Kenilworth Park, DC",
   "school": "Hardy Middle School",
   "source": {
-    "meet_url": "",
+    "meet_url": "https://www.athletic.net/CrossCountry/meet/260003/info",
     "captured": "2026-07-27",
     "method": "manual copy from the Hardy team results view (athletic.net)",
-    "note": "No source URL was given for this meet; ask Dario for the athletic.net link if one exists. PB/SB badges dropped from the time field. Course distance wasn't stated in this paste (other 2025 meets at a similar course give 4100m, but that wasn't confirmed for this specific meet, so distance is left blank rather than assumed). team_scores.scorers lists the top 7 Hardy finishers by place, matching the 7-per-team convention used elsewhere in the archive - Dario noted this meet listed 9-10 finishers per team and said to use 'top 5 or top 7, whatever the convention' already established."
+    "note": "PB/SB badges dropped from the time field. Course distance wasn't stated in this paste (other 2025 meets at a similar course give 4100m, but that wasn't confirmed for this specific meet, so distance is left blank rather than assumed). team_scores.scorers lists the top 7 Hardy finishers by place, matching the 7-per-team convention used elsewhere in the archive - Dario noted this meet listed 9-10 finishers per team and said to use 'top 5 or top 7, whatever the convention' already established."
   },
   "results": [
     { "place": 1,  "athlete": "Maja Caldara",   "gender": "girls", "grade": 8, "time": "16:08.70", "distance": null },

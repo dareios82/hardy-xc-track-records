@@ -9,23 +9,19 @@ draw from the same source for that season. Earlier seasons (2011-2024) are
 still only reflected in the record wall's hand-built rows - see Open
 issues, below.
 
-## Needs manual capture
+## Needs manual capture (none remaining for 2025)
 
-No meet links (URLs) have been gathered for cross country - the 2025
-season was transcribed from pasted results with no source URL given. If
-Dario has the athletic.net (or other) links for these, add them to
-`data/xc-meets/*.json`'s `source.meet_url` field:
+The 2025 season is fully captured, both results and source links:
 
-| ✓ | Date | Meet | File |
-|---|------|------|------|
-| ☑ | 2025-09-17 | Bob Thurston Lafayette Invitational | `data/xc-meets/2025-09-17-bob-thurston-lafayette-invitational.json` |
-| ☑ | 2025-10-17 | DCIAA XC ES/MS Challenge | `data/xc-meets/2025-10-17-dciaa-xc-es-ms-challenge.json` |
-| ☑ | 2025-10-22 | DCIAA Cross Country Championships | `data/xc-meets/2025-10-22-dciaa-cross-country-championships.json` |
-| ☑ | 2025-11-01 | DCSAA Cross Country Championships | `data/xc-meets/2025-11-01-dcsaa-cross-country-championships.json` |
+| ✓ | Date | Meet | Link | File |
+|---|------|------|------|------|
+| ☑ | 2025-09-17 | Bob Thurston Lafayette Invitational | [athletic.net/262494](https://www.athletic.net/CrossCountry/meet/262494/info) | `data/xc-meets/2025-09-17-bob-thurston-lafayette-invitational.json` |
+| ☑ | 2025-10-17 | DCIAA XC ES/MS Challenge | [athletic.net/262497](https://www.athletic.net/CrossCountry/meet/262497/info) | `data/xc-meets/2025-10-17-dciaa-xc-es-ms-challenge.json` |
+| ☑ | 2025-10-22 | DCIAA Cross Country Championships | [athletic.net/269060](https://www.athletic.net/CrossCountry/meet/269060/info) | `data/xc-meets/2025-10-22-dciaa-cross-country-championships.json` |
+| ☑ | 2025-11-01 | DCSAA Cross Country Championships | [athletic.net/260003](https://www.athletic.net/CrossCountry/meet/260003/info) | `data/xc-meets/2025-11-01-dcsaa-cross-country-championships.json` |
 
-Captured (✓) means the results are transcribed and in the archive, not
-that a source URL is on file - the "Needs manual capture" heading here
-refers to the missing links, not the data itself.
+Earlier seasons (2011-2024) still have no links or per-meet data at all -
+see Open issues, below.
 
 ## Schema
 
@@ -100,4 +96,3 @@ Same two-layer approach as track:
   compiled them from - there's no `data/xc-meets/*.json` backing those
   years, and no way to search an individual athlete's 2019 race, for
   example, the way the archive lets you for 2025.
-- No source URLs are on file for any of the four 2025 meets.

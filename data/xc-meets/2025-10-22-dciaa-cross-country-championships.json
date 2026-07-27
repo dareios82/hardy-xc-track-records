@@ -4,10 +4,10 @@
   "location": "Colmar Manor Community Park, MD",
   "school": "Hardy Middle School",
   "source": {
-    "meet_url": "",
+    "meet_url": "https://www.athletic.net/CrossCountry/meet/269060/info",
     "captured": "2026-07-27",
     "method": "manual copy from the Hardy team results view (athletic.net)",
-    "note": "No source URL was given for this meet; ask Dario for the athletic.net link if one exists. PB/SB badges dropped from the time field. team_scores.scorers lists the 7 Hardy finishers Dario confirmed for the team table, matching every finisher listed for this meet."
+    "note": "PB/SB badges dropped from the time field. team_scores.scorers lists the 7 Hardy finishers Dario confirmed for the team table, matching every finisher listed for this meet."
   },
   "results": [
     { "place": 1,  "athlete": "Maja Caldara",              "gender": "girls", "grade": 8, "time": "17:02.00", "distance": "4100m" },
