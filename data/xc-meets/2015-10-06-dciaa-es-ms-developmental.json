@@ -1,0 +1,29 @@
+{
+  "meet": "DCIAA Elementary/Middle Developmental #1",
+  "date": "2015-10-06",
+  "location": "Fort Dupont Park, DC",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://www.athletic.net/CrossCountry/meet/115664/info",
+    "captured": "2026-07-27",
+    "method": "manual copy from the Hardy team results view (athletic.net)",
+    "note": "Distance not stated in the paste; set to 4100m matching the same Fort Dupont Park course used by Hardy's other mid-2010s meets. PB badges dropped from the time field; grade not stated for any athlete in the paste. No time here comes close to the sub-19:00 (boys) / sub-21:00 (girls) individual record-wall cutoffs, so no wall changes."
+  },
+  "results": [
+    { "place": 28, "athlete": "Estaban Ceja",     "gender": "boys",  "grade": null, "time": "22:23.44", "distance": "4100m" },
+    { "place": 43, "athlete": "Oskar Floman",     "gender": "boys",  "grade": null, "time": "25:12.39", "distance": "4100m" },
+    { "place": 48, "athlete": "Ismail Kalala",    "gender": "boys",  "grade": null, "time": "27:45.21", "distance": "4100m" },
+    { "place": 59, "athlete": "Taha Hayee",       "gender": "boys",  "grade": null, "time": "34:14.15", "distance": "4100m" },
+    { "place": 9,  "athlete": "Annabelle Harbold", "gender": "girls", "grade": null, "time": "23:09.44", "distance": "4100m" },
+    { "place": 12, "athlete": "Zoe Walker",       "gender": "girls", "grade": null, "time": "24:10.42", "distance": "4100m" },
+    { "place": 18, "athlete": "Samantha Spooner", "gender": "girls", "grade": null, "time": "25:30.76", "distance": "4100m" },
+    { "place": 20, "athlete": "Jade Gregoire",    "gender": "girls", "grade": null, "time": "25:45.55", "distance": "4100m" },
+    { "place": 26, "athlete": "Fiona Watkins",    "gender": "girls", "grade": null, "time": "27:52.03", "distance": "4100m" },
+    { "place": 30, "athlete": "Rafiellie Kalala", "gender": "girls", "grade": null, "time": "32:11.63", "distance": "4100m" },
+    { "place": 35, "athlete": "Nishi Mehta",      "gender": "girls", "grade": null, "time": "34:02.22", "distance": "4100m" },
+    { "place": 42, "athlete": "Jamison Rice",     "gender": "girls", "grade": null, "time": "37:54.88", "distance": "4100m" },
+    { "place": 43, "athlete": "Chloe Skinner",    "gender": "girls", "grade": null, "time": "38:00.46", "distance": "4100m" },
+    { "place": 44, "athlete": "Nomin Gansuth",    "gender": "girls", "grade": null, "time": "38:29.54", "distance": "4100m" },
+    { "place": 47, "athlete": "Alijah Barber",    "gender": "girls", "grade": null, "time": "39:07.05", "distance": "4100m" }
+  ]
+}

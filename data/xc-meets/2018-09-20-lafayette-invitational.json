@@ -1,0 +1,31 @@
+{
+  "meet": "Lafayette Invitational Cross Country Meet",
+  "date": "2018-09-20",
+  "location": "Colmar Manor Community Park, MD",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://www.athletic.net/CrossCountry/meet/151503/info",
+    "captured": "2026-07-27",
+    "method": "manual copy from the Hardy team results view (athletic.net)",
+    "note": "Distance not stated in the paste; set to 4100m matching the same Colmar Manor course used at the 2024/2025 Lafayette Invitationals. PB/SB badges dropped from the time field. None of these times beat any existing individual record-wall entry - Martin Welles and Rebecca Khoury already have faster times on file from the 2018-10-23 DCIAA XC Championship a month later, and every other Hardy time here is outside the sub-19:00 (boys) / sub-21:00 (girls) cutoffs."
+  },
+  "results": [
+    { "place": 5,  "athlete": "Martin Welles",           "gender": "boys",  "grade": 7, "time": "18:54.27", "distance": "4100m" },
+    { "place": 18, "athlete": "William Schwendinger",     "gender": "boys",  "grade": 7, "time": "21:21.00", "distance": "4100m" },
+    { "place": 19, "athlete": "Robert Welles",            "gender": "boys",  "grade": 6, "time": "21:26.64", "distance": "4100m" },
+    { "place": 24, "athlete": "William Reid",             "gender": "boys",  "grade": 7, "time": "23:06.39", "distance": "4100m" },
+    { "place": 44, "athlete": "William Floman",           "gender": "boys",  "grade": 7, "time": "25:47.44", "distance": "4100m" },
+    { "place": 60, "athlete": "Eric Sanchez",             "gender": "boys",  "grade": 6, "time": "32:32.73", "distance": "4100m" },
+    { "place": 7,  "athlete": "Rebecca Khoury",           "gender": "girls", "grade": 8, "time": "21:51.64", "distance": "4100m" },
+    { "place": 17, "athlete": "Rohini Kieffer",           "gender": "girls", "grade": 6, "time": "22:59.88", "distance": "4100m" },
+    { "place": 25, "athlete": "Lucia Mikaelian",          "gender": "girls", "grade": 6, "time": "24:35.47", "distance": "4100m" },
+    { "place": 31, "athlete": "Avajane Lei",              "gender": "girls", "grade": 7, "time": "26:46.41", "distance": "4100m" },
+    { "place": 35, "athlete": "Helena Mooney-Twyford",    "gender": "girls", "grade": 6, "time": "27:48.63", "distance": "4100m" },
+    { "place": 44, "athlete": "Liya Johnson",             "gender": "girls", "grade": 8, "time": "29:52.51", "distance": "4100m" },
+    { "place": 52, "athlete": "Amirahimaan Kalonji",      "gender": "girls", "grade": 7, "time": "33:02.53", "distance": "4100m" },
+    { "place": 63, "athlete": "Leah Mallard",             "gender": "girls", "grade": 8, "time": "35:05.09", "distance": "4100m" },
+    { "place": 64, "athlete": "Sosena Johnson",            "gender": "girls", "grade": 7, "time": "36:24.76", "distance": "4100m" },
+    { "place": 79, "athlete": "Jocelyn Ramirez",           "gender": "girls", "grade": 7, "time": "43:45.86", "distance": "4100m" },
+    { "place": 80, "athlete": "Asis Wilkins",              "gender": "girls", "grade": 8, "time": "46:07.18", "distance": "4100m" }
+  ]
+}

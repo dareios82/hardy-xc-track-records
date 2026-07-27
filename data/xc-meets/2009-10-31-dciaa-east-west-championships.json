@@ -1,0 +1,27 @@
+{
+  "meet": "DCIAA East/West Championships",
+  "date": "2009-10-31",
+  "location": "Fort Dupont Park, DC",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://www.athletic.net/CrossCountry/meet/29393/info",
+    "captured": "2026-07-27",
+    "method": "manual copy from the Hardy team results view (athletic.net)",
+    "note": "Meet listed as 'Partial Results' on athletic.net. Distance not stated in the paste; set to 4100m matching the Fort Dupont Park course used in other years. Source printed times with a period instead of a colon (e.g. '22.20'); read as M:SS ('22:20.00') since that's the only sensible reading for a middle-school XC race, and padded to .00 to match the wall's Performance column format. No time here is close to the sub-19:00 (boys) / sub-21:00 (girls) individual record-wall cutoffs, and Asia Amis's 23:55 here is far slower than her already-recorded 2011 best (19:16.00), so no wall changes."
+  },
+  "results": [
+    { "place": 3,  "athlete": "Benjamin Daley",     "gender": "boys",  "grade": null, "time": "22:20.00", "distance": "4100m" },
+    { "place": 14, "athlete": "Oliver Eligado",     "gender": "boys",  "grade": null, "time": "22:24.00", "distance": "4100m" },
+    { "place": 15, "athlete": "Ramiro Rorty",       "gender": "boys",  "grade": null, "time": "22:28.00", "distance": "4100m" },
+    { "place": 17, "athlete": "Tariq Austin",       "gender": "boys",  "grade": null, "time": "23:06.00", "distance": "4100m" },
+    { "place": 23, "athlete": "Ephraim Hall",       "gender": "boys",  "grade": null, "time": "28:58.00", "distance": "4100m" },
+    { "place": 24, "athlete": "Bhadon Shaklin",     "gender": "boys",  "grade": null, "time": "29:19.00", "distance": "4100m" },
+    { "place": 25, "athlete": "Joseph Latifullah",  "gender": "boys",  "grade": null, "time": "30:40.00", "distance": "4100m" },
+    { "place": 7,  "athlete": "Asia Amis",          "gender": "girls", "grade": null, "time": "23:55.00", "distance": "4100m" },
+    { "place": 15, "athlete": "Amalya Khashimova",  "gender": "girls", "grade": null, "time": "25:38.00", "distance": "4100m" },
+    { "place": 16, "athlete": "Lillie Bufkin",      "gender": "girls", "grade": null, "time": "25:39.00", "distance": "4100m" },
+    { "place": 17, "athlete": "Michaela Pratt",     "gender": "girls", "grade": null, "time": "26:34.00", "distance": "4100m" },
+    { "place": 19, "athlete": "Hope Olson",         "gender": "girls", "grade": null, "time": "29:58.00", "distance": "4100m" },
+    { "place": 22, "athlete": "Sydney Johnston",    "gender": "girls", "grade": null, "time": "33:25.00", "distance": "4100m" }
+  ]
+}

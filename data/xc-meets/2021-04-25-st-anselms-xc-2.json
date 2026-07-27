@@ -1,0 +1,16 @@
+{
+  "meet": "St. Anselm's XC #2",
+  "date": "2021-04-25",
+  "location": "St. Anselm's Abbey School, DC",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://www.athletic.net/CrossCountry/meet/190945/info",
+    "captured": "2026-07-27",
+    "method": "manual copy from the Hardy team results view (athletic.net)",
+    "note": "Boys only - no Hardy girls results at this meet. Run over 1.8 miles ('1.8 Miles Middle School' per the source), a spring meet distinct from the usual ~4100m fall course, so explicitly excluded from the individual record-wall comparison. PB/SB badges dropped from the time field; grade not stated in the paste."
+  },
+  "results": [
+    { "place": 10, "athlete": "Ian Singleton",    "gender": "boys", "grade": null, "time": "14:44.00", "distance": "1.8 miles" },
+    { "place": 13, "athlete": "George MacDevitt",  "gender": "boys", "grade": null, "time": "16:21.00", "distance": "1.8 miles" }
+  ]
+}
