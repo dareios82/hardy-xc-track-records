@@ -40,10 +40,10 @@ function BadgeHtml([object]$badges) {
   $html = ""
   foreach ($b in $badges) {
     switch ($b) {
-      "dciaa-indiv" { $html += '<span class="title-badge dciaa" title="DCIAA individual champion">&#127942; DCIAA<span class="sr-only"> titleholder</span></span>' }
-      "dcsaa-indiv" { $html += '<span class="title-badge dcsaa" title="DCSAA individual champion">&#127942; DCSAA<span class="sr-only"> titleholder</span></span>' }
-      "dciaa-team"  { $html += '<span class="title-badge dciaa team" title="DCIAA team champion">&#129351; DCIAA<span class="sr-only"> titleholder</span></span>' }
-      "dcsaa-team"  { $html += '<span class="title-badge dcsaa team" title="DCSAA team champion">&#129351; DCSAA<span class="sr-only"> titleholder</span></span>' }
+      "dciaa-indiv" { $html += '<span class="title-badge dciaa" title="DCIAA individual champion">&#127942; (DCIAA)<span class="sr-only"> titleholder</span></span>' }
+      "dcsaa-indiv" { $html += '<span class="title-badge dcsaa" title="DCSAA individual champion">&#127942; (DCSAA)<span class="sr-only"> titleholder</span></span>' }
+      "dciaa-team"  { $html += '<span class="title-badge dciaa team" title="DCIAA team champion">&#129351; (DCIAA)<span class="sr-only"> titleholder</span></span>' }
+      "dcsaa-team"  { $html += '<span class="title-badge dcsaa team" title="DCSAA team champion">&#129351; (DCSAA)<span class="sr-only"> titleholder</span></span>' }
     }
   }
   return $html
@@ -139,7 +139,7 @@ $emptyState = if ($meets.Count -eq 0) {
             <p class="prompt-lead">Search for an athlete to see every race they ran.</p>
             <p class="prompt-eg">Try $exHtml</p>
             <p class="prompt-note">$athleteCount $athleteWord &middot; $($meets.Count) $meetWord &middot; $totalMarks marks on file.</p>
-            <p class="prompt-note"><span class="title-badge dciaa">&#127942; DCIAA</span> <span class="title-badge dcsaa">&#127942; DCSAA</span> mark individual champions; <span class="title-badge dciaa team">&#129351; DCIAA</span> <span class="title-badge dcsaa team">&#129351; DCSAA</span> mark team champions.</p>
+            <p class="prompt-note"><span class="title-badge dciaa">&#127942; (DCIAA)</span> <span class="title-badge dcsaa">&#127942; (DCSAA)</span> mark individual champions; <span class="title-badge dciaa team">&#129351; (DCIAA)</span> <span class="title-badge dcsaa team">&#129351; (DCSAA)</span> mark team champions.</p>
         </div>
 
         <div class="no-results is-hidden" data-search-empty>
