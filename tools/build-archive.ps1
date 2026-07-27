@@ -43,6 +43,16 @@ function BadgeHtml([string]$league) {
   }
 }
 
+# A meet MVP outranks any single event win, so it gets its own top-tier
+# badge color rather than reusing the champion gold/blue.
+function MvpBadgeHtml([string]$league) {
+  switch ($league) {
+    "dciaa" { return ' <span class="title-badge platinum" title="DCIAA Meet MVP">&#128081; DCIAA MVP<span class="sr-only"> titleholder</span></span>' }
+    "dcsaa" { return ' <span class="title-badge platinum" title="DCSAA Meet MVP">&#128081; DCSAA MVP<span class="sr-only"> titleholder</span></span>' }
+    default { return '' }
+  }
+}
+
 # A DNS, a foul or a no-height is the absence of a result, not a result. The
 # meet files keep them (they are what the results say), but showing them would
 # pad an athlete's card with events they have no mark for.
@@ -93,6 +103,7 @@ foreach ($m in $meets) {
       place = $r.place
       relay = $false
       league = if ($eventLeague -and "$($r.place)" -eq '1') { $eventLeague } else { $null }
+      mvpLeague = if ($r.event -eq 'MVP') { $eventLeague } else { $null }
     })
     $totalMarks++
   }
@@ -161,9 +172,10 @@ foreach ($c in $ordered) {
   [void]$sb.AppendLine('                <p class="card-meet">' + $meetLine + '</p>')
   [void]$sb.AppendLine('                <p class="card-date">' + $c.date + $(if ($c.location) { ' &middot; ' + (Esc $c.location) } else { '' }) + '</p>')
   [void]$sb.AppendLine('                <ul class="card-marks">')
-  foreach ($mk in ($c.marks | Sort-Object event)) {
+  # MVP leads the card ahead of every event, alphabetical among themselves.
+  foreach ($mk in ($c.marks | Sort-Object @{e = { if ($_.event -eq 'MVP') { 0 } else { 1 } } }, event)) {
     $pl = if ($mk.place) { '<span class="' + (PlaceClass $mk.place) + '">' + (Ordinal $mk.place) + '</span>' } else { '<span class="pl none">&ndash;</span>' }
-    [void]$sb.AppendLine('                    <li><span class="ev">' + (Esc $mk.event) + '</span><span class="mk">' + (Esc $mk.mark) + '</span>' + $pl + (BadgeHtml $mk.league) + '</li>')
+    [void]$sb.AppendLine('                    <li><span class="ev">' + (Esc $mk.event) + '</span><span class="mk">' + (Esc $mk.mark) + '</span>' + $pl + (BadgeHtml $mk.league) + (MvpBadgeHtml $mk.mvpLeague) + '</li>')
   }
   [void]$sb.AppendLine('                </ul>')
   [void]$sb.AppendLine('            </article>')
@@ -234,7 +246,7 @@ $html = @"
             <p class="prompt-lead">Search for an athlete to see every meet they competed in.</p>
             <p class="prompt-eg">Try $exHtml</p>
             <p class="prompt-note">$athleteCount $athleteWord &middot; $($meets.Count) $meetWord &middot; $totalMarks marks on file.</p>
-            <p class="prompt-note"><span class="title-badge dciaa">&#127942; DCIAA</span> <span class="title-badge dcsaa">&#127942; DCSAA</span> mark an event win at that league's championship meet.</p>
+            <p class="prompt-note"><span class="title-badge dciaa">&#127942; DCIAA</span> <span class="title-badge dcsaa">&#127942; DCSAA</span> mark an event win at that league's championship meet; <span class="title-badge platinum">&#128081; DCIAA MVP</span> marks the meet's overall MVP.</p>
         </div>
 
         <div class="no-results is-hidden" data-search-empty>
