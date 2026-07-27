@@ -306,9 +306,64 @@ any current record on either wall. This closes out TFRRS entirely.
     two new links.
   - results-archive.html: 47 -> 49 meets, 2110 -> 2207 marks, 314 -> 332
     athletes.
+- **Full athlete-name consistency sweep across the whole track archive
+  (2026-07-27).** Requested as a "confirm everything's consistent" check
+  before pushing. Found and merged fourteen duplicate-name-variant pairs
+  (truncated first names, typos, or capitalization drift) that had been
+  splitting one athlete into two "different" people in
+  `results-archive.html`:
+  - Elias Dinunzio -> Elias DiNunzio
+  - Wil/Willi Schwendinger -> William Schwendinger
+  - Lucille Seagroves -> Lucy Seagroves
+  - Sebasti Linnell-Simmons -> Sebastian Linnell-Simmons
+  - Ma Andersson-Potterveld -> Mats Andersson-Potterveld (same fix as
+    already applied to the XC archive; this was the track side)
+  - Carmen (Flow Couvertier -> Carmen Couvertier (garbled nickname
+    insertion, dropped)
+  - B/Be Kaiser-Bulmash -> Ben Kaiser-Bulmash
+  - Eleanor Metelski -> Eleanora Metelski
+  - Maso Eva-Buckner -> Mason Eva-Buckner
+  - Annabell Harbold -> Annabelle Harbold
+  - Guilio Iacoviello -> Giulio Iacoviello (also fixed on
+    `trackwall_indoor.html`'s unverified 4x200m relay row)
+  - Marquis Roberts -> Marquise Roberts (trusted the TFRRS primary-source
+    spelling over the older Hy-Tek-harvested files; also fixed on the
+    same wall row)
+  - Nathan Mcalpine -> Nathan McAlpine (capitalization)
+  - Avan Joseph -> Aven Joseph
+  - results-archive.html: 332 -> 318 athletes (49 meets, 2207 marks
+    unchanged - no marks lost, just correctly attributed to one person
+    each instead of two).
+  - Investigated remaining same-surname collisions after the sweep -
+    Johnson, Jones, McKenna, Hardy, Hudson, and Carter all have
+    genuinely different first names and are kept as separate people
+    (siblings or unrelated). The "Robel" collision isn't a name issue at
+    all - it's `tools/build-archive.ps1`'s documented fallback behavior
+    for a relay whose legs have no individual results in that specific
+    meet (the 2026-05-21 Carlos Parson Invitational only captured Hardy's
+    relay result for that squad, not their individual events).
+  - **Possible wall mis-filing found, not corrected - needs Dario's
+    call.** `trackwall_indoor.html`'s boys 4x200m record (1:50.8, Nathan
+    McAlpine/Marquise Roberts/Giulio Iacoviello/Stephen Jefferson,
+    credited only to "2017" with no meet ever identified) matches
+    `data/meets/2017-05-12-dciaa-ms-championship.json`'s boys 4x200m
+    relay almost exactly (1:50.79, same four legs, 3rd place) - except
+    that meet is **outdoor**, not indoor, and outdoor doesn't currently
+    have a 4x200m category on `trackwall_outdoor.html` at all. Left the
+    indoor wall's date as bare "2017" rather than guess whether this
+    record belongs on the indoor wall (a genuine indoor performance that
+    coincidentally matches to the hundredth), the outdoor wall (as a new
+    event category), or is simply the same result mis-filed under indoor
+    - the exact time match to the hundredth strongly suggests the last.
 
 ## Open issues
 
+- **Indoor boys 4x200m record (1:50.8, credited only to "2017") may
+  actually be `data/meets/2017-05-12-dciaa-ms-championship.json`'s
+  outdoor 4x200m relay (1:50.79, same four legs) mis-filed onto the
+  indoor wall** - needs Dario's call on whether to leave it, move it to
+  a new outdoor 4x200m category, or confirm it's a genuine separate
+  indoor performance. See the entry above for detail.
 - Cross country now has its own working list at `data/xc-capture-queue.md`.
   As of 2026-07-27 the entire 2025 season (4 meets) is captured as real
   per-meet data and searchable at `xc-results-archive.html`; seasons before

@@ -29,7 +29,7 @@
     { "place": 17, "athlete": "Hope Ternet",         "gender": "girls", "event": "100m", "mark": "19.22",   "points": null, "flight": "H3", "grade": 6 },
     { "place": 1,  "athlete": "Marie-Celeste Pessey","gender": "girls", "event": "400m", "mark": "1:16.51", "points": null, "flight": "H4", "grade": 7 },
     { "place": 5,  "athlete": "Sara Mihalke",        "gender": "girls", "event": "400m", "mark": "1:21.97", "points": null, "flight": "H1", "grade": 6 },
-    { "place": 8,  "athlete": "Lucille Seagroves",   "gender": "girls", "event": "800m", "mark": "3:51.65", "points": null, "flight": null, "grade": 6 }
+    { "place": 8,  "athlete": "Lucy Seagroves",   "gender": "girls", "event": "800m", "mark": "3:51.65", "points": null, "flight": null, "grade": 6 }
   ],
   "relays": []
 }

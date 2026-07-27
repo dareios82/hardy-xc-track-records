@@ -48,7 +48,7 @@
                        },
                        {
                            "place":  2,
-                           "athlete":  "Nathan Mcalpine",
+                           "athlete":  "Nathan McAlpine",
                            "gender":  "boys",
                            "event":  "High Jump",
                            "grade":  "6",
@@ -264,7 +264,7 @@
                        },
                        {
                            "place":  2,
-                           "athlete":  "Nathan Mcalpine",
+                           "athlete":  "Nathan McAlpine",
                            "gender":  "boys",
                            "event":  "110 Meter Hurdles",
                            "grade":  "6",
@@ -336,7 +336,7 @@
                        },
                        {
                            "place":  7,
-                           "athlete":  "Nathan Mcalpine",
+                           "athlete":  "Nathan McAlpine",
                            "gender":  "boys",
                            "event":  "100 Meter Dash",
                            "grade":  "6",
@@ -345,7 +345,7 @@
                        },
                        {
                            "place":  null,
-                           "athlete":  "Marquis Roberts",
+                           "athlete":  "Marquise Roberts",
                            "gender":  "boys",
                            "event":  "100 Meter Dash",
                            "grade":  "8",
@@ -381,7 +381,7 @@
                        },
                        {
                            "place":  7,
-                           "athlete":  "Be Kaiser-Bulmash",
+                           "athlete":  "Ben Kaiser-Bulmash",
                            "gender":  "boys",
                            "event":  "1600 Meter Run",
                            "grade":  "6",
@@ -471,7 +471,7 @@
                        },
                        {
                            "place":  10,
-                           "athlete":  "Be Kaiser-Bulmash",
+                           "athlete":  "Ben Kaiser-Bulmash",
                            "gender":  "boys",
                            "event":  "800 Meter Run",
                            "grade":  "6",
@@ -543,7 +543,7 @@
                        },
                        {
                            "place":  20,
-                           "athlete":  "Guilio Iacoviello",
+                           "athlete":  "Giulio Iacoviello",
                            "gender":  "boys",
                            "event":  "200 Meter Dash",
                            "grade":  "8",
@@ -584,8 +584,8 @@
                        "points":  "",
                        "athletes":  [
                                         "Stephen Jefferson",
-                                        "Nathan Mcalpine",
-                                        "Guilio Iacoviello",
+                                        "Nathan McAlpine",
+                                        "Giulio Iacoviello",
                                         "Aaron Jones"
                                     ]
                    },

@@ -43,7 +43,7 @@
     { "place": 2,    "athlete": "Rebecca Khoury",     "gender": "girls", "event": "1600m",         "mark": "6:37.52",  "points": 8,  "flight": null, "grade": 7 },
     { "place": 5,    "athlete": "Edward McKenna",     "gender": "boys",  "event": "Shot Put",      "mark": "25-07.00", "metric": "7.79m", "points": 4,  "flight": null, "grade": 6 },
     { "place": 18,   "athlete": "Francisco Nava",     "gender": "boys",  "event": "55m",           "mark": "8.69",     "points": null, "flight": "H4", "grade": 7 },
-    { "place": 7,    "athlete": "Willi Schwendinger", "gender": "boys",  "event": "1600m",         "mark": "6:27.67",  "points": 2,  "flight": null, "grade": 6 },
+    { "place": 7,    "athlete": "William Schwendinger", "gender": "boys",  "event": "1600m",         "mark": "6:27.67",  "points": 2,  "flight": null, "grade": 6 },
     { "place": 8,    "athlete": "Kylie Smith",        "gender": "girls", "event": "55m",           "mark": "8.62",     "points": 1,  "flight": "H4", "grade": 7 },
     { "place": 3,    "athlete": "Kylie Smith",        "gender": "girls", "event": "Long Jump",     "mark": "11-00.50", "metric": "3.36m", "points": 6,  "flight": null, "grade": 7 },
     { "place": 1,    "athlete": "Kylie Smith",        "gender": "girls", "event": "Triple Jump",   "mark": "25-00.00", "metric": "7.62m", "points": 10, "flight": null, "grade": 7 },

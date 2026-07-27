@@ -27,7 +27,7 @@
     { "place": null, "athlete": "Marie-Celeste Pessey", "gender": "girls", "event": "400m", "mark": "DNS",     "points": null, "flight": "H5", "grade": 7 },
     { "place": null, "athlete": "Lucas Pilz",           "gender": "boys",  "event": "100m", "mark": "DNS",     "points": null, "flight": "H4", "grade": 6 },
     { "place": 12,   "athlete": "Audrey Schwendinger",  "gender": "girls", "event": "400m", "mark": "1:29.08", "points": null, "flight": "H3", "grade": 6 },
-    { "place": 13,   "athlete": "Lucille Seagroves",    "gender": "girls", "event": "200m", "mark": "38.40",   "points": null, "flight": "H1", "grade": 6 },
+    { "place": 13,   "athlete": "Lucy Seagroves",    "gender": "girls", "event": "200m", "mark": "38.40",   "points": null, "flight": "H1", "grade": 6 },
     { "place": 10,   "athlete": "Nina Taylor-Sparks",   "gender": "girls", "event": "100m", "mark": "16.56",   "points": null, "flight": "H3", "grade": 6 },
     { "place": null, "athlete": "Josefine Watts",       "gender": "girls", "event": "100m", "mark": "DNS",     "points": null, "flight": "H6", "grade": 6 },
     { "place": 6,    "athlete": "Josefine Watts",       "gender": "girls", "event": "200m", "mark": "35.36",   "points": null, "flight": "H2", "grade": 6 },

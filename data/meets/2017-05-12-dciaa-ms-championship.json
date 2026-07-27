@@ -66,7 +66,7 @@
                        },
                        {
                            "place":  null,
-                           "athlete":  "Be Kaiser-Bulmash",
+                           "athlete":  "Ben Kaiser-Bulmash",
                            "gender":  "boys",
                            "event":  "800 Meter Run",
                            "grade":  "",
@@ -165,7 +165,7 @@
                        },
                        {
                            "place":  3,
-                           "athlete":  "Marquis Roberts",
+                           "athlete":  "Marquise Roberts",
                            "gender":  "boys",
                            "event":  "400 Meter Dash",
                            "grade":  "",
@@ -237,7 +237,7 @@
                        },
                        {
                            "place":  null,
-                           "athlete":  "Guilio Iacoviello",
+                           "athlete":  "Giulio Iacoviello",
                            "gender":  "boys",
                            "event":  "200 Meter Dash",
                            "grade":  "",
@@ -264,7 +264,7 @@
                        },
                        {
                            "place":  2,
-                           "athlete":  "Nathan Mcalpine",
+                           "athlete":  "Nathan McAlpine",
                            "gender":  "boys",
                            "event":  "Long Jump",
                            "grade":  "",
@@ -273,7 +273,7 @@
                        },
                        {
                            "place":  20,
-                           "athlete":  "Guilio Iacoviello",
+                           "athlete":  "Giulio Iacoviello",
                            "gender":  "boys",
                            "event":  "Long Jump",
                            "grade":  "",
@@ -300,7 +300,7 @@
                        },
                        {
                            "place":  null,
-                           "athlete":  "Guilio Iacoviello",
+                           "athlete":  "Giulio Iacoviello",
                            "gender":  "boys",
                            "event":  "Triple Jump",
                            "grade":  "",
@@ -309,7 +309,7 @@
                        },
                        {
                            "place":  null,
-                           "athlete":  "Marquis Roberts",
+                           "athlete":  "Marquise Roberts",
                            "gender":  "boys",
                            "event":  "Triple Jump",
                            "grade":  "",
@@ -372,7 +372,7 @@
                        },
                        {
                            "place":  5,
-                           "athlete":  "Nathan Mcalpine",
+                           "athlete":  "Nathan McAlpine",
                            "gender":  "boys",
                            "event":  "High Jump",
                            "grade":  "",
@@ -403,9 +403,9 @@
                        "squad":  "A",
                        "points":  "6",
                        "athletes":  [
-                                        "Nathan Mcalpine",
-                                        "Marquis Roberts",
-                                        "Guilio Iacoviello",
+                                        "Nathan McAlpine",
+                                        "Marquise Roberts",
+                                        "Giulio Iacoviello",
                                         "Stephen Jefferson"
                                     ]
                    },
@@ -431,9 +431,9 @@
                        "squad":  "A",
                        "points":  "10",
                        "athletes":  [
-                                        "Nathan Mcalpine",
+                                        "Nathan McAlpine",
                                         "Stephen Jefferson",
-                                        "Marquis Roberts",
+                                        "Marquise Roberts",
                                         "Aaron Jones"
                                     ]
                    },

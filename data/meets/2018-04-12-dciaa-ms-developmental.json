@@ -37,8 +37,8 @@
     { "place": 8,    "athlete": "Edward McKenna",       "gender": "boys",  "event": "Shot Put",      "mark": "24-07.00", "points": null, "flight": null, "grade": null },
     { "place": 33,   "athlete": "Jalen Pope",           "gender": "boys",  "event": "200m",          "mark": "37.57",   "points": null, "flight": "H8", "grade": null },
     { "place": null, "athlete": "Jalen Pope",           "gender": "boys",  "event": "High Jump",     "mark": "NH",      "points": null, "flight": null, "grade": null },
-    { "place": 6,    "athlete": "Willi Schwendinger",   "gender": "boys",  "event": "800m",          "mark": "2:55.31", "points": null, "flight": "H3", "grade": null },
-    { "place": 6,    "athlete": "Willi Schwendinger",   "gender": "boys",  "event": "1600m",         "mark": "7:06.95", "points": null, "flight": null, "grade": null },
+    { "place": 6,    "athlete": "William Schwendinger",   "gender": "boys",  "event": "800m",          "mark": "2:55.31", "points": null, "flight": "H3", "grade": null },
+    { "place": 6,    "athlete": "William Schwendinger",   "gender": "boys",  "event": "1600m",         "mark": "7:06.95", "points": null, "flight": null, "grade": null },
     { "place": 4,    "athlete": "Ayana Shaw",           "gender": "girls", "event": "100m",          "mark": "15.05",   "points": null, "flight": "H6", "grade": null },
     { "place": 12,   "athlete": "Kylie Smith",          "gender": "girls", "event": "200m",          "mark": "34.51",   "points": null, "flight": "H8", "grade": null },
     { "place": 2,    "athlete": "Kylie Smith",          "gender": "girls", "event": "Long Jump",     "mark": "12-03.00", "points": null, "flight": null, "grade": null },
@@ -63,7 +63,7 @@
   "relays": [
     { "place": 9, "gender": "girls", "event": "4x100m", "mark": "1:06.03", "squad": "A", "points": null, "flight": "H2", "athletes": ["Belinda Alcoser", "Bronwen Holmes", "Ayana Shaw", "Zoe Antczak-Chung"] },
     { "place": 6, "gender": "boys",  "event": "4x200m", "mark": "2:16.24", "squad": "A", "points": null, "flight": "H2", "athletes": ["Bruce Fuhriman", "Elijah Wynn", "Isaiah Wynn", "Jalen Pope"] },
-    { "place": 4, "gender": "boys",  "event": "4x400m", "mark": "5:20.84", "squad": "A", "points": null, "flight": null, "athletes": ["B. Kaiser-Bulmash", "William Floman", "Willi Schwendinger", "Martin Welles"] },
+    { "place": 4, "gender": "boys",  "event": "4x400m", "mark": "5:20.84", "squad": "A", "points": null, "flight": null, "athletes": ["B. Kaiser-Bulmash", "William Floman", "William Schwendinger", "Martin Welles"] },
     { "place": 5, "gender": "girls", "event": "4x400m", "mark": "5:36.84", "squad": "A", "points": null, "flight": "H1", "athletes": ["Annabelle Harbold", "Laura Welles", "Anna Khoury", "Belinda Alcoser"] }
   ]
 }

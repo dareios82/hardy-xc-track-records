@@ -11,7 +11,7 @@
     "note": "Listed under 'Rose L Hardy'. Where the source printed a Prelims round, that round is marked with '(Prelims)' in the event name, matching the convention already used in the 2025-02-25 meet; Finals rows carry no suffix. Trailing 'a' (auto-time) and PB/SB badges were stripped from marks. One boys 4x400m leg was printed as the garbled 'FelipeSebastion Mesa McGovern' and expanded to Felipe Sebastian Mesa McGovern, matching his correctly-spelled entries elsewhere in this same meet. One girls Shot Put DNS entry read 'Betty TN Markus' and is recorded as Betty Markus, matching her spelling everywhere else in the archive."
   },
   "individual": [
-    { "place": 24, "athlete": "Elias Dinunzio",                "gender": "boys", "event": "55m (Prelims)",          "mark": "8.08",     "points": null, "flight": null, "grade": 8 },
+    { "place": 24, "athlete": "Elias DiNunzio",                "gender": "boys", "event": "55m (Prelims)",          "mark": "8.08",     "points": null, "flight": null, "grade": 8 },
     { "place": 27, "athlete": "Lance Brent",                    "gender": "boys", "event": "55m (Prelims)",          "mark": "8.44",     "points": null, "flight": null, "grade": 7 },
     { "place": 34, "athlete": "Declan Avant",                   "gender": "boys", "event": "55m (Prelims)",          "mark": "8.90",     "points": null, "flight": null, "grade": 6 },
     { "place": 14, "athlete": "Graydon Jones",                  "gender": "boys", "event": "300m",         "mark": "52.78",    "points": null, "flight": null, "grade": 6 },
@@ -36,7 +36,7 @@
     { "place": 8,  "athlete": "Chris Kappas",                     "gender": "boys", "event": "55m Hurdles (Prelims)",  "mark": "11.57",    "points": null, "flight": null, "grade": 6 },
     { "place": 9,  "athlete": "Kameron Boyd",                     "gender": "boys", "event": "55m Hurdles (Prelims)",  "mark": "11.86",    "points": null, "flight": null, "grade": 6 },
     { "place": null, "athlete": "Graydon Jones",                  "gender": "boys", "event": "55m Hurdles (Prelims)",  "mark": "DNS",      "points": null, "flight": null, "grade": 6 },
-    { "place": 4,  "athlete": "Elias Dinunzio",                   "gender": "boys", "event": "Shot Put",     "mark": "27-06",    "points": null, "flight": null, "grade": 8 },
+    { "place": 4,  "athlete": "Elias DiNunzio",                   "gender": "boys", "event": "Shot Put",     "mark": "27-06",    "points": null, "flight": null, "grade": 8 },
     { "place": 12, "athlete": "Ulyses Stewart-Torres",            "gender": "boys", "event": "Shot Put",     "mark": "21-05",    "points": null, "flight": null, "grade": 8 },
     { "place": null, "athlete": "James Crino",                    "gender": "boys", "event": "Shot Put",     "mark": "DNS",      "points": null, "flight": null, "grade": 8 },
     { "place": 2,  "athlete": "Matthew Hemphill",                 "gender": "boys", "event": "High Jump",    "mark": "4-08",     "points": null, "flight": null, "grade": 8 },

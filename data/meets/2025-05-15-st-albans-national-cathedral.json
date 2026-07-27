@@ -11,12 +11,12 @@
     "note": "Listed under 'Rose L Hardy'. The source titled this meet 'STA/NCS LS Meet #2'; renamed to 'St Albans / National Cathedral' to match the label already used for it on trackwall_outdoor.html's girls 1600m record row. 'Samantha Kirschenba...' expanded to Samantha Kirschenbaum as in the other 2025 meets - still unverified, see capture-queue.md."
   },
   "individual": [
-    { "place": 10, "athlete": "Elias Dinunzio",                  "gender": "boys", "event": "100m",         "mark": "13.27",    "points": null, "flight": null, "grade": 8 },
+    { "place": 10, "athlete": "Elias DiNunzio",                  "gender": "boys", "event": "100m",         "mark": "13.27",    "points": null, "flight": null, "grade": 8 },
     { "place": 19, "athlete": "Luca Deregibus",                   "gender": "boys", "event": "100m",         "mark": "13.94",    "points": null, "flight": null, "grade": 6 },
     { "place": 20, "athlete": "Lance Brent",                      "gender": "boys", "event": "100m",         "mark": "14.00",    "points": null, "flight": null, "grade": 7 },
     { "place": 35, "athlete": "Joshua Banks",                     "gender": "boys", "event": "100m",         "mark": "15.05",    "points": null, "flight": null, "grade": 7 },
     { "place": 1,  "athlete": "James Crino",                      "gender": "boys", "event": "200m",         "mark": "26.57",    "points": null, "flight": null, "grade": 8 },
-    { "place": 4,  "athlete": "Elias Dinunzio",                   "gender": "boys", "event": "200m",         "mark": "27.19",    "points": null, "flight": null, "grade": 8 },
+    { "place": 4,  "athlete": "Elias DiNunzio",                   "gender": "boys", "event": "200m",         "mark": "27.19",    "points": null, "flight": null, "grade": 8 },
     { "place": 18, "athlete": "Pierce Leen",                      "gender": "boys", "event": "200m",         "mark": "30.83",    "points": null, "flight": null, "grade": 8 },
     { "place": 32, "athlete": "Ulyses Stewart-Torres",             "gender": "boys", "event": "200m",         "mark": "34.48",    "points": null, "flight": null, "grade": 8 },
     { "place": 34, "athlete": "Brennan O'Hara",                    "gender": "boys", "event": "200m",         "mark": "35.93",    "points": null, "flight": null, "grade": 6 },
@@ -44,7 +44,7 @@
     { "place": null, "athlete": "Jabril Blakney",                  "gender": "boys", "event": "110m Hurdles", "mark": "DNS",      "points": null, "flight": null, "grade": 8 },
     { "place": 17, "athlete": "Luca Deregibus",                    "gender": "boys", "event": "Shot Put",     "mark": "16-06",    "points": null, "flight": null, "grade": 6 },
     { "place": null, "athlete": "Jahlil Pinnix",                   "gender": "boys", "event": "Shot Put",     "mark": "DNS",      "points": null, "flight": null, "grade": 8 },
-    { "place": null, "athlete": "Elias Dinunzio",                  "gender": "boys", "event": "Shot Put",     "mark": "DNS",      "points": null, "flight": null, "grade": 8 },
+    { "place": null, "athlete": "Elias DiNunzio",                  "gender": "boys", "event": "Shot Put",     "mark": "DNS",      "points": null, "flight": null, "grade": 8 },
     { "place": 2,  "athlete": "James Crino",                       "gender": "boys", "event": "Discus Throw", "mark": "80-00",    "points": null, "flight": null, "grade": 8 },
     { "place": 10, "athlete": "Ulyses Stewart-Torres",              "gender": "boys", "event": "Discus Throw", "mark": "65-01",    "points": null, "flight": null, "grade": 8 },
     { "place": 22, "athlete": "James Harlow",                      "gender": "boys", "event": "Discus Throw", "mark": "42-06",    "points": null, "flight": null, "grade": 7 },
@@ -96,7 +96,7 @@
     { "place": null, "athlete": "Nina Bance",                      "gender": "girls", "event": "Long Jump",    "mark": "DNS",      "points": null, "flight": null, "grade": 8 }
   ],
   "relays": [
-    { "place": 5, "gender": "boys",  "event": "4x100m", "mark": "53.95", "squad": "A", "points": null, "flight": null, "athletes": ["Ethan Achi", "Elias Dinunzio", "Jahlil Pinnix", "James Crino"] },
+    { "place": 5, "gender": "boys",  "event": "4x100m", "mark": "53.95", "squad": "A", "points": null, "flight": null, "athletes": ["Ethan Achi", "Elias DiNunzio", "Jahlil Pinnix", "James Crino"] },
     { "place": 6, "gender": "boys",  "event": "4x100m", "mark": "57.43", "squad": "B", "points": null, "flight": null, "athletes": ["Lance Brent", "Derron Davis", "Luca Deregibus", "Jabril Blakney"] },
     { "place": 3, "gender": "girls", "event": "4x100m", "mark": "54.05", "squad": "A", "points": null, "flight": null, "athletes": ["Rosangel Pascual-Alcantara", "Cadence Hollingsworth", "Tinsley Barmeyer", "Taylor McMahan"] }
   ]
