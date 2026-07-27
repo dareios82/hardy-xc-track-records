@@ -1,0 +1,216 @@
+{
+  "note": "Hardy entries pulled from four DCIAA-wide records documents given to Dario by another middle school coach. Each source is a league-wide YEARLY-CHAMPION ledger (one row per event per year: who won it, what mark) - not full meet results with every finisher - so these can confirm or flag Hardy's own record wall, but can't be turned into per-meet result files the way TFRRS/athletic.net captures can. They also predate this site's meet-by-meet captures, covering roughly 2007/08-2015/16.",
+  "sources": [
+    {
+      "file": "data/MS XC.pdf",
+      "scope": "DCIAA Middle School Cross Country team and individual champions, girls and boys, school years 2003-04 through 2013-14",
+      "provided_by": "another DCIAA coach, shared with Dario",
+      "captured": "2026-07-27"
+    },
+    {
+      "file": "data/Middle School Girls Indoor Records.xlsx",
+      "scope": "DCIAA Middle School Girls indoor track & field: a 'Championship Records' tab (DCIAA-wide all-time bests as of this workbook's last update) plus one tab per event listing that event's yearly champion, school years roughly 2007-08 through 2015-16",
+      "provided_by": "another DCIAA coach, shared with Dario",
+      "captured": "2026-07-27"
+    },
+    {
+      "file": "data/Middle School Girls Outdoor Championship Meet Records.xlsx",
+      "scope": "DCIAA Middle School Girls outdoor track & field yearly champion per event, 2008 through 2016",
+      "provided_by": "another DCIAA coach, shared with Dario",
+      "captured": "2026-07-27"
+    },
+    {
+      "file": "data/Middle School Boys Outdoor Championship Records.xlsx",
+      "scope": "DCIAA Middle School Boys outdoor track & field yearly champion per event, 2008 through 2016 - checked in full, no Hardy entries found in this window",
+      "provided_by": "another DCIAA coach, shared with Dario",
+      "captured": "2026-07-27"
+    }
+  ],
+  "entries": [
+    {
+      "sport": "xc",
+      "category": "individual_champion",
+      "gender": "girls",
+      "event": "Cross Country",
+      "season": "2011-12",
+      "athlete": "Asia Amis",
+      "mark": "19:16",
+      "wall_comparison": "Confirms the DCIAA XC individual title already credited to Asia Amis on xc_record_wall.html (listed there as 2011-10-XX, 19:16.00). This document is the actual source for that entry."
+    },
+    {
+      "sport": "indoor",
+      "category": "all_time_record_snapshot",
+      "gender": "girls",
+      "event": "Long Jump",
+      "season": "2013-14",
+      "athlete": "Nyla Ward",
+      "mark": "15' .75\"",
+      "location": "PG Complex",
+      "wall_comparison": "Listed as the DCIAA-wide all-time record as of this workbook's last update. Hardy's own indoor wall already lists a better Nyla Ward mark from the following season (17', 1/28/2015), so the wall itself is already ahead of this snapshot - no change needed."
+    },
+    {
+      "sport": "indoor",
+      "category": "yearly_champion",
+      "gender": "girls",
+      "event": "55m Dash",
+      "season": "2013-14",
+      "athlete": "Nyla Ward",
+      "mark": "7.97",
+      "location": "PG Complex",
+      "wall_comparison": "Slower than the current wall record (Taylor McMahan, 7.59, 2/25/2025). No change."
+    },
+    {
+      "sport": "indoor",
+      "category": "yearly_champion",
+      "gender": "girls",
+      "event": "400m/500m (source sheet covers both distances without specifying which was run that year)",
+      "season": "2013-14",
+      "athlete": "Dasia Newell",
+      "mark": "1:06.53",
+      "location": "PG Complex",
+      "wall_comparison": "NEEDS VERIFICATION, not applied to the wall. If this was a 500m it would be far faster than the current wall record (Vanina Mazzei-Paterni, 1:27.4, 2/25/2025); if 400m it isn't directly comparable to anything currently posted. Logged as an open issue in data/capture-queue.md rather than guessing."
+    },
+    {
+      "sport": "indoor",
+      "category": "yearly_champion",
+      "gender": "girls",
+      "event": "800m/1000m (source sheet covers both distances without specifying which was run that year)",
+      "season": "2011-12",
+      "athlete": "Asia Amis",
+      "mark": "3:42.94",
+      "location": "PG Complex",
+      "wall_comparison": "Slower than the current wall record either way (800m: 2:33.64; nothing posted for 1000m). No change."
+    },
+    {
+      "sport": "indoor",
+      "category": "yearly_champion",
+      "gender": "girls",
+      "event": "Triple Jump",
+      "season": "2011-12",
+      "athlete": "Asia Amis",
+      "mark": "26' 8.50\"",
+      "location": "PG Complex",
+      "wall_comparison": "Slower than the current wall record (Taylor McMahan, 31' 4.5\", 2/25/2025). No change."
+    },
+    {
+      "sport": "outdoor",
+      "category": "yearly_champion",
+      "gender": "girls",
+      "event": "100m Dash",
+      "season": "2014",
+      "athlete": "Nyla Ward",
+      "mark": "13.36",
+      "wall_comparison": "Slower than the current wall record (Samiah Bucey-Onyekwere, 12.8, 5/10/2022). No change."
+    },
+    {
+      "sport": "outdoor",
+      "category": "yearly_champion",
+      "gender": "girls",
+      "event": "100m Dash",
+      "season": "2013",
+      "athlete": "Nyla Ward",
+      "mark": "13.64",
+      "wall_comparison": "Slower than the current wall record. Ward won this event's DCIAA title in both 2013 and 2014."
+    },
+    {
+      "sport": "outdoor",
+      "category": "yearly_champion",
+      "gender": "girls",
+      "event": "800m",
+      "season": "2015",
+      "athlete": "A'Rai Hyman",
+      "mark": "2:55.77",
+      "wall_comparison": "Slower than the current wall record (Vanina Mazzei-Paterni, 2:25.42, 2026). No change; not currently on the wall or in any captured meet file."
+    },
+    {
+      "sport": "outdoor",
+      "category": "yearly_champion",
+      "gender": "girls",
+      "event": "4x100m Relay",
+      "season": "2015",
+      "athlete": null,
+      "mark": "54.72",
+      "wall_comparison": "Slower than the current wall record (54.05, 5/15/2025). No change."
+    },
+    {
+      "sport": "outdoor",
+      "category": "yearly_champion",
+      "gender": "girls",
+      "event": "4x100m Relay",
+      "season": "2013",
+      "athlete": null,
+      "mark": "56.64",
+      "wall_comparison": "Slower than the current wall record. No change."
+    },
+    {
+      "sport": "outdoor",
+      "category": "yearly_champion",
+      "gender": "girls",
+      "event": "4x100m Relay",
+      "season": "2011",
+      "athlete": null,
+      "mark": "57.23",
+      "wall_comparison": "Slower than the current wall record. No change."
+    },
+    {
+      "sport": "outdoor",
+      "category": "yearly_champion",
+      "gender": "girls",
+      "event": "800m Sprint Medley Relay",
+      "season": "2011",
+      "athlete": null,
+      "mark": "2:05.58",
+      "wall_comparison": "This event isn't currently tracked on the outdoor wall at all - informational only."
+    },
+    {
+      "sport": "outdoor",
+      "category": "yearly_champion",
+      "gender": "girls",
+      "event": "High Jump",
+      "season": "2015",
+      "athlete": "Dasia Newell",
+      "mark": "4' 8\"",
+      "wall_comparison": "Matches the current wall record exactly (Dasia Newell, 4'8\", 5/8/2015, DCIAA MS Outdoor City Championship) - independent confirmation from a second source."
+    },
+    {
+      "sport": "outdoor",
+      "category": "yearly_champion",
+      "gender": "girls",
+      "event": "High Jump",
+      "season": "2013",
+      "athlete": "Dasia Bando",
+      "mark": "4' 2\"",
+      "wall_comparison": "Slower than the current wall record, so no wall impact either way. Name is 'Dasia Bando' in this source, two years before Dasia Newell's 2015 win of the same event - flagging as a possible typo/variant of 'Newell' rather than assuming; could also be a different athlete."
+    },
+    {
+      "sport": "outdoor",
+      "category": "yearly_champion",
+      "gender": "girls",
+      "event": "Long Jump",
+      "season": "2015",
+      "athlete": "Nyla Ward",
+      "mark": "16' 5\"",
+      "wall_comparison": "Matches the current wall record exactly (Nyla Ward, 16'5\", 5/8/2015) - independent confirmation from a second source."
+    },
+    {
+      "sport": "outdoor",
+      "category": "yearly_champion",
+      "gender": "girls",
+      "event": "Long Jump",
+      "season": "2014",
+      "athlete": "Nyla Ward",
+      "mark": "13' 11.5\"",
+      "wall_comparison": "Earlier and slower than her 2015 mark already on the wall. No change."
+    },
+    {
+      "sport": "outdoor",
+      "category": "yearly_champion",
+      "gender": "girls",
+      "event": "Long Jump",
+      "season": "2013",
+      "athlete": "Nyla Ward",
+      "mark": "13' 9.75\"",
+      "wall_comparison": "Earlier and slower than her 2015 mark already on the wall. No change."
+    }
+  ]
+}

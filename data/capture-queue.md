@@ -379,6 +379,14 @@ any current record on either wall. This closes out TFRRS entirely.
   `data/meets/2024-05-20-dciaa-ms-developmental.json` already covers it.
 - 2018-04-26 DCIAA Elementary and Middle Field Meet has no results
   available; Dario suggests trying M&D Timing Services, LLC.
+- A DCIAA coach shared four league-wide historical records documents
+  (PDF + 3 Excel workbooks); the Hardy entries pulled from them are in
+  `data/dciaa-league-records-hardy.json`. One needs Dario's call:
+  Dasia Newell's 2013-14 indoor "400m/500m" title (1:06.53) - the
+  source sheet covers both distances without saying which was run
+  that year, and if it was a 500m it would beat the current indoor
+  wall record (1:27.4). Everything else in that file is confirmed
+  weaker than what's already posted, or already matches it.
 
 ## Archive design
 
