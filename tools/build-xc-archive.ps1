@@ -133,6 +133,7 @@ $emptyState = if ($meets.Count -eq 0) {
             <p class="prompt-lead">Search for an athlete to see every race they ran.</p>
             <p class="prompt-eg">Try $exHtml</p>
             <p class="prompt-note">$athleteCount $athleteWord &middot; $($meets.Count) $meetWord &middot; $totalMarks marks on file.</p>
+            <p class="prompt-note"><span class="title-badge dciaa">&#127942; DCIAA</span> <span class="title-badge dcsaa">&#127942; DCSAA</span> mark individual champions; <span class="title-badge dciaa team">&#129351; DCIAA</span> <span class="title-badge dcsaa team">&#129351; DCSAA</span> mark team champions.</p>
         </div>
 
         <div class="no-results is-hidden" data-search-empty>
@@ -177,10 +178,10 @@ $html = @"
             </a>
             <nav class="nav">
                 <a href="index.html">Home</a>
-                <a href="xc_record_wall.html">Cross Country</a>
+                <a href="xc_record_wall.html">XC Records</a>
                 <a href="xc-results-archive.html" aria-current="page">XC Results</a>
-                <a href="trackwall_indoor.html">Indoor</a>
-                <a href="trackwall_outdoor.html">Outdoor</a>
+                <a href="trackwall_indoor.html">Indoor Records</a>
+                <a href="trackwall_outdoor.html">Outdoor Records</a>
                 <a href="results-archive.html">T&amp;F Results</a>
             </nav>
         </div>

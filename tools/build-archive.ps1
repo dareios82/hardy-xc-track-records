@@ -184,10 +184,10 @@ $html = @"
             </a>
             <nav class="nav">
                 <a href="index.html">Home</a>
-                <a href="xc_record_wall.html">Cross Country</a>
+                <a href="xc_record_wall.html">XC Records</a>
                 <a href="xc-results-archive.html">XC Results</a>
-                <a href="trackwall_indoor.html">Indoor</a>
-                <a href="trackwall_outdoor.html">Outdoor</a>
+                <a href="trackwall_indoor.html">Indoor Records</a>
+                <a href="trackwall_outdoor.html">Outdoor Records</a>
                 <a href="results-archive.html" aria-current="page">T&amp;F Results</a>
             </nav>
         </div>
