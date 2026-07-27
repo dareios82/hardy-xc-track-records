@@ -181,16 +181,16 @@ foreach ($c in $ordered) {
   [void]$sb.AppendLine('            </article>')
 }
 
-# Suggest names that actually exist, so the examples always return something.
-# Filter blanks explicitly: Get-Random's -InputObject rejects a null/empty
-# pipeline outright, which an all-blank candidate list would otherwise hit.
-# The same filtered list (real named athletes, not a comma-joined unmatched
-# relay squad standing in for one) also gives us an honest athlete count.
+# A comma-joined unmatched relay squad isn't a real named athlete, so it's
+# filtered out here to give an honest athlete count.
 $namedAthletes = @($ordered | Where-Object { $_.athlete -notmatch ',' } | ForEach-Object { $_.athlete } | Sort-Object -Unique)
 $athleteCount = $namedAthletes.Count
-$surnames = @($namedAthletes | ForEach-Object { ($_ -split '\s+')[-1] } | Where-Object { $_ } | Sort-Object -Unique)
-$examples = @(if ($surnames.Count -gt 0) { $surnames | Get-Random -Count ([Math]::Min(3, $surnames.Count)) })
-$exHtml = ($examples | ForEach-Object { '<button type="button" class="example" data-example="' + (Esc $_) + '">' + (Esc $_) + '</button>' }) -join " "
+
+# Fixed rather than random: "100" demonstrates an event search, "Samba"
+# an athlete search, and "Champions" the badge search - each picked to
+# show a different way to use the box, not just to return *something*.
+$exHtml = '<button type="button" class="example" data-example="100">100</button>'
+$exHtml += ' <button type="button" class="example" data-example="Samba">Samba</button>'
 $exHtml += ' <button type="button" class="example" data-example="titleholder">&#127942; Champions</button>'
 
 $meetWord = if ($meets.Count -eq 1) { "meet" } else { "meets" }
@@ -243,10 +243,10 @@ $html = @"
         <p class="search-status" data-search-status role="status"></p>
 
         <div class="search-prompt" data-search-prompt>
-            <p class="prompt-lead">Search for an athlete to see every meet they competed in.</p>
+            <p class="prompt-lead">Search for an athlete or event to see every mark in history.</p>
             <p class="prompt-eg">Try $exHtml</p>
             <p class="prompt-note">$athleteCount $athleteWord &middot; $($meets.Count) $meetWord &middot; $totalMarks marks on file.</p>
-            <p class="prompt-note"><span class="title-badge dciaa">&#127942; DCIAA</span> <span class="title-badge dcsaa">&#127942; DCSAA</span> mark an event win at that league's championship meet; <span class="title-badge platinum">&#128081; DCIAA MVP</span> marks the meet's overall MVP.</p>
+            <p class="prompt-note"><span class="title-badge dciaa">&#127942; DCIAA</span> <span class="title-badge dcsaa">&#127942; DCSAA</span> mark an event win at that league's championship meet; <span class="title-badge platinum">&#128081; DCIAA MVP</span> marks the meet's overall MVP. Search "titleholder" to find every one of them.</p>
         </div>
 
         <div class="no-results is-hidden" data-search-empty>
