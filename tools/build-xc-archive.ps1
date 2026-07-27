@@ -31,6 +31,19 @@ function PlaceClass([object]$p) {
   switch ("$p") { "1" { "pl gold" } "2" { "pl silver" } "3" { "pl bronze" } default { "pl" } }
 }
 
+function BadgeHtml([object]$badges) {
+  $html = ""
+  foreach ($b in $badges) {
+    switch ($b) {
+      "dciaa-indiv" { $html += '<span class="title-badge dciaa" title="DCIAA individual champion">&#127942; DCIAA</span>' }
+      "dcsaa-indiv" { $html += '<span class="title-badge dcsaa" title="DCSAA individual champion">&#127942; DCSAA</span>' }
+      "dciaa-team"  { $html += '<span class="title-badge dciaa team" title="DCIAA team champion">&#129351; DCIAA</span>' }
+      "dcsaa-team"  { $html += '<span class="title-badge dcsaa team" title="DCSAA team champion">&#129351; DCSAA</span>' }
+    }
+  }
+  return $html
+}
+
 # A DNS or DNF is the absence of a result, not a result - keep it in the data
 # (it's what the source says) but don't let it pad a runner's card.
 function IsResult([object]$mark) {
@@ -42,15 +55,32 @@ function IsResult([object]$mark) {
 $cards = New-Object System.Collections.ArrayList
 $totalMarks = 0
 
+# DCIAA/DCSAA titles are only awarded at their own championship meets - a
+# "DCIAA ES+MS Developmental Meet" mentions the league but isn't one.
 foreach ($m in $meets) {
   $when = [datetime]::Parse($m.date)
+  $isChamp = $m.meet -match 'Championship'
+  $league = if ($m.meet -match 'DCIAA') { 'dciaa' } elseif ($m.meet -match 'DCSAA') { 'dcsaa' } else { $null }
+  $teamChampScorers = @{}
+  if ($isChamp -and $league -and $m.team_scores) {
+    foreach ($ts in $m.team_scores) {
+      if ("$($ts.place)" -eq '1') { $teamChampScorers[$ts.gender] = @($ts.scorers) }
+    }
+  }
+
   foreach ($r in $m.results) {
     if (-not (IsResult $r.time)) { continue }
     $totalMarks++
+    $badges = New-Object System.Collections.ArrayList
+    if ($isChamp -and $league -and "$($r.place)" -eq '1') { [void]$badges.Add("$league-indiv") }
+    if ($teamChampScorers.ContainsKey($r.gender) -and $teamChampScorers[$r.gender] -contains $r.athlete) {
+      [void]$badges.Add("$league-team")
+    }
     [void]$cards.Add([pscustomobject]@{
       sortDate = $when; athlete = $r.athlete; gender = $r.gender; grade = $r.grade
       meet = $m.meet; date = $when.ToString("MMMM d, yyyy"); location = $m.location
       url = $m.source.meet_url; time = $r.time; place = $r.place; distance = $r.distance
+      badges = $badges
     })
   }
 }
@@ -61,7 +91,7 @@ $sb = New-Object System.Text.StringBuilder
 foreach ($c in $ordered) {
   [void]$sb.AppendLine('            <article class="result-card is-hidden">')
   [void]$sb.AppendLine('                <div class="card-head">')
-  [void]$sb.AppendLine('                    <span class="card-athlete">' + (Esc $c.athlete) + '</span>')
+  [void]$sb.AppendLine('                    <span class="card-athlete">' + (Esc $c.athlete) + '</span>' + (BadgeHtml $c.badges))
   $bits = @()
   if ($c.grade) { $bits += "Yr " + (Esc "$($c.grade)") }
   if ($c.gender) { $bits += (Get-Culture).TextInfo.ToTitleCase($c.gender) }
@@ -168,7 +198,7 @@ $emptyState
 $($sb.ToString())        </div>
 
         <div class="footer">
-            <p>Missing a meet, or spotted a mistake? Email
+            <p>Every meet these results are drawn from is listed on the <a href="sources.html">Sources</a> page. Missing a meet, or spotted a mistake? Email
                <a href="mailto:dario.caldara@gmail.com">dario.caldara@gmail.com</a>.</p>
             <p>&copy; 2026 Hardy Middle School. All rights reserved.</p>
         </div>

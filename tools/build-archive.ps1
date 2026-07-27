@@ -220,7 +220,7 @@ $html = @"
 $($sb.ToString())        </div>
 
         <div class="footer">
-            <p>Missing a meet, or spotted a mistake? Email
+            <p>Every meet these results are drawn from is listed on the <a href="sources.html">Sources</a> page. Missing a meet, or spotted a mistake? Email
                <a href="mailto:dario.caldara@gmail.com">dario.caldara@gmail.com</a>.</p>
             <p>&copy; 2026 Hardy Middle School. All rights reserved.</p>
         </div>
