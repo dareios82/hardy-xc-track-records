@@ -1,0 +1,23 @@
+{
+  "meet": "DCIAA Middle School City Cross Country Championships",
+  "date": "2013-11-02",
+  "location": "Colmar Manor Community Park, MD",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://www.tfrrs.org/results/xc/5984.html",
+    "captured": "2026-07-27",
+    "method": "manual fetch of the TFRRS results page, filtered to Hardy Middle School rows",
+    "note": "This is the exact meet already backing xc_record_wall.html's oldest team-table row (11/2/2013, Colmar Manor, MD) - the girls place (5th) and points (117) match exactly, and the five scorers' surnames match the wall's abbreviated list (A. Alexander, I. Denton, G. Murlos, D. Newwll, K. Smith) with full first names now confirmed. Explicitly a 2.5-mile race. No grade ('Year') was given for any Hardy athlete. Only one Hardy boy (Oskar Floman) finished, not enough to score a boys team - matching the wall's lack of a boys team row for this date. No individual time here is close to the sub-19:00 (boys) / sub-21:00 (girls) record-wall cutoffs, so no individual wall changes. Found via TFRRS after Dario suspected more DCIAA meets existed there beyond the site's broken search."
+  },
+  "results": [
+    { "place": 27, "athlete": "Oskar Floman",     "gender": "boys",  "grade": null, "time": "21:24.7", "distance": "2.5 miles" },
+    { "place": 17, "athlete": "D'Gia Newwll",     "gender": "girls", "grade": null, "time": "22:45.0", "distance": "2.5 miles" },
+    { "place": 21, "athlete": "Inez Denton",      "gender": "girls", "grade": null, "time": "24:57.7", "distance": "2.5 miles" },
+    { "place": 23, "athlete": "Gabriela Murlos",  "gender": "girls", "grade": null, "time": "25:56.7", "distance": "2.5 miles" },
+    { "place": 25, "athlete": "Addie Alexander",  "gender": "girls", "grade": null, "time": "26:11.8", "distance": "2.5 miles" },
+    { "place": 34, "athlete": "Kaya Smith",       "gender": "girls", "grade": null, "time": "35:47.2", "distance": "2.5 miles" }
+  ],
+  "team_scores": [
+    { "gender": "girls", "place": 5, "points": 117, "scorers": ["D'Gia Newwll", "Inez Denton", "Gabriela Murlos", "Addie Alexander", "Kaya Smith"] }
+  ]
+}
