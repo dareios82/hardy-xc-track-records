@@ -1,0 +1,37 @@
+{
+  "meet": "DCSAA Cross Country Championships",
+  "date": "2025-11-01",
+  "location": "Kenilworth Park, DC",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "",
+    "captured": "2026-07-27",
+    "method": "manual copy from the Hardy team results view (athletic.net)",
+    "note": "No source URL was given for this meet; ask Dario for the athletic.net link if one exists. PB/SB badges dropped from the time field. Course distance wasn't stated in this paste (other 2025 meets at a similar course give 4100m, but that wasn't confirmed for this specific meet, so distance is left blank rather than assumed). team_scores.scorers lists the top 7 Hardy finishers by place, matching the 7-per-team convention used elsewhere in the archive - Dario noted this meet listed 9-10 finishers per team and said to use 'top 5 or top 7, whatever the convention' already established."
+  },
+  "results": [
+    { "place": 1,  "athlete": "Maja Caldara",   "gender": "girls", "grade": 8, "time": "16:08.70", "distance": null },
+    { "place": 2,  "athlete": "Teresa Ljung",    "gender": "girls", "grade": 7, "time": "16:11.85", "distance": null },
+    { "place": 7,  "athlete": "Saila Fuad",      "gender": "girls", "grade": 6, "time": "17:20.79", "distance": null },
+    { "place": 9,  "athlete": "Sonnia Klapper",   "gender": "girls", "grade": 6, "time": "17:28.39", "distance": null },
+    { "place": 23, "athlete": "Salma Brown",      "gender": "girls", "grade": 6, "time": "18:46.64", "distance": null },
+    { "place": 24, "athlete": "Lucia Mazzarelli", "gender": "girls", "grade": 8, "time": "18:52.93", "distance": null },
+    { "place": 27, "athlete": "Ella Nushi",       "gender": "girls", "grade": 7, "time": "18:58.01", "distance": null },
+    { "place": 31, "athlete": "Skai Moore",       "gender": "girls", "grade": 7, "time": "19:03.81", "distance": null },
+    { "place": 32, "athlete": "Lydia Mohlenkamp", "gender": "girls", "grade": 7, "time": "19:03.98", "distance": null },
+    { "place": 3,  "athlete": "Felipe Sebastian Mesa McGovern", "gender": "boys", "grade": 8, "time": "15:50.25", "distance": null },
+    { "place": 9,  "athlete": "Lionel Schoenbauer",             "gender": "boys", "grade": 8, "time": "16:04.75", "distance": null },
+    { "place": 14, "athlete": "Gustav Benschop",                 "gender": "boys", "grade": 6, "time": "16:25.55", "distance": null },
+    { "place": 16, "athlete": "Aaron Huang",                     "gender": "boys", "grade": 8, "time": "16:38.69", "distance": null },
+    { "place": 32, "athlete": "Noah Kravitz",                    "gender": "boys", "grade": 6, "time": "17:29.68", "distance": null },
+    { "place": 35, "athlete": "Harrison Fitts",                  "gender": "boys", "grade": 6, "time": "17:31.93", "distance": null },
+    { "place": 36, "athlete": "Timothy Carlson",                 "gender": "boys", "grade": 8, "time": "17:39.90", "distance": null },
+    { "place": 43, "athlete": "Conor Benavides",                 "gender": "boys", "grade": 7, "time": "17:59.37", "distance": null },
+    { "place": 56, "athlete": "Nathaniel Malm",                  "gender": "boys", "grade": 7, "time": "18:31.09", "distance": null },
+    { "place": 72, "athlete": "Hayden Koh",                      "gender": "boys", "grade": 6, "time": "19:00.58", "distance": null }
+  ],
+  "team_scores": [
+    { "gender": "girls", "place": 1, "points": 38, "scorers": ["Maja Caldara", "Teresa Ljung", "Saila Fuad", "Sonnia Klapper", "Salma Brown", "Lucia Mazzarelli", "Ella Nushi"] },
+    { "gender": "boys",  "place": 2, "points": 73, "scorers": ["Felipe Sebastian Mesa McGovern", "Lionel Schoenbauer", "Gustav Benschop", "Aaron Huang", "Noah Kravitz", "Harrison Fitts", "Timothy Carlson"] }
+  ]
+}

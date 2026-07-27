@@ -1,0 +1,32 @@
+{
+  "meet": "DCIAA Cross Country Championships",
+  "date": "2025-10-22",
+  "location": "Colmar Manor Community Park, MD",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "",
+    "captured": "2026-07-27",
+    "method": "manual copy from the Hardy team results view (athletic.net)",
+    "note": "No source URL was given for this meet; ask Dario for the athletic.net link if one exists. PB/SB badges dropped from the time field. team_scores.scorers lists the 7 Hardy finishers Dario confirmed for the team table, matching every finisher listed for this meet."
+  },
+  "results": [
+    { "place": 1,  "athlete": "Maja Caldara",              "gender": "girls", "grade": 8, "time": "17:02.00", "distance": "4100m" },
+    { "place": 2,  "athlete": "Teresa Ljung",               "gender": "girls", "grade": 7, "time": "17:04.60", "distance": "4100m" },
+    { "place": 7,  "athlete": "Sonnia Klapper",              "gender": "girls", "grade": 6, "time": "18:12.00", "distance": "4100m" },
+    { "place": 9,  "athlete": "Saila Fuad",                  "gender": "girls", "grade": 6, "time": "18:40.70", "distance": "4100m" },
+    { "place": 11, "athlete": "Ella Nushi",                  "gender": "girls", "grade": 7, "time": "18:43.80", "distance": "4100m" },
+    { "place": 15, "athlete": "Lucia Mazzarelli",             "gender": "girls", "grade": 8, "time": "19:33.70", "distance": "4100m" },
+    { "place": 23, "athlete": "Salma Brown",                  "gender": "girls", "grade": 6, "time": "20:40.00", "distance": "4100m" },
+    { "place": 2,  "athlete": "Lionel Schoenbauer",            "gender": "boys", "grade": 8, "time": "16:25.80", "distance": "4100m" },
+    { "place": 6,  "athlete": "Felipe Sebastian Mesa McGovern", "gender": "boys", "grade": 8, "time": "16:32.40", "distance": "4100m" },
+    { "place": 7,  "athlete": "Aaron Huang",                   "gender": "boys", "grade": 8, "time": "17:13.60", "distance": "4100m" },
+    { "place": 11, "athlete": "Gustav Benschop",                "gender": "boys", "grade": 6, "time": "17:33.00", "distance": "4100m" },
+    { "place": 15, "athlete": "Noah Kravitz",                   "gender": "boys", "grade": 6, "time": "17:52.40", "distance": "4100m" },
+    { "place": 17, "athlete": "Timothy Carlson",                "gender": "boys", "grade": 8, "time": "17:55.00", "distance": "4100m" },
+    { "place": 19, "athlete": "Conor Benavides",                "gender": "boys", "grade": 7, "time": "18:10.00", "distance": "4100m" }
+  ],
+  "team_scores": [
+    { "gender": "girls", "place": 1, "points": 30, "scorers": ["Maja Caldara", "Teresa Ljung", "Sonnia Klapper", "Saila Fuad", "Ella Nushi", "Lucia Mazzarelli", "Salma Brown"] },
+    { "gender": "boys",  "place": 2, "points": 40, "scorers": ["Lionel Schoenbauer", "Felipe Sebastian Mesa McGovern", "Aaron Huang", "Gustav Benschop", "Noah Kravitz", "Timothy Carlson", "Conor Benavides"] }
+  ]
+}
