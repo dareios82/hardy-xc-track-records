@@ -290,6 +290,27 @@ any current record on either wall. This closes out TFRRS entirely.
 - 2018-05-10 DCIAA Middle School City Championships has a confirmed
   source link (https://dc.milesplit.com/meets/317918-dciaa-middle-school-city-championships-2018/results)
   but no results have been pasted in yet.
+- **Two outdoor championships found on TFRRS (2026-07-27), found via a
+  `site:tfrrs.org` web search since the site's own search box misses
+  meets that are actually there:**
+  - 2015-05-08 "DCIAA Middle School Outdoor City Track & Field
+    Championships", Spingarn HS - https://www.tfrrs.org/results/41044/DCIAA_Middle_School_Outdoor_City_Track__Field_Championships
+    Hardy girls scored 2nd (112 pts), boys 6th (30 pts). Confirmed Hardy
+    athletes include Nyla Ward (already the indoor Long Jump record
+    holder from the same school year), Aaron Jones (already the outdoor
+    100m/200m record holder from 2 years later), Dasia Newell, A'rai
+    Hyman, Zoe Walker, Ava Mackeye, Perkins Broussard, Oskar Floman.
+  - 2016-05-11 "DCIAA Middle School City Championship", Spingarn HS -
+    https://www.tfrrs.org/results/46205/DCIAA_Middle_School_City_Championship
+    Confirmed Hardy athletes include Estaban Ceja and Aidan
+    Bulmash-Kaiser (possibly the same person as Ben Kaiser-Bulmash
+    elsewhere in the archive, surname word order swapped - needs
+    checking).
+  - **Not yet captured - my automated fetch garbled both meets' complex
+    tables (multiple heats/jump attempts rendered as extra phantom
+    columns, producing implausible marks).** Dario is going to copy-paste
+    these manually instead, the same reliable method used for every
+    other meet in this archive.
 - 2024-04-04 DCIAA Middle School Developmental Meet and 2024-05-20 "DCIAA
   Middle School Developmental Meet 2" (Spingarn HS) are identified but
   have no source link yet - the 2024-05-20 date already has a captured
