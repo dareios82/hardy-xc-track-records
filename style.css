@@ -839,16 +839,19 @@ a { color: var(--blue); }
 
 /* The wordmark plus six links stops fitting on one line well before the
    card breakpoint. .site-header has a fixed height for the sticky desktop
-   layout, so once .nav wraps to a second line, letting that height stay
-   fixed clips the overflow at the top (site-header is position: sticky;
-   top: 0, so anything the fixed height doesn't account for gets cut off at
-   the viewport edge) - switch to auto height here so the bar grows to fit
-   both lines instead. */
+   layout, so once .nav wraps, that fixed height clips whatever the extra
+   line doesn't fit in (site-header is position: sticky; top: 0, so
+   anything past its own box gets cut off at the viewport edge rather than
+   just overlapping page content). Rather than rely on .nav's own
+   flex-wrap plus its margin-left: auto - which pushes the wrapped block
+   to the right instead of predictably down - explicitly stack the logo
+   above a full-width, center-wrapped nav row so there's no ambiguity
+   about where either one lands. */
 @media (max-width: 720px) {
   .brand span { display: none; }
-  .site-header { height: auto; padding: 8px 0; }
-  .site-header .bar { flex-wrap: wrap; gap: 10px; row-gap: 6px; }
-  .nav { gap: 2px; }
+  .site-header { height: auto; padding: 10px 0; }
+  .site-header .bar { flex-direction: column; align-items: stretch; gap: 8px; }
+  .nav { margin-left: 0; justify-content: center; gap: 4px; flex-wrap: wrap; }
   .nav a { padding: 6px 9px; font-size: .85rem; }
 }
 

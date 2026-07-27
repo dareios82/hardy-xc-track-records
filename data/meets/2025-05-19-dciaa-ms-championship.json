@@ -8,7 +8,7 @@
     "meet_url": "https://www.athletic.net/TrackAndField/meet/613581/results",
     "captured": "2026-07-25",
     "method": "manual copy from the Hardy team results view (athletic.net)",
-    "note": "Listed under 'Rose L Hardy'. Several names were truncated with '...' in the source display; expanded against spellings already confirmed elsewhere in the archive: 'Ulyses Stewart-Torr...' -> Ulyses Stewart-Torres, 'Felipe Sebastian Me...' -> Felipe Sebastian Mesa McGovern, 'Vanina Mazzei-Pater...' -> Vanina Mazzei-Paterni (all three match spellings used in the 2024/2025 meets already on file). 'Samantha Kirschenba...' has no prior match in the archive to confirm against; expanded to 'Samantha Kirschenbaum' as the most likely completion but not verified. Trailing 'a' (auto-time) and PB/SB badges from the source were stripped from marks; field marks converted from feet-inches notation to the archive's dash format."
+    "note": "Listed under 'Rose L Hardy'. Several names were truncated with '...' in the source display; expanded against spellings already confirmed elsewhere in the archive: 'Ulyses Stewart-Torr...' -> Ulyses Stewart-Torres, 'Felipe Sebastian Me...' -> Felipe Sebastian Mesa McGovern, 'Vanina Mazzei-Pater...' -> Vanina Mazzei-Paterni (all three match spellings used in the 2024/2025 meets already on file). 'Samantha Kirschenba...' has no prior match in the archive to confirm against; expanded to 'Samantha Kirschenbaum' as the most likely completion but not verified. Trailing 'a' (auto-time) and PB/SB badges from the source were stripped from marks; field marks converted from feet-inches notation to the archive's dash format. A 'MVP' individual entry for Taylor McMahan was added 2026-07-27 per Dario - she was named Girls MVP at this meet, an award rather than an event result, so it carries no place or numeric mark."
   },
   "individual": [
     { "place": 23, "athlete": "James Crino",                "gender": "boys",  "event": "100m",         "mark": "12.99", "points": null, "flight": null, "grade": 8 },
@@ -70,6 +70,7 @@
     { "place": 5,  "athlete": "Vanina Mazzei-Paterni",           "gender": "girls", "event": "Long Jump",    "mark": "14-05.50", "points": null, "flight": null, "grade": 7 },
     { "place": 26, "athlete": "Anaya Grayson",                   "gender": "girls", "event": "Long Jump",    "mark": "8-08.75",  "points": null, "flight": null, "grade": 8 },
     { "place": 1,  "athlete": "Taylor McMahan",                  "gender": "girls", "event": "Triple Jump",  "mark": "32-10.00", "points": null, "flight": null, "grade": 8 },
+    { "place": null, "athlete": "Taylor McMahan",                "gender": "girls", "event": "MVP", "mark": "Girls MVP", "points": null, "flight": null, "grade": 8 },
     { "place": 3,  "athlete": "Tinsley Barmeyer",                "gender": "girls", "event": "Triple Jump",  "mark": "30-04.00", "points": null, "flight": null, "grade": 8 },
     { "place": 4,  "athlete": "Rosangel Pascual-Alcantara",      "gender": "girls", "event": "Triple Jump",  "mark": "28-08.75", "points": null, "flight": null, "grade": 8 }
   ],
