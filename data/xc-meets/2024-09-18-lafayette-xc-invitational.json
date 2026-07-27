@@ -1,0 +1,27 @@
+{
+  "meet": "19th Annual Lafayette XC Invitational",
+  "date": "2024-09-18",
+  "location": "Colmar Manor Community Park, MD",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://www.athletic.net/CrossCountry/meet/247102/info",
+    "captured": "2026-07-27",
+    "method": "manual copy from the Hardy team results view (athletic.net)",
+    "note": "No boys results were available for Hardy at this meet (noted directly in the source as 'Boys not available'). PB/SB badges and scoring '+Npts' annotations dropped from the time field."
+  },
+  "results": [
+    { "place": 4,  "athlete": "Maja Caldara",      "gender": "girls", "grade": 7, "time": "18:29.50", "distance": "4100m" },
+    { "place": 5,  "athlete": "Teresa Ljung",       "gender": "girls", "grade": 6, "time": "18:31.50", "distance": "4100m" },
+    { "place": 10, "athlete": "Isabelle Pessey",     "gender": "girls", "grade": 8, "time": "19:52.80", "distance": "4100m" },
+    { "place": 11, "athlete": "Xiomi Sullivan",      "gender": "girls", "grade": 8, "time": "19:53.90", "distance": "4100m" },
+    { "place": 18, "athlete": "Julia Migliaccio",    "gender": "girls", "grade": 8, "time": "20:57.70", "distance": "4100m" },
+    { "place": 20, "athlete": "Lucia Mazzarelli",    "gender": "girls", "grade": 7, "time": "21:23.50", "distance": "4100m" },
+    { "place": 22, "athlete": "Ella Nushi",          "gender": "girls", "grade": 6, "time": "21:35.40", "distance": "4100m" },
+    { "place": 29, "athlete": "Kema Tesfai",         "gender": "girls", "grade": 7, "time": "24:22.90", "distance": "4100m" },
+    { "place": 31, "athlete": "Elena Tamarin",       "gender": "girls", "grade": 6, "time": "24:47.10", "distance": "4100m" },
+    { "place": 36, "athlete": "Jane Marlow",         "gender": "girls", "grade": 6, "time": "25:30.90", "distance": "4100m" },
+    { "place": 41, "athlete": "Lydia Mohlenkamp",    "gender": "girls", "grade": 6, "time": "26:23.10", "distance": "4100m" },
+    { "place": 49, "athlete": "Joan Isham",          "gender": "girls", "grade": 6, "time": "29:16.10", "distance": "4100m" },
+    { "place": 65, "athlete": "Simran Jain-Dewitt",  "gender": "girls", "grade": 6, "time": "33:58.50", "distance": "4100m" }
+  ]
+}

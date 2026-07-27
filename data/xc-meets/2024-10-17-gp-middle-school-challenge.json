@@ -1,0 +1,33 @@
+{
+  "meet": "GP Middle School Challenge",
+  "date": "2024-10-17",
+  "location": "Georgetown Prep, MD",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://www.athletic.net/CrossCountry/meet/240296",
+    "captured": "2026-07-27",
+    "method": "manual copy from the Hardy team results view (athletic.net)",
+    "note": "This course is 2 miles, not the usual 4100m - Dario flagged that these times cannot be compared against the record wall's individual lists (different distance), but asked for the team result to still be included on the records page. PB/SB badges and scoring '+Npts' annotations dropped from the time field. 'Kai Ljung' corrected to Kaj Ljung and 'FelipeSebastion Mesa McGovern' (garbled) corrected to Felipe Sebastian Mesa McGovern, both matching established spellings used everywhere else in the archive."
+  },
+  "results": [
+    { "place": 13, "athlete": "Holden Consentino",              "gender": "boys", "grade": 8, "time": "12:27.40", "distance": "2 miles" },
+    { "place": 29, "athlete": "Kaj Ljung",                       "gender": "boys", "grade": 8, "time": "13:14.10", "distance": "2 miles" },
+    { "place": 34, "athlete": "William Sawyer",                  "gender": "boys", "grade": 8, "time": "13:29.40", "distance": "2 miles" },
+    { "place": 48, "athlete": "Aaron Huang",                     "gender": "boys", "grade": 7, "time": "13:48.00", "distance": "2 miles" },
+    { "place": 49, "athlete": "Pierce Leen",                     "gender": "boys", "grade": 8, "time": "13:48.00", "distance": "2 miles" },
+    { "place": 58, "athlete": "Ulyses Stewart-Torres",            "gender": "boys", "grade": 8, "time": "14:21.20", "distance": "2 miles" },
+    { "place": 81, "athlete": "Felipe Sebastian Mesa McGovern",    "gender": "boys", "grade": 7, "time": "15:22.80", "distance": "2 miles" },
+    { "place": 90, "athlete": "James Harlow",                     "gender": "boys", "grade": 7, "time": "15:57.20", "distance": "2 miles" },
+    { "place": 6,  "athlete": "Teresa Ljung",                     "gender": "girls", "grade": 6, "time": "13:25.20", "distance": "2 miles" },
+    { "place": 9,  "athlete": "Maja Caldara",                     "gender": "girls", "grade": 7, "time": "13:42.20", "distance": "2 miles" },
+    { "place": 14, "athlete": "Xiomi Sullivan",                   "gender": "girls", "grade": 8, "time": "14:03.50", "distance": "2 miles" },
+    { "place": 15, "athlete": "Isabelle Pessey",                  "gender": "girls", "grade": 8, "time": "14:12.40", "distance": "2 miles" },
+    { "place": 21, "athlete": "Lucia Mazzarelli",                 "gender": "girls", "grade": 7, "time": "14:34.90", "distance": "2 miles" },
+    { "place": 25, "athlete": "Julia Migliaccio",                 "gender": "girls", "grade": 8, "time": "14:51.30", "distance": "2 miles" },
+    { "place": 67, "athlete": "Ella Nushi",                       "gender": "girls", "grade": 6, "time": "19:29.30", "distance": "2 miles" }
+  ],
+  "team_scores": [
+    { "gender": "girls", "place": 2, "points": 58,  "scorers": ["Teresa Ljung", "Maja Caldara", "Xiomi Sullivan", "Isabelle Pessey", "Lucia Mazzarelli", "Julia Migliaccio", "Ella Nushi"] },
+    { "gender": "boys",  "place": 6, "points": 150, "scorers": ["Holden Consentino", "Kaj Ljung", "William Sawyer", "Aaron Huang", "Pierce Leen", "Ulyses Stewart-Torres", "Felipe Sebastian Mesa McGovern", "James Harlow"] }
+  ]
+}

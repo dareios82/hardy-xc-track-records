@@ -1,0 +1,32 @@
+{
+  "meet": "DCIAA XC Championships",
+  "date": "2024-10-22",
+  "location": "Colmar Manor Community Park, MD",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://www.athletic.net/CrossCountry/meet/250009/info",
+    "captured": "2026-07-27",
+    "method": "manual copy from the Hardy team results view (athletic.net)",
+    "note": "PB/SB badges and scoring '+Npts' annotations dropped from the time field. 'Kai Ljung' corrected to Kaj Ljung and 'FelipeSebastion Mesa McGovern' (garbled) corrected to Felipe Sebastian Mesa McGovern. These results match the times already on xc_record_wall.html's individual and team tables for this meet exactly - no wall changes needed, this just backs those existing rows with real per-meet data."
+  },
+  "results": [
+    { "place": 1,  "athlete": "Holden Consentino",              "gender": "boys", "grade": 8, "time": "16:45.10", "distance": "4100m" },
+    { "place": 6,  "athlete": "Kaj Ljung",                       "gender": "boys", "grade": 8, "time": "17:18.50", "distance": "4100m" },
+    { "place": 10, "athlete": "William Sawyer",                  "gender": "boys", "grade": 8, "time": "17:52.10", "distance": "4100m" },
+    { "place": 11, "athlete": "Aaron Huang",                     "gender": "boys", "grade": 7, "time": "17:57.10", "distance": "4100m" },
+    { "place": 14, "athlete": "Pierce Leen",                     "gender": "boys", "grade": 8, "time": "18:05.50", "distance": "4100m" },
+    { "place": 22, "athlete": "Ulyses Stewart-Torres",            "gender": "boys", "grade": 8, "time": "19:39.80", "distance": "4100m" },
+    { "place": 24, "athlete": "Felipe Sebastian Mesa McGovern",    "gender": "boys", "grade": 7, "time": "19:48.20", "distance": "4100m" },
+    { "place": 3,  "athlete": "Teresa Ljung",                     "gender": "girls", "grade": 6, "time": "17:38.20", "distance": "4100m" },
+    { "place": 4,  "athlete": "Isabelle Pessey",                  "gender": "girls", "grade": 8, "time": "17:56.20", "distance": "4100m" },
+    { "place": 6,  "athlete": "Maja Caldara",                     "gender": "girls", "grade": 7, "time": "18:00.40", "distance": "4100m" },
+    { "place": 10, "athlete": "Xiomi Sullivan",                   "gender": "girls", "grade": 8, "time": "18:34.60", "distance": "4100m" },
+    { "place": 13, "athlete": "Lucia Mazzarelli",                 "gender": "girls", "grade": 7, "time": "19:26.10", "distance": "4100m" },
+    { "place": 17, "athlete": "Julia Migliaccio",                 "gender": "girls", "grade": 8, "time": "20:34.50", "distance": "4100m" },
+    { "place": 19, "athlete": "Ella Nushi",                       "gender": "girls", "grade": 6, "time": "21:00.80", "distance": "4100m" }
+  ],
+  "team_scores": [
+    { "gender": "girls", "place": 1, "points": 36, "scorers": ["Maja Caldara", "Teresa Ljung", "Lucia Mazzarelli", "Julia Migliaccio", "Ella Nushi", "Isabelle Pessey", "Xiomi Sullivan"] },
+    { "gender": "boys",  "place": 2, "points": 42, "scorers": ["Holden Consentino", "Kaj Ljung", "William Sawyer", "Aaron Huang", "Pierce Leen", "Ulyses Stewart-Torres", "Felipe Sebastian Mesa McGovern"] }
+  ]
+}

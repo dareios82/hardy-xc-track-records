@@ -3,24 +3,45 @@
 Mirrors `data/capture-queue.md`, the same working list for the track &
 field archive, but for cross country. `xc_record_wall.html` was originally
 a hand-built top-N list plus team-championship summaries with no per-meet
-data behind it; as of 2026-07-27 the entire 2025 season has been captured
-as real per-meet data too, so both the record wall and the archive now
-draw from the same source for that season. Earlier seasons (2011-2024) are
-still only reflected in the record wall's hand-built rows - see Open
-issues, below.
+data behind it; as of 2026-07-27 both the 2024 and 2025 seasons have been
+captured as real per-meet data too, so the record wall and the archive now
+draw from the same source for those two seasons. Earlier seasons
+(2011-2023) are still only reflected in the record wall's hand-built rows
+- see Open issues, below.
 
-## Needs manual capture (none remaining for 2025)
+## Needs manual capture (none remaining for 2024 or 2025)
 
-The 2025 season is fully captured, both results and source links:
+Both seasons are fully captured, results and source links:
 
 | ✓ | Date | Meet | Link | File |
 |---|------|------|------|------|
+| ☑ | 2024-09-18 | 19th Annual Lafayette XC Invitational | [athletic.net/247102](https://www.athletic.net/CrossCountry/meet/247102/info) | `data/xc-meets/2024-09-18-lafayette-xc-invitational.json` |
+| ☑ | 2024-10-02 | DCIAA ES+MS Developmental Meet | [athletic.net/249440](https://www.athletic.net/CrossCountry/meet/249440/info) | `data/xc-meets/2024-10-02-dciaa-es-ms-developmental.json` |
+| ☑ | 2024-10-17 | GP Middle School Challenge | [athletic.net/240296](https://www.athletic.net/CrossCountry/meet/240296) | `data/xc-meets/2024-10-17-gp-middle-school-challenge.json` |
+| ☑ | 2024-10-22 | DCIAA Cross Country Championships | [athletic.net/250009](https://www.athletic.net/CrossCountry/meet/250009/info) | `data/xc-meets/2024-10-22-dciaa-cross-country-championships.json` |
+| ☑ | 2024-11-02 | DCSAA Cross Country Championships | [athletic.net/246524](https://www.athletic.net/CrossCountry/meet/246524/info) | `data/xc-meets/2024-11-02-dcsaa-cross-country-championships.json` |
 | ☑ | 2025-09-17 | Bob Thurston Lafayette Invitational | [athletic.net/262494](https://www.athletic.net/CrossCountry/meet/262494/info) | `data/xc-meets/2025-09-17-bob-thurston-lafayette-invitational.json` |
 | ☑ | 2025-10-17 | DCIAA XC ES/MS Challenge | [athletic.net/262497](https://www.athletic.net/CrossCountry/meet/262497/info) | `data/xc-meets/2025-10-17-dciaa-xc-es-ms-challenge.json` |
 | ☑ | 2025-10-22 | DCIAA Cross Country Championships | [athletic.net/269060](https://www.athletic.net/CrossCountry/meet/269060/info) | `data/xc-meets/2025-10-22-dciaa-cross-country-championships.json` |
 | ☑ | 2025-11-01 | DCSAA Cross Country Championships | [athletic.net/260003](https://www.athletic.net/CrossCountry/meet/260003/info) | `data/xc-meets/2025-11-01-dcsaa-cross-country-championships.json` |
 
-Earlier seasons (2011-2024) still have no links or per-meet data at all -
+The 2024-10-22 and 2024-11-02 championship results matched
+`xc_record_wall.html`'s pre-existing hand-built rows for those meets
+exactly - no individual or team rows needed to change, this just gave
+them real per-meet backing data. The 2024-09-18 and 2024-10-02 meets
+didn't change any record either (every time was slower than what was
+already the fastest on file for that athlete).
+
+The 2024-10-17 GP Middle School Challenge is a special case: it's run over
+2 miles, not the usual 4100m course, so none of its individual times are
+comparable to the record wall's lists - `data/xc-meets/2024-10-17-gp-middle-school-challenge.json`
+notes this explicitly and its results were excluded from the individual
+record check. Dario asked for the team result to be included anyway, so
+both team tables on `xc_record_wall.html` got a new row for it, labeled
+"GP Middle School Challenge (2 mi course)" so it reads as distinct from
+the 4100m results around it.
+
+Earlier seasons (2011-2023) still have no links or per-meet data at all -
 see Open issues, below.
 
 ## Schema
@@ -90,9 +111,9 @@ Same two-layer approach as track:
 
 ## Open issues
 
-- Only the 2025 season (four meets) has been captured as real per-meet
-  data. Everything from 2011-2024 exists only as the hand-built rows
-  already on `xc_record_wall.html`, sourced from whatever Dario originally
-  compiled them from - there's no `data/xc-meets/*.json` backing those
-  years, and no way to search an individual athlete's 2019 race, for
-  example, the way the archive lets you for 2025.
+- Only the 2024 and 2025 seasons (nine meets) have been captured as real
+  per-meet data. Everything from 2011-2023 exists only as the hand-built
+  rows already on `xc_record_wall.html`, sourced from whatever Dario
+  originally compiled them from - there's no `data/xc-meets/*.json`
+  backing those years, and no way to search an individual athlete's 2019
+  race, for example, the way the archive lets you for 2024/2025.
