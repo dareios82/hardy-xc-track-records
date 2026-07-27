@@ -284,13 +284,18 @@ any current record on either wall. This closes out TFRRS entirely.
   them cleanly** (the earlier automated fetch of these same two meets had
   garbled the tables - see the entry below about that):
   - `data/meets/2015-05-08-dciaa-ms-outdoor-city-championship.json` -
-    **Nyla Ward's Long Jump, 16-05.00 (5.00m), beats the current wall
+    ~~Nyla Ward's Long Jump, 16-05.00 (5.00m), beats the current wall
     record (15-06.25 / 4.73m, Taylor McMahan, 5/19/2025) by about 11
-    inches.** **Dasia Newell's High Jump, 4-08.00, exactly ties the
-    current wall record height** (Nia Travis, 5/23/2023, same 4-08.00).
-    Neither applied to `trackwall_outdoor.html` - both flagged below for
-    Dario to confirm. Aaron Jones (grade 6, 12.98/26.07) and Oskar Floman
-    (grade 7) both already appear elsewhere in the archive at older ages
+    inches~~ - **confirmed and applied 2026-07-27**;
+    `trackwall_outdoor.html`'s girls Long Jump record updated, Taylor
+    McMahan's 4.73m is no longer listed there (still her Triple Jump
+    record). ~~Dasia Newell's High Jump, 4-08.00, exactly ties the
+    current wall record height~~ - **Dario confirmed both belong on the
+    wall as co-record holders 2026-07-27**; the girls Field Events table
+    now has two High Jump rows, Dasia Newell (5/8/2015) and Nia Travis
+    (5/23/2023), both at 4-08.00. Aaron Jones (grade 6, 12.98/26.07) and
+    Oskar Floman (grade 7) both already appear elsewhere in the archive
+    at older ages
     with faster marks - consistent identity, no conflict.
   - `data/meets/2016-05-11-dciaa-ms-city-championship.json` - no records
     close. Confirms "Aidan Bulmash-Kaiser" (grade 8) is a different
@@ -311,17 +316,6 @@ any current record on either wall. This closes out TFRRS entirely.
 - 2018-05-10 DCIAA Middle School City Championships has a confirmed
   source link (https://dc.milesplit.com/meets/317918-dciaa-middle-school-city-championships-2018/results)
   but no results have been pasted in yet.
-- **Outdoor girls Long Jump: new record pending confirmation.** Nyla
-  Ward jumped 16-05.00 (5.00m) at the 2015-05-08 DCIAA MS Outdoor City
-  Championship (`data/meets/2015-05-08-dciaa-ms-outdoor-city-championship.json`)
-  - beats the current wall record of 15-06.25 (4.73m, Taylor McMahan,
-  5/19/2025) by about 11 inches. Not applied to `trackwall_outdoor.html`
-  pending Dario's review.
-- **Outdoor girls High Jump: exact tie, needs a decision.** Dasia Newell
-  cleared 4-08.00 at the same 2015-05-08 meet - identical height to the
-  current wall record (Nia Travis, 5/23/2023). Not applied; Dario needs
-  to decide whether to feature the earlier mark, keep the current one, or
-  show both.
 - 2024-04-04 DCIAA Middle School Developmental Meet and 2024-05-20 "DCIAA
   Middle School Developmental Meet 2" (Spingarn HS) are identified but
   have no source link yet - the 2024-05-20 date already has a captured
