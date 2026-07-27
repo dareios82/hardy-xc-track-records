@@ -2,13 +2,13 @@
   "meet": "DCIAA HS/MS Developmental #1",
   "date": "2026-03-24",
   "season": "outdoor",
-  "location": "",
+  "location": "Spingarn, DC",
   "school": "Hardy Middle School",
   "source": {
     "meet_url": "https://www.athletic.net/TrackAndField/meet/647073/results/all",
     "captured": "2026-07-26",
     "method": "manual copy from the Hardy team results view (athletic.net)",
-    "note": "Listed under 'Rose L Hardy'. Wind readings and PB/SB badges were dropped from marks, matching the convention used for the 2025 athletic.net meets already in the archive. One boys 4x400m relay leg (squad B) had no athlete names in the source, printed only as '-- Relay Team'; recorded with an empty athletes list."
+    "note": "Listed under 'Rose L Hardy'. Wind readings and PB/SB badges were dropped from marks, matching the convention used for the 2025 athletic.net meets already in the archive. One boys 4x400m relay leg (squad B) had no athlete names in the source, printed only as '-- Relay Team'; recorded with an empty athletes list. Location (Spingarn, DC) added 2026-07-27 per Dario."
   },
   "individual": [
     { "place": 9,  "athlete": "Heyab Robel",                   "gender": "boys", "event": "100m", "mark": "13.03", "points": null, "flight": null, "grade": 7 },
