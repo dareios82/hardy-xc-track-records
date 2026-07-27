@@ -379,32 +379,39 @@ any current record on either wall. This closes out TFRRS entirely.
   `data/meets/2024-05-20-dciaa-ms-developmental.json` already covers it.
 - 2018-04-26 DCIAA Elementary and Middle Field Meet has no results
   available; Dario suggests trying M&D Timing Services, LLC.
-- A DCIAA coach shared four league-wide historical records documents
-  (PDF + 3 Excel workbooks); the Hardy entries pulled from them are in
-  `data/dciaa-league-records-hardy.json`, and every season not already
-  covered by a full meet capture has been added as a minimal
-  single-result "league archive" file so those wins are searchable
-  (2011 XC, 2011-12 and 2013-14 indoor, 2014 outdoor). Dasia Newell's
-  1:06.53 indoor title is now recorded as a 400m per Dario (2026-07-27).
-  Two items are still open:
-  - **Nyla Ward's 2013 outdoor 100m Dash (13.64) and Long Jump
-    (13'9.75") titles, per the coach's ledger, don't match Hardy's own
-    fully-captured 2013-05-06 meet** (`data/meets/2013-05-06-dciaa-ms-championship.json`,
-    West bracket only) - that capture has a different 100m winner
-    (Amber Primus, 14.44) and no Nyla Ward entries in either event at
-    all. Its own capture note says Hardy had "no entries in any East
-    event" that day, which this ledger now seems to contradict. Not
-    added to the searchable archive pending Dario's read on this.
-  - Asia Amis's 2011-12 indoor "800m/1000m" title (3:42.94) still has
-    an unresolved distance, unlike the 400m item above - the source
+- Ronald Jenkins, another DCIAA coach, shared four league-wide
+  historical records documents (PDF + 3 Excel workbooks); the Hardy
+  entries pulled from them are in `data/dciaa-league-records-hardy.json`,
+  and every season not already covered by a full meet capture has been
+  added as a minimal single-result "league archive" file so those wins
+  are searchable (2011 XC, 2011-12 and 2013-14 indoor, 2013 and 2014
+  outdoor). Dasia Newell's 1:06.53 indoor title is recorded as a 400m
+  per Dario (2026-07-27). Also confirmed **"Dasia Bando" is a real,
+  separate Hardy athlete**, not a typo for "Newell" as first guessed -
+  she's already on file in the 2013-05-06 meet (High Jump win, 100m
+  Hurdles win, 2nd in 100m), matching this coach's ledger.
+  - **Resolved 2026-07-27**: Nyla Ward's 2013 outdoor 100m Dash (13.64)
+    and Long Jump (13'9.75") titles, per the coach's ledger, didn't
+    match Hardy's own captured 2013-05-06 meet. Dario judged that
+    2013-05-06 meet to not actually be the DCIAA championship despite
+    its name, so these are a separate, genuinely uncaptured meet - now
+    archived as `data/meets/2013-05-20-dciaa-outdoor-championship-league-archive.json`.
+  - Still open: Asia Amis's 2011-12 indoor "800m/1000m" title (3:42.94)
+    has an unresolved distance, unlike the 400m item above - the source
     sheet doesn't say which was run that year and Dario hasn't
     confirmed one. Archived as-is with the ambiguity spelled out in
     the event name; doesn't affect the wall either way since it's
     slower than the current record for both distances.
-  - Also confirmed **"Dasia Bando" is a real, separate Hardy athlete**,
-    not a typo for "Newell" as first guessed - she's already on file
-    in the 2013-05-06 meet (High Jump win, 100m Hurdles win, 2nd in
-    100m), matching this coach's ledger.
+- Applied DCIAA/DCSAA championship badges to both track walls
+  (`trackwall_indoor.html`, `trackwall_outdoor.html`) and to
+  `results-archive.html` via `tools/build-archive.ps1`, mirroring the
+  XC treatment - individual/relay event wins only, no team badges,
+  since Hardy has never won a team title in track. Several wall
+  records turned out NOT to be championship wins once checked against
+  the underlying meet data (e.g. Jason Afeni's 110 Hurdles, Nico
+  Schoenbauer's 800m, Edward McKenna's Shot Put) - Hardy's best-ever
+  mark, but not first place that day - so those were correctly left
+  unbadged.
 
 ## Archive design
 

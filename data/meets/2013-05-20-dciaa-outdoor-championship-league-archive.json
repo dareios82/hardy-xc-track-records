@@ -1,0 +1,18 @@
+{
+  "meet": "DCIAA Outdoor Track Championship (league archive - exact date unknown)",
+  "date": "2013-05-20",
+  "season": "outdoor",
+  "location": null,
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": null,
+    "captured": "2026-07-27",
+    "method": "DCIAA league-wide yearly-champion ledger shared by Ronald Jenkins, another DCIAA coach (data/Middle School Girls Outdoor Championship Meet Records.xlsx), not a full meet result",
+    "note": "The source only gives the calendar year (2013) and each event champion's mark, not an exact date, location or the rest of the field. Placeholder date of May 20 is used purely for chronological sorting - only the year is confirmed. Dario judged this to be a genuinely separate meet from data/meets/2013-05-06-dciaa-ms-championship.json (which has neither of these events with a Nyla Ward entry at all, and whose own note says Hardy had no East-bracket entries that day) rather than a conflicting record of the same event. See data/dciaa-league-records-hardy.json for full source context."
+  },
+  "individual": [
+    { "place": 1, "athlete": "Nyla Ward", "gender": "girls", "event": "100m", "mark": "13.64", "points": null, "flight": null, "grade": null },
+    { "place": 1, "athlete": "Nyla Ward", "gender": "girls", "event": "Long Jump", "mark": "13-09.75", "points": null, "flight": null, "grade": null }
+  ],
+  "relays": []
+}

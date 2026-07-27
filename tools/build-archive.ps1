@@ -29,6 +29,16 @@ function PlaceClass([object]$p) {
   switch ("$p") { "1" { "pl gold" } "2" { "pl silver" } "3" { "pl bronze" } default { "pl" } }
 }
 
+# Track has no team-championship concept (Hardy has never won one), so unlike
+# the XC archive this only ever marks an individual/relay event win.
+function BadgeHtml([string]$league) {
+  switch ($league) {
+    "dciaa" { return ' <span class="title-badge dciaa" title="DCIAA event champion">&#127942; DCIAA</span>' }
+    "dcsaa" { return ' <span class="title-badge dcsaa" title="DCSAA event champion">&#127942; DCSAA</span>' }
+    default { return '' }
+  }
+}
+
 # A DNS, a foul or a no-height is the absence of a result, not a result. The
 # meet files keep them (they are what the results say), but showing them would
 # pad an athlete's card with events they have no mark for.
@@ -55,6 +65,12 @@ foreach ($m in $meets) {
   $when = [datetime]::Parse($m.date)
   $season = if ($m.season) { $m.season } else { "outdoor" }
 
+  # DCIAA/DCSAA titles are only awarded at their own championship meets - a
+  # "DCIAA MS Developmental Meet" mentions the league but isn't one.
+  $isChamp = $m.meet -match 'Championship'
+  $league = if ($m.meet -match 'DCIAA') { 'dciaa' } elseif ($m.meet -match 'DCSAA') { 'dcsaa' } else { $null }
+  $eventLeague = if ($isChamp) { $league } else { $null }
+
   # Bucket every individual mark under its athlete.
   $byAthlete = @{}
   foreach ($r in $m.individual) {
@@ -72,6 +88,7 @@ foreach ($m in $meets) {
       mark  = if ($r.metric) { "$($r.mark) ($($r.metric))" } else { "$($r.mark)" }
       place = $r.place
       relay = $false
+      league = if ($eventLeague -and "$($r.place)" -eq '1') { $eventLeague } else { $null }
     })
     $totalMarks++
   }
@@ -80,6 +97,7 @@ foreach ($m in $meets) {
   # card shows their whole day. Unmatched relays become their own card.
   foreach ($rel in $m.relays) {
     if (-not (IsResult $rel.mark)) { continue }
+    $relLeague = if ($eventLeague -and "$($rel.place)" -eq '1') { $eventLeague } else { $null }
     $matched = $false
     foreach ($leg in $rel.athletes) {
       foreach ($key in @($byAthlete.Keys)) {
@@ -89,6 +107,7 @@ foreach ($m in $meets) {
             mark  = "$($rel.mark)"
             place = $rel.place
             relay = $true
+            league = $relLeague
           })
           $matched = $true
           break
@@ -103,7 +122,7 @@ foreach ($m in $meets) {
       $label = "$($rel.event) relay squad " + ($rel.athletes -join ", ")
       $byAthlete[$label] = [pscustomobject]@{
         name = ($rel.athletes -join ", "); gender = $rel.gender; grade = ""
-        marks = @([pscustomobject]@{ event = "$($rel.event) relay"; mark = "$($rel.mark)"; place = $rel.place; relay = $true })
+        marks = @([pscustomobject]@{ event = "$($rel.event) relay"; mark = "$($rel.mark)"; place = $rel.place; relay = $true; league = $relLeague })
       }
     }
   }
@@ -140,7 +159,7 @@ foreach ($c in $ordered) {
   [void]$sb.AppendLine('                <ul class="card-marks">')
   foreach ($mk in ($c.marks | Sort-Object event)) {
     $pl = if ($mk.place) { '<span class="' + (PlaceClass $mk.place) + '">' + (Ordinal $mk.place) + '</span>' } else { '<span class="pl none">&ndash;</span>' }
-    [void]$sb.AppendLine('                    <li><span class="ev">' + (Esc $mk.event) + '</span><span class="mk">' + (Esc $mk.mark) + '</span>' + $pl + '</li>')
+    [void]$sb.AppendLine('                    <li><span class="ev">' + (Esc $mk.event) + '</span><span class="mk">' + (Esc $mk.mark) + '</span>' + $pl + (BadgeHtml $mk.league) + '</li>')
   }
   [void]$sb.AppendLine('                </ul>')
   [void]$sb.AppendLine('            </article>')
@@ -210,6 +229,7 @@ $html = @"
             <p class="prompt-lead">Search for an athlete to see every meet they competed in.</p>
             <p class="prompt-eg">Try $exHtml</p>
             <p class="prompt-note">$athleteCount $athleteWord &middot; $($meets.Count) $meetWord &middot; $totalMarks marks on file.</p>
+            <p class="prompt-note"><span class="title-badge dciaa">&#127942; DCIAA</span> <span class="title-badge dcsaa">&#127942; DCSAA</span> mark an event win at that league's championship meet.</p>
         </div>
 
         <div class="no-results is-hidden" data-search-empty>

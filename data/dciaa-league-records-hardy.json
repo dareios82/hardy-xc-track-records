@@ -1,28 +1,28 @@
 {
-  "note": "Hardy entries pulled from four DCIAA-wide records documents given to Dario by another middle school coach. Each source is a league-wide YEARLY-CHAMPION ledger (one row per event per year: who won it, what mark) - not full meet results with every finisher. Where a season wasn't otherwise on file, the win itself has been entered as a minimal single-result 'meet' file (see archived_as below) so it shows up in the searchable results archive, per Dario's 2026-07-27 instruction to do so 'especially since some/all are victories' - even though it can't be applied to the record wall without a fuller source. Where a season IS already on file from a fuller capture, no new file was made; the existing capture is noted instead.",
+  "note": "Hardy entries pulled from four DCIAA-wide records documents given to Dario by Ronald Jenkins, another DCIAA middle school coach. Each source is a league-wide YEARLY-CHAMPION ledger (one row per event per year: who won it, what mark) - not full meet results with every finisher. Where a season wasn't otherwise on file, the win itself has been entered as a minimal single-result 'meet' file (see archived_as below) so it shows up in the searchable results archive, per Dario's 2026-07-27 instruction to do so 'especially since some/all are victories' - even though most can't be applied to the record wall without a fuller source. Where a season IS already on file from a fuller capture, no new file was made; the existing capture is noted instead.",
   "sources": [
     {
       "file": "data/MS XC.pdf",
       "scope": "DCIAA Middle School Cross Country team and individual champions, girls and boys, school years 2003-04 through 2013-14",
-      "provided_by": "another DCIAA coach, shared with Dario",
+      "provided_by": "Ronald Jenkins (DCIAA coach), shared with Dario",
       "captured": "2026-07-27"
     },
     {
       "file": "data/Middle School Girls Indoor Records.xlsx",
       "scope": "DCIAA Middle School Girls indoor track & field: a 'Championship Records' tab (DCIAA-wide all-time bests as of this workbook's last update) plus one tab per event listing that event's yearly champion, school years roughly 2007-08 through 2015-16",
-      "provided_by": "another DCIAA coach, shared with Dario",
+      "provided_by": "Ronald Jenkins (DCIAA coach), shared with Dario",
       "captured": "2026-07-27"
     },
     {
       "file": "data/Middle School Girls Outdoor Championship Meet Records.xlsx",
       "scope": "DCIAA Middle School Girls outdoor track & field yearly champion per event, 2008 through 2016",
-      "provided_by": "another DCIAA coach, shared with Dario",
+      "provided_by": "Ronald Jenkins (DCIAA coach), shared with Dario",
       "captured": "2026-07-27"
     },
     {
       "file": "data/Middle School Boys Outdoor Championship Records.xlsx",
       "scope": "DCIAA Middle School Boys outdoor track & field yearly champion per event, 2008 through 2016 - checked in full, no Hardy entries found in this window",
-      "provided_by": "another DCIAA coach, shared with Dario",
+      "provided_by": "Ronald Jenkins (DCIAA coach), shared with Dario",
       "captured": "2026-07-27"
     }
   ],
@@ -117,7 +117,8 @@
       "season": "2013",
       "athlete": "Nyla Ward",
       "mark": "13.64",
-      "wall_comparison": "OPEN DISCREPANCY, not archived: our own fully-captured 2013-05-06 meet (data/meets/2013-05-06-dciaa-ms-championship.json, Hardy's West bracket) shows a different girls 100m winner that day (Amber Primus, 14.44) with no Nyla Ward entry at all. Either Ward competed in the East bracket that this capture's note says had 'no Hardy entries' - which this ledger now contradicts - or the two sources aren't describing the same meet. Not added to the searchable archive until this is resolved; see data/capture-queue.md."
+      "wall_comparison": "RESOLVED 2026-07-27: Dario judged the 2013-05-06 capture (data/meets/2013-05-06-dciaa-ms-championship.json) to not actually be the championship, despite its name - so this and her Long Jump title below are a separate, genuinely uncaptured meet, not a conflicting record of the same one. Archived accordingly. Slower than the current wall record (12.8), no wall impact.",
+      "archived_as": "data/meets/2013-05-20-dciaa-outdoor-championship-league-archive.json"
     },
     {
       "sport": "outdoor",
@@ -218,7 +219,8 @@
       "season": "2013",
       "athlete": "Nyla Ward",
       "mark": "13' 9.75\"",
-      "wall_comparison": "OPEN DISCREPANCY, not archived: same issue as her 2013 100m Dash entry above - our own captured 2013-05-06 meet has no Nyla Ward Long Jump entry at all (only Myniah Pulliam and Ayhana Davis competed in that event for Hardy's West bracket). Not added to the searchable archive until resolved; see data/capture-queue.md."
+      "wall_comparison": "RESOLVED 2026-07-27: same call as her 2013 100m Dash entry above - a separate, genuinely uncaptured meet from the 2013-05-06 file, not a conflicting record of the same one. Earlier and slower than her 2015 mark already on the wall, no wall impact.",
+      "archived_as": "data/meets/2013-05-20-dciaa-outdoor-championship-league-archive.json"
     }
   ]
 }
