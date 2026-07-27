@@ -7,7 +7,7 @@
     "meet_url": "https://www.athletic.net/CrossCountry/meet/249440/info",
     "captured": "2026-07-27",
     "method": "manual copy from the Hardy team results view (athletic.net)",
-    "note": "PB/SB badges and scoring '+Npts' annotations dropped from the time field. 'Kai Ljung' corrected to Kaj Ljung and 'FelipeSebastion Mesa McGovern' (garbled) corrected to Felipe Sebastian Mesa McGovern, both matching established spellings used everywhere else in the archive."
+    "note": "PB/SB badges and scoring '+Npts' annotations dropped from the time field. 'Kai Ljung' corrected to Kaj Ljung and 'FelipeSebastion Mesa McGovern' (garbled) corrected to Felipe Sebastian Mesa McGovern, both matching established spellings used everywhere else in the archive. 'Ants Prikk' expanded to Ants Kristjan Prikk to match the fuller name he ran under in the 2023-10-04 meet (same athlete, grade 6 there -> grade 7 here)."
   },
   "results": [
     { "place": 1,  "athlete": "Holden Consentino",              "gender": "boys", "grade": 8, "time": "16:53.10", "distance": "4100m" },
@@ -21,7 +21,7 @@
     { "place": 41, "athlete": "James Harlow",                     "gender": "boys", "grade": 7, "time": "22:12.90", "distance": "4100m" },
     { "place": 43, "athlete": "Liam Hamdan",                      "gender": "boys", "grade": 6, "time": "22:28.60", "distance": "4100m" },
     { "place": 44, "athlete": "Porter Rao",                       "gender": "boys", "grade": 6, "time": "22:30.40", "distance": "4100m" },
-    { "place": 46, "athlete": "Ants Prikk",                       "gender": "boys", "grade": 7, "time": "23:25.40", "distance": "4100m" },
+    { "place": 46, "athlete": "Ants Kristjan Prikk",              "gender": "boys", "grade": 7, "time": "23:25.40", "distance": "4100m" },
     { "place": 54, "athlete": "Hugo Arsenault",                   "gender": "boys", "grade": 7, "time": "24:28.60", "distance": "4100m" },
     { "place": 59, "athlete": "Nathaniel Malm",                   "gender": "boys", "grade": 6, "time": "25:32.40", "distance": "4100m" },
     { "place": 65, "athlete": "Honor Clark",                      "gender": "boys", "grade": 7, "time": "27:03.60", "distance": "4100m" },
