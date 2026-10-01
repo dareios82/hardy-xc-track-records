@@ -1,0 +1,52 @@
+{
+  "meet": "DCIAA ES/MS XC Challenge",
+  "date": "2026-09-23",
+  "location": "Colmar Manor Community Park, MD",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://www.athletic.net/CrossCountry/meet/283595/results/all",
+    "captured": "2026-09-30",
+    "method": "manual copy from the Hardy team results view (athletic.net)",
+    "note": "PB/SB badges dropped from the time field. Times printed to tenths, padded to hundredths to match the other files. Team points summed from the per-runner '+Npts' shown on the team view; team place not shown there, so left null."
+  },
+  "results": [
+    { "place": 1,  "athlete": "Teresa Ljung",             "gender": "girls", "grade": 8, "time": "17:57.10", "distance": "4100m" },
+    { "place": 2,  "athlete": "Sonnia Klapper",           "gender": "girls", "grade": 7, "time": "18:02.20", "distance": "4100m" },
+    { "place": 11, "athlete": "Skai Moore",               "gender": "girls", "grade": 8, "time": "19:24.70", "distance": "4100m" },
+    { "place": 13, "athlete": "Lydia Mohlenkamp",         "gender": "girls", "grade": 8, "time": "19:37.70", "distance": "4100m" },
+    { "place": 17, "athlete": "Isabel Gardiner",          "gender": "girls", "grade": 8, "time": "19:48.50", "distance": "4100m" },
+    { "place": 21, "athlete": "Valentina Mesa McGovern",  "gender": "girls", "grade": 6, "time": "20:06.30", "distance": "4100m" },
+    { "place": 22, "athlete": "Ella Nushi",               "gender": "girls", "grade": 8, "time": "20:11.00", "distance": "4100m" },
+    { "place": 23, "athlete": "Victoria Lang",            "gender": "girls", "grade": 7, "time": "20:11.70", "distance": "4100m" },
+    { "place": 34, "athlete": "Salma Brown",              "gender": "girls", "grade": 7, "time": "21:33.20", "distance": "4100m" },
+    { "place": 39, "athlete": "Piper Cudworth-MacGillis", "gender": "girls", "grade": 7, "time": "22:25.50", "distance": "4100m" },
+    { "place": 40, "athlete": "Lalita McClymont",         "gender": "girls", "grade": 8, "time": "22:25.60", "distance": "4100m" },
+    { "place": 58, "athlete": "Avery Trotter",            "gender": "girls", "grade": 6, "time": "24:08.60", "distance": "4100m" },
+    { "place": 65, "athlete": "Saleena Brown",            "gender": "girls", "grade": 6, "time": "24:46.60", "distance": "4100m" },
+    { "place": 80, "athlete": "Carolina Melchiori",       "gender": "girls", "grade": 7, "time": "27:41.50", "distance": "4100m" },
+    { "place": 81, "athlete": "Hsu Larb Htet",            "gender": "girls", "grade": 6, "time": "27:56.60", "distance": "4100m" },
+    { "place": 1,  "athlete": "Oscar Klapper",            "gender": "boys",  "grade": 6, "time": "16:26.00", "distance": "4100m" },
+    { "place": 6,  "athlete": "Gustav Benschop",          "gender": "boys",  "grade": 7, "time": "17:05.60", "distance": "4100m" },
+    { "place": 7,  "athlete": "Filippo Caldara",          "gender": "boys",  "grade": 6, "time": "17:06.90", "distance": "4100m" },
+    { "place": 11, "athlete": "Jack Oakley",              "gender": "boys",  "grade": 6, "time": "17:59.10", "distance": "4100m" },
+    { "place": 14, "athlete": "Conor Benavides",          "gender": "boys",  "grade": 8, "time": "18:09.30", "distance": "4100m" },
+    { "place": 16, "athlete": "Allan Maldonado Gibbons",  "gender": "boys",  "grade": 8, "time": "18:13.00", "distance": "4100m" },
+    { "place": 35, "athlete": "Jeremiah Young",           "gender": "boys",  "grade": 6, "time": "20:09.00", "distance": "4100m" },
+    { "place": 37, "athlete": "Harvey Van Stone",         "gender": "boys",  "grade": 6, "time": "20:15.00", "distance": "4100m" },
+    { "place": 43, "athlete": "Adham Nour",               "gender": "boys",  "grade": 6, "time": "21:04.80", "distance": "4100m" },
+    { "place": 48, "athlete": "Cameron Lockett",          "gender": "boys",  "grade": 7, "time": "21:31.80", "distance": "4100m" },
+    { "place": 49, "athlete": "Henry Johnson",            "gender": "boys",  "grade": 8, "time": "21:32.00", "distance": "4100m" },
+    { "place": 51, "athlete": "Rory Smith",               "gender": "boys",  "grade": 6, "time": "21:53.20", "distance": "4100m" },
+    { "place": 52, "athlete": "Carl Malm",                "gender": "boys",  "grade": 8, "time": "21:53.70", "distance": "4100m" },
+    { "place": 56, "athlete": "Jacob Rosenberg",          "gender": "boys",  "grade": 6, "time": "22:01.10", "distance": "4100m" },
+    { "place": 58, "athlete": "Franklin Harlow",          "gender": "boys",  "grade": 6, "time": "22:02.10", "distance": "4100m" },
+    { "place": 60, "athlete": "Robinson Knight",          "gender": "boys",  "grade": 6, "time": "22:16.00", "distance": "4100m" },
+    { "place": 62, "athlete": "Leonardo Ordonez Murillo", "gender": "boys",  "grade": 6, "time": "22:43.20", "distance": "4100m" },
+    { "place": 87, "athlete": "Lev Wasiura",              "gender": "boys",  "grade": 7, "time": "26:41.10", "distance": "4100m" },
+    { "place": 88, "athlete": "Zander Arnold",            "gender": "boys",  "grade": 6, "time": "26:41.40", "distance": "4100m" }
+  ],
+  "team_scores": [
+    { "gender": "girls", "place": null, "points": 43, "scorers": ["Teresa Ljung", "Sonnia Klapper", "Skai Moore", "Lydia Mohlenkamp", "Isabel Gardiner", "Valentina Mesa McGovern", "Ella Nushi"] },
+    { "gender": "boys",  "place": null, "points": 39, "scorers": ["Oscar Klapper", "Gustav Benschop", "Filippo Caldara", "Jack Oakley", "Conor Benavides", "Allan Maldonado Gibbons", "Jeremiah Young"] }
+  ]
+}
