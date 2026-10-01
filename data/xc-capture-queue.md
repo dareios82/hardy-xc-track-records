@@ -57,6 +57,9 @@ Both full seasons, plus several older meets, are captured with results and sourc
 | ☑ | 2013-11-02 | DCIAA Middle School City Cross Country Championships | [tfrrs.org/xc/5984](https://www.tfrrs.org/results/xc/5984.html) | `data/xc-meets/2013-11-02-dciaa-ms-city-cross-country-championships.json` |
 | ☑ | 2015-10-24 | DCIAA Cross Country City Championships (ES/MS/HS) All Levels | [xc.tfrrs.org/xc/9063](https://xc.tfrrs.org/results/xc/9063/DCIAA_Cross_Country_City_Championships_ES_MS_HS_All_Levels) | `data/xc-meets/2015-10-24-dciaa-cross-country-city-championships.json` |
 | ☑ | 2019-10-24 | DCIAA Elementary and Middle School Cross Country Championships | [milesplit/370202](https://md.milesplit.com/meets/370202-dciaa-elementary-and-middle-school-cross-country-championships-2019/results?type=formatted) | `data/xc-meets/2019-10-24-dciaa-cross-country-championships.json` |
+| ☑ | 2026-09-16 | 20th Annual DCIAA Lafayette Invitational | [athletic.net/283520](https://www.athletic.net/CrossCountry/meet/283520/results/all) | `data/xc-meets/2026-09-16-lafayette-invitational.json` |
+| ☑ | 2026-09-23 | DCIAA ES/MS XC Challenge | [athletic.net/283595](https://www.athletic.net/CrossCountry/meet/283595/results/all) | `data/xc-meets/2026-09-23-dciaa-es-ms-xc-challenge.json` |
+| ☑ | 2026-09-30 | DCIAA MS Champs and Ron Jenkins Invite | [athletic.net/286143](https://www.athletic.net/CrossCountry/meet/286143/results/all) | `data/xc-meets/2026-09-30-dciaa-ms-championships-ron-jenkins-invite.json` |
 
 **Found via TFRRS (2026-07-27).** Dario suspected TFRRS held more DCIAA
 meets Hardy attended that weren't showing up because the site's own
@@ -264,8 +267,9 @@ Same two-layer approach as track:
    details - search modes, card grid, etc).
 3. **Record wall** — `xc_record_wall.html` is still hand-built, not
    generated. After adding a meet, check whether any Hardy time now beats
-   an existing entry in the individual top-N tables (girls sub-21:00, boys
-   sub-19:00) or changes a team-championship row, and hand-edit that page
+   an existing entry in the individual top-N tables (girls sub-20:00, boys
+   sub-18:00, as stated on the wall itself - older notes above mention
+   sub-21/sub-19) or changes a team-championship row, and hand-edit that page
    too. Unlike track, there's no script doing this reconciliation
    automatically - each new meet needs a manual "does this change a record"
    pass.
@@ -310,3 +314,24 @@ Same two-layer approach as track:
   search finds meets it misses. Worth trying again with different query
   phrasings periodically, since there may be more years not yet found
   this way.
+
+## 2026 season (captured 2026-09-30)
+
+Three meets, all at Colmar Manor (4100m), pasted from athletic.net team
+views - athletic.net returns 403 to automated fetches, so pastes are the
+only route. Times there print to tenths; padded to hundredths in the JSON.
+
+- **2026-09-16 Lafayette Invitational** - Oscar Klapper 16:48.00 onto the
+  boys list (later superseded).
+- **2026-09-23 DCIAA ES/MS XC Challenge** - Oscar Klapper 16:26.00 (#5),
+  Filippo Caldara and Jack Oakley onto the boys list, Isabel Gardiner onto
+  the girls list. Team points (girls 43, boys 39) summed from the per-runner
+  "+Npts" on the team view; team place not shown, so `place: null` and no
+  team-table row (matching the 2025 Challenge).
+- **2026-09-30 DCIAA MS Champs and Ron Jenkins Invite** - the DCIAA
+  championship. Stored as "DCIAA MS Championships and Ron Jenkins Invite"
+  because `tools/build-xc-archive.ps1` only awards badges when the meet
+  name contains "Championship". Boys team champions (1st, 32), girls 2nd
+  (47). Individual champions Oscar Klapper and Teresa Ljung. Filippo
+  Caldara, Jack Oakley and Conor Benavides improved their wall times. Only
+  the 7 scorers per gender were pasted.

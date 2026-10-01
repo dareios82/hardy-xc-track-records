@@ -1,0 +1,32 @@
+{
+  "meet": "DCIAA MS Championships and Ron Jenkins Invite",
+  "date": "2026-09-30",
+  "location": "Colmar Manor Community Park, MD",
+  "school": "Hardy Middle School",
+  "source": {
+    "meet_url": "https://www.athletic.net/CrossCountry/meet/286143/results/all",
+    "captured": "2026-09-30",
+    "method": "manual copy from the Hardy team results view and team scores (athletic.net)",
+    "note": "Source title is 'DCIAA MS Champs and Ron Jenkins Invite'; 'Champs' spelled out so the build script recognizes it as the DCIAA championship. PB/SB badges dropped from the time field. Times printed to tenths, padded to hundredths to match the other files."
+  },
+  "results": [
+    { "place": 1,  "athlete": "Teresa Ljung",            "gender": "girls", "grade": 8, "time": "17:47.40", "distance": "4100m" },
+    { "place": 5,  "athlete": "Sonnia Klapper",          "gender": "girls", "grade": 7, "time": "18:30.00", "distance": "4100m" },
+    { "place": 10, "athlete": "Skai Moore",              "gender": "girls", "grade": 8, "time": "19:05.50", "distance": "4100m" },
+    { "place": 13, "athlete": "Saila Fuad",              "gender": "girls", "grade": 7, "time": "19:38.40", "distance": "4100m" },
+    { "place": 18, "athlete": "Lydia Mohlenkamp",        "gender": "girls", "grade": 8, "time": "20:22.00", "distance": "4100m" },
+    { "place": 21, "athlete": "Isabel Gardiner",         "gender": "girls", "grade": 8, "time": "20:43.30", "distance": "4100m" },
+    { "place": 22, "athlete": "Valentina Mesa McGovern", "gender": "girls", "grade": 6, "time": "20:49.70", "distance": "4100m" },
+    { "place": 1,  "athlete": "Oscar Klapper",           "gender": "boys",  "grade": 6, "time": "16:28.30", "distance": "4100m" },
+    { "place": 3,  "athlete": "Filippo Caldara",         "gender": "boys",  "grade": 6, "time": "16:58.20", "distance": "4100m" },
+    { "place": 6,  "athlete": "Gustav Benschop",         "gender": "boys",  "grade": 7, "time": "17:13.90", "distance": "4100m" },
+    { "place": 9,  "athlete": "Jack Oakley",             "gender": "boys",  "grade": 6, "time": "17:26.90", "distance": "4100m" },
+    { "place": 13, "athlete": "Conor Benavides",         "gender": "boys",  "grade": 8, "time": "17:58.10", "distance": "4100m" },
+    { "place": 20, "athlete": "Harvey Van Stone",        "gender": "boys",  "grade": 6, "time": "19:37.90", "distance": "4100m" },
+    { "place": 27, "athlete": "Jeremiah Young",          "gender": "boys",  "grade": 6, "time": "20:51.50", "distance": "4100m" }
+  ],
+  "team_scores": [
+    { "gender": "girls", "place": 2, "points": 47, "scorers": ["Teresa Ljung", "Sonnia Klapper", "Skai Moore", "Saila Fuad", "Lydia Mohlenkamp", "Isabel Gardiner", "Valentina Mesa McGovern"] },
+    { "gender": "boys",  "place": 1, "points": 32, "scorers": ["Oscar Klapper", "Filippo Caldara", "Gustav Benschop", "Jack Oakley", "Conor Benavides", "Harvey Van Stone", "Jeremiah Young"] }
+  ]
+}
